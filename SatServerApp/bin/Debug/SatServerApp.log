@@ -1,0 +1,2924 @@
+05/14/2015 12:44:35 :iniciando
+05/14/2015 12:44:37 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Program.cs:linha 23
+05/14/2015 12:44:38 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\bin\Debug\AppConfig.xml'.
+Nome do arquivo: 'D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\bin\Debug\AppConfig.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.ReadConfigure.GetConfig() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\XmlConfigure.cs:linha 42
+05/14/2015 12:44:38 :System.Exception: System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\bin\Debug\AppConfig.xml'.
+Nome do arquivo: 'D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\bin\Debug\AppConfig.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.ReadConfigure.GetConfig() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\XmlConfigure.cs:linha 42
+   em Utils.ReadConfigure.GetConfig() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\XmlConfigure.cs:linha 50
+   em invoiceServerApp.Datamanager..ctor() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Datamanager.cs:linha 27
+05/14/2015 12:45:37 :iniciando
+05/14/2015 12:46:07 :iniciando
+05/14/2015 12:49:08 :ParseNFCE id: 13478
+05/14/2015 12:49:08 :id: 13478
+05/14/2015 12:49:08 :msg: H1||||||||||||
+H2|1|1|3478|0|da Silva|14.90|172.35.207.81
+H3||WS: 1 / Conta: 3478 / Mesa: 0 / Emp.: da Silva \ Imp F: 5.40(14.00%) E: 6.80(17.00%) IBPT
+I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00-|22021000
+I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00|22021000
+I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00-|22021000
+I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00|22021000
+P|101|Di|70.00
+?T1||
+05/14/2015 12:49:08 :ParseAddItem -> I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00-|22021000
+05/14/2015 12:49:08 :ParseAddItem -> I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00|22021000
+05/14/2015 12:49:08 :ParseAddItem -> I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00-|22021000
+05/14/2015 12:49:08 :ParseAddItem -> I|22002|I AGUA          |1|10.00|10.00|8.4000|0.00|22021000
+05/14/2015 12:49:09 :Contingencia: 13478
+05/14/2015 12:49:09 :System.Messaging.MessageQueueException: A fila não existe ou você não possui permissões suficientes para executar a operação.
+   em System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   em System.Messaging.MessageQueue.get_FormatName()
+   em System.Messaging.MessageQueue.GetMessageEnumerator2()
+   em System.Messaging.MessageQueue.GetAllMessages()
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 133
+05/14/2015 12:49:11 :   em invoiceServerApp.MicrosDB.SendSelectOneResultQueries(String q, Boolean erroOnNull) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerAppDB\MicrosDB.cs:linha 108
+   em invoiceServerApp.ManagerDB.SelectMaxNFCE(Int32 _serie) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerAppDB\ManagerDB.cs:linha 33
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 581
+05/14/2015 12:49:11 :   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 599
+   em invoiceServerApp.makeXml.processXml() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 59
+05/14/2015 12:49:11 :13478: System.Exception: System.Exception: System.Data.Odbc.OdbcException: ERROR [42S02] [Sybase][ODBC Driver][Adaptive Server Anywhere]Table 'nfce_dados' not found
+   em invoiceServerApp.MicrosDB.SendSelectOneResultQueries(String q, Boolean erroOnNull) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerAppDB\MicrosDB.cs:linha 108
+   em invoiceServerApp.ManagerDB.SelectMaxNFCE(Int32 _serie) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerAppDB\ManagerDB.cs:linha 33
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 581
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 599
+   em invoiceServerApp.makeXml.processXml() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 59
+   em invoiceServerApp.makeXml.processXml() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 77
+   em invoiceServerApp.makeXml..ctor(DadosNfce _dtNfce, ConfigureXml _config, X509Certificate2 _cert) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 47
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 151
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 97
+05/14/2015 12:49:11 :13478 :System.Exception: System.Exception: System.Exception: System.Data.Odbc.OdbcException: ERROR [42S02] [Sybase][ODBC Driver][Adaptive Server Anywhere]Table 'nfce_dados' not found
+   em invoiceServerApp.MicrosDB.SendSelectOneResultQueries(String q, Boolean erroOnNull) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerAppDB\MicrosDB.cs:linha 108
+   em invoiceServerApp.ManagerDB.SelectMaxNFCE(Int32 _serie) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerAppDB\ManagerDB.cs:linha 33
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 581
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 599
+   em invoiceServerApp.makeXml.processXml() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 59
+   em invoiceServerApp.makeXml.processXml() na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 77
+   em invoiceServerApp.makeXml..ctor(DadosNfce _dtNfce, ConfigureXml _config, X509Certificate2 _cert) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\makeXml.cs:linha 47
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 151
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 97
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 103
+   em invoiceServerApp.ParseNFCE.messageParse(String msg) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 270
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 71
+05/20/2015 12:15:25 :iniciando
+05/20/2015 12:18:40 :ParseSatSend id: 13000
+05/20/2015 12:18:41 :id: 13000
+05/20/2015 12:18:41 :msg: H1||||||||||||
+H2|1|1|3000|0|da Silva|1.69|172.35.207.81
+H3||WS: 1 / Conta: 3000 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1006|Caesar Salad    |1|16.90|16.90|8.4000|0.00-|UN 16.90
+P|101|Di|10.00
+?T1||
+05/20/2015 14:21:39 :iniciando
+05/20/2015 14:23:35 :ParseSatSend id: 13000
+05/20/2015 14:23:40 :id: 13000
+05/20/2015 14:23:41 :msg: H1||||||||||||
+H2|1|1|3000|0|da Silva|1.69|172.35.207.81
+H3||WS: 1 / Conta: 3000 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1006|Caesar Salad    |1|16.90|16.90|8.4000|0.00-|UN 16.90
+P|101|Di|10.00
+?T1||
+05/20/2015 14:23:52 :ParseAddItem -> I|1006|Caesar Salad    |1|16.90|16.90|8.4000|0.00-|UN 16.90
+05/20/2015 14:23:57 :MakeXML.AddItens
+05/20/2015 14:23:57 :MakeXML.AddItens -> Lista Itens: 1
+05/20/2015 14:23:57 :defineAcres: True
+05/20/2015 14:23:57 :vOutroRateioItem: 3,38
+05/20/2015 14:23:57 :vOutroRateioTtl: 3,38 | Acresc: 1,69
+05/20/2015 14:23:57 :vOutroRateioItem: 1,69 | vOutroRateioTtl: 1,69
+05/20/2015 14:23:57 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/20/2015 14:49:48 :iniciando
+05/20/2015 14:51:04 :ParseSatSend id: 13000
+05/20/2015 14:51:04 :id: 13000
+05/20/2015 14:51:04 :msg: H1||||||||||||
+H2|1|1|3000|0|da Silva|1.69|172.35.207.81
+H3||WS: 1 / Conta: 3000 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1006|Caesar Salad    |1|16.90|16.90|8.4000|0.00-|UN 16.90
+P|101|Di|50.00
+?T1||
+05/20/2015 14:51:04 :ParseAddItem -> I|1006|Caesar Salad    |1|16.90|16.90|8.4000|0.00-|UN 16.90
+05/20/2015 14:51:07 :MakeXML.AddItens
+05/20/2015 14:51:07 :MakeXML.AddItens -> Lista Itens: 1
+05/20/2015 14:51:07 :defineAcres: True
+05/20/2015 14:51:07 :vOutroRateioItem: 3,38
+05/20/2015 14:51:07 :vOutroRateioTtl: 3,38 | Acresc: 1,69
+05/20/2015 14:51:07 :vOutroRateioItem: 1,69 | vOutroRateioTtl: 1,69
+05/20/2015 14:51:07 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/20/2015 14:51:46 :ParseSatSend id: 13001
+05/20/2015 14:51:46 :id: 13001
+05/20/2015 14:51:46 :msg: H1||||||||||||
+H2|1|1|3001|0|da Silva|1.69|172.35.207.81
+H3||WS: 1 / Conta: 3001 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1006|Caesar Salad    |1|16.90|16.90|8.4000|0.00-|UN 16.90
+P|101|Di|50.00
+?T1||
+05/20/2015 14:51:46 :ParseAddItem -> I|1006|Caesar Salad    |1|16.90|16.90|8.4000|0.00-|UN 16.90
+05/20/2015 14:51:51 :MakeXML.AddItens
+05/20/2015 14:51:51 :MakeXML.AddItens -> Lista Itens: 1
+05/20/2015 14:51:51 :defineAcres: True
+05/20/2015 14:51:51 :vOutroRateioItem: 3,38
+05/20/2015 14:51:51 :vOutroRateioTtl: 3,38 | Acresc: 1,69
+05/20/2015 14:51:51 :vOutroRateioItem: 1,69 | vOutroRateioTtl: 1,69
+05/20/2015 14:51:51 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 09:32:25 :iniciando
+05/21/2015 09:33:55 :ParseSatSend id: 13483
+05/21/2015 09:33:55 :id: 13483
+05/21/2015 09:33:55 :msg: H1||||||||||||
+H2|1|1|3483|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3483 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 09:33:55 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 09:33:57 :MakeXML.AddItens
+05/21/2015 09:33:57 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 09:33:57 :defineAcres: True
+05/21/2015 09:33:57 :vOutroRateioItem: 1,12
+05/21/2015 09:33:57 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 09:33:57 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 09:33:57 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 09:43:49 :ParseSatSend id: 13484
+05/21/2015 09:43:49 :msg: H1||||||||||||
+H2|1|1|3484|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3484 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.70
+?T1||
+05/21/2015 09:43:49 :id: 13484
+05/21/2015 09:43:49 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 09:43:56 :MakeXML.AddItens
+05/21/2015 09:43:56 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 09:44:04 :defineAcres: True
+05/21/2015 09:44:04 :vOutroRateioItem: 1,12
+05/21/2015 09:44:04 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 09:44:04 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 09:44:04 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 09:44:19 :ParseSatSend id: 13485
+05/21/2015 09:44:19 :msg: H1||||||||||||
+H2|1|1|3485|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3485 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 09:44:19 :id: 13485
+05/21/2015 09:44:19 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 09:44:25 :MakeXML.AddItens
+05/21/2015 09:44:25 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 09:44:26 :defineAcres: True
+05/21/2015 09:44:26 :vOutroRateioItem: 1,12
+05/21/2015 09:44:26 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 09:44:26 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 09:44:26 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 10:20:35 :ParseSatSend id: 13486
+05/21/2015 10:20:35 :id: 13486
+05/21/2015 10:20:35 :msg: H1||||||||||||
+H2|1|1|3486|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3486 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 10:20:35 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 10:20:35 :MakeXML.AddItens
+05/21/2015 10:20:40 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 10:20:40 :defineAcres: True
+05/21/2015 10:20:40 :vOutroRateioItem: 1,12
+05/21/2015 10:20:40 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 10:20:40 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 10:20:40 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 13:13:02 :ParseSatSend id: 13487
+05/21/2015 13:13:02 :id: 13487
+05/21/2015 13:13:02 :msg: H1||||||||||||
+H2|1|1|3487|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3487 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 13:13:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 13:13:02 :MakeXML.AddItens
+05/21/2015 13:13:02 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 13:13:02 :defineAcres: True
+05/21/2015 13:13:02 :vOutroRateioItem: 1,12
+05/21/2015 13:13:02 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 13:13:02 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 13:13:02 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 14:42:19 :iniciando
+05/21/2015 14:44:15 :iniciando
+05/21/2015 14:50:25 :iniciando
+05/21/2015 14:57:27 :ParseSatSend id: 13488
+05/21/2015 14:57:27 :id: 13488
+05/21/2015 14:57:27 :msg: H1||||||||||||
+H2|1|1|3488|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3488 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 14:57:27 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 14:57:28 :MakeXML.AddItens
+05/21/2015 14:57:28 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 14:57:28 :defineAcres: True
+05/21/2015 14:57:28 :vOutroRateioItem: 1,12
+05/21/2015 14:57:28 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 14:57:28 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 14:57:28 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 14:57:55 :ParseSatSend id: 13489
+05/21/2015 14:57:55 :id: 13489
+05/21/2015 14:57:55 :msg: H1||||||||||||
+H2|1|1|3489|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3489 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 14:58:03 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 14:58:03 :MakeXML.AddItens
+05/21/2015 14:58:03 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 14:58:03 :defineAcres: True
+05/21/2015 14:58:03 :vOutroRateioItem: 1,12
+05/21/2015 14:58:03 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 14:58:03 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 14:58:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 15:10:25 :13489: System.Xml.XmlException: Dados no nível raiz inválidos. Linha 1, posição 1.
+   em System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   em System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   em System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.LoadXml(String xml)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/21/2015 15:10:25 :13489 :System.Exception: System.Xml.XmlException: Dados no nível raiz inválidos. Linha 1, posição 1.
+   em System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   em System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   em System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.LoadXml(String xml)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/21/2015 15:10:37 :ParseSatSend id: 13489
+05/21/2015 15:10:37 :id: 13489
+05/21/2015 15:10:37 :msg: H1||||||||||||
+H2|1|1|3489|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3489 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 15:10:37 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 15:10:40 :MakeXML.AddItens
+05/21/2015 15:10:40 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 15:10:40 :defineAcres: True
+05/21/2015 15:10:40 :vOutroRateioItem: 1,12
+05/21/2015 15:10:40 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 15:10:40 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 15:10:40 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 15:10:40 :13489: System.Xml.XmlException: Dados no nível raiz inválidos. Linha 1, posição 1.
+   em System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   em System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   em System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.LoadXml(String xml)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/21/2015 15:10:40 :13489 :System.Exception: System.Xml.XmlException: Dados no nível raiz inválidos. Linha 1, posição 1.
+   em System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   em System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   em System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.LoadXml(String xml)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/21/2015 15:11:00 :ParseSatSend id: 13489
+05/21/2015 15:11:00 :id: 13489
+05/21/2015 15:11:00 :msg: H1||||||||||||
+H2|1|1|3489|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3489 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 15:11:00 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 15:11:03 :MakeXML.AddItens
+05/21/2015 15:11:03 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 15:11:03 :defineAcres: True
+05/21/2015 15:11:03 :vOutroRateioItem: 1,12
+05/21/2015 15:11:03 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 15:11:03 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 15:11:09 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 15:11:49 :13489: System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/21/2015 15:11:49 :13489 :System.Exception: System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/21/2015 15:12:06 :ParseSatSend id: 13489
+05/21/2015 15:12:06 :id: 13489
+05/21/2015 15:12:06 :msg: H1||||||||||||
+H2|1|1|3489|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3489 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 15:12:06 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 15:12:06 :MakeXML.AddItens
+05/21/2015 15:12:06 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 15:12:06 :defineAcres: True
+05/21/2015 15:12:07 :vOutroRateioItem: 1,12
+05/21/2015 15:12:07 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 15:12:07 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 15:12:07 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 15:13:27 :13489: System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/21/2015 15:13:27 :13489 :System.Exception: System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/21/2015 15:13:33 :ParseSatSend id: 13489
+05/21/2015 15:13:33 :id: 13489
+05/21/2015 15:13:33 :msg: H1||||||||||||
+H2|1|1|3489|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3489 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 15:13:33 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 15:13:33 :MakeXML.AddItens
+05/21/2015 15:13:33 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 15:13:33 :defineAcres: True
+05/21/2015 15:13:33 :vOutroRateioItem: 1,12
+05/21/2015 15:13:33 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 15:13:33 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 15:13:33 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 15:46:51 :iniciando
+05/21/2015 17:08:42 :iniciando
+05/21/2015 17:08:46 :ParseSatSend id: 13491
+05/21/2015 17:08:46 :id: 13491
+05/21/2015 17:08:46 :msg: H1||||||||||||
+H2|1|1|3491|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3491 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 17:08:47 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 17:08:47 :MakeXML.AddItens
+05/21/2015 17:08:47 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 17:08:47 :defineAcres: True
+05/21/2015 17:08:47 :vOutroRateioItem: 1,12
+05/21/2015 17:08:47 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 17:08:47 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 17:08:47 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 17:10:05 :   em invoiceServerApp.ImprimirEpsonNF.ImprimeTextoTag(String txt)
+   em invoiceServerApp.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String qr, String tef, Boolean cortar, Boolean gaveta)
+05/21/2015 17:10:05 :13491: System.Exception: Erro Imprimindo CF
+System.EntryPointNotFoundException: Não é possível localizar um ponto de entrada denominado 'ImprimeTextoTag' na DLL 'InterfaceEpsonNF.dll'.
+   em invoiceServerApp.ImprimirEpsonNF.ImprimeTextoTag(String txt)
+   em invoiceServerApp.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String qr, String tef, Boolean cortar, Boolean gaveta)
+   em invoiceServerApp.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String qr, String tef, Boolean cortar, Boolean gaveta)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/21/2015 17:10:05 :13491 :System.Exception: System.Exception: Erro Imprimindo CF
+System.EntryPointNotFoundException: Não é possível localizar um ponto de entrada denominado 'ImprimeTextoTag' na DLL 'InterfaceEpsonNF.dll'.
+   em invoiceServerApp.ImprimirEpsonNF.ImprimeTextoTag(String txt)
+   em invoiceServerApp.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String qr, String tef, Boolean cortar, Boolean gaveta)
+   em invoiceServerApp.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String qr, String tef, Boolean cortar, Boolean gaveta)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/21/2015 17:10:31 :ParseSatSend id: 13491
+05/21/2015 17:10:31 :id: 13491
+05/21/2015 17:10:31 :msg: H1||||||||||||
+H2|1|1|3491|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3491 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 17:10:31 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 17:10:31 :MakeXML.AddItens
+05/21/2015 17:10:31 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 17:10:31 :defineAcres: True
+05/21/2015 17:10:31 :vOutroRateioItem: 1,12
+05/21/2015 17:10:31 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 17:10:31 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 17:10:31 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 17:13:29 :iniciando
+05/21/2015 17:13:32 :ParseSatSend id: 13491
+05/21/2015 17:13:32 :id: 13491
+05/21/2015 17:13:32 :msg: H1||||||||||||
+H2|1|1|3491|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3491 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 17:13:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 17:13:32 :MakeXML.AddItens
+05/21/2015 17:13:32 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 17:13:32 :defineAcres: True
+05/21/2015 17:13:32 :vOutroRateioItem: 1,12
+05/21/2015 17:13:32 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 17:13:32 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 17:13:32 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/21/2015 17:14:08 :iniciando
+05/21/2015 17:14:18 :ParseSatSend id: 13491
+05/21/2015 17:14:18 :id: 13491
+05/21/2015 17:14:18 :msg: H1||||||||||||
+H2|1|1|3491|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3491 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/21/2015 17:14:18 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/21/2015 17:14:18 :MakeXML.AddItens
+05/21/2015 17:14:18 :MakeXML.AddItens -> Lista Itens: 1
+05/21/2015 17:14:18 :defineAcres: True
+05/21/2015 17:14:18 :vOutroRateioItem: 1,12
+05/21/2015 17:14:18 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/21/2015 17:14:18 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/21/2015 17:14:18 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 09:46:06 :iniciando
+05/22/2015 09:46:25 :ParseSatSend id: 13491
+05/22/2015 09:46:25 :id: 13491
+05/22/2015 09:46:25 :msg: H1||||||||||||
+H2|1|1|3491|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3491 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 09:46:25 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 09:46:25 :MakeXML.AddItens
+05/22/2015 09:46:25 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 09:46:25 :defineAcres: True
+05/22/2015 09:46:25 :vOutroRateioItem: 1,12
+05/22/2015 09:46:25 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 09:46:25 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 09:46:25 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:07:19 :iniciando
+05/22/2015 10:07:47 :ParseSatSend id: 13492
+05/22/2015 10:07:47 :id: 13492
+05/22/2015 10:07:47 :msg: H1||||||||||||
+H2|1|1|3492|0|da Silva|0.56|172.35.207.81
+H3||WS: 1 / Conta: 3492 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:07:47 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:07:47 :MakeXML.AddItens
+05/22/2015 10:07:47 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:07:47 :defineAcres: True
+05/22/2015 10:07:47 :vOutroRateioItem: 1,12
+05/22/2015 10:07:47 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:07:47 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:07:47 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:10:52 :ParseSatSend id: 13493
+05/22/2015 10:10:52 :id: 13493
+05/22/2015 10:10:52 :msg: H1||||||||||||
+H2|1|1|3493|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3493 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:10:52 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:10:52 :MakeXML.AddItens
+05/22/2015 10:10:52 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:10:52 :defineAcres: True
+05/22/2015 10:10:52 :vOutroRateioItem: 1,12
+05/22/2015 10:10:52 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:10:52 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:10:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:13:23 :ParseSatSend id: 13494
+05/22/2015 10:13:23 :id: 13494
+05/22/2015 10:13:23 :msg: H1||||||||||||
+H2|1|1|3494|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3494 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:13:23 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:13:23 :MakeXML.AddItens
+05/22/2015 10:13:23 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:13:23 :defineAcres: True
+05/22/2015 10:13:23 :vOutroRateioItem: 1,12
+05/22/2015 10:13:23 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:13:23 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:13:23 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:21:11 :ParseSatSend id: 13495
+05/22/2015 10:21:11 :id: 13495
+05/22/2015 10:21:11 :msg: H1||||||||||||
+H2|1|1|3495|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3495 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:21:11 :MakeXML.AddItens
+05/22/2015 10:21:11 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:21:14 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:21:14 :defineAcres: True
+05/22/2015 10:21:14 :vOutroRateioItem: 1,12
+05/22/2015 10:21:14 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:21:14 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:21:14 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:23:52 :ParseSatSend id: 13496
+05/22/2015 10:23:52 :id: 13496
+05/22/2015 10:23:52 :msg: H1||||||||||||
+H2|1|1|3496|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3496 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|Di|50.00
+?T1||
+05/22/2015 10:23:52 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:23:52 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+05/22/2015 10:23:52 :MakeXML.AddItens -> Lista Itens: 2
+05/22/2015 10:23:52 :MakeXML.AddItens
+05/22/2015 10:23:52 :defineAcres: True
+05/22/2015 10:23:52 :vOutroRateioItem: 1,12
+05/22/2015 10:23:52 :vOutroRateioTtl: 1,12 | Acresc: 1,12
+05/22/2015 10:23:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:23:52 :defineAcres: True
+05/22/2015 10:23:52 :vOutroRateioItem: 2,24
+05/22/2015 10:23:52 :vOutroRateioTtl: 3,36 | Acresc: 1,12
+05/22/2015 10:23:52 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,12
+05/22/2015 10:23:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:26:23 :ParseSatSend id: 13497
+05/22/2015 10:26:23 :id: 13497
+05/22/2015 10:26:23 :msg: H1||||||||||||
+H2|1|1|3497|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3497 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:26:23 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:26:23 :MakeXML.AddItens
+05/22/2015 10:26:23 :defineAcres: True
+05/22/2015 10:26:23 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:26:23 :vOutroRateioItem: 1,12
+05/22/2015 10:26:23 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:26:23 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:26:23 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:30:19 :ParseSatSend id: 13498
+05/22/2015 10:30:19 :msg: H1||||||||||||
+H2|1|1|3498|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3498 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:30:19 :id: 13498
+05/22/2015 10:30:19 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:30:19 :MakeXML.AddItens
+05/22/2015 10:30:19 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:30:19 :defineAcres: True
+05/22/2015 10:30:19 :vOutroRateioItem: 1,12
+05/22/2015 10:30:19 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:30:19 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:30:19 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:33:54 :ParseSatSend id: 13499
+05/22/2015 10:33:54 :id: 13499
+05/22/2015 10:33:54 :msg: H1||||||||||||
+H2|1|1|3499|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3499 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:33:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:33:54 :MakeXML.AddItens
+05/22/2015 10:33:54 :defineAcres: True
+05/22/2015 10:33:54 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:33:54 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:33:54 :vOutroRateioItem: 1,12
+05/22/2015 10:33:54 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:33:54 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:41:56 :ParseSatSend id: 13500
+05/22/2015 10:41:56 :id: 13500
+05/22/2015 10:41:56 :msg: H1||||||||||||
+H2|1|1|3500|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3500 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:41:56 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:41:56 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:41:56 :MakeXML.AddItens
+05/22/2015 10:41:56 :defineAcres: True
+05/22/2015 10:41:56 :vOutroRateioItem: 1,12
+05/22/2015 10:41:56 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:41:56 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:41:56 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:42:07 :13500: System.FormatException: Seqüência de entrada não estava em um formato incorreto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value, IFormatProvider provider)
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 10:42:07 :13500 :System.Exception: System.FormatException: Seqüência de entrada não estava em um formato incorreto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value, IFormatProvider provider)
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 10:42:23 :ParseSatSend id: 13500
+05/22/2015 10:42:23 :id: 13500
+05/22/2015 10:42:23 :msg: H1||||||||||||
+H2|1|1|3500|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3500 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:42:23 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:42:23 :MakeXML.AddItens
+05/22/2015 10:42:23 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:42:23 :defineAcres: True
+05/22/2015 10:42:23 :vOutroRateioItem: 1,12
+05/22/2015 10:42:23 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:42:23 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:42:23 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:43:26 :13500: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 10:43:26 :13500 :System.Exception: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 10:43:36 :ParseSatSend id: 13500
+05/22/2015 10:43:36 :id: 13500
+05/22/2015 10:43:36 :msg: H1||||||||||||
+H2|1|1|3500|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3500 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:43:36 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:43:36 :MakeXML.AddItens
+05/22/2015 10:43:36 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:43:36 :vOutroRateioItem: 1,12
+05/22/2015 10:43:36 :defineAcres: True
+05/22/2015 10:43:36 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:43:36 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:43:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:43:56 :13500: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 10:43:56 :13500 :System.Exception: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 10:44:03 :ParseSatSend id: 13500
+05/22/2015 10:44:03 :msg: H1||||||||||||
+H2|1|1|3500|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3500 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:44:03 :id: 13500
+05/22/2015 10:44:03 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:44:03 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:44:03 :MakeXML.AddItens
+05/22/2015 10:44:03 :defineAcres: True
+05/22/2015 10:44:03 :vOutroRateioItem: 1,12
+05/22/2015 10:44:03 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:44:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:44:11 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:44:32 :13500: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 10:44:32 :13500 :System.Exception: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 10:44:42 :ParseSatSend id: 13500
+05/22/2015 10:44:42 :id: 13500
+05/22/2015 10:44:42 :msg: H1||||||||||||
+H2|1|1|3500|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3500 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:44:42 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:44:42 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:44:42 :MakeXML.AddItens
+05/22/2015 10:44:42 :defineAcres: True
+05/22/2015 10:44:42 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:44:42 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:44:42 :vOutroRateioItem: 1,12
+05/22/2015 10:44:42 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:45:19 :13500: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 10:45:19 :13500 :System.Exception: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 10:45:25 :ParseSatSend id: 13500
+05/22/2015 10:45:25 :id: 13500
+05/22/2015 10:45:25 :msg: H1||||||||||||
+H2|1|1|3500|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3500 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:45:25 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:45:25 :MakeXML.AddItens
+05/22/2015 10:45:25 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:45:25 :defineAcres: True
+05/22/2015 10:45:25 :vOutroRateioItem: 1,12
+05/22/2015 10:45:25 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:45:25 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:45:25 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:46:03 :13500: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 10:46:03 :13500 :System.Exception: System.Exception: Erro preprando dados Impressao SAT: Seqüência de entrada não estava em um formato incorreto.
+   em invoiceServerApp.ImpressaoSAT.DefineDadosImpressao()
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao()
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 10:46:16 :ParseSatSend id: 13500
+05/22/2015 10:46:16 :id: 13500
+05/22/2015 10:46:16 :msg: H1||||||||||||
+H2|1|1|3500|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3500 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:46:16 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:46:16 :MakeXML.AddItens
+05/22/2015 10:46:16 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:46:16 :defineAcres: True
+05/22/2015 10:46:16 :vOutroRateioItem: 1,12
+05/22/2015 10:46:16 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:46:16 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:46:16 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:47:24 :ParseSatSend id: 13501
+05/22/2015 10:47:24 :id: 13501
+05/22/2015 10:47:24 :msg: H1||||||||||||
+H2|1|1|3501|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3501 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:47:24 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:47:24 :MakeXML.AddItens
+05/22/2015 10:47:24 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:47:24 :defineAcres: True
+05/22/2015 10:47:24 :vOutroRateioItem: 1,12
+05/22/2015 10:47:24 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:47:24 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:47:24 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:51:29 :iniciando
+05/22/2015 10:51:56 :ParseSatSend id: 13502
+05/22/2015 10:51:56 :id: 13502
+05/22/2015 10:51:56 :msg: H1||||||||||||
+H2|1|1|3502|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3502 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:51:56 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:51:56 :MakeXML.AddItens
+05/22/2015 10:51:56 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:51:56 :defineAcres: True
+05/22/2015 10:51:56 :vOutroRateioItem: 1,12
+05/22/2015 10:51:56 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:51:56 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:51:56 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:56:03 :ParseSatSend id: 13503
+05/22/2015 10:56:03 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:56:03 :msg: H1||||||||||||
+H2|1|1|3503|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3503 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:56:03 :id: 13503
+05/22/2015 10:56:03 :MakeXML.AddItens
+05/22/2015 10:56:03 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 10:56:03 :defineAcres: True
+05/22/2015 10:56:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:56:03 :vOutroRateioItem: 1,12
+05/22/2015 10:56:03 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 10:56:03 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 10:58:33 :ParseSatSend id: 13504
+05/22/2015 10:58:33 :id: 13504
+05/22/2015 10:58:33 :msg: H1||||||||||||
+H2|1|1|3504|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3504 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 10:58:33 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 10:58:33 :MakeXML.AddItens
+05/22/2015 10:58:33 :MakeXML.AddItens -> Lista Itens: 2
+05/22/2015 10:58:33 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+05/22/2015 10:58:33 :defineAcres: True
+05/22/2015 10:58:33 :vOutroRateioItem: 1,12
+05/22/2015 10:58:33 :vOutroRateioTtl: 1,12 | Acresc: 1,12
+05/22/2015 10:58:33 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:58:33 :defineAcres: True
+05/22/2015 10:58:33 :vOutroRateioItem: 2,24
+05/22/2015 10:58:34 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 10:58:34 :vOutroRateioTtl: 3,36 | Acresc: 1,12
+05/22/2015 10:58:34 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,12
+05/22/2015 11:00:18 :ParseSatSend id: 13505
+05/22/2015 11:00:18 :id: 13505
+05/22/2015 11:00:18 :msg: H1||||||||||||
+H2|1|1|3505|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3505 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 11:00:18 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 11:00:18 :MakeXML.AddItens
+05/22/2015 11:00:18 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 11:00:18 :defineAcres: True
+05/22/2015 11:00:18 :vOutroRateioItem: 1,12
+05/22/2015 11:00:18 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 11:00:18 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 11:00:18 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 11:51:13 :iniciando
+05/22/2015 11:51:54 :ParseSatSend id: 13506
+05/22/2015 11:51:54 :id: 13506
+05/22/2015 11:51:54 :msg: H1||||||||||||
+H2|1|1|3506|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3506 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 11:51:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+05/22/2015 11:51:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 11:51:54 :MakeXML.AddItens
+05/22/2015 11:51:54 :MakeXML.AddItens -> Lista Itens: 2
+05/22/2015 11:51:54 :defineAcres: True
+05/22/2015 11:51:54 :vOutroRateioItem: 1,12
+05/22/2015 11:51:54 :vOutroRateioTtl: 1,12 | Acresc: 1,12
+05/22/2015 11:51:54 :defineAcres: True
+05/22/2015 11:51:54 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 11:51:54 :vOutroRateioItem: 2,24
+05/22/2015 11:51:54 :vOutroRateioTtl: 3,36 | Acresc: 1,12
+05/22/2015 11:51:54 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,12
+05/22/2015 11:51:54 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:11:38 :iniciando
+05/22/2015 12:12:32 :ParseSatSend id: 13507
+05/22/2015 12:12:32 :id: 13507
+05/22/2015 12:12:32 :msg: H1||||||||||||
+H2|1|1|3507|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3507 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 12:12:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 12:12:32 :MakeXML.AddItens
+05/22/2015 12:12:32 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 12:12:32 :defineAcres: True
+05/22/2015 12:12:32 :vOutroRateioItem: 1,12
+05/22/2015 12:12:32 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 12:12:32 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 12:12:32 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:13:20 :ParseSatSend id: 13508
+05/22/2015 12:13:20 :id: 13508
+05/22/2015 12:13:20 :msg: H1||||||||||||
+H2|1|1|3508|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3508 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 12:13:20 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 12:13:20 :MakeXML.AddItens
+05/22/2015 12:13:20 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 12:13:20 :defineAcres: True
+05/22/2015 12:13:20 :vOutroRateioItem: 1,12
+05/22/2015 12:13:20 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 12:13:20 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 12:13:20 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:35:19 :iniciando
+05/22/2015 12:35:33 :ParseSatSend id: 13508
+05/22/2015 12:35:33 :id: 13508
+05/22/2015 12:35:33 :msg: H1||||||||||||
+H2|1|1|3508|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3508 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 12:35:33 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 12:35:33 :MakeXML.AddItens
+05/22/2015 12:35:33 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 12:35:33 :defineAcres: True
+05/22/2015 12:35:33 :vOutroRateioItem: 1,12
+05/22/2015 12:35:33 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 12:35:33 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:35:33 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 12:38:14 :iniciando
+05/22/2015 12:38:33 :ParseSatSend id: 13508
+05/22/2015 12:38:33 :id: 13508
+05/22/2015 12:38:33 :msg: H1||||||||||||
+H2|1|1|3508|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3508 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|200|Di|55.00
+?T1||
+05/22/2015 12:38:33 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 12:38:33 :MakeXML.AddItens
+05/22/2015 12:38:33 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 12:38:33 :defineAcres: True
+05/22/2015 12:38:33 :vOutroRateioItem: 1,12
+05/22/2015 12:38:33 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 12:38:33 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 12:38:33 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:40:17 :13508: System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao(XmlDocument xmlNota)
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 12:40:17 :13508 :System.Exception: System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ImpressaoSAT..ctor(XmlDocument _xml, ConfigureXml _conf)
+   em invoiceServerApp.ProcessaSAT.Impressao(XmlDocument xmlNota)
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 12:40:32 :ParseSatSend id: 13508
+05/22/2015 12:40:32 :id: 13508
+05/22/2015 12:40:32 :msg: H1||||||||||||
+H2|1|1|3508|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3508 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 12:40:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 12:40:32 :MakeXML.AddItens
+05/22/2015 12:40:32 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 12:40:32 :defineAcres: True
+05/22/2015 12:40:32 :vOutroRateioItem: 1,12
+05/22/2015 12:40:32 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 12:40:32 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 12:40:32 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:57:39 :iniciando
+05/22/2015 12:57:52 :ParseSatSend id: 13509
+05/22/2015 12:57:52 :id: 13509
+05/22/2015 12:57:52 :msg: H1||||||||||||
+H2|1|1|3509|0|da Silva|1.68|172.35.207.4
+H3||WS: 1 / Conta: 3509 / Mesa: 0 / Emp.: da Silva \ Imp F: 2.25(13.00%) E: 2.85(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|50.00
+?T1||
+05/22/2015 12:57:52 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 12:57:52 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+05/22/2015 12:57:52 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 12:57:52 :MakeXML.AddItens
+05/22/2015 12:57:52 :MakeXML.AddItens -> Lista Itens: 3
+05/22/2015 12:57:52 :defineAcres: True
+05/22/2015 12:57:52 :vOutroRateioItem: 1,12
+05/22/2015 12:57:52 :vOutroRateioTtl: 1,12 | Acresc: 1,68
+05/22/2015 12:57:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:57:52 :defineAcres: True
+05/22/2015 12:57:52 :vOutroRateioItem: 2,24
+05/22/2015 12:57:52 :vOutroRateioTtl: 3,36 | Acresc: 1,68
+05/22/2015 12:57:52 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 1,68
+05/22/2015 12:57:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 12:57:52 :defineAcres: True
+05/22/2015 12:57:52 :vOutroRateioItem: 1,12
+05/22/2015 12:57:52 :vOutroRateioTtl: 2,80 | Acresc: 1,68
+05/22/2015 12:57:52 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,68
+05/22/2015 12:57:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 13:01:07 :ParseSatSend id: 13510
+05/22/2015 13:01:07 :id: 13510
+05/22/2015 13:01:07 :msg: H1||||||||||||
+H2|1|1|3510|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3510 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 13:01:07 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 13:01:07 :MakeXML.AddItens
+05/22/2015 13:01:07 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 13:01:07 :defineAcres: True
+05/22/2015 13:01:07 :vOutroRateioItem: 1,12
+05/22/2015 13:01:07 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 13:01:07 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 13:01:07 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 13:04:01 :iniciando
+05/22/2015 13:04:05 :ParseSatSend id: 13510
+05/22/2015 13:04:05 :id: 13510
+05/22/2015 13:04:05 :msg: H1||||||||||||
+H2|1|1|3510|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3510 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 13:04:05 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 13:04:05 :MakeXML.AddItens
+05/22/2015 13:04:05 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 13:04:05 :defineAcres: True
+05/22/2015 13:04:05 :vOutroRateioItem: 1,12
+05/22/2015 13:04:05 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 13:04:05 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 13:04:05 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 13:21:20 :iniciando
+05/22/2015 13:21:32 :ParseSatSend id: 13511
+05/22/2015 13:21:32 :id: 13511
+05/22/2015 13:21:32 :msg: H1||||||||||||
+H2|1|1|3511|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3511 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 13:21:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 13:21:32 :MakeXML.AddItens
+05/22/2015 13:21:32 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 13:21:32 :defineAcres: True
+05/22/2015 13:21:32 :vOutroRateioItem: 1,12
+05/22/2015 13:21:32 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 13:21:32 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 13:21:32 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:04:44 :13511: System.Exception: Erro processando SAT 060000000Emitido com sucesso + conteÃºdo notas
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:04:44 :13511 :System.Exception: System.Exception: Erro processando SAT 060000000Emitido com sucesso + conteÃºdo notas
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:04:54 :ParseSatSend id: 13511
+05/22/2015 14:04:54 :id: 13511
+05/22/2015 14:04:54 :msg: H1||||||||||||
+H2|1|1|3511|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3511 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 14:04:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:04:54 :MakeXML.AddItens
+05/22/2015 14:04:54 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:04:54 :defineAcres: True
+05/22/2015 14:04:54 :vOutroRateioItem: 1,12
+05/22/2015 14:04:54 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:04:54 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:04:54 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:04:59 :13511: System.Exception: Erro processando SAT 060000000Emitido com sucesso + conteÃºdo notas
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:04:59 :13511 :System.Exception: System.Exception: Erro processando SAT 060000000Emitido com sucesso + conteÃºdo notas
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:05:13 :ParseSatSend id: 13511
+05/22/2015 14:05:13 :id: 13511
+05/22/2015 14:05:13 :msg: H1||||||||||||
+H2|1|1|3511|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3511 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 14:05:13 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:05:13 :MakeXML.AddItens
+05/22/2015 14:05:13 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:05:13 :defineAcres: True
+05/22/2015 14:05:13 :vOutroRateioItem: 1,12
+05/22/2015 14:05:13 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:05:13 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:05:13 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:05:36 :13511: System.Exception: Erro processando SAT 060000000Emitido com sucesso + conteÃºdo notas
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:05:36 :13511 :System.Exception: System.Exception: Erro processando SAT 060000000Emitido com sucesso + conteÃºdo notas
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:05:55 :ParseSatSend id: 13511
+05/22/2015 14:05:55 :id: 13511
+05/22/2015 14:05:55 :msg: H1||||||||||||
+H2|1|1|3511|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3511 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 14:05:55 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:05:58 :MakeXML.AddItens
+05/22/2015 14:05:58 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:05:58 :defineAcres: True
+05/22/2015 14:07:45 :vOutroRateioItem: 1,12
+05/22/2015 14:07:45 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:07:45 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:07:45 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:11:40 :ParseSatSend id: 13512
+05/22/2015 14:11:40 :id: 13512
+05/22/2015 14:11:40 :msg: H1||||||||||||
+H2|1|1|3512|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3512 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/22/2015 14:11:40 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:11:44 :MakeXML.AddItens
+05/22/2015 14:11:44 :defineAcres: True
+05/22/2015 14:11:44 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:11:44 :vOutroRateioItem: 1,12
+05/22/2015 14:11:44 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:11:44 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:11:44 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:18:02 :ParseSatSend id: 13513
+05/22/2015 14:18:02 :id: 13513
+05/22/2015 14:18:02 :msg: H1||||||||||||
+H2|1|1|3513|0|da Silva|3.72|172.35.207.4
+H3||WS: 1 / Conta: 3513 / Mesa: 0 / Emp.: da Silva \ Imp F: 5.25(13.00%) E: 6.65(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+P|101|Di|50.00
+?T1||
+05/22/2015 14:18:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+05/22/2015 14:18:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+05/22/2015 14:18:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+05/22/2015 14:18:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+05/22/2015 14:18:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+05/22/2015 14:18:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+05/22/2015 14:18:03 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.28|21069090
+05/22/2015 14:18:03 :MakeXML.AddItens
+05/22/2015 14:18:03 :MakeXML.AddItens -> Lista Itens: 7
+05/22/2015 14:18:03 :vOutroRateioItem: 1,0614285714285714285714285714
+05/22/2015 14:18:03 :vOutroRateioTtl: 1,0614285714285714285714285714 | Acresc: 3,72
+05/22/2015 14:18:03 :defineAcres: True
+05/22/2015 14:18:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:18:03 :defineAcres: True
+05/22/2015 14:18:03 :vOutroRateioItem: 2,1214285714285714285714285714
+05/22/2015 14:18:03 :vOutroRateioTtl: 3,1828571428571428571428571428 | Acresc: 3,72
+05/22/2015 14:18:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:18:03 :defineAcres: True
+05/22/2015 14:18:03 :vOutroRateioItem: 4,2414285714285714285714285714
+05/22/2015 14:18:03 :vOutroRateioTtl: 7,4242857142857142857142857142 | Acresc: 3,72
+05/22/2015 14:18:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:18:03 :defineAcres: True
+05/22/2015 14:18:03 :vOutroRateioItem: 0,5371428571428571428571428572 | vOutroRateioTtl: 3,7200000000000000000000000000
+05/22/2015 14:18:03 :vOutroRateioItem: 1,0771428571428571428571428572
+05/22/2015 14:18:03 :vOutroRateioTtl: 4,7971428571428571428571428572 | Acresc: 3,72
+05/22/2015 14:18:03 :vOutroRateioItem: 0,0000000000000000000000000000 | vOutroRateioTtl: 3,7200000000000000000000000000
+05/22/2015 14:18:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:18:03 :defineAcres: True
+05/22/2015 14:18:03 :defineAcres: True
+05/22/2015 14:18:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:18:03 :vOutroRateioItem: 0,0000000000000000000000000000
+05/22/2015 14:18:03 :vOutroRateioTtl: 3,7200000000000000000000000000 | Acresc: 3,72
+05/22/2015 14:18:03 :vOutroRateioItem: 0,0000000000000000000000000000
+05/22/2015 14:18:03 :vOutroRateioTtl: 3,7200000000000000000000000000 | Acresc: 3,72
+05/22/2015 14:18:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:18:03 :defineAcres: True
+05/22/2015 14:18:03 :vOutroRateioItem: 0,0000000000000000000000000000
+05/22/2015 14:18:03 :vOutroRateioTtl: 3,7200000000000000000000000000 | Acresc: 3,72
+05/22/2015 14:18:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:21:32 :ParseSatSend id: 13514
+05/22/2015 14:21:32 :id: 13514
+05/22/2015 14:21:32 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|5.00
+?T1||
+05/22/2015 14:21:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:29:23 :MakeXML.AddItens
+05/22/2015 14:29:23 :defineAcres: True
+05/22/2015 14:29:23 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:29:23 :vOutroRateioItem: 1,12
+05/22/2015 14:29:23 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:29:23 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:29:23 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:29:26 :13514: System.Exception: Erro processando SAT 060101408RejeiÃ§Ã£o: Valor total do CF-e-SAT maior que o somatÃ³rio dos valores de Meio de Pagamento empregados em seu pagamento.
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:29:26 :13514 :System.Exception: System.Exception: Erro processando SAT 060101408RejeiÃ§Ã£o: Valor total do CF-e-SAT maior que o somatÃ³rio dos valores de Meio de Pagamento empregados em seu pagamento.
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:29:41 :ParseSatSend id: 13514
+05/22/2015 14:29:41 :id: 13514
+05/22/2015 14:29:41 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+?T1||
+05/22/2015 14:29:41 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:29:46 :MakeXML.AddItens
+05/22/2015 14:29:46 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:29:46 :defineAcres: True
+05/22/2015 14:29:46 :vOutroRateioItem: 1,12
+05/22/2015 14:29:46 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:29:46 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:29:46 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:29:46 :13514: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:29:46 :13514 :System.Exception: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:30:03 :ParseSatSend id: 13514
+05/22/2015 14:30:03 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:30:03 :id: 13514
+05/22/2015 14:30:03 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+?T1||
+05/22/2015 14:30:18 :MakeXML.AddItens
+05/22/2015 14:30:18 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:30:18 :defineAcres: True
+05/22/2015 14:30:18 :vOutroRateioItem: 1,12
+05/22/2015 14:30:18 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:30:18 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:30:18 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:30:42 :13514: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:30:42 :13514 :System.Exception: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:30:50 :ParseSatSend id: 13514
+05/22/2015 14:30:50 :id: 13514
+05/22/2015 14:30:50 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+?T1||
+05/22/2015 14:30:50 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:30:55 :MakeXML.AddItens
+05/22/2015 14:30:55 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:30:55 :vOutroRateioItem: 1,12
+05/22/2015 14:30:55 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:30:55 :defineAcres: True
+05/22/2015 14:30:55 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:30:55 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:31:47 :13514: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:31:47 :13514 :System.Exception: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:33:07 :ParseSatSend id: 13514
+05/22/2015 14:33:07 :id: 13514
+05/22/2015 14:33:07 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+?T1||
+05/22/2015 14:33:07 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:33:07 :MakeXML.AddItens
+05/22/2015 14:33:07 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:33:07 :defineAcres: True
+05/22/2015 14:33:07 :vOutroRateioItem: 1,12
+05/22/2015 14:33:07 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:33:07 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:35:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:35:37 :13514: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:35:37 :13514 :System.Exception: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:35:45 :ParseSatSend id: 13514
+05/22/2015 14:35:45 :id: 13514
+05/22/2015 14:35:45 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Di|10.00
+?T1||
+05/22/2015 14:35:46 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:35:46 :MakeXML.AddItens
+05/22/2015 14:35:46 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:35:46 :defineAcres: True
+05/22/2015 14:35:46 :vOutroRateioItem: 1,12
+05/22/2015 14:35:46 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:35:46 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:35:48 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:35:56 :13514: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:35:56 :13514 :System.Exception: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:36:15 :ParseSatSend id: 13514
+05/22/2015 14:36:15 :id: 13514
+05/22/2015 14:36:15 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Di|10.00
+?T1||
+05/22/2015 14:36:15 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:36:15 :defineAcres: True
+05/22/2015 14:36:15 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:36:15 :vOutroRateioItem: 1,12
+05/22/2015 14:36:15 :MakeXML.AddItens
+05/22/2015 14:36:15 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:36:15 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:36:15 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:37:28 :13514: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/22/2015 14:37:28 :13514 :System.Exception: System.Exception: Erro processando SAT 060101999RejeiÃ§Ã£o: Erro nÃ£o identificado
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/22/2015 14:37:36 :ParseSatSend id: 13514
+05/22/2015 14:37:36 :id: 13514
+05/22/2015 14:37:36 :msg: H1||||||||||||
+H2|1|1|3514|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3514 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Di|10.00
+?T1||
+05/22/2015 14:37:36 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:37:36 :MakeXML.AddItens
+05/22/2015 14:37:36 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:37:36 :defineAcres: True
+05/22/2015 14:37:36 :vOutroRateioItem: 1,12
+05/22/2015 14:37:36 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:37:38 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:37:39 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:39:34 :ParseSatSend id: 13515
+05/22/2015 14:39:34 :id: 13515
+05/22/2015 14:39:34 :msg: H1||||||||||||
+H2|1|1|3515|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3515 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Di|50.00
+?T1||
+05/22/2015 14:39:34 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:39:34 :MakeXML.AddItens
+05/22/2015 14:39:34 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:39:34 :defineAcres: True
+05/22/2015 14:39:34 :vOutroRateioItem: 1,12
+05/22/2015 14:39:34 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:39:34 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:39:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:42:01 :ParseSatSend id: 13516
+05/22/2015 14:42:01 :id: 13516
+05/22/2015 14:42:01 :msg: H1||||||||||||
+H2|1|1|3516|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3516 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Di|5.00
+?T1||
+05/22/2015 14:42:01 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:42:01 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:42:01 :defineAcres: True
+05/22/2015 14:42:01 :MakeXML.AddItens
+05/22/2015 14:42:01 :vOutroRateioItem: 1,12
+05/22/2015 14:42:01 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:42:01 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:42:01 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 14:44:01 :iniciando
+05/22/2015 14:44:04 :ParseSatSend id: 13516
+05/22/2015 14:44:04 :id: 13516
+05/22/2015 14:44:04 :msg: H1||||||||||||
+H2|1|1|3516|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3516 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|101|Di|5.00
+?T1||
+05/22/2015 14:44:04 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 14:44:04 :MakeXML.AddItens
+05/22/2015 14:44:04 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 14:44:04 :defineAcres: True
+05/22/2015 14:44:04 :vOutroRateioItem: 1,12
+05/22/2015 14:44:04 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 14:44:04 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 14:44:04 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 15:11:20 :iniciando
+05/22/2015 15:11:43 :ParseSatSend id: 13517
+05/22/2015 15:11:43 :id: 13517
+05/22/2015 15:11:43 :msg: H1||||||||||||
+H2|1|1|3517|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3517 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |1.00
+P|101|Dinheiro    |1.00
+P|200|Di|5.00
+?T1||
+05/22/2015 15:11:43 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 15:11:43 :MakeXML.AddItens
+05/22/2015 15:11:43 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 15:11:43 :defineAcres: True
+05/22/2015 15:11:43 :vOutroRateioItem: 1,12
+05/22/2015 15:11:43 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 15:11:43 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 15:11:43 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/22/2015 15:38:09 :ParseSatSend id: 13519
+05/22/2015 15:38:09 :id: 13519
+05/22/2015 15:38:09 :msg: H1||||||||||||
+H2|1|1|3519|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3519 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|200|Cartao      |5.60
+P|101|Di|10.00
+?T1|                 CIELO
+             VISA CREDITO
+
+        444054******9015-12/18
+1a VIA-CLIENTE           AUT=220005
+DOC=220005  22/05/15     15:35 ONL-X
+VENDA A CREDITO
+VALOR:                  5,60
+ 
+Mensagem de
+final de cupom!
+ 
+                               (SiTef)
+ 
+                                                
+                                                
+                                                
+                 CIELO
+             VISA CREDITO
+
+        444054******9015-12/18
+1a VIA-CLIENTE           AUT=220006
+DOC=220006  22/05/15     15:37 ONL-X
+VENDA A CREDITO
+VALOR:                 10,00
+ 
+Mensagem de
+final de cupom!
+ 
+                               (SiTef)
+ 
+|                 CIELO
+             VISA CREDITO
+
+        444054******9015-12/18
+2a VIA-ESTABELECIMENTO   AUT=220005
+0020000080750001/PDV=24000002
+DOC=220005  22/05/15     15:35 ONL-X
+VENDA A CREDITO
+VALOR:                  5,60
+ 
+Mensagem de
+final de cupom!
+ 
+______________________________________
+ 
+                               (SiTef)
+ 
+                                                
+                                                
+                                                
+                 CIELO
+             VISA CREDITO
+
+        444054******9015-12/18
+2a VIA-ESTABELECIMENTO   AUT=220006
+0020000080750001/PDV=24000002
+DOC=220006  22/05/15     15:37 ONL-X
+VENDA A CREDITO
+VALOR:                 10,00
+ 
+Mensagem de
+final de cupom!
+ 
+______________________________________
+ 
+                               (SiTef)
+ 
+
+05/22/2015 15:38:09 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/22/2015 15:38:09 :MakeXML.AddItens
+05/22/2015 15:38:09 :MakeXML.AddItens -> Lista Itens: 1
+05/22/2015 15:38:09 :defineAcres: True
+05/22/2015 15:38:09 :vOutroRateioItem: 1,12
+05/22/2015 15:38:09 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/22/2015 15:38:09 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/22/2015 15:38:09 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 11:20:20 :iniciando
+05/25/2015 11:27:11 :ParseSatSend id: 13521
+05/25/2015 11:27:13 :id: 13521
+05/25/2015 11:27:13 :msg: H1||||||||||||
+H2|1|1|3521|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3521 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 11:27:13 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 11:27:14 :MakeXML.AddItens
+05/25/2015 11:27:14 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 11:27:14 :defineAcres: True
+05/25/2015 11:27:14 :vOutroRateioItem: 1,12
+05/25/2015 11:27:14 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 11:27:14 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 11:27:14 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 11:28:16 :ParseSatSend id: 13522
+05/25/2015 11:28:51 :id: CANCEL
+05/25/2015 11:28:51 :msg: H1||||||||||||
+H2|1|1|3522|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3522 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 11:29:21 :CANCEL :System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 54
+05/25/2015 11:30:30 :ParseSatSend id: CANCEL
+05/25/2015 11:30:33 :id: CANCEL
+05/25/2015 11:30:33 :msg: 35150561099008000141599000011890000303097022
+05/25/2015 11:31:35 :   em System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   em System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   em System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.LoadXml(String xml)
+   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 62
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/25/2015 11:31:54 :iniciando
+05/25/2015 11:32:31 :ParseSatSend id: CANCEL
+05/25/2015 11:32:41 :id: CANCEL
+05/25/2015 11:32:41 :msg: 35150561099008000141599000011890000303097022
+05/25/2015 11:34:17 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String chaveCancelamento)
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg)
+05/25/2015 11:34:30 :iniciando
+05/25/2015 11:34:58 :ParseSatSend id: CANCEL
+05/25/2015 11:35:04 :id: CANCEL
+05/25/2015 11:35:04 :msg: 35150561099008000141599000011890000303097022
+05/25/2015 12:31:27 :iniciando
+05/25/2015 13:14:27 :ParseSatSend id: 13522
+05/25/2015 13:14:32 :id: 13522
+05/25/2015 13:14:36 :msg: H1||||||||||||
+H2|1|1|3522|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3522 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 13:14:36 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 13:14:36 :MakeXML.AddItens
+05/25/2015 13:14:36 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 13:14:36 :defineAcres: True
+05/25/2015 13:14:36 :vOutroRateioItem: 1,12
+05/25/2015 13:14:36 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 13:14:36 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 13:14:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 13:14:45 :13522: System.Exception: Erro em Processa SAT Erro preprando dados Impressao SAT: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 183
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 130
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/25/2015 13:14:45 :13522 :System.Exception: System.Exception: Erro em Processa SAT Erro preprando dados Impressao SAT: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 183
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 130
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 71
+05/25/2015 13:15:03 :ParseSatSend id: 13522
+05/25/2015 13:15:03 :id: 13522
+05/25/2015 13:15:03 :msg: H1||||||||||||
+H2|1|1|3522|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3522 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 13:15:03 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 13:15:03 :MakeXML.AddItens
+05/25/2015 13:15:03 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 13:15:03 :defineAcres: True
+05/25/2015 13:15:03 :vOutroRateioItem: 1,12
+05/25/2015 13:15:03 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 13:15:03 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 13:15:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 13:16:29 :13522: System.Exception: Erro em Processa SAT Erro preprando dados Impressao SAT: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 183
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 130
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/25/2015 13:16:29 :13522 :System.Exception: System.Exception: Erro em Processa SAT Erro preprando dados Impressao SAT: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 183
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 130
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 71
+05/25/2015 13:16:36 :ParseSatSend id: 13522
+05/25/2015 13:16:36 :id: 13522
+05/25/2015 13:16:36 :msg: H1||||||||||||
+H2|1|1|3522|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3522 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 13:16:36 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 13:16:36 :MakeXML.AddItens
+05/25/2015 13:16:36 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 13:16:36 :defineAcres: True
+05/25/2015 13:16:36 :vOutroRateioItem: 1,12
+05/25/2015 13:16:36 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 13:16:36 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 13:16:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 13:17:32 :13522: System.Exception: Erro em Processa SAT Erro preprando dados Impressao SAT: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/25/2015 13:17:32 :13522 :System.Exception: System.Exception: Erro em Processa SAT Erro preprando dados Impressao SAT: Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.Processa()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/25/2015 13:17:40 :ParseSatSend id: 13522
+05/25/2015 13:17:40 :id: 13522
+05/25/2015 13:17:40 :msg: H1||||||||||||
+H2|1|1|3522|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3522 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 13:17:40 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 13:17:40 :MakeXML.AddItens
+05/25/2015 13:17:40 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 13:17:40 :defineAcres: True
+05/25/2015 13:17:40 :vOutroRateioItem: 1,12
+05/25/2015 13:17:40 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 13:17:40 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 13:17:40 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 13:19:07 :ParseSatSend id: CANCEL
+05/25/2015 13:19:07 :id: CANCEL
+05/25/2015 13:19:07 :msg: 35150561099008000141599000011890000358574108
+05/25/2015 13:29:18 :   em invoiceServerApp.ProcessaSAT.Impressao(TipoImpressao tipo)
+   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String chaveCancelamento)
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg)
+05/25/2015 13:37:03 :iniciando
+05/25/2015 13:39:36 :ParseSatSend id: 13523
+05/25/2015 13:39:36 :id: 13523
+05/25/2015 13:39:36 :msg: H1||||||||||||
+H2|1|1|3523|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3523 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 13:39:36 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 13:39:36 :MakeXML.AddItens
+05/25/2015 13:39:36 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 13:39:36 :defineAcres: True
+05/25/2015 13:39:36 :vOutroRateioItem: 1,12
+05/25/2015 13:39:36 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 13:39:36 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 13:39:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 13:41:45 :ParseSatSend id: CANCEL
+05/25/2015 13:41:45 :id: CANCEL
+05/25/2015 13:41:45 :msg: 35150561099008000141599000011890000370003263
+05/25/2015 13:42:33 :   em invoiceServerApp.ProcessaSAT.Impressao(TipoImpressao tipo) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 214
+   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 125
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/25/2015 13:43:15 :iniciando
+05/25/2015 13:43:28 :ParseSatSend id: 13524
+05/25/2015 13:43:28 :id: 13524
+05/25/2015 13:43:28 :msg: H1||||||||||||
+H2|1|1|3524|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3524 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 13:43:28 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 13:43:28 :MakeXML.AddItens
+05/25/2015 13:43:28 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 13:43:28 :defineAcres: True
+05/25/2015 13:43:28 :vOutroRateioItem: 1,12
+05/25/2015 13:43:28 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 13:43:28 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 13:43:28 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 13:45:50 :ParseSatSend id: CANCEL
+05/25/2015 13:45:50 :id: CANCEL
+05/25/2015 13:45:51 :msg: 35150561099008000141599000011890000391439729
+05/25/2015 13:52:25 :   em invoiceServerApp.ProcessaSAT.Impressao(TipoImpressao tipo)
+   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String chaveCancelamento)
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg)
+05/25/2015 13:52:56 :iniciando
+05/25/2015 13:53:09 :iniciando
+05/25/2015 13:54:28 :iniciando
+05/25/2015 13:55:12 :ParseSatSend id: 13526
+05/25/2015 13:55:12 :id: 13526
+05/25/2015 13:55:12 :msg: H1||||||||||||
+H2|1|1|3526|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3526 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 13:55:12 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 13:55:13 :MakeXML.AddItens
+05/25/2015 13:55:13 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 13:55:13 :defineAcres: True
+05/25/2015 13:55:13 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 13:55:13 :vOutroRateioItem: 1,12
+05/25/2015 13:55:13 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 13:55:13 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:03:29 :ParseSatSend id: CANCEL
+05/25/2015 14:03:29 :id: CANCEL
+05/25/2015 14:03:29 :msg: 35150561099008000141599000011890000415386450
+05/25/2015 14:06:02 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String chaveCancelamento)
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg)
+05/25/2015 14:06:13 :iniciando
+05/25/2015 14:06:16 :ParseSatSend id: 13527
+05/25/2015 14:06:16 :id: 13527
+05/25/2015 14:06:16 :msg: H1||||||||||||
+H2|1|1|3527|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3527 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:06:16 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:06:17 :MakeXML.AddItens
+05/25/2015 14:06:17 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:06:17 :defineAcres: True
+05/25/2015 14:06:17 :vOutroRateioItem: 1,12
+05/25/2015 14:06:17 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:06:17 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:06:17 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:08:50 :ParseSatSend id: CANCEL
+05/25/2015 14:08:50 :id: CANCEL
+05/25/2015 14:08:50 :msg: 172.35.207.4|35150561099008000141599000011890000434951809
+05/25/2015 14:08:52 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 140
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/25/2015 14:12:13 :iniciando
+05/25/2015 14:12:54 :ParseSatSend id: 13528
+05/25/2015 14:12:54 :id: 13528
+05/25/2015 14:12:54 :msg: H1||||||||||||
+H2|1|1|3528|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3528 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:12:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:12:55 :MakeXML.AddItens
+05/25/2015 14:12:55 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:12:55 :defineAcres: True
+05/25/2015 14:12:55 :vOutroRateioItem: 1,12
+05/25/2015 14:12:55 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:12:55 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:12:55 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:14:02 :ParseSatSend id: CANCEL
+05/25/2015 14:14:02 :id: CANCEL
+05/25/2015 14:14:02 :msg: 172.35.207.4|35150561099008000141599000011890000440568167
+05/25/2015 14:16:03 :iniciando
+05/25/2015 14:16:12 :ParseSatSend id: 13529
+05/25/2015 14:16:12 :id: 13529
+05/25/2015 14:16:12 :msg: H1||||||||||||
+H2|1|1|3529|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3529 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:16:12 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:16:13 :MakeXML.AddItens
+05/25/2015 14:16:13 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:16:13 :defineAcres: True
+05/25/2015 14:16:13 :vOutroRateioItem: 1,12
+05/25/2015 14:16:13 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:16:13 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:16:13 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:19:29 :ParseSatSend id: CANCEL
+05/25/2015 14:19:29 :id: CANCEL
+05/25/2015 14:19:29 :msg: 172.35.207.4|35150561099008000141599000011890000467940466
+05/25/2015 14:23:22 :iniciando
+05/25/2015 14:23:35 :ParseSatSend id: 13530
+05/25/2015 14:23:35 :id: 13530
+05/25/2015 14:23:35 :msg: H1||||||||||||
+H2|1|1|3530|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3530 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:23:35 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:23:36 :MakeXML.AddItens
+05/25/2015 14:23:36 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:23:36 :defineAcres: True
+05/25/2015 14:23:36 :vOutroRateioItem: 1,12
+05/25/2015 14:23:36 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:23:36 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:23:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:25:48 :ParseSatSend id: CANCEL
+05/25/2015 14:25:48 :id: CANCEL
+05/25/2015 14:25:48 :msg: 172.35.207.4|35150561099008000141599000011890000488091239
+05/25/2015 14:26:53 :iniciando
+05/25/2015 14:29:05 :ParseSatSend id: 13531
+05/25/2015 14:29:05 :id: 13531
+05/25/2015 14:29:05 :msg: H1||||||||||||
+H2|1|1|3531|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3531 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:29:05 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:29:06 :MakeXML.AddItens
+05/25/2015 14:29:06 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:29:06 :defineAcres: True
+05/25/2015 14:29:06 :vOutroRateioItem: 1,12
+05/25/2015 14:29:06 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:29:06 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:29:06 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:30:11 :ParseSatSend id: CANCEL
+05/25/2015 14:30:11 :id: CANCEL
+05/25/2015 14:30:14 :msg: 172.35.207.4|35150561099008000141599000011890000504492190
+05/25/2015 14:31:58 :iniciando
+05/25/2015 14:32:07 :ParseSatSend id: 13532
+05/25/2015 14:32:07 :id: 13532
+05/25/2015 14:32:07 :msg: H1||||||||||||
+H2|1|1|3532|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3532 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:32:07 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:32:08 :MakeXML.AddItens
+05/25/2015 14:32:08 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:32:08 :defineAcres: True
+05/25/2015 14:32:08 :vOutroRateioItem: 1,12
+05/25/2015 14:32:08 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:32:08 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:32:08 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:33:05 :ParseSatSend id: 13533
+05/25/2015 14:33:05 :id: 13533
+05/25/2015 14:33:05 :msg: 172.35.207.4|35150561099008000141599000011890000524271734
+05/25/2015 14:33:05 :13533: System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 117
+05/25/2015 14:33:05 :13533 :System.Exception: System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 117
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 71
+05/25/2015 14:33:48 :ParseSatSend id: CANCEL
+05/25/2015 14:33:48 :id: CANCEL
+05/25/2015 14:33:48 :msg: 172.35.207.4|CFe35150561099008000141599000011890000524271734
+05/25/2015 14:33:50 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 144
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/25/2015 14:34:56 :iniciando
+05/25/2015 14:35:23 :ParseSatSend id: 13533
+05/25/2015 14:35:23 :id: 13533
+05/25/2015 14:35:23 :msg: H1||||||||||||
+H2|1|1|3533|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3533 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:35:23 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:35:24 :MakeXML.AddItens
+05/25/2015 14:35:24 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:35:24 :defineAcres: True
+05/25/2015 14:35:24 :vOutroRateioItem: 1,12
+05/25/2015 14:35:24 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:35:24 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:35:24 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:36:54 :ParseSatSend id: 13534
+05/25/2015 14:36:54 :id: 13534
+05/25/2015 14:37:06 :msg: H1||||||||||||
+H2|1|1|3534|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3534 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:37:06 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:37:07 :MakeXML.AddItens
+05/25/2015 14:37:07 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:37:07 :defineAcres: True
+05/25/2015 14:37:07 :vOutroRateioItem: 1,12
+05/25/2015 14:37:07 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:37:07 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:37:07 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:38:07 :ParseSatSend id: CANCEL
+05/25/2015 14:38:07 :id: CANCEL
+05/25/2015 14:38:07 :msg: 172.35.207.4|35150561099008000141599000011890000544235857
+05/25/2015 14:45:26 :iniciando
+05/25/2015 14:45:48 :ParseSatSend id: 13535
+05/25/2015 14:45:48 :id: 13535
+05/25/2015 14:45:48 :msg: H1||||||||||||
+H2|1|1|3535|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3535 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:45:48 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:45:49 :MakeXML.AddItens
+05/25/2015 14:45:49 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:45:49 :defineAcres: True
+05/25/2015 14:45:49 :vOutroRateioItem: 1,12
+05/25/2015 14:45:49 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:45:49 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:45:49 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:47:24 :ParseSatSend id: 13536
+05/25/2015 14:47:24 :id: 13536
+05/25/2015 14:47:38 :msg: H1||||||||||||
+H2|1|1|3536|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3536 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:47:41 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:47:41 :MakeXML.AddItens
+05/25/2015 14:47:41 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:47:41 :defineAcres: True
+05/25/2015 14:47:41 :vOutroRateioItem: 1,12
+05/25/2015 14:47:41 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:47:41 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:47:41 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:48:30 :ParseSatSend id: CANCEL
+05/25/2015 14:48:30 :msg: 172.35.207.4|35150561099008000141599000011890000578078924
+05/25/2015 14:48:30 :id: CANCEL
+05/25/2015 14:53:56 :iniciando
+05/25/2015 14:54:05 :ParseSatSend id: 13537
+05/25/2015 14:54:05 :id: 13537
+05/25/2015 14:54:05 :msg: H1||||||||||||
+H2|1|1|3537|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3537 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:54:05 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:54:08 :MakeXML.AddItens
+05/25/2015 14:54:08 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:54:08 :defineAcres: True
+05/25/2015 14:54:08 :vOutroRateioItem: 1,12
+05/25/2015 14:54:08 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:54:08 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:54:08 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:56:06 :ParseSatSend id: 13538
+05/25/2015 14:56:06 :id: 13538
+05/25/2015 14:56:10 :msg: H1||||||||||||
+H2|1|1|3538|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3538 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 14:56:12 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 14:56:12 :MakeXML.AddItens
+05/25/2015 14:56:12 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 14:56:12 :defineAcres: True
+05/25/2015 14:56:12 :vOutroRateioItem: 1,12
+05/25/2015 14:56:12 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 14:56:12 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 14:56:12 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 14:57:10 :ParseSatSend id: CANCEL
+05/25/2015 14:57:10 :id: CANCEL
+05/25/2015 14:57:10 :msg: 172.35.207.4|35150561099008000141599000011890000600281138
+05/25/2015 15:26:55 :iniciando
+05/25/2015 15:31:19 :ParseSatSend id: CANCEL
+05/25/2015 15:31:19 :id: CANCEL
+05/25/2015 15:31:19 :msg: 172.35.207.4|9999999
+05/25/2015 15:31:29 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 144
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/25/2015 15:50:33 :iniciando
+05/25/2015 15:50:53 :ParseSatSend id: 13540
+05/25/2015 15:50:57 :id: 13540
+05/25/2015 15:50:57 :msg: H1||||||||||||
+H2|1|1|3540|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3540 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 15:51:17 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 15:51:19 :MakeXML.AddItens
+05/25/2015 15:51:19 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 15:51:19 :defineAcres: True
+05/25/2015 15:51:19 :vOutroRateioItem: 1,12
+05/25/2015 15:51:19 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 15:51:19 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 15:51:19 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 15:52:02 :iniciando
+05/25/2015 15:52:10 :ParseSatSend id: 13540
+05/25/2015 15:52:10 :id: 13540
+05/25/2015 15:52:10 :msg: H1||||||||||||
+H2|1|1|3540|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3540 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 15:52:13 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 15:52:16 :MakeXML.AddItens
+05/25/2015 15:52:16 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 15:52:16 :defineAcres: True
+05/25/2015 15:52:16 :vOutroRateioItem: 1,12
+05/25/2015 15:52:16 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 15:52:16 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 15:52:16 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 15:54:10 :iniciando
+05/25/2015 15:59:52 :iniciando
+05/25/2015 15:59:57 :ParseSatSend id: 13540
+05/25/2015 15:59:57 :id: 13540
+05/25/2015 15:59:57 :msg: H1||||||||||||
+H2|1|1|3540|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3540 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 16:00:00 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 16:00:00 :MakeXML.AddItens
+05/25/2015 16:00:00 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 16:00:00 :defineAcres: True
+05/25/2015 16:00:00 :vOutroRateioItem: 1,12
+05/25/2015 16:00:00 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 16:00:00 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 16:00:00 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 16:00:14 :iniciando
+05/25/2015 16:00:22 :ParseSatSend id: 13540
+05/25/2015 16:00:22 :id: 13540
+05/25/2015 16:00:22 :msg: H1||||||||||||
+H2|1|1|3540|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3540 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 16:00:26 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 16:00:26 :MakeXML.AddItens
+05/25/2015 16:00:26 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 16:00:26 :defineAcres: True
+05/25/2015 16:00:26 :vOutroRateioItem: 1,12
+05/25/2015 16:00:26 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 16:00:26 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 16:00:26 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/25/2015 16:00:52 :iniciando
+05/25/2015 16:01:16 :ParseSatSend id: 13540
+05/25/2015 16:01:21 :id: 13540
+05/25/2015 16:01:21 :msg: H1||||||||||||
+H2|1|1|3540|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3540 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/25/2015 16:01:44 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/25/2015 16:01:46 :MakeXML.AddItens
+05/25/2015 16:01:46 :MakeXML.AddItens -> Lista Itens: 1
+05/25/2015 16:01:46 :defineAcres: True
+05/25/2015 16:01:46 :vOutroRateioItem: 1,12
+05/25/2015 16:01:46 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/25/2015 16:01:46 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/25/2015 16:01:46 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 09:28:31 :iniciando
+05/26/2015 09:31:08 :ParseSatSend id: CANCEL
+05/26/2015 09:31:08 :id: CANCEL
+05/26/2015 09:32:52 :msg: 172.35.207.4|00000000000000000000000000000000000000000000
+05/26/2015 09:44:14 :iniciando
+05/26/2015 09:44:37 :ParseSatSend id: 13541
+05/26/2015 09:44:37 :id: 13541
+05/26/2015 09:44:37 :msg: H1||||||||||||
+H2|1|1|3541|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3541 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 09:44:37 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 09:44:38 :MakeXML.AddItens
+05/26/2015 09:44:38 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 09:44:38 :defineAcres: True
+05/26/2015 09:44:38 :vOutroRateioItem: 1,12
+05/26/2015 09:44:38 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 09:44:38 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 09:44:38 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 09:44:46 :13541: System.Exception: Erro em Processa SAT Erro processando SAT 060080000SAT bloqueado por falta de comunicaÃ§Ã£o
+   em invoiceServerApp.ProcessaSAT.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 220
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 167
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/26/2015 09:44:46 :13541 :System.Exception: System.Exception: Erro em Processa SAT Erro processando SAT 060080000SAT bloqueado por falta de comunicaÃ§Ã£o
+   em invoiceServerApp.ProcessaSAT.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 220
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 167
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 71
+05/26/2015 09:47:42 :ParseSatSend id: 13541
+05/26/2015 09:47:42 :id: 13541
+05/26/2015 09:47:42 :msg: H1||||||||||||
+H2|1|1|3541|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3541 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 09:47:43 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 09:47:43 :MakeXML.AddItens
+05/26/2015 09:47:43 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 09:47:43 :defineAcres: True
+05/26/2015 09:47:43 :vOutroRateioItem: 1,12
+05/26/2015 09:47:43 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 09:47:43 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 09:47:43 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 09:49:02 :ParseSatSend id: CANCEL
+05/26/2015 09:49:02 :id: CANCEL
+05/26/2015 09:49:02 :msg: 172.35.207.4|35150561099008000141599000011890000664894831
+05/26/2015 09:49:02 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 152
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/26/2015 09:49:47 :ParseSatSend id: 13542
+05/26/2015 09:49:47 :id: 13542
+05/26/2015 09:49:47 :msg: H1||||||||||||
+H2|1|1|3542|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3542 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 09:49:48 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 09:49:49 :MakeXML.AddItens
+05/26/2015 09:49:49 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 09:49:49 :defineAcres: True
+05/26/2015 09:49:49 :vOutroRateioItem: 1,12
+05/26/2015 09:49:49 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 09:49:49 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 09:49:49 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 09:55:14 :iniciando
+05/26/2015 09:55:31 :iniciando
+05/26/2015 10:14:37 :ParseSatSend id: 13543
+05/26/2015 10:14:37 :id: 13543
+05/26/2015 10:14:37 :msg: H1||||||||||||
+H2|1|1|3543|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3543 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 10:14:38 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 10:14:39 :MakeXML.AddItens
+05/26/2015 10:14:39 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 10:14:39 :defineAcres: True
+05/26/2015 10:14:39 :vOutroRateioItem: 1,12
+05/26/2015 10:14:39 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 10:14:39 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 10:14:39 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:16:49 :ParseSatSend id: CANCEL
+05/26/2015 10:16:49 :id: CANCEL
+05/26/2015 10:16:49 :msg: 172.35.207.4|35150561099008000141599000011890000681205380
+05/26/2015 10:21:08 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento)
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg)
+05/26/2015 10:21:33 :ParseSatSend id: 13544
+05/26/2015 10:21:34 :id: 13544
+05/26/2015 10:21:34 :msg: H1||||||||||||
+H2|1|1|3544|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3544 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 10:21:35 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 10:21:35 :MakeXML.AddItens
+05/26/2015 10:21:35 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 10:21:35 :defineAcres: True
+05/26/2015 10:21:35 :vOutroRateioItem: 1,12
+05/26/2015 10:21:35 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 10:21:35 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 10:21:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:25:01 :ParseSatSend id: CANCEL
+05/26/2015 10:25:04 :id: CANCEL
+05/26/2015 10:25:04 :msg: 172.35.207.4|35150561099008000141599000011890000690392805
+05/26/2015 10:28:36 :ParseSatSend id: 13545
+05/26/2015 10:28:36 :id: 13545
+05/26/2015 10:28:36 :msg: H1||||||||||||
+H2|1|1|3545|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3545 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|Di|50.00
+?T1||
+05/26/2015 10:28:37 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 10:28:37 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+05/26/2015 10:28:37 :MakeXML.AddItens
+05/26/2015 10:28:37 :MakeXML.AddItens -> Lista Itens: 2
+05/26/2015 10:28:37 :defineAcres: True
+05/26/2015 10:28:37 :vOutroRateioTtl: 1,12 | Acresc: 1,12
+05/26/2015 10:28:37 :vOutroRateioItem: 1,12
+05/26/2015 10:28:37 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:28:37 :defineAcres: True
+05/26/2015 10:28:37 :vOutroRateioItem: 2,24
+05/26/2015 10:28:37 :vOutroRateioTtl: 3,36 | Acresc: 1,12
+05/26/2015 10:28:37 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,12
+05/26/2015 10:29:36 :iniciando
+05/26/2015 10:30:12 :ParseSatSend id: 13545
+05/26/2015 10:30:12 :id: 13545
+05/26/2015 10:30:12 :msg: H1||||||||||||
+H2|1|1|3545|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3545 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|Di|50.00
+?T1||
+05/26/2015 10:30:13 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 10:30:13 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+05/26/2015 10:30:14 :MakeXML.AddItens
+05/26/2015 10:30:14 :MakeXML.AddItens -> Lista Itens: 2
+05/26/2015 10:30:14 :defineAcres: True
+05/26/2015 10:30:14 :vOutroRateioItem: 1,12
+05/26/2015 10:30:14 :vOutroRateioTtl: 1,12 | Acresc: 1,12
+05/26/2015 10:30:14 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:30:14 :defineAcres: True
+05/26/2015 10:30:14 :vOutroRateioItem: 2,24
+05/26/2015 10:30:14 :vOutroRateioTtl: 3,36 | Acresc: 1,12
+05/26/2015 10:30:14 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,12
+05/26/2015 10:30:14 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:30:59 :ParseSatSend id: 13546
+05/26/2015 10:30:59 :id: 13546
+05/26/2015 10:30:59 :msg: H1||||||||||||
+H2|1|1|3546|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3546 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|Di|15.00
+?T1||
+05/26/2015 10:30:59 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 10:30:59 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+05/26/2015 10:31:00 :MakeXML.AddItens
+05/26/2015 10:31:00 :MakeXML.AddItens -> Lista Itens: 2
+05/26/2015 10:31:00 :defineAcres: True
+05/26/2015 10:31:00 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:31:00 :vOutroRateioItem: 1,12
+05/26/2015 10:31:00 :vOutroRateioTtl: 1,12 | Acresc: 1,12
+05/26/2015 10:31:00 :defineAcres: True
+05/26/2015 10:31:00 :vOutroRateioItem: 2,24
+05/26/2015 10:31:00 :vOutroRateioTtl: 3,36 | Acresc: 1,12
+05/26/2015 10:31:00 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,12
+05/26/2015 10:31:00 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:36:40 :iniciando
+05/26/2015 10:36:53 :iniciando
+05/26/2015 10:40:20 :iniciando
+05/26/2015 10:41:25 :ParseSatSend id: 13547
+05/26/2015 10:41:26 :id: 13547
+05/26/2015 10:41:27 :msg: H1||||||||||||
+H2|1|1|3547|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3547 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 10:41:27 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 10:41:27 :MakeXML.AddItens
+05/26/2015 10:41:27 :defineAcres: True
+05/26/2015 10:41:27 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 10:41:27 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 10:41:27 :vOutroRateioItem: 1,12
+05/26/2015 10:41:27 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 10:41:27 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 10:45:44 :ParseSatSend id: CANCEL
+05/26/2015 10:45:54 :id: CANCEL
+05/26/2015 10:45:55 :msg: 172.35.207.4|35150561099008000141599000011890000715959234
+05/26/2015 10:53:22 :ParseSatSend id: CANCEL
+05/26/2015 10:53:22 :id: CANCEL
+05/26/2015 10:53:22 :msg: 172.35.207.4|35150561099008000141599000011890000720764390
+05/26/2015 10:55:15 :ParseSatSend id: CANCEL
+05/26/2015 10:55:16 :id: CANCEL
+05/26/2015 10:55:16 :msg: 172.35.207.4|00005555666677770000000000000000000000000000
+05/26/2015 10:55:16 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 147
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/26/2015 10:56:21 :ParseSatSend id: CANCEL
+05/26/2015 10:57:51 :id: CANCEL
+05/26/2015 10:57:54 :msg: 172.35.207.4|11111111111111111111111111111111111111111111
+05/26/2015 10:59:32 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 147
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/26/2015 11:01:01 :ParseSatSend id: 13549
+05/26/2015 11:01:01 :id: 13549
+05/26/2015 11:01:01 :msg: H1||||||||||||
+H2|1|1|3549|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3549 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 11:01:05 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 11:01:52 :13549: System.Exception: Erro SAT 1
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+05/26/2015 11:02:02 :13549 :System.Exception: System.Exception: Erro SAT 1
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.SpliData(String msg)
+   em invoiceServerApp.ParseSatSend.messageParse(String msg)
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg)
+05/26/2015 11:03:35 :iniciando
+05/26/2015 11:04:11 :ParseSatSend id: CANCEL
+05/26/2015 11:04:11 :id: CANCEL
+05/26/2015 11:04:11 :msg: 172.35.207.4|11111111111111111111111111111111111111111111
+05/26/2015 11:04:16 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 147
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/26/2015 11:04:16 :CANCEL :System.Exception: Erro processabdo Cancelamento Arquivo XML CFe Original não encontrado em: C:\SAT Micros\enviados\CFe11111111111111111111111111111111111111111111.xml
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 345
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 63
+05/26/2015 11:05:32 :ParseSatSend id: CANCEL
+05/26/2015 11:05:34 :id: CANCEL
+05/26/2015 11:05:34 :msg: 172.35.207.4|11111111111111111111111111111111111111111111
+05/26/2015 11:05:37 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 147
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/26/2015 11:06:58 :CANCEL :System.Exception: Erro processabdo Cancelamento Arquivo XML CFe Original não encontrado em: C:\SAT Micros\enviados\CFe11111111111111111111111111111111111111111111.xml
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 345
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 63
+05/26/2015 11:29:42 :iniciando
+05/26/2015 11:32:36 :ParseSatSend id: 13550
+05/26/2015 11:32:36 :id: 13550
+05/26/2015 11:32:36 :msg: H1|F||32744096857|||||||||
+H2|1|1|3550|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3550 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 11:32:36 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 11:32:37 :MakeXML.AddItens
+05/26/2015 11:32:37 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 11:32:37 :defineAcres: True
+05/26/2015 11:32:37 :vOutroRateioItem: 1,12
+05/26/2015 11:32:37 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 11:32:37 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 11:32:37 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 11:33:42 :ParseSatSend id: CANCEL
+05/26/2015 11:33:42 :id: CANCEL
+05/26/2015 11:33:42 :msg: 172.35.207.4|35150561099008000141599000011890000768901460
+05/26/2015 11:33:43 :   em invoiceServerApp.ProcessaSAT.ProcessaCancel(String printer, String chaveCancelamento) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 147
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 337
+05/26/2015 11:34:30 :CANCEL :System.Exception: Erro processabdo Cancelamento Erro processando SAT Cancelamento 070071233RejeiÃ§Ã£o: CPF do destinatÃ¡rio do CF-e de cancelamento diferente daquele do CF-e a ser cancelado
+   em invoiceServerApp.ParseSatSend.messageCancel(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 345
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 63
+05/26/2015 11:40:50 :iniciando
+05/26/2015 11:42:01 :ParseSatSend id: CANCEL
+05/26/2015 11:42:02 :id: CANCEL
+05/26/2015 11:42:02 :msg: 172.35.207.4|35150561099008000141599000011890000768901460|32744096857
+05/26/2015 12:11:58 :iniciando
+05/26/2015 12:14:31 :ParseSatSend id: CANCEL
+05/26/2015 12:14:38 :id: CANCEL
+05/26/2015 12:14:38 :msg: 172.35.207.4|00000000000000000000000000000000000000000000|F|32744096857
+05/26/2015 12:15:33 :iniciando
+05/26/2015 12:15:40 :ParseSatSend id: 13551
+05/26/2015 12:15:40 :id: 13551
+05/26/2015 12:15:40 :msg: H1||||||||||||
+H2|1|1|3551|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3551 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 12:15:41 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 12:15:42 :MakeXML.AddItens
+05/26/2015 12:15:42 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 12:15:42 :defineAcres: True
+05/26/2015 12:15:42 :vOutroRateioItem: 1,12
+05/26/2015 12:15:42 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 12:15:42 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 12:15:42 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 12:16:29 :ParseSatSend id: 13552
+05/26/2015 12:16:29 :id: 13552
+05/26/2015 12:16:29 :msg: H1|F||32744096857|||||||||
+H2|1|1|3552|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3552 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 12:17:45 :iniciando
+05/26/2015 12:18:06 :ParseSatSend id: 13552
+05/26/2015 12:18:07 :id: 13552
+05/26/2015 12:18:07 :msg: H1||||||||||||
+H2|1|1|3552|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3552 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 12:18:08 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 12:18:09 :MakeXML.AddItens
+05/26/2015 12:18:09 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 12:18:09 :vOutroRateioItem: 1,12
+05/26/2015 12:18:09 :defineAcres: True
+05/26/2015 12:18:09 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 12:18:09 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 12:18:09 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 12:18:51 :ParseSatSend id: 13553
+05/26/2015 12:18:51 :id: 13553
+05/26/2015 12:18:51 :msg: H1||||||||||||
+H2|1|1|3553|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3553 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 12:18:51 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 12:18:52 :MakeXML.AddItens
+05/26/2015 12:18:52 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 12:18:52 :defineAcres: True
+05/26/2015 12:18:52 :vOutroRateioItem: 1,12
+05/26/2015 12:18:52 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 12:18:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 12:18:52 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 12:19:27 :ParseSatSend id: 13554
+05/26/2015 12:19:27 :id: 13554
+05/26/2015 12:19:27 :msg: H1|F||32744096857|||||||||
+H2|1|1|3554|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3554 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/26/2015 12:19:27 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 12:19:28 :MakeXML.AddItens
+05/26/2015 12:19:28 :MakeXML.AddItens -> Lista Itens: 1
+05/26/2015 12:19:28 :defineAcres: True
+05/26/2015 12:19:28 :vOutroRateioItem: 1,12
+05/26/2015 12:19:28 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/26/2015 12:19:28 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/26/2015 12:19:28 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 12:23:59 :ParseSatSend id: CANCEL
+05/26/2015 12:23:59 :id: CANCEL
+05/26/2015 12:23:59 :msg: 172.35.207.4|35150561099008000141599000011890000809500936|F|32744096857
+05/26/2015 12:57:28 :iniciando
+05/26/2015 12:57:53 :ParseSatSend id: 13555
+05/26/2015 12:57:54 :id: 13555
+05/26/2015 12:57:54 :msg: H1||||||||||||
+H2|1|1|3555|0|da Silva|6.16|172.35.207.4
+H3||WS: 1 / Conta: 3555 / Mesa: 0 / Emp.: da Silva \ Imp F: 8.28(13.00%) E: 10.47(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |10|5.60|56.00|8.4000|0.00|21069090
+P|101|Di|100.00
+?T1||
+05/26/2015 12:57:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/26/2015 12:57:54 :ParseAddItem -> I|25089|Arroz           |10|5.60|56.00|8.4000|0.00|21069090
+05/26/2015 12:57:55 :MakeXML.AddItens
+05/26/2015 12:57:55 :MakeXML.AddItens -> Lista Itens: 2
+05/26/2015 12:57:55 :defineAcres: True
+05/26/2015 12:57:55 :vOutroRateioItem: 6,16
+05/26/2015 12:57:55 :vOutroRateioTtl: 6,16 | Acresc: 6,16
+05/26/2015 12:57:55 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 12:57:55 :defineAcres: True
+05/26/2015 12:57:55 :vOutroRateioItem: 12,32
+05/26/2015 12:57:55 :vOutroRateioTtl: 18,48 | Acresc: 6,16
+05/26/2015 12:57:55 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 6,16
+05/26/2015 12:57:55 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/26/2015 12:59:10 :ParseSatSend id: CANCEL
+05/26/2015 12:59:10 :id: CANCEL
+05/26/2015 12:59:10 :msg: 172.35.207.4|35150561099008000141599000011890000826478200|B|
+05/27/2015 16:11:43 :iniciando
+05/27/2015 16:16:56 :ParseSatSend id: 13558
+05/27/2015 16:17:02 :id: 13558
+05/27/2015 16:17:03 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/27/2015 16:17:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/27/2015 16:17:37 :MakeXML.AddItens
+05/27/2015 16:17:37 :MakeXML.AddItens -> Lista Itens: 1
+05/27/2015 16:17:37 :defineAcres: True
+05/27/2015 16:17:37 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/27/2015 16:17:37 :vOutroRateioItem: 1,12
+05/27/2015 16:17:37 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/27/2015 16:17:39 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/27/2015 16:17:48 :13558: System.IO.DirectoryNotFoundException: Não foi possível localizar uma parte do caminho 'C:\nfce\Retornogerados\1_3558_27052015_041739.xml'.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 180
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/27/2015 16:21:30 :13558 :System.Exception: System.IO.DirectoryNotFoundException: Não foi possível localizar uma parte do caminho 'C:\nfce\Retornogerados\1_3558_27052015_041739.xml'.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 180
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 70
+05/27/2015 16:21:54 :ParseSatSend id: 13558
+05/27/2015 16:21:57 :msg: H1|B|||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/27/2015 16:22:01 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/27/2015 16:22:02 :id: 13558
+05/27/2015 16:22:02 :MakeXML.AddItens -> Lista Itens: 1
+05/27/2015 16:22:02 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/27/2015 16:22:02 :MakeXML.AddItens
+05/27/2015 16:28:40 :iniciando
+05/27/2015 16:28:57 :iniciando
+05/27/2015 16:29:07 :ParseSatSend id: 13558
+05/27/2015 16:29:08 :id: 13558
+05/27/2015 16:29:09 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/27/2015 16:29:09 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/27/2015 16:29:14 :MakeXML.AddItens
+05/27/2015 16:29:14 :vOutroRateioItem: 1,12
+05/27/2015 16:29:14 :MakeXML.AddItens -> Lista Itens: 1
+05/27/2015 16:29:15 :defineAcres: True
+05/27/2015 16:29:15 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/27/2015 16:29:17 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/27/2015 16:29:59 :iniciando
+05/27/2015 16:30:22 :ParseSatSend id: 13558
+05/27/2015 16:30:23 :id: 13558
+05/27/2015 16:30:24 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/27/2015 16:30:26 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/27/2015 16:30:28 :MakeXML.AddItens
+05/27/2015 16:30:28 :vOutroRateioItem: 1,12
+05/27/2015 16:30:28 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/27/2015 16:30:28 :defineAcres: True
+05/27/2015 16:30:29 :MakeXML.AddItens -> Lista Itens: 1
+05/27/2015 16:30:46 :iniciando
+05/27/2015 16:31:08 :ParseSatSend id: 13558
+05/27/2015 16:31:10 :id: 13558
+05/27/2015 16:31:10 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/27/2015 16:31:10 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/27/2015 16:31:11 :MakeXML.AddItens
+05/27/2015 16:31:11 :defineAcres: True
+05/27/2015 16:31:11 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/27/2015 16:31:13 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/27/2015 16:31:17 :MakeXML.AddItens -> Lista Itens: 1
+05/27/2015 16:31:17 :vOutroRateioItem: 1,12
+05/27/2015 16:31:17 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/27/2015 16:31:35 :13558: System.Exception: Erro em Processa SAT O índice estava fora dos limites da matriz.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/27/2015 16:31:36 :13558 :System.Exception: System.Exception: Erro em Processa SAT O índice estava fora dos limites da matriz.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 70
+05/27/2015 16:42:18 :ParseSatSend id: 13558
+05/27/2015 16:42:18 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/27/2015 16:42:21 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/27/2015 16:42:21 :defineAcres: True
+05/27/2015 16:42:21 :id: 13558
+05/27/2015 16:42:21 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/27/2015 16:42:26 :MakeXML.AddItens
+05/27/2015 16:42:26 :vOutroRateioItem: 1,12
+05/27/2015 16:42:27 :MakeXML.AddItens -> Lista Itens: 1
+05/27/2015 16:42:28 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/27/2015 16:42:29 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/27/2015 16:42:40 :13558: System.Exception: Erro em Processa SAT Erro processando SAT 060080000SAT bloqueado por falta de comunicaÃ§Ã£o
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/27/2015 16:42:42 :13558 :System.Exception: System.Exception: Erro em Processa SAT Erro processando SAT 060080000SAT bloqueado por falta de comunicaÃ§Ã£o
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 70
+05/27/2015 17:51:18 :ParseSatSend id: 13558
+05/27/2015 17:51:19 :id: 13558
+05/27/2015 17:51:21 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/27/2015 17:51:21 :MakeXML.AddItens -> Lista Itens: 1
+05/27/2015 17:51:21 :defineAcres: True
+05/27/2015 17:51:21 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/27/2015 17:51:23 :MakeXML.AddItens
+05/27/2015 17:51:23 :vOutroRateioItem: 1,12
+05/27/2015 17:51:24 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/27/2015 17:51:26 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/27/2015 17:51:26 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 10:51:52 :iniciando
+05/28/2015 10:53:00 :ParseSatSend id: 13558
+05/28/2015 10:53:01 :id: 13558
+05/28/2015 10:53:02 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/28/2015 10:53:02 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 10:53:03 :MakeXML.AddItens
+05/28/2015 10:53:03 :vOutroRateioItem: 1,12
+05/28/2015 10:53:03 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 10:53:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/28/2015 10:53:06 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 10:53:06 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 10:53:06 :defineAcres: True
+05/28/2015 10:53:08 :13558: System.Exception: Erro em Processa SAT Não foi possível localizar uma parte do caminho 'C:\nfce\Retornoenviados\CFe35150561099008000141599000011890000873418544.xml'.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/28/2015 10:53:22 :13558 :System.Exception: System.Exception: Erro em Processa SAT Não foi possível localizar uma parte do caminho 'C:\nfce\Retornoenviados\CFe35150561099008000141599000011890000873418544.xml'.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 70
+05/28/2015 10:53:46 :ParseSatSend id: 13558
+05/28/2015 10:53:47 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/28/2015 10:53:47 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 10:53:51 :id: 13558
+05/28/2015 10:53:52 :vOutroRateioItem: 1,12
+05/28/2015 10:53:52 :MakeXML.AddItens
+05/28/2015 10:53:52 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 10:53:52 :defineAcres: True
+05/28/2015 10:53:57 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 10:53:58 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 10:54:01 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/28/2015 10:55:28 :iniciando
+05/28/2015 10:55:33 :ParseSatSend id: 13558
+05/28/2015 10:55:34 :id: 13558
+05/28/2015 10:55:34 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/28/2015 10:55:34 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 10:55:35 :MakeXML.AddItens
+05/28/2015 10:55:35 :defineAcres: True
+05/28/2015 10:55:35 :vOutroRateioItem: 1,12
+05/28/2015 10:55:37 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 10:55:37 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 10:55:37 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 10:55:37 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/28/2015 10:55:38 :13558: System.Exception: Erro em Processa SAT O índice estava fora dos limites da matriz.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+05/28/2015 10:55:40 :13558 :System.Exception: System.Exception: Erro em Processa SAT O índice estava fora dos limites da matriz.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 181
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 128
+   em invoiceServerApp.ParseSatSend.messageParse(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 293
+   em invoiceServerApp.invoiceImplemention.ParseBuy(String _id, String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\invoiceImplemention.cs:linha 70
+05/28/2015 10:55:50 :ParseSatSend id: 13558
+05/28/2015 10:55:50 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/28/2015 10:55:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 10:55:54 :vOutroRateioItem: 1,12
+05/28/2015 10:55:54 :id: 13558
+05/28/2015 10:55:54 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 10:55:55 :MakeXML.AddItens
+05/28/2015 10:55:55 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 10:55:56 :defineAcres: True
+05/28/2015 10:55:57 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/28/2015 10:55:59 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 10:56:40 :iniciando
+05/28/2015 10:56:52 :ParseSatSend id: 13558
+05/28/2015 10:56:53 :id: 13558
+05/28/2015 10:56:54 :msg: H1||||||||||||
+H2|1|1|3558|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3558 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/28/2015 10:56:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 10:56:54 :MakeXML.AddItens
+05/28/2015 10:56:54 :vOutroRateioItem: 1,12
+05/28/2015 10:56:54 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 10:56:54 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 10:56:55 :defineAcres: True
+05/28/2015 10:56:55 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 10:56:55 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/28/2015 10:57:54 :ParseSatSend id: 13559
+05/28/2015 10:57:54 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 10:57:54 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 10:57:54 :msg: H1||||||||||||
+H2|1|1|3559|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3559 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/28/2015 10:57:54 :id: 13559
+05/28/2015 10:57:54 :MakeXML.AddItens
+05/28/2015 10:57:54 :defineAcres: True
+05/28/2015 10:57:54 :vOutroRateioItem: 1,12
+05/28/2015 10:57:54 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/28/2015 10:57:54 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 10:57:54 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 11:46:32 :ParseSatSend id: 13560
+05/28/2015 11:46:32 :MakeXML.AddItens
+05/28/2015 11:46:32 :defineAcres: True
+05/28/2015 11:46:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 11:46:32 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 11:46:32 :vOutroRateioItem: 1,12
+05/28/2015 11:46:32 :msg: H1||||||||||||
+H2|1|1|3560|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3560 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|10.00
+?T1||
+05/28/2015 11:46:32 :id: 13560
+05/28/2015 11:46:32 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 11:46:32 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 11:46:32 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+05/28/2015 12:26:04 :iniciando
+05/28/2015 12:33:28 :ParseSatSend id: 13561
+05/28/2015 12:33:28 :id: 13561
+05/28/2015 12:33:28 :msg: H1||||||||||||
+H2|1|1|3561|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3561 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Di|600.00
+?T1||
+05/28/2015 12:33:28 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+05/28/2015 12:33:28 :MakeXML.AddItens
+05/28/2015 12:33:29 :MakeXML.AddItens -> Lista Itens: 1
+05/28/2015 12:33:29 :vOutroRateioItem: 1,12
+05/28/2015 12:33:29 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+05/28/2015 12:33:29 :defineAcres: True
+05/28/2015 12:33:29 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+05/28/2015 12:33:29 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000

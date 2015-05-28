@@ -1,0 +1,12 @@
+D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.dll
+D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.pdb
+D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.dll
+D:\MICROS\SRC TEMPORARIO\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.pdb
