@@ -16,8 +16,11 @@ namespace invoiceServerApp
         ~Datamanager()
         {
             //workerObject.RequestStop();
-            workerThread.Abort();
-            workerThread.Join();
+            if (workerThread != null)
+            {
+                workerThread.Abort();
+                workerThread.Join();
+            }
         }
         public Datamanager()
         {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace invoiceServerApp
 {
@@ -12,6 +13,7 @@ namespace invoiceServerApp
         private Utils.ConfigureXml config;
         Dictionary<string, ParseInterface> dictionary = new Dictionary<string, ParseInterface>();
         private Object thisLock = new Object();
+        private bool blockSat = false;
 
         public invoiceImplemention(Utils.ConfigureXml _config) 
         {
@@ -26,6 +28,18 @@ namespace invoiceServerApp
                 {
                     if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.SAT)
                     {
+                        if (!blockSat)
+                        {
+                            try
+                            {
+                                string retorno = SatDLL.DesbloquearSATBase(SatDLL.generatorKey(), config.configSAT.ChaveAtivacao);
+                                Utils.Logger.getInstance.error("desbloqueio sat: " + retorno);
+                            }
+                            catch (Exception exceptionSATDll)
+                            {
+                                throw new Exception("Erro enviando comando de Venda " + exceptionSATDll.Message);
+                            }
+                        }
                         dictionary.Add(_id, new ParseSatSend(_id, config));
                         Utils.Logger.getInstance.error("ParseSatSend id: " + _id);
                     }
@@ -75,16 +89,28 @@ namespace invoiceServerApp
             catch (Exception e)
             {
                 //dictionary.Remove(_id);
-                Utils.Logger.getInstance.error(_id + " :" + e.ToString());
-                retorno = e.Message.ToString().Substring(0, 100) + "|END|";
+                //Utils.Logger.getInstance.error(_id + " :" + e.ToString());
+                //retorno = e.Message.ToString().Substring(0, 100) + "|END|";
+                retorno = removeReturn(e.ToString());
             }
             finally
             {
                 removeCupom(_id);
+                
             }
-            
             return retorno;
             
+            
+        }
+        private string removeReturn(string _msg)
+        {
+            string StrPat = @"((?<=#).*(?=#))"; 
+            Regex pattern = new Regex(StrPat, RegexOptions.Compiled);
+            Match m = pattern.Match(_msg);
+            if (m.Success)
+                return m.Value + "|END|";
+            else
+                return "Erro processando documento eletronico. |END|";
         }
         private void removeCupom(string _id)
         {

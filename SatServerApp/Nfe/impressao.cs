@@ -361,14 +361,36 @@ namespace invoiceServerApp
                     case "01":
                         p.descPgt = "Dinheiro";
                         break;
+                    case "03":
+                        p.descPgt = "Cartao Credito";
+                        break;
+                    case "04":
+                        p.descPgt = "Cartao Debito";
+                        break;
+
+                    case "10":
+                        p.descPgt = "Vale Alim";
+                        break;
+                    case "11":
+                        p.descPgt = "Vale Refeic";
+                        break;
                     case "99":
                         p.descPgt = "Outros";
                         break;
-                    default :
-                        p.descPgt = "Outros";
-                        break;
-
                 }
+                //switch (p.codPgt)
+                //{
+                //    case "01":
+                //        p.descPgt = "Dinheiro";
+                //        break;
+                //    case "99":
+                //        p.descPgt = "Outros";
+                //        break;
+                //    default :
+                //        p.descPgt = "Outros";
+                //        break;
+
+                //}
 
                 sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
                     , p.descPgt
@@ -614,9 +636,22 @@ namespace invoiceServerApp
             
             switch (pgtNota.codPgt)
             {
-                case "1":
+                case "01":
                     pgtNota.descPgt = "Dinheiro";
                     break;
+                case "03":
+                    pgtNota.descPgt = "Cartao Credito";
+                    break;
+                case "04":
+                    pgtNota.descPgt = "Cartao Debito";
+                    break;
+                
+                case "10":
+                    pgtNota.descPgt = "Vale Alim";
+                    break;
+                case "11":
+                    pgtNota.descPgt = "Vale Refeic";
+                    break;                                
                 case "99":
                     pgtNota.descPgt = "Outros";
                     break;

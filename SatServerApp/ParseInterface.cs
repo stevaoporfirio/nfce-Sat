@@ -14,5 +14,6 @@ namespace invoiceServerApp
         string getCodigo(string msg);
         string getQrCode(string msg);
         string messageCancel(string msg);
+        string DesbloqueioSat(string msg);
     }
 }

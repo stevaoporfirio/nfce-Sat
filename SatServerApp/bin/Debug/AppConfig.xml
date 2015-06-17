@@ -7,34 +7,42 @@
           <codMicros>101</codMicros>
           <descMicros>Dinheiro</descMicros>
           <codNFCe>01</codNFCe>
+          <codBandNfce>0</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>200</codMicros>
+          <descMicros>VISA</descMicros>
+          <codNFCe>03</codNFCe>
+          <codBandNfce>01</codBandNfce>
         </NFCePgt>
       </ListPgt>
     </PgtList>
     <isServidor>false</isServidor>
-    <tipoIntegracao>SAT</tipoIntegracao>
+    <tipoIntegracao>NFCe</tipoIntegracao>
     <impressao>Servidor</impressao>
     <pathFiles>C:\nfce\Retorno</pathFiles>
     <IP>172.35.207.207</IP>
     <Porta>5001</Porta>
+    <CNPJCredenciadoraCartao>61099008000141</CNPJCredenciadoraCartao>
   </configMaquina>
   <configEmitente>
-    <RazaoSocial>HHR BT RIO DE JANEIRO INVESTIMENTOS HOTELEIROS AS</RazaoSocial>
-    <Fantasia>NOVOTEL RJ PARQUE OLIMPICO</Fantasia>
-    <Cnpj>61099008000141</Cnpj>
-    <Telefone />
-    <Ie>111111111111</Ie>
+    <RazaoSocial>GOOD FOOD RS COMERCIO DE ALIMENTOS SA</RazaoSocial>
+    <Fantasia>BURGER KING NOVO</Fantasia>
+    <Cnpj>21877073000489</Cnpj>
+    <Telefone>5130668373</Telefone>
+    <Ie>860490742</Ie>
     <Im />
-    <Email>H8177-GL@ACCOR.COM.BR</Email>
+    <Email>adm-cont@kingfood.com.br</Email>
     <endereco>
-      <Logradouro>AVENIDA EMBAIXADOR ABELARDO BUENO</Logradouro>
-      <Numero>1511</Numero>
-      <Complemento />
-      <Bairro>BARRA DA TIJUCA</Bairro>
-      <Cep>22775039</Cep>
-      <Uf>RJ</Uf>
-      <Cidade>Rio de Janeiro</Cidade>
-      <Cod_cidade>3304557</Cod_cidade>
-      <Cod_estado>33</Cod_estado>
+      <Logradouro>AV NACOES UNIDAS</Logradouro>
+      <Numero>2001</Numero>
+      <Complemento>LOJA SUC 2055 2056</Complemento>
+      <Bairro>RIO BRANCO</Bairro>
+      <Cep>93320021</Cep>
+      <Uf>RS</Uf>
+      <Cidade>NOVO HAMBURGO</Cidade>
+      <Cod_cidade>4313409</Cod_cidade>
+      <Cod_estado>43</Cod_estado>
     </endereco>
   </configEmitente>
   <configNFCe>
@@ -44,28 +52,28 @@
     <TpAmb>2</TpAmb>
     <IndPag>0</IndPag>
     <Crt>3</Crt>
-    <tokenNfce>ddb6cd24ed7df554816e9bcafa3daa64</tokenNfce>
+    <tokenNfce>0088F407F04C4A809D0C95A4B6942EBC</tokenNfce>
     <VersaoQrcode>100</VersaoQrcode>
     <CSC>000001</CSC>
-    <UrlProducao>http://www4.fazenda.rj.gov.br/consultaNFCe/QRCode?</UrlProducao>
-    <UrlHomologacao>http://www4.fazenda.rj.gov.br/consultaNFCe/QRCode?</UrlHomologacao>
+    <UrlProducao>https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?</UrlProducao>
+    <UrlHomologacao>https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?</UrlHomologacao>
     <digestValue>digestValue</digestValue>
     <Contingencia>false</Contingencia>
-    <sequenceNumberNfce>68</sequenceNumberNfce>
-    <Serie>1</Serie>
+    <sequenceNumberNfce>8</sequenceNumberNfce>
+    <Serie>5</Serie>
     <Id_banco>Id_banco</Id_banco>
-    <NomeCertificadoDigital>HHR BT RIO DE JANEIRO INVESTIMENTOS HOTELEIROS S.A.</NomeCertificadoDigital>
-    <NCM>99999999</NCM>
+    <NomeCertificadoDigital>GOOD FOOD RS COMERCIO DE ALIMENTOS S A:21877073000136</NomeCertificadoDigital>
+    <NCM>NCM</NCM>
     <VersaoLayout>3.10</VersaoLayout>
     <CFOP00>5102</CFOP00>
     <CFOP60>5405</CFOP60>
   </configNFCe>
   <configSAT>
-    <IDE_signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</IDE_signAC>
-    <IDE_NumeroCaixa>001</IDE_NumeroCaixa>
-    <ChaveAtivacao>123456789</ChaveAtivacao>
-    <CFOP00>5102</CFOP00>
-    <CFOP60>5405</CFOP60>
-    <CNPJ_SoftwareHouse>16716114000172</CNPJ_SoftwareHouse>
+    <IDE_signAC />
+    <IDE_NumeroCaixa />
+    <ChaveAtivacao>ChaveAtivacao</ChaveAtivacao>
+    <CFOP00>CFOP00</CFOP00>
+    <CFOP60>CFOP60</CFOP60>
+    <CNPJ_SoftwareHouse>CNPJ_SoftwareHouse</CNPJ_SoftwareHouse>
   </configSAT>
 </ConfigureXml>

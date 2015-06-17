@@ -94,16 +94,17 @@ namespace invoiceServerApp
 
                 if (cupom2 != null)
                 {
-                    foreach (String s in cupom)
+                    foreach (String s in cupom2)
                     {
                         resp = ImprimeTextoTag(s);
                     }
                 }
 
                 resp = ImprimeCodigoQRCODE(1, 4, 0, 10, 1, qr);
-
-                if (tef.Length > 1)
+                if (!String.IsNullOrEmpty(tef) && tef.Length > 1)
                 {
+                    
+                
                     resp = AcionaGuilhotina(0);
 
                     string[] tmpTef = tef.Split('|');

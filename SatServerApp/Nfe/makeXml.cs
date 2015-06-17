@@ -111,8 +111,8 @@ namespace invoiceServerApp
                 xmlWriter.WriteElementString("idDest", "1");
                 xmlWriter.WriteElementString("cMunFG", config.configEmitente.endereco.Cod_cidade);
                 xmlWriter.WriteElementString("tpImp", config.configNFCe.TpImp.Substring(0, 1));
-                
-                if(config.configNFCe.Contingencia)
+
+                if (config.configNFCe.Contingencia)
                     xmlWriter.WriteElementString("tpEmis", "9");
                 else
                     xmlWriter.WriteElementString("tpEmis", config.configNFCe.TpEmis.Substring(0, 1));
@@ -158,11 +158,11 @@ namespace invoiceServerApp
                 {
                     xmlWriter.WriteStartElement("dest");
 
-                    if (dtNfce.JuridicaFisica_dest.Equals("F"))                    
+                    if (dtNfce.JuridicaFisica_dest.Equals("F"))
                         xmlWriter.WriteElementString("CPF", dtNfce.CPF_CNPJ_dest);
-                    else                    
-                        xmlWriter.WriteElementString("CNPJ", dtNfce.CPF_CNPJ_dest);                    
-                    
+                    else
+                        xmlWriter.WriteElementString("CNPJ", dtNfce.CPF_CNPJ_dest);
+
                     if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
                         xmlWriter.WriteElementString("xNome", "NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL");
                     else
@@ -207,15 +207,15 @@ namespace invoiceServerApp
                     else
                     {
                         if (dtNfce.JuridicaFisica_dest.Equals("J"))
-                        {                            
+                        {
                             xmlWriter.WriteElementString("IE", dtNfce.Ie_dest);
                         }
                         else
-                        {                         
+                        {
                             xmlWriter.WriteElementString("IE", "");
                         }
                     }
-                    
+
                     if (dtNfce.Email_dest != "")
                         xmlWriter.WriteElementString("email", dtNfce.Email_dest);
                     else
@@ -234,19 +234,87 @@ namespace invoiceServerApp
 
 
                 //pagamento
+                decimal totalPago = 0;
+                decimal totalPagoDinheiro = 0;
+                foreach (PgtNfce pg in dtNfce.pgtsList)
+                {
+                        totalPago += Convert.ToDecimal(pg.val, ci);
+                        if(pg.Cod == "01")
+                            totalPagoDinheiro += Convert.ToDecimal(pg.val, ci);
+                }
+
+                decimal totalgeral = (ttlProdutos - ttlDesc + vOutroRateioTtl);
+
+                
+                foreach (PgtNfce pg in dtNfce.pgtsList)
+                {
+                    
+                    if (pg.Cod != "01" && !String.IsNullOrEmpty(pg.cAut))
+                    {
+                        xmlWriter.WriteStartElement("pag");
+                        xmlWriter.WriteElementString("tPag", pg.Cod);
+                        xmlWriter.WriteElementString("vPag", pg.val);
+                        xmlWriter.WriteStartElement("card");
+                            xmlWriter.WriteElementString("CNPJ", config.configMaquina.CNPJCredenciadoraCartao);
+                            xmlWriter.WriteElementString("tBand", pg.tBand);
+                        xmlWriter.WriteElementString("cAut", pg.cAut);
+                        xmlWriter.WriteEndElement();
+                        xmlWriter.WriteEndElement();
+                    }
+                    else if (pg.Cod != "01" && String.IsNullOrEmpty(pg.cAut))
+                    {
+                        xmlWriter.WriteStartElement("pag");
+                        xmlWriter.WriteElementString("tPag", pg.Cod);
+                        xmlWriter.WriteElementString("vPag", pg.val);
+                        xmlWriter.WriteEndElement();
+                    }
+                    
+                }
+
+                if (totalPagoDinheiro > 0)
                 {
                     xmlWriter.WriteStartElement("pag");
-                    xmlWriter.WriteElementString("tPag", dtNfce.pgtsList[0].Cod);
-                    xmlWriter.WriteElementString("vPag", (ttlProdutos - ttlDesc + vOutroRateioTtl).ToString("F2", ci));
+                    xmlWriter.WriteElementString("tPag", "01");
+                    if (totalPago > totalgeral)
+                    {
+                        decimal pagDinheiro = totalPagoDinheiro - (totalPago - totalgeral);
+                        xmlWriter.WriteElementString("vPag", pagDinheiro.ToString("F2", ci));
+                    }
+                    else
+                    {
+                        xmlWriter.WriteElementString("vPag", totalPagoDinheiro.ToString("F2",ci));
+                    }
+
                     xmlWriter.WriteEndElement();
+                  //  xmlWriter.WriteElementString("vPag", Convert.ToString(totalPagoDinheiro));
                 }
+                   
+                
+
+                
+
+
+
+
+
+               
+
+
+                //{
+                //    //nao pode existir troco, enquanto quando a forma de pagamento for maior q o valor da conta
+                //    //deve tirar do pagamento em dinheiro (cod 01), caso haja troco
+                //    xmlWriter.WriteStartElement("pag");
+                //    xmlWriter.WriteElementString("tPag", dtNfce.pgtsList[0].Cod);
+                //    xmlWriter.WriteElementString("vPag", (ttlProdutos - ttlDesc + vOutroRateioTtl).ToString("F2", ci));
+                //    xmlWriter.WriteEndElement();
+                //}
 
                 //Outras Info
                 {
                     if (dtNfce.InfoAdic != null)
                     {
                         xmlWriter.WriteStartElement("infAdic");
-                        
+
                         //concatenando
                         String tmp = "";
                         foreach (string s in dtNfce.InfoAdic)
@@ -256,7 +324,7 @@ namespace invoiceServerApp
 
                         xmlWriter.WriteElementString("infCpl", tmp.TrimStart().TrimEnd());
                         xmlWriter.WriteEndElement();
-                    } 
+                    }
                 }
 
                 xmlWriter.WriteEndElement();

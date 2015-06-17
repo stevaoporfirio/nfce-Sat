@@ -16,12 +16,14 @@ namespace invoiceServerApp
     class MakeXMLSAT
     {
         private DadosSAT dtSAT;
+        private CancelNFCE cancelSAT;
         private Utils.ConfigureXml config;
 
         private XmlTextWriter xmlWriter;
         public XmlDocument xmlDoc = new XmlDocument();
         public XmlDocument xmlDocAss = new XmlDocument();
         private StringWriter XmlString = new StringWriter();
+        public XmlDocument xmlCancel = new XmlDocument();
                 
         private CultureInfo ci = new CultureInfo("en-US");
 
@@ -36,6 +38,14 @@ namespace invoiceServerApp
             dtSAT = _dtSAT;
             
             processXml();
+        }
+        public MakeXMLSAT(CancelNFCE _cancelSAT, Utils.ConfigureXml _config)
+        {
+            config = _config;
+
+
+
+            processCancel(_cancelSAT);
         }
 
         public void processXml()
@@ -101,6 +111,7 @@ namespace invoiceServerApp
                         {                            
                             xmlWriter.WriteStartElement("MP");
                                 xmlWriter.WriteElementString("cMP", pg.Cod); //dtSAT.pgtsList[0].Cod);
+
                                 xmlWriter.WriteElementString("vMP", pg.Val); //(ttlProdutos - ttlDesc + vOutroRateioTtl).ToString("F2", ci));
                             xmlWriter.WriteEndElement();                            
                         }
@@ -356,6 +367,74 @@ namespace invoiceServerApp
             {
                 Utils.Logger.getInstance.error(e);
                 throw new Exception(e.ToString());
+            }
+        }
+        public void processCancel(CancelNFCE _cancelSAT)
+        {
+            try
+            {
+                //xmlSATImpressaoCancelamento = new XmlDocument();
+
+
+                //string fileCancel = String.Format("{0}{1}\\CFe{2}.xml", config.configMaquina.pathFiles, "\\enviados", _cancelSAT.chaveCancelamento);
+
+                //if (File.Exists(fileCancel))
+                //{   
+                //    this.xmlCancel.Load(fileCancel);
+                //}
+                //else
+                //{
+                //    throw new Exception("Arquivo XML CFe Original não encontrado em: " + fileCancel);
+                //}
+
+                xmlWriter = new XmlTextWriter(XmlString);
+
+                //cabeçalho
+                xmlWriter.WriteStartElement("CFeCanc");
+                xmlWriter.WriteStartElement("infCFe");
+                xmlWriter.WriteAttributeString("chCanc", "CFe" + _cancelSAT.chaveCancelamento);
+                xmlWriter.WriteStartElement("ide");
+                xmlWriter.WriteElementString("CNPJ", config.configSAT.CNPJ_SoftwareHouse);
+                xmlWriter.WriteElementString("signAC", config.configSAT.IDE_signAC);
+                xmlWriter.WriteElementString("numeroCaixa", config.configSAT.IDE_NumeroCaixa);
+                xmlWriter.WriteEndElement();
+
+                xmlWriter.WriteStartElement("emit");
+                xmlWriter.WriteEndElement();
+
+
+                xmlWriter.WriteStartElement("dest");
+                if (!(String.IsNullOrEmpty(_cancelSAT.cpf_cnpj)))
+                {
+                    if (_cancelSAT.tipoCli.Equals("F"))
+                        xmlWriter.WriteElementString("CPF", _cancelSAT.cpf_cnpj);
+                    else if (_cancelSAT.tipoCli.Equals("J"))
+                        xmlWriter.WriteElementString("CNPJ", _cancelSAT.cpf_cnpj);
+                }
+
+                xmlWriter.WriteEndElement();
+
+
+
+
+                xmlWriter.WriteStartElement("total");
+                xmlWriter.WriteEndElement();
+
+                xmlWriter.WriteEndElement();
+                xmlWriter.WriteEndElement();
+
+                xmlWriter.Close();
+
+               //XmlDocument xmlCancel = new XmlDocument();
+                xmlCancel.LoadXml(XmlString.ToString());
+
+                string xmlName = String.Format("{0}{1}\\{2}.xml", config.configMaquina.pathFiles, "\\gerados", String.Format("Cancelamento_{0}_{1}_{2}", _cancelSAT.chaveCancelamento, DateTime.Now.ToString("ddMMyyyy"), DateTime.Now.ToString("hhmmss")));
+                xmlCancel.Save(xmlName);
+
+            }
+            catch (Exception e)
+            {
+                Utils.Logger.getInstance.error(e);
             }
         }
 

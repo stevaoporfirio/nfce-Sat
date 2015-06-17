@@ -43,6 +43,7 @@
     <Compile Include="ConfigureSat.cs" />
     <Compile Include="ExceptionBussines.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="LoggerSAT.cs" />
     <Compile Include="MunicipiosBR.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="utils.cs" />

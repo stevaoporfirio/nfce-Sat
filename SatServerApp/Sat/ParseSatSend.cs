@@ -188,6 +188,7 @@ namespace invoiceServerApp
                 {
                     p.Cod = pgConfig.codNFCe;
                     p.Desc = pgConfig.descMicros;
+                    p.tBand = pgConfig.codBandNfce;
                     break;
                 }
             }
@@ -329,12 +330,15 @@ namespace invoiceServerApp
             string ret = "";
             try
             {
-                //CancelNFCE cancel = new CancelNFCE();
                 string[] dados = msg.Split('|');
-                //cancel.ID = dados[0];
+                
+                CancelNFCE cancel = new CancelNFCE();
+                cancel.printer = dados[0];
+                cancel.chaveCancelamento = dados[1];
+                cancel.tipoCli = dados[2];
+                cancel.cpf_cnpj = dados[3];
 
-
-                ret = processaDados.ProcessaCancel(dados[0],dados[1],dados[2],dados[3]);
+                ret = processaDados.ProcessaCancel(cancel);
                 
                 return ret;
 
@@ -363,13 +367,27 @@ namespace invoiceServerApp
         }
         public string ReImpressaoDanfe(string msg)
         {
-            string[] dados = msg.Split('|');
-            string numDanfe = dados[0];
-            string portaImpressora = dados[1];
-            //return processaDados.ReImpressaoDanfe(config, numDanfe, portaImpressora);
 
+            string ret = "";
+            try
+            {
+                string[] dados = msg.Split('|');
+                dtImprensao impressao = new dtImprensao();
+                impressao.chaveImpressao = dados[0];
+                impressao.portaImpressora = dados[1];
+                ret = processaDados.ReImpressaoDanfe(impressao);
+                return ret;
+
+            }
+            catch (Exception e)
+            {
+                Utils.Logger.getInstance.error(e);
+                throw e;
+            }            
+        }
+        public string DesbloqueioSat(string msg)
+        {
             return "";
-
         }
     }
 }

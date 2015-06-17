@@ -256,11 +256,13 @@ namespace EnviaSeFaz
                     {
                         retRejeiçao = getElementXml(retNode.FirstChild, "cStat");
                         retRejeiçaoMotivo = getElementXml(retNode.FirstChild, "xMotivo");
-                        throw new ApplicationException(retRejeiçaoMotivo);
+                        //throw new ApplicationException(retRejeiçaoMotivo);
                     }
 
                     if (retRejeiçao.Equals("105"))
                         System.Threading.Thread.Sleep(100000);
+                    else
+                        continue;
 
                 }
 

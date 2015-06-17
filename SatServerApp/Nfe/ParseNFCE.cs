@@ -160,12 +160,20 @@ namespace invoiceServerApp
                 {
                     p.Cod = pgConfig.codNFCe;
                     p.Desc = pgConfig.descMicros;
+                    p.tBand = pgConfig.codBandNfce;
+
                     break;
                 }
             }
 
             //p.Desc = dados[2];
             p.val = dados[3];
+            // pegar o nsu do bilhete e montar os grupo baseado no xml
+
+            if (dados.Length >= 5)
+                p.cAut = dados[4];
+            else
+                p.cAut = "";
 
             dtNfce.pgtsList.Add(p);           
             
@@ -345,6 +353,10 @@ namespace invoiceServerApp
             string portaImpressora = dados[1];
             return processaDados.ReImpressaoDanfe(config, numDanfe, portaImpressora);
             
+        }
+        public string DesbloqueioSat(string msg)
+        {
+            return "";
         }
     }
 }

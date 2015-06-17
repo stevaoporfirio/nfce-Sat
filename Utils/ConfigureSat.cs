@@ -185,6 +185,7 @@ namespace Utils
             public string IDE_signAC { get; set; }
             public string IDE_NumeroCaixa { get; set; }
             public string key_sat { get; set; }
+            public string CNPJCredenciadoraCartao { get; set; }
             //public bool isSat { get; set; }
 
             public void setData()
@@ -241,6 +242,7 @@ namespace Utils
             public string codMicros;
             public string descMicros;
             public string codNFCe;
+            public string codBandNfce;
         }
 
 
@@ -259,6 +261,7 @@ namespace Utils
             public string pathFiles { get; set; }
             public string IP { get; set; }
             public string Porta { get; set; }
+            public string CNPJCredenciadoraCartao { get; set; }
             public NFCePgtList PgtList = new NFCePgtList();
 
             public void setData()

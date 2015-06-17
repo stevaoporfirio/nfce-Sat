@@ -96,9 +96,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SAT2\DadosSAT.cs" />
+    <Compile Include="SAT2\gerenciadoSAT.cs" />
     <Compile Include="SAT2\ImpressaoSAT.cs" />
+    <Compile Include="SAT2\interfaceSAT.cs" />
     <Compile Include="SAT2\MakeXMLSAT.cs" />
     <Compile Include="SAT2\ProcessaSAT.cs" />
+    <Compile Include="SAT2\SatDimep.cs" />
     <Compile Include="SAT2\SatDLL.cs" />
     <Compile Include="Sat\ParseSatReceive.cs" />
     <Compile Include="Sat\ParseSatSend.cs" />

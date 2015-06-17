@@ -76,12 +76,23 @@ namespace invoiceServerApp
     {
         public string StringTEF { get; set; }
     }
-
+    class dtImprensao
+    {
+        public string printer { get; set; }
+        public string chaveImpressao { get; set; }
+        public string tipoCli { get; set; }
+        public string StringTEF { get; set; }
+        public string portaImpressora { get; set; }
+    }
     class CancelNFCE
     {
         public string WsID { get; set; }
         public string NumConta { get; set; }
         public string ID { get; set; }
+        public string printer { get; set; }
+        public string chaveCancelamento { get; set; }
+        public string tipoCli { get; set; }
+        public string cpf_cnpj { get; set; }
     }
     class InutilizacaoNFCE
     {
@@ -96,6 +107,8 @@ namespace invoiceServerApp
         public string Cod { get; set; }
         public string Desc { get; set; }
         public string val { get; set; }
+        public string cAut { get; set; }
+        public string tBand { get; set; }
     }
 
     class ItensNfce
