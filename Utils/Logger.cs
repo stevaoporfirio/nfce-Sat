@@ -13,10 +13,14 @@ namespace Utils
         private static readonly Logger instance = new Logger();
         private System.IO.StreamWriter file;
         private string name = Path.GetFileNameWithoutExtension(Environment.GetCommandLineArgs()[0]);
+
+        private ReaderWriterLockSlim _readWriteLock = new ReaderWriterLockSlim();
             
         private Object _Lock = new Object();
         private Object _LockFile = new Object();
+
         private Queue<string> queue = new Queue<string>();
+
         private Logger() { }
 
         
@@ -27,15 +31,15 @@ namespace Utils
                 return instance;
             }
         }
-        private void processLog()
+        private void processLog(Object state)
         {
+            _readWriteLock.EnterWriteLock();
 
-            while (queue.Count != 0)
+            while (queue.Count > 0)
             {
                 string msg = String.Empty;
                 lock (_Lock)
                 {
-                    if(queue.Count > 0)
                         msg = queue.Dequeue();
                 }
                 lock (_LockFile)
@@ -58,30 +62,35 @@ namespace Utils
                 }
             }
 
+            _readWriteLock.ExitWriteLock();
 
-          
         }
         private void startConsumer()
         {
-            Thread t = new Thread(new ThreadStart(processLog));
-            t.Start();
+            System.Threading.ThreadPool.QueueUserWorkItem(new System.Threading.WaitCallback(processLog));
+            //Thread t = new Thread(new ThreadStart(processLog));
+            //t.Start();
         }
         public void error(string msg)
         {
+            _readWriteLock.EnterWriteLock();
             lock (_Lock)
             {
                 queue.Enqueue(msg);
             }
             startConsumer();
+            _readWriteLock.ExitWriteLock();
            
         }
         public void error(Exception msg)
         {
+            _readWriteLock.EnterWriteLock();
             lock (_Lock)
             {
                 queue.Enqueue(msg.StackTrace);
             }
             startConsumer();
+            _readWriteLock.ExitWriteLock();
         }
     }
 }

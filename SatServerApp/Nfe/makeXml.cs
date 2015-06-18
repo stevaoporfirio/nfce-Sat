@@ -342,7 +342,7 @@ namespace invoiceServerApp
         {
             try
             {
-                Utils.Logger.getInstance.error("MakeXML.AddItens");
+                //Utils.Logger.getInstance.error("MakeXML.AddItens");
 
                 bool defineAcres = false;
 
@@ -366,7 +366,7 @@ namespace invoiceServerApp
 
                 }                
 
-                Utils.Logger.getInstance.error("MakeXML.AddItens -> Lista Itens: " + dtNfce.itensList.Count );               
+               // Utils.Logger.getInstance.error("MakeXML.AddItens -> Lista Itens: " + dtNfce.itensList.Count );               
 
                 vOutroRateioTtl = 0;
 
@@ -437,15 +437,15 @@ namespace invoiceServerApp
 
                                 vOutroRateioTtl += vOutroRateioItem;
 
-                                Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0}", vOutroRateioItem));
-                                Utils.Logger.getInstance.error(String.Format("vOutroRateioTtl: {0} | Acresc: {1}", vOutroRateioTtl, Acresc));
+                                //Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0}", vOutroRateioItem));
+                                //Utils.Logger.getInstance.error(String.Format("vOutroRateioTtl: {0} | Acresc: {1}", vOutroRateioTtl, Acresc));
 
                                 if (vOutroRateioTtl > Acresc)
                                 {
                                     vOutroRateioItem = vOutroRateioItem - (vOutroRateioTtl - Acresc);
                                     vOutroRateioTtl = vOutroRateioTtl - (vOutroRateioTtl - Acresc);
 
-                                    Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
+                                    //Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
                                 }   
 
                                 if ((Acresc > vOutroRateioTtl) && (dtNfce.itensList.Count == (countItem-1))) //acresc > ttlRateio e está no último item
@@ -453,7 +453,7 @@ namespace invoiceServerApp
                                     vOutroRateioItem = vOutroRateioItem + (Acresc - vOutroRateioTtl);
                                     vOutroRateioTtl = vOutroRateioTtl + (Acresc - vOutroRateioTtl);
 
-                                    Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
+                                    //Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
                                 }
 
                                 if (vOutroRateioItem > 0)
@@ -465,7 +465,7 @@ namespace invoiceServerApp
 
                         
 
-                        Utils.Logger.getInstance.error(String.Format("MakeXML.AddItens -> CST/ALIQ: {0} / {1}", item.CST, item.Valor_Aliquota));
+                        //Utils.Logger.getInstance.error(String.Format("MakeXML.AddItens -> CST/ALIQ: {0} / {1}", item.CST, item.Valor_Aliquota));
 
                     xmlWriter.WriteStartElement("imposto");
                         xmlWriter.WriteStartElement("ICMS");

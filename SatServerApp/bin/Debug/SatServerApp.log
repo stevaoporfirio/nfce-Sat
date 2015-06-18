@@ -8026,3 +8026,660 @@ RECONHECO A DIVIDA ACIMA
 06/17/2015 12:12:49 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-17T12:12:57-03:00</dhRecbto><infRec><nRec>431065001805565</nRec><tMed>1</tMed></infRec></retEnviNFe>
 06/17/2015 12:12:50 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001805565</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-17T12:12:57-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000081000000080</chNFe><dhRecbto>2015-06-17T12:12:57-03:00</dhRecbto><nProt>143150000590845</nProt><digVal>HOes7kvPimi5/uX678y0gvYNz18=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
 06/17/2015 12:12:50 :13672: impressora: 172.35.207.4
+06/18/2015 14:19:42 :iniciando
+06/18/2015 14:22:00 :ParseNFCE id: 13673
+06/18/2015 14:22:00 :id: 13673
+06/18/2015 14:22:00 :msg: H1||||||||||||
+H2|1|1|3673|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3673 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|200|PGT|6.16|
+?T1|                 CIELO
+         VENDA PRIVATE LABEL
+
+        448799******0154-12/15
+1a VIA-CLIENTE           AUT=180011
+DOC=180011  18/06/15     14:22 ONL-X
+VENDA A CREDITO
+VALOR:                  6,16
+ 
+Mensagem de
+final de cupom!
+ 
+                               (SiTef)
+ 
+|                 CIELO
+         VENDA PRIVATE LABEL
+
+        448799******0154-12/15
+2a VIA-ESTABELECIMENTO   AUT=180011
+0020000080750001/PDV=24000002
+DOC=180011  18/06/15     14:22 ONL-X
+VENDA A CREDITO
+VALOR:                  6,16
+ 
+Mensagem de
+final de cupom!
+ 
+______________________________________
+ 
+                               (SiTef)
+ 
+
+06/18/2015 14:22:00 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 14:22:31 :2RS201411141702107Servico em Operacao432015-06-18T14:22:40-03:001
+06/18/2015 14:22:32 :MakeXML.AddItens
+06/18/2015 14:22:32 :vOutroRateioItem: 1,12
+06/18/2015 14:22:32 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 14:22:32 :MakeXML.AddItens -> Lista Itens: 1
+06/18/2015 14:22:32 :defineAcres: True
+06/18/2015 14:22:32 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+06/18/2015 14:22:32 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+06/18/2015 14:22:34 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T14:22:43-03:00</dhRecbto><infRec><nRec>431065001821506</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 14:22:34 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001821506</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T14:22:43-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000091000000095</chNFe><dhRecbto>2015-06-18T14:22:43-03:00</dhRecbto><nProt>143150000598363</nProt><digVal>YZbIHojrVA96PK9kDMhDBfR0NyQ=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 14:22:35 :13673: impressora: 172.35.207.4
+06/18/2015 14:26:21 :ParseNFCE id: 13674
+06/18/2015 14:26:21 :id: 13674
+06/18/2015 14:26:21 :msg: H1||||||||||||
+H2|1|1|3674|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3674 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|200|PGT|12.32|180014
+?T1|                 CIELO
+         VENDA PRIVATE LABEL
+
+        448799******0154-12/15
+1a VIA-CLIENTE           AUT=180014
+DOC=180014  18/06/15     14:26 ONL-X
+VENDA A CREDITO
+VALOR:                 12,32
+ 
+Mensagem de
+final de cupom!
+ 
+                               (SiTef)
+ 
+|                 CIELO
+         VENDA PRIVATE LABEL
+
+        448799******0154-12/15
+2a VIA-ESTABELECIMENTO   AUT=180014
+0020000080750001/PDV=24000002
+DOC=180014  18/06/15     14:26 ONL-X
+VENDA A CREDITO
+VALOR:                 12,32
+ 
+Mensagem de
+final de cupom!
+ 
+______________________________________
+ 
+                               (SiTef)
+ 
+
+06/18/2015 14:26:21 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 14:26:21 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 14:26:22 :2RS201411141702107Servico em Operacao432015-06-18T14:26:30-03:001
+06/18/2015 14:26:22 :MakeXML.AddItens
+06/18/2015 14:26:22 :vOutroRateioTtl: 1,12 | Acresc: 1,12
+06/18/2015 14:26:22 :vOutroRateioItem: 2,24
+06/18/2015 14:26:22 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 14:26:22 :vOutroRateioItem: 1,12
+06/18/2015 14:26:22 :MakeXML.AddItens -> Lista Itens: 2
+06/18/2015 14:26:22 :defineAcres: True
+06/18/2015 14:26:22 :defineAcres: True
+06/18/2015 14:26:22 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 1,12
+06/18/2015 14:26:22 :vOutroRateioTtl: 3,36 | Acresc: 1,12
+06/18/2015 14:26:22 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 14:26:27 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T14:26:36-03:00</dhRecbto><infRec><nRec>431065001821550</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 14:26:28 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001821550</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T14:26:36-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000101000000100</chNFe><dhRecbto>2015-06-18T14:26:36-03:00</dhRecbto><nProt>143150000598383</nProt><digVal>DLyo8yexA4bryxSHUwkVejIEYxU=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 14:26:28 :13674: impressora: 172.35.207.4
+06/18/2015 15:03:38 :iniciando
+06/18/2015 15:04:32 :ParseNFCE id: 13675
+06/18/2015 15:04:32 :id: 13675
+06/18/2015 15:04:32 :msg: H1||||||||||||
+H2|1|1|3675|0|da Silva|36.96|172.35.207.4
+H3||WS: 1 / Conta: 3675 / Mesa: 0 / Emp.: da Silva \ Imp F: 49.50(13.00%) E: 62.70(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|PGT|500.00|
+?T1||
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:04:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 15:04:34 :2RS201411141702107Servico em Operacao432015-06-18T15:04:43-03:001
+06/18/2015 15:04:34 :MakeXML.AddItens
+06/18/2015 15:04:34 :MakeXML.AddItens -> Lista Itens: 66
+06/18/2015 15:04:34 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 1,12
+06/18/2015 15:04:35 :vOutroRateioTtl: 1,12 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 2,24
+06/18/2015 15:04:35 :vOutroRateioTtl: 3,36 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 4,48
+06/18/2015 15:04:35 :vOutroRateioTtl: 7,84 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 8,96
+06/18/2015 15:04:35 :vOutroRateioTtl: 16,80 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 17,92
+06/18/2015 15:04:35 :vOutroRateioTtl: 34,72 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 35,84
+06/18/2015 15:04:35 :vOutroRateioTtl: 70,56 | Acresc: 36,96
+06/18/2015 15:04:35 :vOutroRateioItem: 2,24 | vOutroRateioTtl: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 4,48
+06/18/2015 15:04:35 :vOutroRateioTtl: 41,44 | Acresc: 36,96
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00 | vOutroRateioTtl: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:35 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:35 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:35 :defineAcres: True
+06/18/2015 15:04:35 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:36 :defineAcres: True
+06/18/2015 15:04:36 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:36 :defineAcres: True
+06/18/2015 15:04:36 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:36 :defineAcres: True
+06/18/2015 15:04:36 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:36 :defineAcres: True
+06/18/2015 15:04:36 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:36 :defineAcres: True
+06/18/2015 15:04:36 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:36 :defineAcres: True
+06/18/2015 15:04:36 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:36 :defineAcres: True
+06/18/2015 15:04:36 :vOutroRateioItem: 0,00
+06/18/2015 15:04:36 :vOutroRateioTtl: 36,96 | Acresc: 36,96
+06/18/2015 15:04:36 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+06/18/2015 15:04:48 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:04:58-03:00</dhRecbto><infRec><nRec>431065001821925</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 15:04:49 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001821925</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:04:58-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000111000000115</chNFe><dhRecbto>2015-06-18T15:04:58-03:00</dhRecbto><nProt>143150000598524</nProt><digVal>0NBXcPe6JJBImPTBZflRDaqajbs=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 15:04:49 :13675: impressora: 172.35.207.4
+06/18/2015 15:06:24 :iniciando
+06/18/2015 15:08:50 :ParseNFCE id: 64278
+06/18/2015 15:08:50 :id: 64278
+06/18/2015 15:08:50 :msg: H1|||||||||||
+H2|1|64|276|0|MICROS|0|172.35.207.4
+H3||Conta: 276 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|2|Cartao|5.00
+P|1|Dinheiro|10.00
+?T1|
+H1|||||||||||
+H2|1|64|277|0|MICROS|0|172.35.207.4
+H3||Conta: 277 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1|
+H1|||||||||||
+H2|1|64|278|0|MICROS|0|172.35.207.4
+H3||Conta: 278 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00|
+?T1|
+
+06/18/2015 15:08:50 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/18/2015 15:08:52 :2RS201411141702107Servico em Operacao432015-06-18T15:09:01-03:001
+06/18/2015 15:08:54 :MakeXML.AddItens
+06/18/2015 15:08:54 :MakeXML.AddItens -> Lista Itens: 1
+06/18/2015 15:08:54 :defineAcres: False
+06/18/2015 15:08:54 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+06/18/2015 15:09:08 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:09:18-03:00</dhRecbto><infRec><nRec>431065001821969</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 15:10:38 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001821969</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:09:18-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000121000000120</chNFe><dhRecbto>2015-06-18T15:09:18-03:00</dhRecbto><nProt>143150000598547</nProt><digVal>4Ui7wE1fYft5Dvo8KDQNZ3n1XFs=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 15:10:58 :64278: impressora: 172.35.207.4
+06/18/2015 15:15:49 :iniciando
+06/18/2015 15:16:05 :ParseNFCE id: 13676
+06/18/2015 15:16:05 :id: 13676
+06/18/2015 15:16:05 :msg: H1||||||||||||
+H2|1|1|3676|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3676 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+06/18/2015 15:16:05 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:16:09 :2RS201411141702107Servico em Operacao432015-06-18T15:16:19-03:001
+06/18/2015 15:16:14 :defineAcres: True
+06/18/2015 15:16:17 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:16:25-03:00</dhRecbto><infRec><nRec>431065001822044</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 15:16:18 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001822044</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:16:25-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000131000000136</chNFe><dhRecbto>2015-06-18T15:16:25-03:00</dhRecbto><nProt>143150000598581</nProt><digVal>huIOt9CMW5aP3phWtbSXTb78xm0=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 15:16:18 :13676: impressora: 172.35.207.4
+06/18/2015 15:17:16 :ParseNFCE id: 13677
+06/18/2015 15:17:16 :id: 13677
+06/18/2015 15:17:16 :msg: H1||||||||||||
+H2|1|1|3677|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3677 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+06/18/2015 15:17:16 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 15:17:16 :2RS201411141702107Servico em Operacao432015-06-18T15:17:25-03:001
+06/18/2015 15:17:17 :defineAcres: True
+06/18/2015 15:17:18 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:17:27-03:00</dhRecbto><infRec><nRec>431065001822061</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 15:17:18 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001822061</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:17:27-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000141000000141</chNFe><dhRecbto>2015-06-18T15:17:27-03:00</dhRecbto><nProt>143150000598585</nProt><digVal>U3Req1oILFP5JJkvdxRhb1CdPpM=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 15:17:18 :13677: impressora: 172.35.207.4
+06/18/2015 15:18:18 :ParseNFCE id: 64279
+06/18/2015 15:18:18 :id: 64279
+06/18/2015 15:18:18 :msg: H1|||||||||||
+H2|1|64|276|0|MICROS|0|172.35.207.4
+H3||Conta: 276 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|2|Cartao|5.00
+P|1|Dinheiro|10.00
+?T1|
+H1|||||||||||
+H2|1|64|277|0|MICROS|0|172.35.207.4
+H3||Conta: 277 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1|
+H1|||||||||||
+H2|1|64|278|0|MICROS|0|172.35.207.4
+H3||Conta: 278 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1|
+H1|||||||||||
+H2|1|64|279|0|MICROS|0|172.35.207.4
+H3||Conta: 279 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00|
+?T1|
+
+06/18/2015 15:18:18 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/18/2015 15:18:18 :2RS201411141702107Servico em Operacao432015-06-18T15:18:27-03:001
+06/18/2015 15:18:18 :defineAcres: False
+06/18/2015 15:18:19 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:18:28-03:00</dhRecbto><infRec><nRec>431065001822069</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 15:18:19 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001822069</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:18:28-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000151000000157</chNFe><dhRecbto>2015-06-18T15:18:28-03:00</dhRecbto><nProt>143150000598591</nProt><digVal>tRs7jsv8kEPxMb1WRauxQO4Z4FI=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 15:18:19 :64279: impressora: 172.35.207.4
+06/18/2015 15:20:17 :ParseNFCE id: 64280
+06/18/2015 15:20:17 :id: 64280
+06/18/2015 15:20:17 :msg: H1|||||||||||
+H2|1|64|276|0|MICROS|0|172.35.207.4
+H3||Conta: 276 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|2|Cartao|5.00
+P|1|Dinheiro|10.00
+?T1|
+H1|||||||||||
+H2|1|64|277|0|MICROS|0|172.35.207.4
+H3||Conta: 277 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1|
+H1|||||||||||
+H2|1|64|278|0|MICROS|0|172.35.207.4
+H3||Conta: 278 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1|
+H1|||||||||||
+H2|1|64|279|0|MICROS|0|172.35.207.4
+H3||Conta: 279 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1|
+H1|||||||||||
+H2|1|64|280|0|MICROS|0|172.35.207.4
+H3||Conta: 280 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00|
+?T1|
+
+06/18/2015 15:20:17 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/18/2015 15:20:18 :2RS201411141702107Servico em Operacao432015-06-18T15:20:27-03:001
+06/18/2015 15:20:19 :defineAcres: False
+06/18/2015 15:20:20 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:20:29-03:00</dhRecbto><infRec><nRec>431065001822092</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 15:20:20 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001822092</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:20:29-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000161000000162</chNFe><dhRecbto>2015-06-18T15:20:29-03:00</dhRecbto><nProt>143150000598600</nProt><digVal>l896FLfVVbH3e+hizRi3MxRv/uY=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 15:20:20 :64280: impressora: 172.35.207.4
+06/18/2015 15:25:03 :iniciando
