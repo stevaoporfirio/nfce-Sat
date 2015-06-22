@@ -17,6 +17,7 @@
         </NFCePgt>
       </ListPgt>
     </PgtList>
+	
     <isServidor>false</isServidor>
     <tipoIntegracao>NFCe</tipoIntegracao>
     <impressao>Servidor</impressao>
