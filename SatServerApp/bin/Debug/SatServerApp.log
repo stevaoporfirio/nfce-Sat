@@ -8683,3 +8683,50 @@ P|1|Dinheiro|20.00|
 06/18/2015 15:20:20 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001822092</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T15:20:29-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000161000000162</chNFe><dhRecbto>2015-06-18T15:20:29-03:00</dhRecbto><nProt>143150000598600</nProt><digVal>l896FLfVVbH3e+hizRi3MxRv/uY=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
 06/18/2015 15:20:20 :64280: impressora: 172.35.207.4
 06/18/2015 15:25:03 :iniciando
+06/18/2015 15:29:38 :iniciando
+06/18/2015 17:02:56 :iniciando
+06/18/2015 17:09:50 :ParseNFCE id: 13679
+06/18/2015 17:09:50 :id: 13679
+06/18/2015 17:09:50 :msg: H1||||||||||||
+H2|1|1|3679|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3679 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+06/18/2015 17:09:50 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 17:09:53 :2RS201411141702107Servico em Operacao432015-06-18T17:10:02-03:001
+06/18/2015 17:09:53 :defineAcres: True
+06/18/2015 17:09:54 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:10:03-03:00</dhRecbto><infRec><nRec>431065001824018</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 17:09:54 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001824018</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:10:03-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000171000000178</chNFe><dhRecbto>2015-06-18T17:10:03-03:00</dhRecbto><nProt>143150000599848</nProt><digVal>xVlwvCdfxsQGCu00oI34vH3k78M=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 17:09:54 :13679: impressora: 172.35.207.4
+06/18/2015 17:12:48 :ParseNFCE id: 13680
+06/18/2015 17:12:48 :id: 13680
+06/18/2015 17:12:48 :msg: H1||||||||||||
+H2|1|1|3680|0|da Silva|1.12|172.35.207.4
+H3||WS: 1 / Conta: 3680 / Mesa: 0 / Emp.: da Silva \ Imp F: 1.50(13.00%) E: 1.90(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+P|101|PGT|20.00|
+?T1||
+06/18/2015 17:12:48 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 17:12:48 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00|21069090
+06/18/2015 17:12:57 :2RS201411141702107Servico em Operacao432015-06-18T17:13:04-03:001
+06/18/2015 17:13:03 :defineAcres: True
+06/18/2015 17:13:03 :defineAcres: True
+06/18/2015 17:13:06 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:13:16-03:00</dhRecbto><infRec><nRec>431065001824044</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 17:13:07 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001824044</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:13:15-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000181000000183</chNFe><dhRecbto>2015-06-18T17:13:15-03:00</dhRecbto><nProt>143150000599855</nProt><digVal>VF3rUDshcxW5mZJL7XR+3zLf0N8=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 17:13:08 :13680: impressora: 172.35.207.4
+06/18/2015 17:20:26 :ParseNFCE id: 13681
+06/18/2015 17:20:26 :id: 13681
+06/18/2015 17:20:26 :msg: H1||||||||||||
+H2|1|1|3681|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3681 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+06/18/2015 17:20:26 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/18/2015 17:20:28 :2RS201411141702107Servico em Operacao432015-06-18T17:20:36-03:001
+06/18/2015 17:20:28 :defineAcres: True
+06/18/2015 17:20:30 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:20:40-03:00</dhRecbto><infRec><nRec>431065001824106</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/18/2015 17:20:31 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001824106</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:20:39-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000191000000199</chNFe><dhRecbto>2015-06-18T17:20:39-03:00</dhRecbto><nProt>143150000599877</nProt><digVal>Z4rOC+gXve4KvOF63Jl7xYswBno=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/18/2015 17:20:31 :13681: impressora: 172.35.207.4

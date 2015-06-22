@@ -14,6 +14,7 @@ namespace Utils
             
         private Object _Lock = new Object();
         private Object _LockFile = new Object();
+        private ReaderWriterLockSlim _readWriteLock = new ReaderWriterLockSlim();
         private Queue<string> queue = new Queue<string>();
         private LoggerSAT() { }
 
@@ -25,8 +26,9 @@ namespace Utils
                 return instance;
             }
         }
-        private void processLog()
+        private void processLog(Object state)
         {
+            _readWriteLock.EnterWriteLock();
 
             while (queue.Count != 0)
             {
@@ -57,29 +59,32 @@ namespace Utils
             }
 
 
-          
+            _readWriteLock.ExitWriteLock();
         }
         private void startConsumer()
         {
-            Thread t = new Thread(new ThreadStart(processLog));
-            t.Start();
+            System.Threading.ThreadPool.QueueUserWorkItem(new System.Threading.WaitCallback(processLog));
         }
         public void error(string msg)
         {
+            _readWriteLock.EnterWriteLock();
             lock (_Lock)
             {
                 queue.Enqueue(msg);
             }
             startConsumer();
+            _readWriteLock.ExitWriteLock();
            
         }
         public void error(Exception msg)
         {
+            _readWriteLock.EnterWriteLock();
             lock (_Lock)
             {
                 queue.Enqueue(msg.StackTrace);
             }
             startConsumer();
+            _readWriteLock.ExitWriteLock();
         }
 
     }
