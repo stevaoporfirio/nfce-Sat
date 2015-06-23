@@ -34,6 +34,17 @@ namespace invoiceServerApp
                 CreateDir();
                 gerenSAT = new gerenciadoSAT(config);
 
+                try
+                {
+                    gerenSAT.DesbloquearSATBase(gerenSAT.generatorKey(), config.configSAT.ChaveAtivacao);
+                    //Utils.Logger.getInstance.error("desbloqueio sat: " + retorno);
+                }
+                catch (Exception exceptionSATDll)
+                {
+                    throw new Exception("Erro enviando comando de Venda " + exceptionSATDll.Message);
+                }
+                
+
             }
             catch (Exception ex)
             {

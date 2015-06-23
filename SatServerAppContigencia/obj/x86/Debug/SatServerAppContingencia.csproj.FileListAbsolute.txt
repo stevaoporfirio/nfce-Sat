@@ -49,3 +49,20 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csproj.GenerateResource.Cache
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.exe
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.exe.config
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\SatServerApp.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\bin\Debug\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\obj\x86\Debug\invoiceServerApp.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.pdb

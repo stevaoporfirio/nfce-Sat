@@ -1,0 +1,28 @@
+06/22/2015 19:17:57 :iniciando
+06/22/2015 19:17:57 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Program.cs:linha 23
+06/22/2015 19:17:58 :System.IO.IOException: O processo não pode acessar o arquivo 'C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\bin\Release\AppConfig.xml' porque ele está sendo usado por outro processo.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   em System.IO.StreamWriter..ctor(String path)
+   em Utils.ReadConfigure.WriteXML() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\XmlConfigure.cs:linha 25
+06/22/2015 19:17:58 :System.Exception: System.IO.IOException: O processo não pode acessar o arquivo 'C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\bin\Release\AppConfig.xml' porque ele está sendo usado por outro processo.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   em System.IO.StreamWriter..ctor(String path)
+   em Utils.ReadConfigure.WriteXML() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\XmlConfigure.cs:linha 25
+   em Utils.ReadConfigure.WriteXML() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\XmlConfigure.cs:linha 33
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\XmlConfigure.cs:linha 48
+   em invoiceServerApp.Datamanager..ctor() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Datamanager.cs:linha 30

@@ -8730,4 +8730,147 @@ P|101|PGT|10.00|
 06/18/2015 17:20:30 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:20:40-03:00</dhRecbto><infRec><nRec>431065001824106</nRec><tMed>1</tMed></infRec></retEnviNFe>
 06/18/2015 17:20:31 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001824106</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-18T17:20:39-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000191000000199</chNFe><dhRecbto>2015-06-18T17:20:39-03:00</dhRecbto><nProt>143150000599877</nProt><digVal>Z4rOC+gXve4KvOF63Jl7xYswBno=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
 06/18/2015 17:20:31 :13681: impressora: 172.35.207.4
+<<<<<<< HEAD
 06/22/2015 18:37:27 :iniciando
+=======
+06/22/2015 10:03:31 :iniciando
+06/22/2015 10:03:35 :   em System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   em invoiceServerApp.ServerSocket.StartListening() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Server\ServerSocket.cs:linha 75
+06/22/2015 10:27:46 :iniciando
+06/22/2015 10:40:30 :ParseNFCE id: 64293
+06/22/2015 10:40:30 :id: 64293
+06/22/2015 10:40:30 :msg: H1|||||||||||
+H2|1|64|293|0|MICROS|0|172.35.207.4
+H3||Conta: 293 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+06/22/2015 10:40:30 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/22/2015 10:40:34 :2RS201411141702107Servico em Operacao432015-06-22T10:45:16-03:001
+06/22/2015 10:40:35 :   em invoiceServerApp.MicrosDB.SendSelectOneResultQueries(String q, Boolean erroOnNull) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\MicrosDB.cs:linha 108
+   em invoiceServerApp.ManagerDB.SelectMaxNFCE(Int32 _serie) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\ManagerDB.cs:linha 33
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 653
+06/22/2015 10:40:35 :   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 671
+   em invoiceServerApp.makeXml.processXml() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 60
+06/22/2015 10:40:35 :64293: System.Exception: System.Exception: System.Data.Odbc.OdbcException: ERROR [42S02] [Sybase][ODBC Driver][Adaptive Server Anywhere]Table 'nfce_dados' not found
+   em invoiceServerApp.MicrosDB.SendSelectOneResultQueries(String q, Boolean erroOnNull) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\MicrosDB.cs:linha 108
+   em invoiceServerApp.ManagerDB.SelectMaxNFCE(Int32 _serie) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\ManagerDB.cs:linha 33
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 653
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 671
+   em invoiceServerApp.makeXml.processXml() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 60
+   em invoiceServerApp.makeXml.processXml() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 78
+   em invoiceServerApp.makeXml..ctor(DadosNfce _dtNfce, ConfigureXml _config, X509Certificate2 _cert) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 47
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\ProcessaNfce.cs:linha 149
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+06/22/2015 10:46:39 :ParseNFCE id: 64296
+06/22/2015 10:46:39 :id: 64296
+06/22/2015 10:46:39 :msg: H1|||||||||||
+H2|1|64|296|0|MICROS|0|172.35.207.4
+H3||Conta: 296 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+06/22/2015 10:46:39 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/22/2015 10:46:39 :2RS201411141702107Servico em Operacao432015-06-22T10:51:21-03:001
+06/22/2015 10:46:39 :   em invoiceServerApp.MicrosDB.SendSelectOneResultQueries(String q, Boolean erroOnNull) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\MicrosDB.cs:linha 108
+   em invoiceServerApp.ManagerDB.SelectMaxNFCE(Int32 _serie) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\ManagerDB.cs:linha 33
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 653
+06/22/2015 10:46:39 :   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 671
+   em invoiceServerApp.makeXml.processXml() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 60
+06/22/2015 10:46:39 :64296: System.Exception: System.Exception: System.Data.Odbc.OdbcException: ERROR [42S02] [Sybase][ODBC Driver][Adaptive Server Anywhere]Table 'nfce_dados' not found
+   em invoiceServerApp.MicrosDB.SendSelectOneResultQueries(String q, Boolean erroOnNull) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\MicrosDB.cs:linha 108
+   em invoiceServerApp.ManagerDB.SelectMaxNFCE(Int32 _serie) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\ManagerDB.cs:linha 33
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 653
+   em invoiceServerApp.makeXml.gerarSequenceNumberNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 671
+   em invoiceServerApp.makeXml.processXml() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 60
+   em invoiceServerApp.makeXml.processXml() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 78
+   em invoiceServerApp.makeXml..ctor(DadosNfce _dtNfce, ConfigureXml _config, X509Certificate2 _cert) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\makeXml.cs:linha 47
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\ProcessaNfce.cs:linha 149
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+06/22/2015 10:48:16 :desbloqueio sat: 451794|17001|CÃ³digo de ativaÃ§Ã£o invÃ¡lido.||
+06/22/2015 10:48:16 :ParseSatSend id: 64296
+06/22/2015 10:48:16 :id: 64296
+06/22/2015 10:48:16 :msg: H1|||||||||||
+H2|1|64|296|0|MICROS|0|172.35.207.4
+H3||Conta: 296 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+06/22/2015 10:48:16 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/22/2015 10:48:16 :MakeXML.AddItens
+06/22/2015 10:48:16 :MakeXML.AddItens -> Lista Itens: 1
+06/22/2015 10:48:16 :defineAcres: False
+06/22/2015 10:48:16 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+06/22/2015 10:48:17 :64296: System.Exception: Erro em Processa SAT || Erro processando SAT 060010000CÃ³digo de ativaÃ§Ã£o invÃ¡lido.||
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Sat\ParseSatSend.cs:linha 122
+06/22/2015 10:49:35 :iniciando
+06/22/2015 10:53:33 :desbloqueio sat: 438348|17002|SAT bloqueado pelo contribuinte. Verifique configuraÃ§Ãµes na SEFAZ||
+06/22/2015 10:53:33 :ParseSatSend id: 64297
+06/22/2015 10:53:33 :id: 64297
+06/22/2015 10:53:33 :msg: H1|||||||||||
+H2|1|64|297|0|MICROS|0|172.35.207.4
+H3||Conta: 297 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+06/22/2015 10:53:33 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/22/2015 10:53:33 :MakeXML.AddItens
+06/22/2015 10:53:33 :MakeXML.AddItens -> Lista Itens: 1
+06/22/2015 10:53:33 :defineAcres: False
+06/22/2015 10:53:33 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+06/22/2015 10:53:33 :64297: System.Exception: Erro em Processa SAT || Erro processando SAT 060080000SAT bloqueado por falta de comunicaÃ§Ã£o||
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Sat\ParseSatSend.cs:linha 122
+06/22/2015 10:54:14 :ParseSatSend id: 64297
+06/22/2015 10:54:15 :id: 64297
+06/22/2015 10:54:15 :msg: H1|||||||||||
+H2|1|64|297|0|MICROS|0|172.35.207.4
+H3||Conta: 297 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|100.00
+?T1||
+06/22/2015 10:54:15 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/22/2015 10:54:15 :MakeXML.AddItens
+06/22/2015 10:54:15 :MakeXML.AddItens -> Lista Itens: 1
+06/22/2015 10:54:15 :defineAcres: False
+06/22/2015 10:54:15 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+06/22/2015 10:54:15 :64297: System.Exception: Erro em Processa SAT || Erro processando SAT 060080000SAT bloqueado por falta de comunicaÃ§Ã£o||
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Sat\ParseSatSend.cs:linha 122
+06/22/2015 10:54:57 :ParseSatSend id: 64297
+06/22/2015 10:55:00 :id: 64297
+06/22/2015 10:55:01 :msg: H1|||||||||||
+H2|1|64|297|0|MICROS|0|172.35.207.4
+H3||Conta: 297 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+06/22/2015 10:55:17 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+06/22/2015 10:55:17 :MakeXML.AddItens
+06/22/2015 10:55:17 :MakeXML.AddItens -> Lista Itens: 1
+06/22/2015 10:55:17 :defineAcres: False
+06/22/2015 10:55:17 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+06/22/2015 10:55:17 :64297: System.Exception: Erro em Processa SAT || Erro processando SAT 060080000SAT bloqueado por falta de comunicaÃ§Ã£o||
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Sat\ParseSatSend.cs:linha 122
+06/22/2015 11:25:23 :iniciando
+06/22/2015 11:27:23 :iniciando
+06/22/2015 11:31:53 :iniciando
+06/22/2015 11:36:40 :iniciando
+06/22/2015 11:38:47 :iniciando
+06/22/2015 11:48:35 :iniciando
+06/22/2015 11:49:36 :System.Exception: Erro enviando comando de Venda Não é possível carregar a DLL 'SATDLL.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)
+   em invoiceServerApp.ProcessaSAT..ctor(CallbackStatusInterface callStatus, ConfigureXml _config) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\SAT2\ProcessaSAT.cs:linha 51
+   em invoiceServerApp.ParseSatSend..ctor(String _id, ConfigureXml _config) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Sat\ParseSatSend.cs:linha 62
+   em invoiceServerApp.invoiceImplemention.NotificationChangedClient(String _id, String _receive) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\invoiceImplemention.cs:linha 32
+   em invoiceServerApp.ServerSocket.ReceiveChanged(String _id, Socket socketClient, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Server\ServerSocket.cs:linha 165
+   em invoiceServerApp.ServerSocket.ReadCallback(IAsyncResult ar) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Server\ServerSocket.cs:linha 128
+06/22/2015 11:56:39 :System.Exception: Erro enviando comando de Venda Não é possível carregar a DLL 'SATDLL.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)
+   em invoiceServerApp.ProcessaSAT..ctor(CallbackStatusInterface callStatus, ConfigureXml _config) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\SAT2\ProcessaSAT.cs:linha 51
+   em invoiceServerApp.ParseSatSend..ctor(String _id, ConfigureXml _config) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Sat\ParseSatSend.cs:linha 62
+   em invoiceServerApp.invoiceImplemention.NotificationChangedClient(String _id, String _receive) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\invoiceImplemention.cs:linha 32
+   em invoiceServerApp.ServerSocket.ReceiveChanged(String _id, Socket socketClient, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Server\ServerSocket.cs:linha 165
+   em invoiceServerApp.ServerSocket.ReadCallback(IAsyncResult ar) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Server\ServerSocket.cs:linha 128
+>>>>>>> origin/master

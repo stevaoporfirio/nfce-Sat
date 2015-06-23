@@ -12,3 +12,17 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.csproj.GenerateResource.Cache
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.exe
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\bin\Release\NFCE_Status.exe.config
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\bin\Release\NFCE_Status.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\bin\Release\NFCE_Status.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\bin\Release\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\bin\Release\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\bin\Release\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\bin\Release\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.FormMain.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Release\NFCE_Status.pdb
