@@ -8874,3 +8874,47 @@ P|1|Dinheiro|20.00
    em invoiceServerApp.ServerSocket.ReceiveChanged(String _id, Socket socketClient, String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Server\ServerSocket.cs:linha 165
    em invoiceServerApp.ServerSocket.ReadCallback(IAsyncResult ar) na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Server\ServerSocket.cs:linha 128
 >>>>>>> origin/master
+06/23/2015 11:50:39 :iniciando
+06/23/2015 11:50:58 :ParseNFCE id: 13692
+06/23/2015 11:50:58 :id: 13692
+06/23/2015 11:50:58 :msg: H1||||||||||||
+H2|1|1|3692|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3692 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+06/23/2015 11:50:58 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/23/2015 11:50:59 :2RS201411141702107Servico em Operacao432015-06-23T11:51:14-03:001
+06/23/2015 11:51:00 :defineAcres: True
+06/23/2015 11:51:12 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-23T11:51:20-03:00</dhRecbto><infRec><nRec>431065001883369</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/23/2015 11:51:12 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001883369</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-23T11:51:20-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000201000000203</chNFe><dhRecbto>2015-06-23T11:51:20-03:00</dhRecbto><nProt>143150000622068</nProt><digVal>cyK5XJ9T7X3/KnKasbFX2gMhxto=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/23/2015 11:51:17 :13692: impressora: 172.35.207.4
+06/23/2015 11:52:24 :ParseNFCE id: 13693
+06/23/2015 11:52:24 :id: 13693
+06/23/2015 11:52:24 :msg: H1||||||||||||
+H2|1|1|3693|0|da Silva|0.50|172.35.207.4
+H3||WS: 1 / Conta: 3693 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|6007|Caramel Steamer |1|5.00|5.00|8.4000|0.00-|UN 5.00 
+P|101|Dinheiro    |5.00|
+P|101|PGT|2.00|
+?T1||
+06/23/2015 11:52:24 :ParseAddItem -> I|6007|Caramel Steamer |1|5.00|5.00|8.4000|0.00-|UN 5.00 
+06/23/2015 11:52:24 :2RS201411141702107Servico em Operacao432015-06-23T11:52:39-03:001
+06/23/2015 11:52:24 :defineAcres: True
+06/23/2015 11:52:43 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-23T11:52:45-03:00</dhRecbto><infRec><nRec>431065001883392</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/23/2015 11:53:25 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001883392</nRec><cStat>225</cStat><xMotivo>Rejeicao: Falha no Schema XML do lote de NFe (Elemento: enviNFe/NFe[1]/infNFe/det[1]/prod/NCM)</xMotivo><cUF>43</cUF><dhRecbto>2015-06-23T11:52:45-03:00</dhRecbto></retConsReciNFe>
+06/23/2015 12:04:28 :iniciando
+06/23/2015 12:04:31 :ParseNFCE id: 13693
+06/23/2015 12:04:31 :id: 13693
+06/23/2015 12:04:31 :msg: H1||||||||||||
+H2|1|1|3693|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3693 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(7.00%) E: 0.95(9.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+06/23/2015 12:04:31 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+06/23/2015 12:04:32 :2RS201411141702107Servico em Operacao432015-06-23T12:04:47-03:001
+06/23/2015 12:04:32 :defineAcres: True
+06/23/2015 12:04:34 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-06-23T12:04:49-03:00</dhRecbto><infRec><nRec>431065001883523</nRec><tMed>1</tMed></infRec></retEnviNFe>
+06/23/2015 12:04:35 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065001883523</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-06-23T12:04:49-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150621877073000489650050000000221000000224</chNFe><dhRecbto>2015-06-23T12:04:49-03:00</dhRecbto><nProt>143150000622155</nProt><digVal>eZVCMU/JeKa2dW+TVKnKbQquDBM=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+06/23/2015 12:04:35 :13693: impressora: 172.35.207.4
