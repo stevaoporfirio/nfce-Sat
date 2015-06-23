@@ -9,6 +9,5 @@ C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerAppDB\obj\Debug
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 4\SAT 4\NFCE-SAT\SatServerAppDB\obj\Debug\SatServerAppDB.csprojResolveAssemblyReference.cache
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\bin\Debug\SatServerAppDB.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\bin\Debug\SatServerAppDB.pdb
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\obj\Debug\SatServerAppDB.csprojResolveAssemblyReference.cache
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\obj\Debug\SatServerAppDB.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\obj\Debug\SatServerAppDB.pdb
