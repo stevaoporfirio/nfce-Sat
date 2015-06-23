@@ -22,3 +22,11 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Debug\EnviaSeFaz.csprojResolveAssemblyReference.cache
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Debug\EnviaSeFaz.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll.config
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\obj\Debug\EnviaSeFaz.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\obj\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\obj\Debug\EnviaSeFaz.pdb

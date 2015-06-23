@@ -12,9 +12,17 @@ namespace invoiceServerApp
         public gerenciadoSAT(Utils.ConfigureXml _config)
         {
             config = _config;
-            if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.SAT)
+            if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.DIMEP)
             {
                 interfacesat = new SatDimep();
+            }
+            else if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.SWEDA)
+            {
+                interfacesat = new SatSweda();
+            }
+            else if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.BEMATECH)
+            {
+                interfacesat = new SatBematech();
             }
         }
         public int generatorKey()

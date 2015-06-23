@@ -26,20 +26,9 @@ namespace invoiceServerApp
             {
                 if (!dictionary.ContainsKey(_id))
                 {
-                    if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.SAT)
+                    if ((config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.DIMEP) || (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.SWEDA) || (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.BEMATECH))
                     {
-                        if (!blockSat)
-                        {
-                            try
-                            {
-                                string retorno = SatDLL.DesbloquearSATBase(SatDLL.generatorKey(), config.configSAT.ChaveAtivacao);
-                                Utils.Logger.getInstance.error("desbloqueio sat: " + retorno);
-                            }
-                            catch (Exception exceptionSATDll)
-                            {
-                                throw new Exception("Erro enviando comando de Venda " + exceptionSATDll.Message);
-                            }
-                        }
+                        
                         dictionary.Add(_id, new ParseSatSend(_id, config));
                         Utils.Logger.getInstance.error("ParseSatSend id: " + _id);
                     }

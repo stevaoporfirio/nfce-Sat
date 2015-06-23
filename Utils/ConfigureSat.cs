@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace Utils
 {
-    public enum eTipoIntegracao { NFCe, SAT };
+    public enum eTipoIntegracao { NFCe, DIMEP, SWEDA, BEMATECH };
     public enum eImpressao { Servidor, MaquinaEnviouRequisicao };
 
     /// <summary>
