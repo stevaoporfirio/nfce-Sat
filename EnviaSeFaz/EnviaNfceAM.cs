@@ -197,35 +197,43 @@ namespace EnviaSeFaz
                     XmlDocument xd = new XmlDocument();
                     xd.LoadXml(xmlS.ToString());
 
-
-                    if (config.configNFCe.TpAmb.Equals("2"))
+                    try
                     {
-                        br.gov.am.sefaz.homnfce1.NfeRetAutorizacao ret = new br.gov.am.sefaz.homnfce1.NfeRetAutorizacao();
+                        if (config.configNFCe.TpAmb.Equals("2"))
+                        {
+                            br.gov.am.sefaz.homnfce1.NfeRetAutorizacao ret = new br.gov.am.sefaz.homnfce1.NfeRetAutorizacao();
 
-                        ret.Url = "https://homnfce.sefaz.am.gov.br/nfce-services/services/NfeRetAutorizacao";
+                            ret.Url = "https://homnfce.sefaz.am.gov.br/nfce-services/services/NfeRetAutorizacao";
 
-                        ret.ClientCertificates.Add(cert);
-                        ret.nfeCabecMsgValue = new br.gov.am.sefaz.homnfce1.nfeCabecMsg();
+                            ret.ClientCertificates.Add(cert);
+                            ret.nfeCabecMsgValue = new br.gov.am.sefaz.homnfce1.nfeCabecMsg();
 
-                        ret.nfeCabecMsgValue.cUF = "13";
-                        ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
+                            ret.nfeCabecMsgValue.cUF = "13";
+                            ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
 
-                        n1 = ret.nfeRetAutorizacaoLote(xd);
+                            n1 = ret.nfeRetAutorizacaoLote(xd);
 
+                        }
+                        else
+                        {
+                            br.gov.am.sefaz.nfce1.NfeRetAutorizacao ret = new br.gov.am.sefaz.nfce1.NfeRetAutorizacao();
+
+                            ret.Url = "https://nfce.sefaz.am.gov.br/nfce-services/services/NfeRetAutorizacao";
+
+                            ret.ClientCertificates.Add(cert);
+                            ret.nfeCabecMsgValue = new br.gov.am.sefaz.nfce1.nfeCabecMsg();
+
+                            ret.nfeCabecMsgValue.cUF = "13";
+                            ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
+
+                            n1 = ret.nfeRetAutorizacaoLote(xd);
+
+                        }
                     }
-                    else
+                    catch (SoapException e)
                     {
-                        br.gov.am.sefaz.nfce1.NfeRetAutorizacao ret = new br.gov.am.sefaz.nfce1.NfeRetAutorizacao();
-
-                        ret.Url = "https://nfce.sefaz.am.gov.br/nfce-services/services/NfeRetAutorizacao";
-
-                        ret.ClientCertificates.Add(cert);
-                        ret.nfeCabecMsgValue = new br.gov.am.sefaz.nfce1.nfeCabecMsg();
-
-                        ret.nfeCabecMsgValue.cUF = "13";
-                        ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
-
-                        n1 = ret.nfeRetAutorizacaoLote(xd);
+                        Utils.Logger.getInstance.error(e);
+                        continue;
                     }
 
 
