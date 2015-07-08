@@ -2,3 +2,7 @@ C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppDB\bin\Release\Sat
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppDB\bin\Release\SatServerAppDB.pdb
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppDB\obj\Release\SatServerAppDB.dll
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerAppDB\obj\Release\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerAppDB\bin\Release\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerAppDB\bin\Release\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerAppDB\obj\Release\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerAppDB\obj\Release\SatServerAppDB.pdb

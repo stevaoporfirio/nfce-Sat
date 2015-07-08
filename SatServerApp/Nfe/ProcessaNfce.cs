@@ -76,6 +76,7 @@ namespace invoiceServerApp
             finally
             {
                 XmlDocument xmlCancel = enviaSeFaz.GetXmlCancelamento();
+                Utils.Logger.getInstance.error("Arquivo Cancelamento Salvo em: " + String.Format("{0}\\canceladas\\{1}.xml", config.configMaquina.pathFiles, xmlData.nomeXml));
                 xmlCancel.Save(String.Format("{0}\\canceladas\\{1}.xml", config.configMaquina.pathFiles, xmlData.nomeXml));
             }
 

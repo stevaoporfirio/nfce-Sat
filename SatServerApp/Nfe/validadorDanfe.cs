@@ -14,20 +14,20 @@ namespace invoiceServerApp
             {
                 if (item.NCM == String.Empty)
                 {
-                    throw new ApplicationException("Nota sem NCM."); 
+                    throw new ApplicationException("#Nota sem NCM.#"); 
                 }
             }
             if (_dtNfce.pgtsList.Count < 1)
             {
-                throw new ApplicationException("Nota Pagamento."); 
+                throw new ApplicationException("#Nota sem Pagamento.#"); 
             }
             if (_dtNfce.itensList.Count < 1)
             {
-                throw new ApplicationException("Nota Sem itens."); 
+                throw new ApplicationException("#Nota Sem itens.#"); 
             }
             if(!String.IsNullOrEmpty(_dtNfce.CPF_CNPJ_dest))
                 if(String.IsNullOrEmpty(_dtNfce.RazaoSocial_dest))
-                    throw new ApplicationException("Nota sem nome.");
+                    throw new ApplicationException("#Nota sem nome.#");
         
         }
 

@@ -11,16 +11,16 @@
       </ListPgt>
     </PgtList>
     <isServidor>false</isServidor>
-    <tipoIntegracao>SAT</tipoIntegracao>
+    <tipoIntegracao>BEMATECH</tipoIntegracao>
     <impressao>Servidor</impressao>
     <pathFiles>C:\nfce\Retorno</pathFiles>
-    <IP>172.35.207.207</IP>
+    <IP>172.35.207.130</IP>
     <Porta>5001</Porta>
   </configMaquina>
   <configEmitente>
     <RazaoSocial>HHR BT RIO DE JANEIRO INVESTIMENTOS HOTELEIROS AS</RazaoSocial>
     <Fantasia>NOVOTEL RJ PARQUE OLIMPICO</Fantasia>
-    <Cnpj>61099008000141</Cnpj>
+    <Cnpj>82373077000171</Cnpj>
     <Telefone />
     <Ie>111111111111</Ie>
     <Im />

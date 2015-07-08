@@ -5,7 +5,6 @@ using System.Text;
 using System.Xml;
 using System.Security.Cryptography.X509Certificates;
 using System.IO;
-using System.Web.Services.Protocols;
 
 namespace EnviaSeFaz
 {
@@ -205,43 +204,36 @@ namespace EnviaSeFaz
                     XmlDocument xd = new XmlDocument();
                     xd.LoadXml(xmlS.ToString());
 
-                    try
+
+                    if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
                     {
-                        if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
-                        {
-                            br.gov.rs.sefaz.nfe.homologacao2.NfeRetAutorizacao ret = new br.gov.rs.sefaz.nfe.homologacao2.NfeRetAutorizacao();
+                        br.gov.rs.sefaz.nfe.homologacao2.NfeRetAutorizacao ret = new br.gov.rs.sefaz.nfe.homologacao2.NfeRetAutorizacao();
 
-                            ret.ClientCertificates.Add(cert);
-                            ret.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.homologacao2.nfeCabecMsg();
+                        ret.ClientCertificates.Add(cert);
+                        ret.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.homologacao2.nfeCabecMsg();
 
 
-                            ret.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
-                            ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
+                        ret.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
+                        ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
 
 
-                            n1 = ret.nfeRetAutorizacaoLote(xd);
+                        n1 = ret.nfeRetAutorizacaoLote(xd);
 
-                        }
-                        else
-                        {
-
-                            br.gov.rs.sefaz.nfe2.NfeRetAutorizacao ret = new br.gov.rs.sefaz.nfe2.NfeRetAutorizacao();
-
-                            ret.ClientCertificates.Add(cert);
-
-                            ret.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe2.nfeCabecMsg();
-
-                            ret.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
-
-                            ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
-
-                            n1 = ret.nfeRetAutorizacaoLote(xd);
-                        }
                     }
-                    catch (SoapException e)
+                    else
                     {
-                        Utils.Logger.getInstance.error(e);
-                        continue;
+
+                        br.gov.rs.sefaz.nfe2.NfeRetAutorizacao ret = new br.gov.rs.sefaz.nfe2.NfeRetAutorizacao();
+
+                        ret.ClientCertificates.Add(cert);
+
+                        ret.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe2.nfeCabecMsg();
+
+                        ret.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
+
+                        ret.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
+
+                        n1 = ret.nfeRetAutorizacaoLote(xd);
                     }
 
                     Utils.Logger.getInstance.error("resposta SEFAZ: " + n1.OuterXml);

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BemasatConfig>
+    <timeouts>
+        <timeout_ativacao>300000</timeout_ativacao>
+        <timeout_icp_brasil>300000</timeout_icp_brasil>
+        <timeout_consultar_sat>2000</timeout_consultar_sat>
+        <timeout_associar_assinatura>20000</timeout_associar_assinatura>
+        <timeout_consultar_sessao>20000</timeout_consultar_sessao>
+        <timeout_trocar_codigo_ativacao>20000</timeout_trocar_codigo_ativacao>
+        <timeout_bloquear_sat>300000</timeout_bloquear_sat>
+        <timeout_desbloquear_sat>20000</timeout_desbloquear_sat>
+        <timeout_extrair_logs>20000</timeout_extrair_logs>
+        <timeout_atualizar_sat>1800000</timeout_atualizar_sat>
+        <timeout_configurar_rede>20000</timeout_configurar_rede>
+        <timeout_enviar_venda>1000</timeout_enviar_venda>
+        <timeout_cancelar_venda>1000</timeout_cancelar_venda>
+        <timeout_teste_fim_a_fim>20000</timeout_teste_fim_a_fim>
+        <timeout_consultar_status>2000</timeout_consultar_status>
+    </timeouts>
+    <serial>
+        <port_detect>0</port_detect>
+        <port_name>\\.\COM13</port_name>
+    </serial>
+    <caminhos>
+        <log_path>Log\</log_path>
+        <sessions_path>Sessions\</sessions_path>
+        <mockup>0</mockup>
+    </caminhos>
+</BemasatConfig>
+

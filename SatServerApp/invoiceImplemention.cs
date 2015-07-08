@@ -26,27 +26,18 @@ namespace invoiceServerApp
             {
                 if (!dictionary.ContainsKey(_id))
                 {
-                    if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.SAT)
-                    {
-                        if (!blockSat)
-                        {
-                            try
-                            {
-                                string retorno = SatDLL.DesbloquearSATBase(SatDLL.generatorKey(), config.configSAT.ChaveAtivacao);
-                                Utils.Logger.getInstance.error("desbloqueio sat: " + retorno);
-                            }
-                            catch (Exception exceptionSATDll)
-                            {
-                                throw new Exception("Erro enviando comando de Venda " + exceptionSATDll.Message);
-                            }
-                        }
-                        dictionary.Add(_id, new ParseSatSend(_id, config));
-                        Utils.Logger.getInstance.error("ParseSatSend id: " + _id);
-                    }
-                    else if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.NFCe)
+                    Utils.Logger.getInstance.error(String.Format("TipoIntegracao -> {0}", config.configMaquina.tipoIntegracao));
+
+                    if (config.configMaquina.tipoIntegracao.Equals("NFCE"))
                     {
                         dictionary.Add(_id, new ParseNFCE(_id, config));
                         Utils.Logger.getInstance.error("ParseNFCE id: " + _id);
+                    }
+                    else 
+                    {
+                        dictionary.Add(_id, new ParseSatSend(_id, config));
+                        Utils.Logger.getInstance.error("ParseSatSend id: " + _id);
+                        
                     }
                 }
             }
@@ -72,7 +63,7 @@ namespace invoiceServerApp
                 else if (msg == "QRC")
                     retorno = parse.getQrCode(msg) + "|Q|";
                 else if (_id.Equals("TEF"))
-                    retorno = parse.ReImpressaoTEF(msg);
+                    retorno = parse.ReImpressaoTEF(msg) + "|X|";
                 else if (_id.Equals("CANCEL"))
                     retorno = parse.messageCancel(msg) + "|X|";
                 else if (_id.Equals("REDANFE"))

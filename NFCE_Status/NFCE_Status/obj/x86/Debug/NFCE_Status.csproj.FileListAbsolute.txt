@@ -40,3 +40,17 @@ C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x8
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.csproj.GenerateResource.Cache
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.exe
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\bin\Debug\NFCE_Status.exe.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\bin\Debug\NFCE_Status.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\bin\Debug\NFCE_Status.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\bin\Debug\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\bin\Debug\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\bin\Debug\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\bin\Debug\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.Form1.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.FormMain.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.Properties.Resources.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.csproj.GenerateResource.Cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status\NFCE_Status\obj\x86\Debug\NFCE_Status.pdb

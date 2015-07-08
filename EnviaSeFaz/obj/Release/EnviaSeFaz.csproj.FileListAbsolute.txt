@@ -8,3 +8,13 @@ C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\obj\Release\EnviaSe
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\obj\Release\EnviaSeFaz.dll
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\obj\Release\EnviaSeFaz.pdb
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\EnviaSeFaz\obj\Release\EnviaSeFaz.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\bin\Release\EnviaSeFaz.dll.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\bin\Release\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\bin\Release\EnviaSeFaz.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\bin\Release\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\bin\Release\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\bin\Release\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Release\EnviaSeFaz.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Release\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Release\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Release\EnviaSeFaz.XmlSerializers.dll

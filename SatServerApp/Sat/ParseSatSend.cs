@@ -373,8 +373,8 @@ namespace invoiceServerApp
             {
                 string[] dados = msg.Split('|');
                 dtImprensao impressao = new dtImprensao();
-                impressao.chaveImpressao = dados[0];
-                impressao.portaImpressora = dados[1];
+                impressao.chaveImpressao = dados[1];
+                impressao.portaImpressora = dados[0];
                 ret = processaDados.ReImpressaoDanfe(impressao);
                 return ret;
 

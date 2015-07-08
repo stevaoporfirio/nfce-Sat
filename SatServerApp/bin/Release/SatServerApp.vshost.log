@@ -26,3 +26,192 @@
    em Utils.ReadConfigure.WriteXML() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\XmlConfigure.cs:linha 33
    em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\Utils\XmlConfigure.cs:linha 48
    em invoiceServerApp.Datamanager..ctor() na C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\Datamanager.cs:linha 30
+06/29/2015 18:16:36 :iniciando
+06/29/2015 18:16:36 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+06/29/2015 18:16:37 :System.IO.IOException: O processo não pode acessar o arquivo 'D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Release\AppConfig.xml' porque ele está sendo usado por outro processo.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   em System.IO.StreamWriter..ctor(String path)
+   em Utils.ReadConfigure.WriteXML() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 25
+06/29/2015 18:16:37 :System.Exception: System.IO.IOException: O processo não pode acessar o arquivo 'D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Release\AppConfig.xml' porque ele está sendo usado por outro processo.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   em System.IO.StreamWriter..ctor(String path)
+   em Utils.ReadConfigure.WriteXML() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 25
+   em Utils.ReadConfigure.WriteXML() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 33
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 48
+   em invoiceServerApp.Datamanager..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Datamanager.cs:linha 30
+07/01/2015 08:55:36 :iniciando
+07/01/2015 08:55:37 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+07/02/2015 08:39:18 :iniciando
+07/02/2015 08:39:19 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+07/02/2015 08:45:47 :TipoIntegracao -> BEMATECH
+07/02/2015 08:45:47 :SatBematech
+07/02/2015 08:45:47 :ParseSatSend id: 64300
+07/02/2015 08:45:47 :id: 64300
+07/02/2015 08:45:47 :msg: H1|||||||||||
+H2|1|64|300|0|MICROS|0|172.35.207.4
+H3||Conta: 300 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+07/02/2015 08:45:47 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+07/02/2015 08:45:47 :MakeXML.AddItens
+07/02/2015 08:45:47 :MakeXML.AddItens -> Lista Itens: 1
+07/02/2015 08:45:47 :defineAcres: False
+07/02/2015 08:45:47 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+07/02/2015 08:45:48 :64300: System.Exception: Erro em Processa SAT Erro enviando comando de Venda #Erro enviando comando de Desbloqueio Não é possível carregar a DLL 'BemaSAT.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/02/2015 08:48:37 :TipoIntegracao -> BEMATECH
+07/02/2015 08:48:48 :SatBematech
+07/02/2015 08:48:48 :ParseSatSend id: 64300
+07/02/2015 08:48:48 :id: 64300
+07/02/2015 08:48:48 :msg: H1|||||||||||
+H2|1|64|300|0|MICROS|0|172.35.207.4
+H3||Conta: 300 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+07/02/2015 08:48:48 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+07/02/2015 08:48:48 :MakeXML.AddItens
+07/02/2015 08:48:48 :MakeXML.AddItens -> Lista Itens: 1
+07/02/2015 08:48:48 :defineAcres: False
+07/02/2015 08:48:48 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+07/02/2015 15:20:06 :iniciando
+07/03/2015 18:55:26 :iniciando
+07/07/2015 09:56:10 :iniciando
+07/07/2015 09:56:12 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+07/07/2015 10:00:56 :TipoIntegracao -> DIMEP
+07/07/2015 10:00:58 :SatDimep
+07/07/2015 10:00:58 :ParseSatSend id: 64307
+07/07/2015 10:00:59 :id: 64307
+07/07/2015 10:00:59 :msg: H1|||||||||||
+H2|1|64|307|0|MICROS|0|172.35.207.4
+H3||Conta: 307 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|50.00
+?T1||
+07/07/2015 10:00:59 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+07/07/2015 10:00:59 :MakeXML.AddItens
+07/07/2015 10:00:59 :MakeXML.AddItens -> Lista Itens: 1
+07/07/2015 10:00:59 :defineAcres: False
+07/07/2015 10:00:59 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+07/07/2015 10:00:59 :64307: System.Exception: Erro em Processa SAT Erro enviando comando de Venda #Erro enviando comando de Desbloqueio Não é possível carregar a DLL 'dllSAT.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/07/2015 10:03:29 :TipoIntegracao -> DIMEP
+07/07/2015 10:03:30 :SatDimep
+07/07/2015 10:03:30 :ParseSatSend id: 64307
+07/07/2015 10:03:31 :id: 64307
+07/07/2015 10:03:31 :msg: H1|||||||||||
+H2|1|64|307|0|MICROS|0|172.35.207.4
+H3||Conta: 307 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+07/07/2015 10:03:31 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+07/07/2015 10:03:31 :MakeXML.AddItens
+07/07/2015 10:03:31 :MakeXML.AddItens -> Lista Itens: 1
+07/07/2015 10:03:31 :defineAcres: False
+07/07/2015 10:03:31 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+07/07/2015 10:03:31 :64307: System.Exception: Erro em Processa SAT Erro enviando comando de Venda #Erro enviando comando de Desbloqueio Não é possível carregar a DLL 'dllSAT.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/07/2015 10:03:45 :iniciando
+07/07/2015 10:03:45 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+07/07/2015 10:04:04 :iniciando
+07/07/2015 10:04:04 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+07/07/2015 10:04:17 :TipoIntegracao -> BEMATECH
+07/07/2015 10:04:18 :SatBematech
+07/07/2015 10:04:18 :ParseSatSend id: 64307
+07/07/2015 10:04:20 :id: 64307
+07/07/2015 10:04:20 :msg: H1|||||||||||
+H2|1|64|307|0|MICROS|0|172.35.207.4
+H3||Conta: 307 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+07/07/2015 10:04:20 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+07/07/2015 10:04:20 :MakeXML.AddItens
+07/07/2015 10:04:20 :MakeXML.AddItens -> Lista Itens: 1
+07/07/2015 10:04:20 :defineAcres: False
+07/07/2015 10:04:20 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+07/07/2015 10:04:20 :64307: System.Exception: Erro em Processa SAT Erro enviando comando de Venda #Erro enviando comando de Desbloqueio Não é possível carregar a DLL 'BemaSAT.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/07/2015 10:05:12 :iniciando
+07/07/2015 10:05:13 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+07/07/2015 10:06:49 :TipoIntegracao -> BEMATECH
+07/07/2015 10:06:54 :SatBematech
+07/07/2015 10:06:54 :ParseSatSend id: 64307
+07/07/2015 10:06:54 :id: 64307
+07/07/2015 10:06:54 :msg: H1|||||||||||
+H2|1|64|307|0|MICROS|0|172.35.207.4
+H3||Conta: 307 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+07/07/2015 10:06:54 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+07/07/2015 10:06:54 :MakeXML.AddItens
+07/07/2015 10:06:54 :MakeXML.AddItens -> Lista Itens: 1
+07/07/2015 10:06:54 :defineAcres: False
+07/07/2015 10:06:54 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+07/07/2015 10:06:54 :64307: System.Exception: Erro em Processa SAT Erro enviando comando de Venda #Erro enviando comando de Desbloqueio Não é possível carregar a DLL 'BemaSAT.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Sat\ParseSatSend.cs:linha 122

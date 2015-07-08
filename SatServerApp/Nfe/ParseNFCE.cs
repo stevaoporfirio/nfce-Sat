@@ -338,7 +338,7 @@ namespace invoiceServerApp
             inutili.ID = dados[0];
             inutili.numeroInicial = dados[1];
             if (dados.Length > 2)
-                inutili.numeroFinal = dados[2];
+                inutili.numeroFinal = dados[1];
             else
                 inutili.numeroFinal = inutili.numeroInicial;
 

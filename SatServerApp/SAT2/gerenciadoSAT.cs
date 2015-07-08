@@ -11,18 +11,30 @@ namespace invoiceServerApp
         private interfaceSAT interfacesat;
         public gerenciadoSAT(Utils.ConfigureXml _config)
         {
-            config = _config;
-            if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.DIMEP)
+            try
             {
-                interfacesat = new SatDimep();
+
+                config = _config;
+
+                if (config.configMaquina.tipoIntegracao.Equals("DIMEP"))
+                {
+                    interfacesat = new SatDimep();
+                    Utils.Logger.getInstance.error(String.Format("SatDimep"));
+                }
+                else if (config.configMaquina.tipoIntegracao.Equals("SWEDA"))
+                {
+                    interfacesat = new SatSweda();
+                    Utils.Logger.getInstance.error(String.Format("SatSweda"));
+                }
+                else if (config.configMaquina.tipoIntegracao.Equals("BEMATECH"))
+                {
+                    interfacesat = new SatBematech();
+                    Utils.Logger.getInstance.error(String.Format("SatBematech"));
+                }
             }
-            else if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.SWEDA)
+            catch (Exception ex)
             {
-                interfacesat = new SatSweda();
-            }
-            else if (config.configMaquina.tipoIntegracao == Utils.eTipoIntegracao.BEMATECH)
-            {
-                interfacesat = new SatBematech();
+                throw new Exception("#Erro em GerenciadorSAT " + ex.Message + "#");
             }
         }
         public int generatorKey()

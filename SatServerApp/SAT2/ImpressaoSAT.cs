@@ -73,6 +73,13 @@ namespace invoiceServerApp
 
                 GetDadosAcresc(_xml.GetElementsByTagName("ICMSTot")[0]);
 
+                XmlNode nodeTroco = _xml.GetElementsByTagName("vTroco")[0];
+
+                if (nodeTroco != null)
+                    dadosSAT.troco = _xml.GetElementsByTagName("vTroco")[0].InnerText.ToString();
+                else
+                    dadosSAT.troco = "0";
+
                 foreach (XmlNode node in _xml.GetElementsByTagName("det"))
                 {
                     itemNota = new ItensNotaSAT();

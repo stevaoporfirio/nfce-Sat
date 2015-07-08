@@ -34,17 +34,6 @@ namespace invoiceServerApp
                 CreateDir();
                 gerenSAT = new gerenciadoSAT(config);
 
-                try
-                {
-                    gerenSAT.DesbloquearSATBase(gerenSAT.generatorKey(), config.configSAT.ChaveAtivacao);
-                    //Utils.Logger.getInstance.error("desbloqueio sat: " + retorno);
-                }
-                catch (Exception exceptionSATDll)
-                {
-                    throw new Exception("Erro enviando comando de Venda " + exceptionSATDll.Message);
-                }
-                
-
             }
             catch (Exception ex)
             {
@@ -154,6 +143,16 @@ namespace invoiceServerApp
 
                 try
                 {
+                    try
+                    {
+                        string ret = gerenSAT.DesbloquearSATBase(gerenSAT.generatorKey(), config.configSAT.ChaveAtivacao);
+                        Utils.Logger.getInstance.error("desbloqueio sat: " + ret);
+                    }
+                    catch (Exception exceptionSATDll)
+                    {
+                        throw new Exception("#Erro enviando comando de Desbloqueio " + exceptionSATDll.Message + "#");
+                    }
+
                    // retorno = SatDLL.EnviarDadosVendaBase(SatDLL.generatorKey(), config.configSAT.ChaveAtivacao, xmlData.xmlDoc.OuterXml); //TODO CONF
                     retorno = gerenSAT.EnviarDadosVendaBase(gerenSAT.generatorKey(), config.configSAT.ChaveAtivacao, xmlData.xmlDoc.OuterXml); //TODO CONF
                 }
@@ -192,7 +191,7 @@ namespace invoiceServerApp
                 }
                 else
                 {
-                    throw new Exception(String.Format("|| Erro processando SAT {0}{1}{2}{3}{4}", tmpSplit[1], tmpSplit[2], tmpSplit[3], tmpSplit[4], tmpSplit[5]+"||"));
+                    throw new Exception(String.Format("|| Erro processando Venda SAT {0} ||", retorno));
                    // throw new Exception(String.Format("Erro processando SAT {0}{1}{2}{3}{4}", tmpSplit[1], tmpSplit[2], tmpSplit[3], tmpSplit[4], tmpSplit[5]));
                 }
             }

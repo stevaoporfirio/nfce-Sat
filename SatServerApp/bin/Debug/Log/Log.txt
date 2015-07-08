@@ -1,0 +1,180 @@
+20150701160630: Iniciando carga no arquivo de configuração
+20150701160630: Iniciando carga no arquivo de configuração
+20150701160630: Iniciando execuÃ§Ã£o do comando
+20150701160630: Iniciando carga no arquivo de configuração
+20150701160630: Erro ao abrir a porta serial
+20150701160630: Erro na abertura da porta serial
+20150701160714: Iniciando carga no arquivo de configuração
+20150701160714: Iniciando carga no arquivo de configuração
+20150701160714: Iniciando execuÃ§Ã£o do comando
+20150701160714: Iniciando carga no arquivo de configuração
+20150701160714: Erro ao abrir a porta serial
+20150701160714: Erro na abertura da porta serial
+20150701160714: Iniciando carga no arquivo de configuração
+20150701160714: Iniciando carga no arquivo de configuração
+20150701160714: Iniciando execuÃ§Ã£o do comando
+20150701160714: Iniciando carga no arquivo de configuração
+20150701160714: Erro ao abrir a porta serial
+20150701160714: Erro na abertura da porta serial
+20150701160726: Iniciando carga no arquivo de configuração
+20150701160726: Iniciando carga no arquivo de configuração
+20150701160726: Iniciando execuÃ§Ã£o do comando
+20150701160726: Iniciando carga no arquivo de configuração
+20150701160726: Erro ao abrir a porta serial
+20150701160726: Erro na abertura da porta serial
+20150701160726: Iniciando carga no arquivo de configuração
+20150701160726: Iniciando carga no arquivo de configuração
+20150701160726: Iniciando execuÃ§Ã£o do comando
+20150701160726: Iniciando carga no arquivo de configuração
+20150701160726: Erro ao abrir a porta serial
+20150701160726: Erro na abertura da porta serial
+20150701160753: Iniciando carga no arquivo de configuração
+20150701160753: Iniciando carga no arquivo de configuração
+20150701160753: Iniciando execuÃ§Ã£o do comando
+20150701160753: Iniciando carga no arquivo de configuração
+20150701160753: Erro ao abrir a porta serial
+20150701160753: Erro na abertura da porta serial
+20150701160753: Iniciando carga no arquivo de configuração
+20150701160753: Iniciando carga no arquivo de configuração
+20150701160753: Iniciando execuÃ§Ã£o do comando
+20150701160753: Iniciando carga no arquivo de configuração
+20150701160753: Erro ao abrir a porta serial
+20150701160753: Erro na abertura da porta serial
+20150701161051: Iniciando carga no arquivo de configuração
+20150701161051: Iniciando carga no arquivo de configuração
+20150701161051: Iniciando execuÃ§Ã£o do comando
+20150701161051: Iniciando carga no arquivo de configuração
+20150701161051: Porta serial aberta com sucesso
+20150701161051: Iniciando montagem do comando
+20150701161051: Comando montado com sucesso
+20150701161051: Comando sendo enviado via porta serial
+20150701161051: Comando enviado com sucesso via porta serial
+20150701161051: Leitura da resposta do comando iniciado
+20150701161051: Leitura da resposta do comando finalizado
+20150701161108: Iniciando carga no arquivo de configuração
+20150701161108: Iniciando carga no arquivo de configuração
+20150701161108: Iniciando execuÃ§Ã£o do comando
+20150701161108: Iniciando carga no arquivo de configuração
+20150701161108: Porta serial aberta com sucesso
+20150701161108: Iniciando montagem do comando
+20150701161108: Comando montado com sucesso
+20150701161108: Comando sendo enviado via porta serial
+20150701161108: Comando enviado com sucesso via porta serial
+20150701161108: Leitura da resposta do comando iniciado
+20150701161110: Tempo de execuÃ§Ã£o do comando esgotado
+20150701161110: Leitura da resposta do comando finalizado
+20150702094940: Iniciando carga no arquivo de configuração
+20150702094940: Iniciando carga no arquivo de configuração
+20150702094940: Iniciando execuÃ§Ã£o do comando
+20150702094940: Iniciando carga no arquivo de configuração
+20150702094940: Porta serial aberta com sucesso
+20150702094940: Iniciando montagem do comando
+20150702094940: Comando montado com sucesso
+20150702094940: Comando sendo enviado via porta serial
+20150702094940: Comando enviado com sucesso via porta serial
+20150702094940: Leitura da resposta do comando iniciado
+20150702094941: Leitura da resposta do comando finalizado
+20150702094951: Iniciando carga no arquivo de configuração
+20150702094951: Iniciando carga no arquivo de configuração
+20150702094951: Iniciando execuÃ§Ã£o do comando
+20150702094951: Iniciando carga no arquivo de configuração
+20150702094951: Porta serial aberta com sucesso
+20150702094951: Iniciando montagem do comando
+20150702094951: Comando montado com sucesso
+20150702094951: Comando sendo enviado via porta serial
+20150702094951: Comando enviado com sucesso via porta serial
+20150702094951: Leitura da resposta do comando iniciado
+20150702094952: Tempo de execuÃ§Ã£o do comando esgotado
+20150702094952: Leitura da resposta do comando finalizado
+20150702095106: Iniciando carga no arquivo de configuração
+20150702095106: Iniciando carga no arquivo de configuração
+20150702095106: Iniciando execuÃ§Ã£o do comando
+20150702095106: Iniciando carga no arquivo de configuração
+20150702095106: Porta serial aberta com sucesso
+20150702095106: Iniciando montagem do comando
+20150702095106: Comando montado com sucesso
+20150702095106: Comando sendo enviado via porta serial
+20150702095106: Comando enviado com sucesso via porta serial
+20150702095106: Leitura da resposta do comando iniciado
+20150702095106: Leitura da resposta do comando finalizado
+20150702095106: Iniciando carga no arquivo de configuração
+20150702095106: Iniciando carga no arquivo de configuração
+20150702095106: Iniciando execuÃ§Ã£o do comando
+20150702095106: Iniciando carga no arquivo de configuração
+20150702095106: Porta serial aberta com sucesso
+20150702095106: Iniciando montagem do comando
+20150702095106: Comando montado com sucesso
+20150702095106: Comando sendo enviado via porta serial
+20150702095106: Comando enviado com sucesso via porta serial
+20150702095106: Leitura da resposta do comando iniciado
+20150702095107: Tempo de execuÃ§Ã£o do comando esgotado
+20150702095107: Leitura da resposta do comando finalizado
+20150702095238: Iniciando carga no arquivo de configuração
+20150702095238: Iniciando carga no arquivo de configuração
+20150702095238: Iniciando execuÃ§Ã£o do comando
+20150702095238: Iniciando carga no arquivo de configuração
+20150702095238: Porta serial aberta com sucesso
+20150702095238: Iniciando montagem do comando
+20150702095238: Comando montado com sucesso
+20150702095238: Comando sendo enviado via porta serial
+20150702095238: Comando enviado com sucesso via porta serial
+20150702095238: Leitura da resposta do comando iniciado
+20150702095238: Leitura da resposta do comando finalizado
+20150702095238: Iniciando carga no arquivo de configuração
+20150702095238: Iniciando carga no arquivo de configuração
+20150702095238: Iniciando execuÃ§Ã£o do comando
+20150702095238: Iniciando carga no arquivo de configuração
+20150702095238: Porta serial aberta com sucesso
+20150702095238: Iniciando montagem do comando
+20150702095238: Comando montado com sucesso
+20150702095238: Comando sendo enviado via porta serial
+20150702095238: Comando enviado com sucesso via porta serial
+20150702095238: Leitura da resposta do comando iniciado
+20150702095239: Tempo de execuÃ§Ã£o do comando esgotado
+20150702095239: Leitura da resposta do comando finalizado
+20150702095539: Iniciando carga no arquivo de configuração
+20150702095539: Iniciando carga no arquivo de configuração
+20150702095539: Iniciando execuÃ§Ã£o do comando
+20150702095539: Iniciando carga no arquivo de configuração
+20150702095539: Porta serial aberta com sucesso
+20150702095539: Iniciando montagem do comando
+20150702095539: Comando montado com sucesso
+20150702095539: Comando sendo enviado via porta serial
+20150702095539: Comando enviado com sucesso via porta serial
+20150702095539: Leitura da resposta do comando iniciado
+20150702095539: Leitura da resposta do comando finalizado
+20150702095539: Iniciando carga no arquivo de configuração
+20150702095539: Iniciando carga no arquivo de configuração
+20150702095539: Iniciando execuÃ§Ã£o do comando
+20150702095539: Iniciando carga no arquivo de configuração
+20150702095539: Porta serial aberta com sucesso
+20150702095539: Iniciando montagem do comando
+20150702095539: Comando montado com sucesso
+20150702095539: Comando sendo enviado via porta serial
+20150702095539: Comando enviado com sucesso via porta serial
+20150702095539: Leitura da resposta do comando iniciado
+20150702095540: Tempo de execuÃ§Ã£o do comando esgotado
+20150702095540: Leitura da resposta do comando finalizado
+20150702101641: Iniciando carga no arquivo de configuração
+20150702101641: Iniciando carga no arquivo de configuração
+20150702101641: Iniciando execuÃ§Ã£o do comando
+20150702101641: Iniciando carga no arquivo de configuração
+20150702101641: Porta serial aberta com sucesso
+20150702101641: Iniciando montagem do comando
+20150702101641: Comando montado com sucesso
+20150702101641: Comando sendo enviado via porta serial
+20150702101641: Comando enviado com sucesso via porta serial
+20150702101641: Leitura da resposta do comando iniciado
+20150702101641: Leitura da resposta do comando finalizado
+20150702101641: Iniciando carga no arquivo de configuração
+20150702101641: Iniciando carga no arquivo de configuração
+20150702101641: Iniciando execuÃ§Ã£o do comando
+20150702101641: Iniciando carga no arquivo de configuração
+20150702101641: Porta serial aberta com sucesso
+20150702101641: Iniciando montagem do comando
+20150702101641: Comando montado com sucesso
+20150702101641: Comando sendo enviado via porta serial
+20150702101641: Comando enviado com sucesso via porta serial
+20150702101641: Leitura da resposta do comando iniciado
+20150702101643: Tempo de execuÃ§Ã£o do comando esgotado
+20150702101643: Leitura da resposta do comando finalizado

@@ -18,19 +18,19 @@
       </ListPgt>
     </PgtList>
     <isServidor>false</isServidor>
-    <tipoIntegracao>NFCe</tipoIntegracao>
+    <tipoIntegracao>DIMEP</tipoIntegracao>
     <impressao>Servidor</impressao>
     <pathFiles>C:\nfce\Retorno</pathFiles>
-    <IP>172.35.207.207</IP>
+    <IP>172.35.207.130</IP>
     <Porta>5001</Porta>
     <CNPJCredenciadoraCartao>61099008000141</CNPJCredenciadoraCartao>
   </configMaquina>
   <configEmitente>
     <RazaoSocial>GOOD FOOD RS COMERCIO DE ALIMENTOS SA</RazaoSocial>
     <Fantasia>BURGER KING NOVO</Fantasia>
-    <Cnpj>21877073000489</Cnpj>
+    <Cnpj>61099008000141</Cnpj>
     <Telefone>5130668373</Telefone>
-    <Ie>860490742</Ie>
+    <Ie>111111111111</Ie>
     <Im />
     <Email>adm-cont@kingfood.com.br</Email>
     <endereco>
@@ -69,11 +69,11 @@
     <CFOP60>5405</CFOP60>
   </configNFCe>
   <configSAT>
-    <IDE_signAC />
-    <IDE_NumeroCaixa />
-    <ChaveAtivacao>ChaveAtivacao</ChaveAtivacao>
-    <CFOP00>CFOP00</CFOP00>
-    <CFOP60>CFOP60</CFOP60>
-    <CNPJ_SoftwareHouse>CNPJ_SoftwareHouse</CNPJ_SoftwareHouse>
+    <IDE_signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</IDE_signAC>
+    <IDE_NumeroCaixa>001</IDE_NumeroCaixa>
+    <ChaveAtivacao>123456789</ChaveAtivacao>
+    <CFOP00>5102</CFOP00>
+    <CFOP60>5102</CFOP60>
+    <CNPJ_SoftwareHouse>16716114000172</CNPJ_SoftwareHouse>
   </configSAT>
 </ConfigureXml>

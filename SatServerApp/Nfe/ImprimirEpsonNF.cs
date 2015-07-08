@@ -100,7 +100,9 @@ namespace invoiceServerApp
                     }
                 }
 
-                resp = ImprimeCodigoQRCODE(1, 4, 0, 10, 1, qr);
+                if(!String.IsNullOrEmpty(qr))
+                    resp = ImprimeCodigoQRCODE(1, 4, 0, 10, 1, qr);
+                
                 if (!String.IsNullOrEmpty(tef) && tef.Length > 1)
                 {
                     

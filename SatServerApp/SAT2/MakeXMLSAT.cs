@@ -216,6 +216,8 @@ namespace invoiceServerApp
 
                             if (item.CST.Equals("00"))
                                 xmlWriter.WriteElementString("CFOP", config.configSAT.CFOP00);
+                            else if (item.CST.Equals("40"))
+                                xmlWriter.WriteElementString("CFOP", config.configSAT.CFOP60);
                             else if (item.CST.Equals("60"))
                                 xmlWriter.WriteElementString("CFOP", config.configSAT.CFOP60);
 

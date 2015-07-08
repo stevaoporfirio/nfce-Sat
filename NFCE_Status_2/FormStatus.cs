@@ -15,6 +15,8 @@ namespace invoiceServerApp
         DataTable dt_status;
         DataTable dt_dados;
         string id = "";
+        string numero = "";
+
         public FormStatus()
         {
             InitializeComponent();
@@ -31,6 +33,7 @@ namespace invoiceServerApp
                 txtWSID.Text = row["ws_id"].ToString();
                 txtNumRecibo.Text = row["recibo"].ToString();
                 id = row["id"].ToString();
+                numero = row["numero"].ToString();
                     
             }
 
@@ -70,7 +73,7 @@ namespace invoiceServerApp
 
         private void btnInutilizar_Click(object sender, EventArgs e)
         {
-            string msg = "INUTILIZACAO|" + id + "|" + id + "|END|";
+            string msg = "INUTILIZACAO|" + id + "|" + numero + "|END|";
             MessageBox.Show(sendNfce(msg));
             DialogResult = DialogResult.OK;
 

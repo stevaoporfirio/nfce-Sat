@@ -1,1 +1,0 @@
-[ERROR]	2015-06-22 12:00:57: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect

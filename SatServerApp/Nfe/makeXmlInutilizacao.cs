@@ -24,8 +24,8 @@ namespace invoiceServerApp
             dtNfce = _dtNfce;
             cert = _cert;
             processCancel();
-            string a = (String.Format("{0}\\{1}.xml", config.configMaquina.pathFiles+ "\\inutilizadas", nomeXml));
-            xmlDoc.Save(String.Format("{0}\\{1}.xml", config.configMaquina.pathFiles + "\\inutilizadas", nomeXml));
+            string a = (String.Format("{0}\\{1}.xml", config.configMaquina.pathFiles , nomeXml));
+            xmlDoc.Save(String.Format("{0}\\{1}.xml", config.configMaquina.pathFiles, nomeXml));
             assinaturaXML();
         }
         public void processCancel()

@@ -103,7 +103,6 @@
     <Compile Include="SAT2\ProcessaSAT.cs" />
     <Compile Include="SAT2\SatBematech.cs" />
     <Compile Include="SAT2\SatDimep.cs" />
-    <Compile Include="SAT2\SatDLL.cs" />
     <Compile Include="SAT2\SatSweda.cs" />
     <Compile Include="Sat\ParseSatReceive.cs" />
     <Compile Include="Sat\ParseSatSend.cs" />

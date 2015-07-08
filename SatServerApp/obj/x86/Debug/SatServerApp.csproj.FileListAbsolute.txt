@@ -43,3 +43,18 @@ C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\obj\x86\Debug\inv
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\obj\x86\Debug\SatServerApp.csproj.GenerateResource.Cache
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\obj\x86\Debug\SatServerApp.exe
 C:\Users\cribeiro.SAOPAULO\Desktop\SAT 5\nfce-Sat\SatServerApp\obj\x86\Debug\SatServerApp.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\SatServerApp.exe.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\SatServerApp.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\SatServerApp.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\bin\Debug\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\SatServerApp.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\invoiceServerApp.Form1.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\SatServerApp.csproj.GenerateResource.Cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\SatServerApp.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\SatServerApp.pdb

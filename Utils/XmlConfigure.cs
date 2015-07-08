@@ -45,8 +45,8 @@ namespace Utils
             }
             catch (Exception e)
             {
-                WriteXML();
                 Logger.getInstance.error(e.ToString());
+                WriteXML();                
                 throw new Exception(e.ToString());
             }
 

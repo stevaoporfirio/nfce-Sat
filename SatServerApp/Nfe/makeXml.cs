@@ -407,8 +407,8 @@ namespace invoiceServerApp
                             xmlWriter.WriteElementString("NCM", item.NCM);
                             
                             if(item.CST.Equals("00"))
-                                xmlWriter.WriteElementString("CFOP", config.configNFCe.CFOP00);
-                            else if (item.CST.Equals("60"))
+                                xmlWriter.WriteElementString("CFOP", config.configNFCe.CFOP00);                            
+                            else 
                                 xmlWriter.WriteElementString("CFOP", config.configNFCe.CFOP60);
 
                             xmlWriter.WriteElementString("uCom", String.Format(ci, "{0:F2}", item.U_Com));

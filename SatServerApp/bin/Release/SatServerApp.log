@@ -1,0 +1,48 @@
+06/29/2015 18:17:54 :iniciando
+06/29/2015 18:17:54 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+06/29/2015 18:18:22 :System.Exception: Erro enviando comando de Venda Não é possível carregar a DLL 'dllSAT.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)
+   em invoiceServerApp.ProcessaSAT..ctor(CallbackStatusInterface callStatus, ConfigureXml _config) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\SAT2\ProcessaSAT.cs:linha 51
+   em invoiceServerApp.ParseSatSend..ctor(String _id, ConfigureXml _config) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Sat\ParseSatSend.cs:linha 62
+   em invoiceServerApp.invoiceImplemention.NotificationChangedClient(String _id, String _receive) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\invoiceImplemention.cs:linha 31
+   em invoiceServerApp.ServerSocket.ReceiveChanged(String _id, Socket socketClient, String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Server\ServerSocket.cs:linha 165
+   em invoiceServerApp.ServerSocket.ReadCallback(IAsyncResult ar) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Server\ServerSocket.cs:linha 128
+06/29/2015 18:36:08 :iniciando
+06/29/2015 18:36:08 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+06/29/2015 18:36:30 :System.Exception: Erro enviando comando de Desbloqueio Não é possível carregar a DLL 'dllSAT.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E)
+   em invoiceServerApp.ProcessaSAT..ctor(CallbackStatusInterface callStatus, ConfigureXml _config) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\SAT2\ProcessaSAT.cs:linha 51
+   em invoiceServerApp.ParseSatSend..ctor(String _id, ConfigureXml _config) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Sat\ParseSatSend.cs:linha 62
+   em invoiceServerApp.invoiceImplemention.NotificationChangedClient(String _id, String _receive) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\invoiceImplemention.cs:linha 31
+   em invoiceServerApp.ServerSocket.ReceiveChanged(String _id, Socket socketClient, String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Server\ServerSocket.cs:linha 165
+   em invoiceServerApp.ServerSocket.ReadCallback(IAsyncResult ar) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Server\ServerSocket.cs:linha 128
+06/29/2015 18:39:14 :iniciando
+06/29/2015 18:39:14 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
+06/29/2015 18:41:16 :iniciando
+06/29/2015 18:41:16 :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.Cep2IBGE.LoadXMLMunicipios() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 22
+   em Utils.Cep2IBGE..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\MunicipiosBR.cs:linha 16
+   em invoiceServerApp.Program.Main() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\Program.cs:linha 23
