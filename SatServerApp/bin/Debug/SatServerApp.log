@@ -513,3 +513,391 @@ P|1|Dinheiro|20.00
 07/07/2015 11:11:01 :ParseSatSend id: CANCEL
 07/07/2015 11:11:02 :id: CANCEL
 07/07/2015 11:11:02 :msg: 172.35.207.4|35150761099008000141599000011890002388159595||
+07/15/2015 10:45:46 :iniciando
+07/15/2015 10:45:47 :   em System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   em invoiceServerApp.ServerSocket.StartListening() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Server\ServerSocket.cs:linha 75
+07/15/2015 10:47:23 :iniciando
+07/15/2015 11:09:52 :TipoIntegracao -> DIMEP
+07/15/2015 11:09:52 :SatDimep
+07/15/2015 11:09:52 :ParseSatSend id: 13712
+07/15/2015 11:09:52 :id: 13712
+07/15/2015 11:09:52 :msg: H1|F|stevao porfirio borges|08663317603|||||||||
+H2|1|1|3712|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3712 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 11:09:52 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 11:09:52 :MakeXML.AddItens
+07/15/2015 11:09:52 :MakeXML.AddItens -> Lista Itens: 1
+07/15/2015 11:09:52 :defineAcres: True
+07/15/2015 11:09:52 :vOutroRateioItem: 1,12
+07/15/2015 11:09:52 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+07/15/2015 11:09:52 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+07/15/2015 11:09:52 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+07/15/2015 11:09:53 :desbloqueio sat: Erro ao tentar abrir a porta de comunicacao
+07/15/2015 11:09:53 :13712: System.Exception: Erro em Processa SAT #Erro ao tentar abrir a porta de comunicacao#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/15/2015 11:11:03 :TipoIntegracao -> DIMEP
+07/15/2015 11:11:03 :SatDimep
+07/15/2015 11:11:03 :ParseSatSend id: 13712
+07/15/2015 11:11:03 :id: 13712
+07/15/2015 11:11:03 :msg: H1||||||||||||
+H2|1|1|3712|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3712 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 11:11:03 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 11:11:03 :MakeXML.AddItens
+07/15/2015 11:11:03 :MakeXML.AddItens -> Lista Itens: 1
+07/15/2015 11:11:03 :defineAcres: True
+07/15/2015 11:11:03 :vOutroRateioItem: 1,12
+07/15/2015 11:11:03 :vOutroRateioTtl: 1,12 | Acresc: 0,56
+07/15/2015 11:11:03 :vOutroRateioItem: 0,56 | vOutroRateioTtl: 0,56
+07/15/2015 11:11:03 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+07/15/2015 11:11:03 :desbloqueio sat: Erro ao tentar abrir a porta de comunicacao
+07/15/2015 11:11:03 :13712: System.Exception: Erro em Processa SAT #Erro ao tentar abrir a porta de comunicacao#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/15/2015 11:15:58 :iniciando
+07/15/2015 11:16:23 :TipoIntegracao -> DIMEP
+07/15/2015 11:17:02 :iniciando
+07/15/2015 11:17:12 :TipoIntegracao -> NFCE
+07/15/2015 11:17:22 :ParseNFCE id: 13713
+07/15/2015 11:17:28 :id: 13713
+07/15/2015 11:17:28 :msg: H1||||||||||||
+H2|1|1|3713|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3713 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 11:18:10 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 11:18:26 :2RS201411141702107Servico em Operacao432015-07-15T11:19:02-03:001
+07/15/2015 11:18:29 :defineAcres: True
+07/15/2015 11:18:30 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T11:19:07-03:00</dhRecbto><infRec><nRec>431065002113923</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/15/2015 11:18:32 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065002113923</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T11:19:07-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150761099008000141650050000000391000000398</chNFe><dhRecbto>2015-07-15T11:19:07-03:00</dhRecbto><digVal /><cStat>213</cStat><xMotivo>Rejeicao: CNPJ-Base do Emitente difere do CNPJ-Base do Certificado Digital</xMotivo></infProt></protNFe></retConsReciNFe>
+07/15/2015 11:18:32 :   em EnviaSeFaz.EnviaNfceRS.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 267
+07/15/2015 11:18:32 :   em EnviaSeFaz.EnviaNfceRS.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 277
+   em EnviaSeFaz.EnviaNfceRS.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 112
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 178
+07/15/2015 11:18:32 :13713: System.Exception: 13713: Rejeiçao de xml:System.ApplicationException: Rejeicao: CNPJ-Base do Emitente difere do CNPJ-Base do Certificado Digital
+   em EnviaSeFaz.EnviaNfceRS.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 277
+   em EnviaSeFaz.EnviaNfceRS.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 112
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 178
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 200
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 157
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+07/15/2015 11:19:35 :TipoIntegracao -> NFCE
+07/15/2015 11:19:35 :ParseNFCE id: 13713
+07/15/2015 11:19:35 :id: 13713
+07/15/2015 11:19:35 :msg: H1|F|stevao|08663317603|||||||||
+H2|1|1|3713|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3713 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 11:19:35 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 11:20:14 :iniciando
+07/15/2015 11:20:47 :TipoIntegracao -> NFCE
+07/15/2015 11:20:47 :ParseNFCE id: 13713
+07/15/2015 11:20:48 :id: 13713
+07/15/2015 11:20:48 :msg: H1|F|stevao|08663317603|||||||||
+H2|1|1|3713|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3713 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.40|
+?T1||
+07/15/2015 11:20:48 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 11:21:22 :iniciando
+07/15/2015 11:21:32 :TipoIntegracao -> NFCE
+07/15/2015 11:21:32 :ParseNFCE id: 13713
+07/15/2015 11:21:32 :id: 13713
+07/15/2015 11:21:32 :msg: H1||||||||||||
+H2|1|1|3713|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3713 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 11:21:32 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 11:21:40 :2RS201411141702107Servico em Operacao432015-07-15T11:22:17-03:001
+07/15/2015 11:21:41 :defineAcres: True
+07/15/2015 11:21:42 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T11:22:18-03:00</dhRecbto><infRec><nRec>431065002114004</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/15/2015 11:21:43 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><nRec>431065002114004</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T11:22:18-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201505081133</verAplic><chNFe>43150761099008000141650050000000401000000402</chNFe><dhRecbto>2015-07-15T11:22:18-03:00</dhRecbto><digVal /><cStat>213</cStat><xMotivo>Rejeicao: CNPJ-Base do Emitente difere do CNPJ-Base do Certificado Digital</xMotivo></infProt></protNFe></retConsReciNFe>
+07/15/2015 11:21:43 :   em EnviaSeFaz.EnviaNfceRS.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 267
+07/15/2015 11:21:43 :   em EnviaSeFaz.EnviaNfceRS.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 277
+   em EnviaSeFaz.EnviaNfceRS.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 112
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 178
+07/15/2015 11:21:43 :13713: System.Exception: 13713: Rejeiçao de xml:System.ApplicationException: Rejeicao: CNPJ-Base do Emitente difere do CNPJ-Base do Certificado Digital
+   em EnviaSeFaz.EnviaNfceRS.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 277
+   em EnviaSeFaz.EnviaNfceRS.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\EnviaNfceRS.cs:linha 112
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 178
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 200
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 157
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+07/15/2015 11:22:12 :TipoIntegracao -> NFCE
+07/15/2015 11:22:12 :ParseNFCE id: 13713
+07/15/2015 11:22:12 :id: 13713
+07/15/2015 11:22:12 :msg: H1|F|stevao|08663317603|||||||||
+H2|1|1|3713|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3713 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 11:22:12 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 12:10:32 :iniciando
+07/15/2015 12:10:33 :System.InvalidOperationException: Erro no documento XML (25, 5). ---> System.Xml.XmlException: A marca de início 'PgtList' na linha 4 não corresponde à marca de fim de 'configMaquina'. Linha 25, posição 5.
+   em System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   em System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   em System.Xml.XmlTextReaderImpl.ParseEndElement()
+   em System.Xml.XmlTextReaderImpl.ParseElementContent()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlTextReader.Read()
+   em System.Xml.XmlTextReaderImpl.Skip()
+   em System.Xml.XmlTextReader.Skip()
+   em System.Xml.Serialization.XmlSerializationReader.UnknownNode(Object o, String qnames)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderConfigureXml.Read3_NFCePgtList(Boolean isNullable, Boolean checkType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderConfigureXml.Read5_Config_Maquina(Boolean isNullable, Boolean checkType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderConfigureXml.Read10_ConfigureXml(Boolean isNullable, Boolean checkType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderConfigureXml.Read11_ConfigureXml()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   em System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 43
+07/15/2015 12:10:33 :System.IO.IOException: O processo não pode acessar o arquivo 'E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\bin\Debug\AppConfig.xml' porque ele está sendo usado por outro processo.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   em System.IO.StreamWriter..ctor(String path)
+   em Utils.ReadConfigure.WriteXML() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 25
+07/15/2015 12:10:33 :System.Exception: System.IO.IOException: O processo não pode acessar o arquivo 'E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\bin\Debug\AppConfig.xml' porque ele está sendo usado por outro processo.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   em System.IO.StreamWriter..ctor(String path)
+   em Utils.ReadConfigure.WriteXML() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 25
+   em Utils.ReadConfigure.WriteXML() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 33
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Utils\XmlConfigure.cs:linha 49
+   em invoiceServerApp.Datamanager..ctor() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Datamanager.cs:linha 30
+07/15/2015 12:11:21 :iniciando
+07/15/2015 12:11:42 :TipoIntegracao -> NFCE
+07/15/2015 12:11:42 :ParseNFCE id: 13713
+07/15/2015 12:11:42 :id: 13713
+07/15/2015 12:11:42 :msg: H1||||||||||||
+H2|1|1|3713|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3713 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 12:11:42 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 12:11:44 :2RS201411141702107Servico em Operacao432015-07-15T12:12:20-03:001
+07/15/2015 12:11:46 :defineAcres: True
+07/15/2015 12:11:47 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T12:12:24-03:00</dhRecbto><infRec><nRec>431065002115216</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/15/2015 12:11:48 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201507151144</verAplic><nRec>431065002115216</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T12:12:24-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201507151144</verAplic><chNFe>43150708186139002801650010000073281000073289</chNFe><dhRecbto>2015-07-15T12:12:24-03:00</dhRecbto><nProt>143150000670978</nProt><digVal>Wk9FGRhN9A+TGx6hldoiTcbRpnI=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+07/15/2015 12:11:48 :13713: impressora: 172.35.207.4
+07/15/2015 12:13:32 :iniciando
+07/15/2015 12:19:01 :TipoIntegracao -> NFCE
+07/15/2015 12:19:06 :ParseNFCE id: CANCEL
+07/15/2015 12:19:12 :id: CANCEL
+07/15/2015 12:19:12 :msg: 642
+07/15/2015 12:19:45 :2RS201411141702107Servico em Operacao432015-07-15T12:20:22-03:001
+07/15/2015 12:20:06 :resposta SEFAZ: <retEnvEvento versao="1.00" xmlns="http://www.portalfiscal.inf.br/nfe"><idLote>01</idLote><tpAmb>2</tpAmb><verAplic>RS201411191410</verAplic><cOrgao>43</cOrgao><cStat>128</cStat><xMotivo>Lote de Evento Processado</xMotivo><retEvento versao="1.00"><infEvento><tpAmb>2</tpAmb><verAplic>RS201411191410</verAplic><cOrgao>43</cOrgao><cStat>135</cStat><xMotivo>Evento registrado e vinculado a NF-e</xMotivo><chNFe>43150708186139002801650010000073281000073289</chNFe><tpEvento>110111</tpEvento><nSeqEvento>1</nSeqEvento><dhRegEvento>2015-07-15T12:20:37-03:00</dhRegEvento><nProt>143150000670995</nProt></infEvento></retEvento></retEnvEvento>
+07/15/2015 12:20:23 :Arquivo Cancelamento Salvo em: C:\nfce\Retorno\canceladas\071520151219143150000670978.xml
+07/15/2015 12:20:35 :TipoIntegracao -> NFCE
+07/15/2015 12:20:35 :ParseNFCE id: INUTILIZACAO
+07/15/2015 12:20:35 :id: INUTILIZACAO
+07/15/2015 12:20:35 :msg: 641|40
+07/15/2015 12:20:36 :2RS201411141702107Servico em Operacao432015-07-15T12:21:12-03:001
+07/15/2015 12:20:36 :resposta SEFAZ: <retInutNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><infInut><tpAmb>2</tpAmb><verAplic>RS201411131630</verAplic><cStat>102</cStat><xMotivo>Inutilizacao de numero homologado</xMotivo><cUF>43</cUF><ano>15</ano><CNPJ>08186139002801</CNPJ><mod>65</mod><serie>1</serie><nNFIni>40</nNFIni><nNFFin>40</nNFFin><dhRecbto>2015-07-15T12:21:13-03:00</dhRecbto><nProt>143150000670996</nProt></infInut></retInutNFe>
+07/15/2015 12:20:43 :TipoIntegracao -> NFCE
+07/15/2015 12:20:43 :ParseNFCE id: INUTILIZACAO
+07/15/2015 12:20:43 :id: INUTILIZACAO
+07/15/2015 12:20:43 :msg: 640|39
+07/15/2015 12:20:44 :2RS201411141702107Servico em Operacao432015-07-15T12:21:20-03:001
+07/15/2015 12:20:44 :resposta SEFAZ: <retInutNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><infInut><tpAmb>2</tpAmb><verAplic>RS201411131630</verAplic><cStat>102</cStat><xMotivo>Inutilizacao de numero homologado</xMotivo><cUF>43</cUF><ano>15</ano><CNPJ>08186139002801</CNPJ><mod>65</mod><serie>1</serie><nNFIni>39</nNFIni><nNFFin>39</nNFFin><dhRecbto>2015-07-15T12:21:21-03:00</dhRecbto><nProt>143150000670998</nProt></infInut></retInutNFe>
+07/15/2015 15:51:57 :iniciando
+07/15/2015 15:52:11 :TipoIntegracao -> NFCE
+07/15/2015 15:52:11 :ParseNFCE id: 13714
+07/15/2015 15:52:11 :id: 13714
+07/15/2015 15:52:11 :msg: H1||||||||||||
+H2|1|1|3714|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3714 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|PGT|10.00|
+?T1||
+07/15/2015 15:52:11 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/15/2015 15:52:13 :2RS201411141702107Servico em Operacao432015-07-15T15:52:50-03:001
+07/15/2015 15:52:14 :defineAcres: True
+07/15/2015 15:52:15 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RS201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T15:52:51-03:00</dhRecbto><infRec><nRec>431065002120922</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/15/2015 15:52:15 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201507151144</verAplic><nRec>431065002120922</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-15T15:52:52-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201507151144</verAplic><chNFe>43150708186139002801650010000073291000073294</chNFe><dhRecbto>2015-07-15T15:52:52-03:00</dhRecbto><nProt>143150000671751</nProt><digVal>985UoNoB1JV8eofJepFBNIRcjmE=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+07/15/2015 15:52:15 :13714: impressora: 172.35.207.4
+07/20/2015 11:02:16 :iniciando
+07/21/2015 11:39:39 :iniciando
+07/21/2015 11:47:31 :TipoIntegracao -> SAT
+07/21/2015 11:47:31 :ParseSatSend id: 1124
+07/21/2015 11:47:34 :id: 1124
+07/21/2015 11:47:34 :msg: H1||||||||||||
+H2|0|1|124|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 124 / Mesa: 0 / Emp.: MICROS M \ Imp F: 2.82(13.00%) E: 3.55(17.00%) IBPT
+I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |50.00|
+P|0|PGT|50.00|
+?T1||
+07/21/2015 11:48:29 :ParseAddItem -> I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+07/21/2015 11:48:42 :ParseAddItem -> I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+07/21/2015 11:48:50 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/21/2015 11:51:15 :MakeXML.AddItens
+07/21/2015 11:51:15 :MakeXML.AddItens -> Lista Itens: 3
+07/21/2015 11:51:15 :defineAcres: False
+07/21/2015 11:51:15 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:51:15 :defineAcres: False
+07/21/2015 11:51:15 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:51:15 :defineAcres: False
+07/21/2015 11:51:15 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/21/2015 11:51:56 :1124: System.Exception: Erro em Processa SAT Erro enviando comando de Venda #Erro enviando comando de Desbloqueio Referência de objeto não definida para uma instância de um objeto.#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/21/2015 11:52:41 :TipoIntegracao -> SAT
+07/21/2015 11:52:41 :ParseSatSend id: 1125
+07/21/2015 11:52:44 :id: 1125
+07/21/2015 11:52:45 :msg: H1||||||||||||
+H2|0|1|125|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 125 / Mesa: 0 / Emp.: MICROS M \ Imp F: 2.82(13.00%) E: 3.55(17.00%) IBPT
+I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |50.00|
+P|0|PGT|50.00|
+?T1||
+07/21/2015 11:52:46 :ParseAddItem -> I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+07/21/2015 11:52:47 :ParseAddItem -> I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+07/21/2015 11:52:47 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/21/2015 11:52:47 :MakeXML.AddItens
+07/21/2015 11:52:47 :MakeXML.AddItens -> Lista Itens: 3
+07/21/2015 11:52:47 :defineAcres: False
+07/21/2015 11:52:47 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:52:47 :defineAcres: False
+07/21/2015 11:52:47 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:52:47 :defineAcres: False
+07/21/2015 11:52:47 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/21/2015 11:52:48 :1125: System.Exception: Erro em Processa SAT Erro enviando comando de Venda #Erro enviando comando de Desbloqueio Referência de objeto não definida para uma instância de um objeto.#
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/21/2015 11:53:59 :iniciando
+07/21/2015 11:56:22 :TipoIntegracao -> DIMEP
+07/21/2015 11:56:29 :SatDimep
+07/21/2015 11:56:31 :ParseSatSend id: 1127
+07/21/2015 11:58:11 :id: 1127
+07/21/2015 11:58:12 :msg: H1||||||||||||
+H2|0|1|127|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 127 / Mesa: 0 / Emp.: MICROS M \ Imp F: 2.82(13.00%) E: 3.55(17.00%) IBPT
+I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |20.00|
+P|1|Dinheiro    |0.20|
+P|1|Dinheiro    |20.00|
+P|0|PGT|20.00|
+?T1||
+07/21/2015 11:58:13 :ParseAddItem -> I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+07/21/2015 11:58:14 :ParseAddItem -> I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+07/21/2015 11:58:17 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/21/2015 11:58:17 :MakeXML.AddItens
+07/21/2015 11:58:17 :MakeXML.AddItens -> Lista Itens: 3
+07/21/2015 11:58:17 :defineAcres: False
+07/21/2015 11:58:17 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:58:17 :defineAcres: False
+07/21/2015 11:58:17 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:58:17 :defineAcres: False
+07/21/2015 11:58:17 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/21/2015 11:58:31 :desbloqueio sat: 331536|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/21/2015 11:59:14 :1127: System.Exception: Erro em Processa SAT || Erro processando Venda SAT 970527|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| ||
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/21/2015 11:59:36 :iniciando
+07/21/2015 11:59:54 :TipoIntegracao -> DIMEP
+07/21/2015 11:59:54 :SatDimep
+07/21/2015 11:59:54 :ParseSatSend id: 1128
+07/21/2015 11:59:54 :id: 1128
+07/21/2015 11:59:55 :msg: H1||||||||||||
+H2|0|1|128|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 128 / Mesa: 0 / Emp.: MICROS M \ Imp F: 2.82(13.00%) E: 3.55(17.00%) IBPT
+I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |100.00|
+P|0|PGT|100.00|
+?T1||
+07/21/2015 11:59:55 :ParseAddItem -> I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+07/21/2015 11:59:56 :ParseAddItem -> I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+07/21/2015 11:59:56 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/21/2015 11:59:56 :MakeXML.AddItens
+07/21/2015 11:59:56 :MakeXML.AddItens -> Lista Itens: 3
+07/21/2015 11:59:57 :defineAcres: False
+07/21/2015 11:59:57 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:59:57 :defineAcres: False
+07/21/2015 11:59:57 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 11:59:57 :defineAcres: False
+07/21/2015 11:59:57 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/21/2015 11:59:58 :desbloqueio sat: 838884|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/21/2015 11:59:58 :1128: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 107215|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/21/2015 12:04:24 :TipoIntegracao -> DIMEP
+07/21/2015 12:04:24 :SatDimep
+07/21/2015 12:04:25 :ParseSatSend id: 1129
+07/21/2015 12:04:25 :id: 1129
+07/21/2015 12:04:28 :msg: H1||||||||||||
+H2|0|1|129|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 129 / Mesa: 0 / Emp.: MICROS M \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|7100020|Bk Hamburger    |1|5.50|5.50|3.2000|0.00-|99999999
+P|1|Dinheiro    |50.00|
+P|0|PGT|50.00|
+?T1||
+07/21/2015 12:04:36 :ParseAddItem -> I|7100020|Bk Hamburger    |1|5.50|5.50|3.2000|0.00-|99999999
+07/21/2015 12:04:38 :MakeXML.AddItens
+07/21/2015 12:04:38 :MakeXML.AddItens -> Lista Itens: 1
+07/21/2015 12:04:38 :defineAcres: False
+07/21/2015 12:04:38 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 12:04:41 :desbloqueio sat: 212717|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/21/2015 12:08:59 :TipoIntegracao -> DIMEP
+07/21/2015 12:08:59 :SatDimep
+07/21/2015 12:08:59 :ParseSatSend id: 1130
+07/21/2015 12:08:59 :id: 1130
+07/21/2015 12:08:59 :msg: H1||||||||||||
+H2|0|1|130|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 130 / Mesa: 0 / Emp.: MICROS M \ Imp F: 2.82(13.00%) E: 3.55(17.00%) IBPT
+I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |50.00|
+P|0|PGT|50.00|
+?T1||
+07/21/2015 12:09:00 :ParseAddItem -> I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+07/21/2015 12:09:00 :ParseAddItem -> I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+07/21/2015 12:09:00 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/21/2015 12:09:01 :MakeXML.AddItens
+07/21/2015 12:09:01 :MakeXML.AddItens -> Lista Itens: 3
+07/21/2015 12:09:01 :defineAcres: False
+07/21/2015 12:09:01 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 12:09:01 :defineAcres: False
+07/21/2015 12:09:01 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/21/2015 12:09:01 :defineAcres: False
+07/21/2015 12:09:01 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/21/2015 12:09:23 :desbloqueio sat: 151078|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/21/2015 12:09:42 :1130: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 720346|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122

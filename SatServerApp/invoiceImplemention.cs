@@ -13,7 +13,6 @@ namespace invoiceServerApp
         private Utils.ConfigureXml config;
         Dictionary<string, ParseInterface> dictionary = new Dictionary<string, ParseInterface>();
         private Object thisLock = new Object();
-        private bool blockSat = false;
 
         public invoiceImplemention(Utils.ConfigureXml _config) 
         {

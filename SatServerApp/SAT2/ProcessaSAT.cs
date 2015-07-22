@@ -191,7 +191,7 @@ namespace invoiceServerApp
                 }
                 else
                 {
-                    throw new Exception(String.Format("|| Erro processando Venda SAT {0} ||", retorno));
+                    throw new Exception(String.Format("# Erro processando Venda SAT {0} #", retorno));
                    // throw new Exception(String.Format("Erro processando SAT {0}{1}{2}{3}{4}", tmpSplit[1], tmpSplit[2], tmpSplit[3], tmpSplit[4], tmpSplit[5]));
                 }
             }

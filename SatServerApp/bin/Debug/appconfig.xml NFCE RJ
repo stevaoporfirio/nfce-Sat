@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigureXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <configMaquina>
+    <PgtList>
+      <ListPgt>
+        <NFCePgt>
+          <codMicros>101</codMicros>
+          <descMicros>Dinheiro</descMicros>
+          <codNFCe>01</codNFCe>
+          <codBandNfce>0</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>200</codMicros>
+          <descMicros>VISA</descMicros>
+          <codNFCe>03</codNFCe>
+          <codBandNfce>01</codBandNfce>
+        </NFCePgt>
+      </ListPgt>
+    </PgtList>
+    <isServidor>false</isServidor>
+    <tipoIntegracao>NFCE</tipoIntegracao>
+    <impressao>Servidor</impressao>
+    <pathFiles>C:\nfce\Retorno</pathFiles>
+    <IP>172.35.207.207</IP>
+    <Porta>5001</Porta>
+    <CNPJCredenciadoraCartao>CNPJCredenciadoraCartao</CNPJCredenciadoraCartao>
+  </configMaquina>
+  <configEmitente>
+    <RazaoSocial>GOOD FOOD COMERCIO DE ALIMENTOS S/A</RazaoSocial>
+    <Fantasia>BURGER KING</Fantasia>
+    <Cnpj>08186139002801</Cnpj>
+    <Telefone>5130931146</Telefone>
+    <Ie>0963448102</Ie>
+    <Im />
+    <Email>goodfood@burgerking.com.br</Email>
+    <endereco>
+      <Logradouro>RUA ANDRADAS</Logradouro>
+      <Numero>1001</Numero>
+      <Complemento>LUC 026</Complemento>
+      <Bairro>CENTRO</Bairro>
+      <Cep>90020015</Cep>
+      <Uf>RS</Uf>
+      <Cidade>PORTO ALEGRE</Cidade>
+      <Cod_cidade>4314902</Cod_cidade>
+      <Cod_estado>43</Cod_estado>
+    </endereco>
+  </configEmitente>
+  <configNFCe>
+    <NatOp>Venda</NatOp>
+    <TpImp>4</TpImp>
+    <TpEmis>1</TpEmis>
+    <TpAmb>2</TpAmb>
+    <IndPag>0</IndPag>
+    <Crt>3</Crt>
+    <tokenNfce>3B7C2ED076AC429EBEC7D893F8691F46</tokenNfce>
+    <VersaoQrcode>100</VersaoQrcode>
+    <CSC>000001</CSC>
+    <UrlProducao>https://nfe.sefazvirtual.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx?</UrlProducao>
+    <UrlHomologacao>https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx?</UrlHomologacao>
+    <digestValue>digestValue</digestValue>
+    <Contingencia>false</Contingencia>
+    <sequenceNumberNfce>7329</sequenceNumberNfce>
+    <Serie>1</Serie>
+    <Id_banco>Id_banco</Id_banco>
+    <NomeCertificadoDigital>GOOD FOOD COMERCIO DE ALIMENTOS S A:08186139000183</NomeCertificadoDigital>
+    <NCM>NCM</NCM>
+    <VersaoLayout>3.10</VersaoLayout>
+    <CFOP00>5102</CFOP00>
+    <CFOP60>5405</CFOP60>
+  </configNFCe>
+  <configSAT>
+    <IDE_signAC />
+    <IDE_NumeroCaixa />
+    <ChaveAtivacao>ChaveAtivacao</ChaveAtivacao>
+    <CFOP00>CFOP00</CFOP00>
+    <CFOP60>CFOP60</CFOP60>
+    <CNPJ_SoftwareHouse>CNPJ_SoftwareHouse</CNPJ_SoftwareHouse>
+  </configSAT>
+</ConfigureXml>
