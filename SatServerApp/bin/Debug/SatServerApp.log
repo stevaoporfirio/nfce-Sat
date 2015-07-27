@@ -901,3 +901,193 @@ P|0|PGT|50.00|
 07/21/2015 12:09:42 :1130: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 720346|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
    em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
    em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/23/2015 10:51:19 :iniciando
+07/23/2015 11:19:19 :TipoIntegracao -> DIMEP
+07/23/2015 11:19:19 :SatDimep
+07/23/2015 11:19:19 :ParseSatSend id: 993846
+07/23/2015 11:19:25 :id: 993846
+07/23/2015 11:19:26 :msg: H1||||||||||||
+H2|1|99|3846|0|da Silva|0.00|172.35.207.4
+H3||WS: 99 / Conta: 3846 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1001|Arroz           |1|10.00|10.00|8.4000|0.00-|10062010
+P|101|Dinheiro    |10.00|
+?T1||
+07/23/2015 11:19:26 :ParseAddItem -> I|1001|Arroz           |1|10.00|10.00|8.4000|0.00-|10062010
+07/23/2015 11:19:28 :MakeXML.AddItens
+07/23/2015 11:19:28 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 11:19:28 :defineAcres: False
+07/23/2015 11:19:28 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+07/23/2015 11:19:30 :desbloqueio sat: 973209|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:19:57 :TipoIntegracao -> DIMEP
+07/23/2015 11:19:57 :SatDimep
+07/23/2015 11:20:00 :ParseSatSend id: 993847
+07/23/2015 11:20:00 :id: 993847
+07/23/2015 11:20:01 :msg: H1||||||||||||
+H2|1|99|3847|0|da Silva|0.00|172.35.207.4
+H3||WS: 99 / Conta: 3847 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1012|Coca            |1|1.99|1.99|FF|0.00-|99999999
+P|101|Dinheiro    |2.00|
+?T1||
+07/23/2015 11:20:01 :ParseAddItem -> I|1012|Coca            |1|1.99|1.99|FF|0.00-|99999999
+07/23/2015 11:20:01 :MakeXML.AddItens
+07/23/2015 11:20:01 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 11:20:01 :defineAcres: False
+07/23/2015 11:20:02 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/23/2015 11:20:03 :desbloqueio sat: 605592|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:20:03 :993847: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 196369|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/23/2015 11:21:06 :TipoIntegracao -> DIMEP
+07/23/2015 11:21:06 :SatDimep
+07/23/2015 11:21:08 :ParseSatSend id: 993848
+07/23/2015 11:21:08 :id: 993848
+07/23/2015 11:21:09 :msg: H1||||||||||||
+H2|1|99|3848|0|da Silva|0.00|172.35.207.4
+H3||WS: 99 / Conta: 3848 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1001|Arroz           |1|10.00|10.00|8.4000|0.00-|10062010
+P|101|Dinheiro    |10.00|
+?T1||
+07/23/2015 11:21:09 :ParseAddItem -> I|1001|Arroz           |1|10.00|10.00|8.4000|0.00-|10062010
+07/23/2015 11:21:10 :MakeXML.AddItens
+07/23/2015 11:21:10 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 11:21:10 :defineAcres: False
+07/23/2015 11:21:10 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+07/23/2015 11:21:11 :desbloqueio sat: 652106|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:34:21 :TipoIntegracao -> DIMEP
+07/23/2015 11:34:21 :SatDimep
+07/23/2015 11:34:21 :ParseSatSend id: 1132
+07/23/2015 11:34:21 :id: 1132
+07/23/2015 11:34:21 :msg: H1||||||||||||
+H2|0|1|132|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 132 / Mesa: 0 / Emp.: MICROS M \ Imp F: 2.82(13.00%) E: 3.55(17.00%) IBPT
+I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |20.90|
+P|0|PGT|20.90|
+?T1||
+07/23/2015 11:34:25 :ParseAddItem -> I|1050|Whopper/Q       |1|8.00|8.00|3.2000|0.00-|99999999
+07/23/2015 11:34:25 :ParseAddItem -> I|6012|MD Batata       |1|4.00|4.00|3.2000|0.00|99999999
+07/23/2015 11:34:25 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/23/2015 11:34:25 :MakeXML.AddItens
+07/23/2015 11:34:25 :MakeXML.AddItens -> Lista Itens: 3
+07/23/2015 11:34:26 :defineAcres: False
+07/23/2015 11:34:26 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/23/2015 11:34:26 :defineAcres: False
+07/23/2015 11:34:26 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/23/2015 11:34:26 :defineAcres: False
+07/23/2015 11:34:26 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/23/2015 11:34:26 :TipoIntegracao -> DIMEP
+07/23/2015 11:34:26 :SatDimep
+07/23/2015 11:34:26 :ParseSatSend id: 993849
+07/23/2015 11:34:27 :id: 993849
+07/23/2015 11:34:27 :desbloqueio sat: 197896|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:34:27 :msg: H1||||||||||||
+H2|1|99|3849|0|da Silva|0.00|172.35.207.4
+H3||WS: 99 / Conta: 3849 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1001|Arroz           |1|10.00|10.00|8.4000|0.00-|10062010
+P|101|Dinheiro    |10.00|
+?T1||
+07/23/2015 11:34:28 :ParseAddItem -> I|1001|Arroz           |1|10.00|10.00|8.4000|0.00-|10062010
+07/23/2015 11:34:28 :MakeXML.AddItens
+07/23/2015 11:34:28 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 11:34:28 :1132: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 640852|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/23/2015 11:34:28 :defineAcres: False
+07/23/2015 11:34:29 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.4000
+07/23/2015 11:34:30 :desbloqueio sat: 299665|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:34:48 :TipoIntegracao -> DIMEP
+07/23/2015 11:34:48 :SatDimep
+07/23/2015 11:35:07 :ParseSatSend id: 993850
+07/23/2015 11:35:07 :id: 993850
+07/23/2015 11:35:07 :msg: H1||||||||||||
+H2|1|99|3850|0|da Silva|0.00|172.35.207.4
+H3||WS: 99 / Conta: 3850 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|1012|Coca            |1|1.99|1.99|FF|0.00-|99999999
+P|101|Dinheiro    |1.99|
+?T1||
+07/23/2015 11:35:08 :ParseAddItem -> I|1012|Coca            |1|1.99|1.99|FF|0.00-|99999999
+07/23/2015 11:35:09 :MakeXML.AddItens
+07/23/2015 11:35:09 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 11:35:09 :defineAcres: False
+07/23/2015 11:35:09 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/23/2015 11:35:10 :desbloqueio sat: 407976|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:35:10 :993850: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 953210|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/23/2015 11:41:46 :TipoIntegracao -> DIMEP
+07/23/2015 11:41:46 :SatDimep
+07/23/2015 11:41:46 :ParseSatSend id: 1134
+07/23/2015 11:41:46 :id: 1134
+07/23/2015 11:41:46 :msg: H1||||||||||||
+H2|0|1|134|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 134 / Mesa: 0 / Emp.: MICROS M \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|7100020|Bk Hamburger    |1|5.50|5.50|3.2000|0.00-|99999999
+P|1|Dinheiro    |20.00|
+P|0|PGT|20.00|
+?T1||
+07/23/2015 11:41:47 :ParseAddItem -> I|7100020|Bk Hamburger    |1|5.50|5.50|3.2000|0.00-|99999999
+07/23/2015 11:41:49 :MakeXML.AddItens
+07/23/2015 11:41:49 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 11:41:49 :defineAcres: False
+07/23/2015 11:41:49 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/23/2015 11:41:50 :desbloqueio sat: 282709|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:43:16 :TipoIntegracao -> DIMEP
+07/23/2015 11:43:16 :SatDimep
+07/23/2015 11:43:19 :ParseSatSend id: 1135
+07/23/2015 11:43:19 :id: 1135
+07/23/2015 11:43:24 :msg: H1||||||||||||
+H2|0|1|135|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 135 / Mesa: 0 / Emp.: MICROS M \ Imp F: 1.20(13.00%) E: 1.51(17.00%) IBPT
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |10.00|
+P|0|PGT|10.00|
+?T1||
+07/23/2015 11:43:24 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/23/2015 11:43:25 :MakeXML.AddItens
+07/23/2015 11:43:26 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 11:43:26 :defineAcres: False
+07/23/2015 11:43:26 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/23/2015 11:43:27 :desbloqueio sat: 152004|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 11:43:27 :1135: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 427587|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/23/2015 12:01:50 :TipoIntegracao -> DIMEP
+07/23/2015 12:01:50 :SatDimep
+07/23/2015 12:01:50 :ParseSatSend id: 1136
+07/23/2015 12:01:50 :id: 1136
+07/23/2015 12:01:51 :msg: H1||||||||||||
+H2|0|1|136|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 136 / Mesa: 0 / Emp.: MICROS M \ Imp F: 1.20(13.00%) E: 1.51(17.00%) IBPT
+I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+P|1|Dinheiro    |10.00|
+P|0|PGT|10.00|
+?T1||
+07/23/2015 12:01:51 :ParseAddItem -> I|9008|Free Refil      |1|8.90|8.90|FF|0.00-|99999999
+07/23/2015 12:01:52 :MakeXML.AddItens
+07/23/2015 12:01:52 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 12:01:52 :defineAcres: False
+07/23/2015 12:01:55 :MakeXML.AddItens -> CST/ALIQ: 60 / 0
+07/23/2015 12:01:55 :desbloqueio sat: 162606|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/23/2015 12:01:55 :1136: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 406998|06010|1999|RejeiÃ§Ã£o: Erro nÃ£o identificado|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Sat\ParseSatSend.cs:linha 122
+07/23/2015 12:03:40 :iniciando
+07/23/2015 12:03:59 :TipoIntegracao -> DIMEP
+07/23/2015 12:03:59 :SatDimep
+07/23/2015 12:03:59 :ParseSatSend id: 1137
+07/23/2015 12:04:01 :id: 1137
+07/23/2015 12:04:02 :msg: H1||||||||||||
+H2|0|1|137|0|MICROS M|0.00|172.35.207.245
+H3||WS: 1 / Conta: 137 / Mesa: 0 / Emp.: MICROS M \ Imp F: 2.14(13.00%) E: 2.70(17.00%) IBPT
+I|1050|Whopper/Q       |1|15.90|15.90|3.2000|0.00-|99999999
+P|1|Dinheiro    |50.00|
+P|0|PGT|50.00|
+?T1||
+07/23/2015 12:04:02 :ParseAddItem -> I|1050|Whopper/Q       |1|15.90|15.90|3.2000|0.00-|99999999
+07/23/2015 12:04:02 :MakeXML.AddItens
+07/23/2015 12:04:02 :MakeXML.AddItens -> Lista Itens: 1
+07/23/2015 12:04:02 :defineAcres: False
+07/23/2015 12:04:02 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
+07/23/2015 12:04:03 :desbloqueio sat: 274306|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||

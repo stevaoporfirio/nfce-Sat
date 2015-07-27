@@ -18,13 +18,3 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Envi
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Release\EnviaSeFaz.dll
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Release\EnviaSeFaz.pdb
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Release\EnviaSeFaz.XmlSerializers.dll
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Release\EnviaSeFaz.dll.config
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Release\EnviaSeFaz.dll
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Release\EnviaSeFaz.XmlSerializers.dll
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Release\EnviaSeFaz.pdb
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Release\Utils.dll
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Release\Utils.pdb
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Release\EnviaSeFaz.csprojResolveAssemblyReference.cache
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Release\EnviaSeFaz.dll
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Release\EnviaSeFaz.pdb
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Release\EnviaSeFaz.XmlSerializers.dll

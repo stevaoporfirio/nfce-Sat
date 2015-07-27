@@ -304,7 +304,7 @@ namespace invoiceServerApp
                                     else if (cst.Equals("40"))
                                     {
                                         xmlWriter.WriteStartElement("ICMS40");
-                                        xmlWriter.WriteElementString("orig", "0");
+                                        xmlWriter.WriteElementString("Orig", "0");
                                         xmlWriter.WriteElementString("CST", "41");
                                         xmlWriter.WriteEndElement(); //ICMS40
                                     }
@@ -313,7 +313,7 @@ namespace invoiceServerApp
                                         decimal vICMS = ((item.V_UnCom * item.Q_Com) - item.V_Desc) * (Decimal.Parse(item.Valor_Aliquota) / 100);
 
                                         xmlWriter.WriteStartElement("ICMS40");
-                                        xmlWriter.WriteElementString("orig", "0");
+                                        xmlWriter.WriteElementString("Orig", "0");
                                         xmlWriter.WriteElementString("CST", "60");
                                         //xmlWriter.WriteElementString("vBCSTRet", String.Format(ci, "{0:F2}", (item.V_UnCom * item.Q_Com) - item.V_Desc));
                                         //xmlWriter.WriteElementString("vICMSSTRet", String.Format(ci, "{0:F2}", vICMS));
