@@ -5,6 +5,7 @@ using System.Text;
 using System.Xml;
 using System.Security.Cryptography.X509Certificates;
 using System.IO;
+using System.ServiceModel;
 
 namespace EnviaSeFaz
 {
@@ -61,10 +62,10 @@ namespace EnviaSeFaz
                 if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
                 {
 
-                    br.gov.rs.sefaz.nfe.homologacao.NfeStatusServico2 envia = new br.gov.rs.sefaz.nfe.homologacao.NfeStatusServico2();
+                    br.gov.rs.sefazrs.nfcehomologacaoStatuts.NfeStatusServico2 envia = new br.gov.rs.sefazrs.nfcehomologacaoStatuts.NfeStatusServico2();
 
                     envia.ClientCertificates.Add(cert);
-                    envia.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.homologacao.nfeCabecMsg();
+                    envia.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfcehomologacaoStatuts.nfeCabecMsg();
                     envia.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
                     envia.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
 
@@ -74,15 +75,17 @@ namespace EnviaSeFaz
                 else
                 {
 
-                    br.gov.rs.sefaz.nfe.NfeStatusServico2 envia = new br.gov.rs.sefaz.nfe.NfeStatusServico2();
+                    br.gov.rs.sefazrs.nfceStatus.NfeStatusServico2 envia = new br.gov.rs.sefazrs.nfceStatus.NfeStatusServico2();
 
                     envia.ClientCertificates.Add(cert);
 
-                    envia.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.nfeCabecMsg();
+                    envia.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfceStatus.nfeCabecMsg();
                     envia.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
                     envia.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
 
                     resp = envia.nfeStatusServicoNF2(xd);
+
+                
                 }
                 Utils.Logger.getInstance.error(resp.InnerText);
                 foreach (XmlElement a in resp)
@@ -134,10 +137,10 @@ namespace EnviaSeFaz
 
                 if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
                 {
-                    br.gov.rs.sefaz.nfe.homologacao1.NfeAutorizacao envia = new br.gov.rs.sefaz.nfe.homologacao1.NfeAutorizacao();
+                    br.gov.rs.sefazrs.nfcehomologacao.NfeAutorizacao envia = new br.gov.rs.sefazrs.nfcehomologacao.NfeAutorizacao();
 
                     envia.ClientCertificates.Add(cert);
-                    envia.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.homologacao1.nfeCabecMsg();
+                    envia.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfcehomologacao.nfeCabecMsg();
                     envia.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
                     envia.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
 
@@ -146,13 +149,13 @@ namespace EnviaSeFaz
                 else
                 {
 
-                    br.gov.rs.sefaz.nfe1.NfeAutorizacao envia = new br.gov.rs.sefaz.nfe1.NfeAutorizacao();
+                    br.gov.rs.sefazrs.nfceAut.NfeAutorizacao envia = new br.gov.rs.sefazrs.nfceAut.NfeAutorizacao();
 
 
                     //envia.Url = "https://nfe.sefazvirtual.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx";
                     
                     envia.ClientCertificates.Add(cert);
-                    envia.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe1.nfeCabecMsg();
+                    envia.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfceAut.nfeCabecMsg();
                     envia.nfeCabecMsgValue.cUF = "43";
                     envia.nfeCabecMsgValue.versaoDados = config.configNFCe.VersaoLayout;
 
@@ -207,10 +210,10 @@ namespace EnviaSeFaz
 
                     if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
                     {
-                        br.gov.rs.sefaz.nfe.homologacao2.NfeRetAutorizacao ret = new br.gov.rs.sefaz.nfe.homologacao2.NfeRetAutorizacao();
+                        br.gov.rs.sefazrs.nfcehomologacaoRet.NfeRetAutorizacao ret = new br.gov.rs.sefazrs.nfcehomologacaoRet.NfeRetAutorizacao();
 
                         ret.ClientCertificates.Add(cert);
-                        ret.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.homologacao2.nfeCabecMsg();
+                        ret.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfcehomologacaoRet.nfeCabecMsg();
 
 
                         ret.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
@@ -223,11 +226,11 @@ namespace EnviaSeFaz
                     else
                     {
 
-                        br.gov.rs.sefaz.nfe2.NfeRetAutorizacao ret = new br.gov.rs.sefaz.nfe2.NfeRetAutorizacao();
+                        br.gov.rs.sefazrs.nfceRet.NfeRetAutorizacao ret = new br.gov.rs.sefazrs.nfceRet.NfeRetAutorizacao();
 
                         ret.ClientCertificates.Add(cert);
 
-                        ret.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe2.nfeCabecMsg();
+                        ret.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfceRet.nfeCabecMsg();
 
                         ret.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
 
@@ -292,9 +295,9 @@ namespace EnviaSeFaz
             if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
             {
 
-                br.gov.rs.sefaz.nfe.homologacao3.RecepcaoEvento cancelamento = new br.gov.rs.sefaz.nfe.homologacao3.RecepcaoEvento();
+                br.gov.rs.sefazrs.nfcehomologacaoRecepcao.RecepcaoEvento cancelamento = new br.gov.rs.sefazrs.nfcehomologacaoRecepcao.RecepcaoEvento();
                 cancelamento.ClientCertificates.Add(cert);
-                cancelamento.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.homologacao3.nfeCabecMsg();
+                cancelamento.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfcehomologacaoRecepcao.nfeCabecMsg();
                 cancelamento.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
                 cancelamento.nfeCabecMsgValue.versaoDados = "1.00";
 
@@ -302,9 +305,9 @@ namespace EnviaSeFaz
             }
             else
             {
-                br.gov.rs.sefaz.nfe3.RecepcaoEvento cancelamento = new br.gov.rs.sefaz.nfe3.RecepcaoEvento();
+                br.gov.rs.sefazrs.nfceEvento.RecepcaoEvento cancelamento = new br.gov.rs.sefazrs.nfceEvento.RecepcaoEvento();
                 cancelamento.ClientCertificates.Add(cert);
-                cancelamento.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe3.nfeCabecMsg();
+                cancelamento.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfceEvento.nfeCabecMsg();
                 cancelamento.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
                 cancelamento.nfeCabecMsgValue.versaoDados = "1.00";
 
@@ -374,9 +377,9 @@ namespace EnviaSeFaz
             if (config.configNFCe.TpAmb.Substring(0, 1).Equals("2"))
             {
 
-                br.gov.rs.sefaz.nfe.homologacao4.NfeInutilizacao2 inutilizacao = new br.gov.rs.sefaz.nfe.homologacao4.NfeInutilizacao2();
+                br.gov.rs.sefazrs.nfcehomologacaoInutilizacao.NfeInutilizacao2 inutilizacao = new br.gov.rs.sefazrs.nfcehomologacaoInutilizacao.NfeInutilizacao2();
                 inutilizacao.ClientCertificates.Add(cert);
-                inutilizacao.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe.homologacao4.nfeCabecMsg();
+                inutilizacao.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfcehomologacaoInutilizacao.nfeCabecMsg();
                 inutilizacao.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
                 inutilizacao.nfeCabecMsgValue.versaoDados = "3.10";
 
@@ -384,9 +387,9 @@ namespace EnviaSeFaz
             }
             else
             {
-                br.gov.rs.sefaz.nfe4.NfeInutilizacao2 inutilizacao = new br.gov.rs.sefaz.nfe4.NfeInutilizacao2();
+                br.gov.rs.sefazrs.nfceInutilizacao.NfeInutilizacao2 inutilizacao = new br.gov.rs.sefazrs.nfceInutilizacao.NfeInutilizacao2();
                 inutilizacao.ClientCertificates.Add(cert);
-                inutilizacao.nfeCabecMsgValue = new br.gov.rs.sefaz.nfe4.nfeCabecMsg();
+                inutilizacao.nfeCabecMsgValue = new br.gov.rs.sefazrs.nfceInutilizacao.nfeCabecMsg();
                 inutilizacao.nfeCabecMsgValue.cUF = config.configEmitente.endereco.Cod_estado;
                 inutilizacao.nfeCabecMsgValue.versaoDados = "3.10";
 

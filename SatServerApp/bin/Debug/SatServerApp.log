@@ -1091,3 +1091,167 @@ P|0|PGT|50.00|
 07/23/2015 12:04:02 :defineAcres: False
 07/23/2015 12:04:02 :MakeXML.AddItens -> CST/ALIQ: 00 / 3.2000
 07/23/2015 12:04:03 :desbloqueio sat: 274306|17004|Erro de comunicaÃ§Ã£o com a SEFAZ||
+07/29/2015 15:41:23 :iniciando
+07/29/2015 15:41:40 :TipoIntegracao -> NFCE
+07/29/2015 15:41:41 :ParseNFCE id: 13749
+07/29/2015 15:41:49 :id: 13749
+07/29/2015 15:41:49 :msg: H1||||||||||||
+H2|1|1|3749|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3749 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |10.00|
+?T1||
+07/29/2015 15:41:49 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/29/2015 15:42:03 :defineAcres: True
+07/29/2015 15:42:04 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>SVRSnfce201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>33</cUF><dhRecbto>2015-07-29T15:42:56-03:00</dhRecbto><infRec><nRec>333065003925492</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/29/2015 15:42:06 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>SVRSnfce201507241917</verAplic><nRec>333065003925492</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>33</cUF><dhRecbto>2015-07-29T15:42:57-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>SVRSnfce201507241917</verAplic><chNFe>33150761099008000141650010000073301000073302</chNFe><dhRecbto>2015-07-29T15:42:57-03:00</dhRecbto><digVal /><cStat>213</cStat><xMotivo>Rejeicao: CNPJ-Base do Emitente difere do CNPJ-Base do Certificado Digital</xMotivo></infProt></protNFe></retConsReciNFe>
+07/29/2015 15:42:06 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+07/29/2015 15:42:06 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 178
+07/29/2015 15:42:06 :13749: System.Exception: 13749: Rejeiçao de xml:System.ApplicationException: Rejeicao: CNPJ-Base do Emitente difere do CNPJ-Base do Certificado Digital
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 178
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 200
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 157
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+07/29/2015 15:43:11 :iniciando
+07/29/2015 15:43:36 :TipoIntegracao -> NFCE
+07/29/2015 15:43:36 :ParseNFCE id: 13750
+07/29/2015 15:43:38 :id: 13750
+07/29/2015 15:43:39 :msg: H1||||||||||||
+H2|1|1|3750|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3750 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |10.00|
+?T1||
+07/29/2015 15:43:39 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/29/2015 15:43:42 :2RSnfce201411141702107Servico em Operacao432015-07-29T15:44:35-03:001
+07/29/2015 15:43:44 :defineAcres: True
+07/29/2015 15:43:47 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-29T15:44:40-03:00</dhRecbto><infRec><nRec>431065002323179</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/29/2015 15:43:49 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>RSnfce201507241911</verAplic><nRec>431065002323179</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-29T15:44:40-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce201507241911</verAplic><chNFe>43150708186139002801650010000073311000073314</chNFe><dhRecbto>2015-07-29T15:44:40-03:00</dhRecbto><nProt>143150000758235</nProt><digVal>zqa28lOc5Bt+DmvcfNZhwXMSRSU=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+07/29/2015 15:43:51 :13750: impressora: 172.35.207.4
+07/29/2015 15:53:01 :TipoIntegracao -> NFCE
+07/29/2015 15:53:01 :ParseNFCE id: INUTILIZACAO
+07/29/2015 15:53:03 :id: INUTILIZACAO
+07/29/2015 15:53:03 :msg: 644|7330
+07/29/2015 15:53:12 :2RSnfce201411141702107Servico em Operacao432015-07-29T15:54:05-03:001
+07/29/2015 15:53:14 :resposta SEFAZ: <retInutNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><infInut><tpAmb>2</tpAmb><verAplic>RSnfce201411131630</verAplic><cStat>102</cStat><xMotivo>Inutilizacao de numero homologado</xMotivo><cUF>43</cUF><ano>15</ano><CNPJ>08186139002801</CNPJ><mod>65</mod><serie>1</serie><nNFIni>7330</nNFIni><nNFFin>7330</nNFFin><dhRecbto>2015-07-29T15:54:07-03:00</dhRecbto><nProt>143150000758256</nProt></infInut></retInutNFe>
+07/29/2015 15:53:37 :TipoIntegracao -> NFCE
+07/29/2015 15:53:37 :ParseNFCE id: CANCEL
+07/29/2015 15:53:39 :id: CANCEL
+07/29/2015 15:53:39 :msg: 645
+07/29/2015 15:53:47 :2RSnfce201411141702107Servico em Operacao432015-07-29T15:54:40-03:001
+07/29/2015 15:53:50 :resposta SEFAZ: <retEnvEvento versao="1.00" xmlns="http://www.portalfiscal.inf.br/nfe"><idLote>01</idLote><tpAmb>2</tpAmb><verAplic>RSnfce201411191410</verAplic><cOrgao>43</cOrgao><cStat>128</cStat><xMotivo>Lote de Evento Processado</xMotivo><retEvento versao="1.00"><infEvento><tpAmb>2</tpAmb><verAplic>RSnfce201411191410</verAplic><cOrgao>43</cOrgao><cStat>135</cStat><xMotivo>Evento registrado e vinculado a NF-e</xMotivo><chNFe>43150708186139002801650010000073311000073314</chNFe><tpEvento>110111</tpEvento><nSeqEvento>1</nSeqEvento><dhRegEvento>2015-07-29T15:54:41-03:00</dhRegEvento><nProt>143150000758257</nProt></infEvento></retEvento></retEnvEvento>
+07/29/2015 15:53:51 :Arquivo Cancelamento Salvo em: C:\nfce\Retorno\canceladas\072920151553143150000758235.xml
+07/29/2015 16:24:34 :iniciando
+07/29/2015 16:24:45 :TipoIntegracao -> NFCE
+07/29/2015 16:24:46 :ParseNFCE id: 13751
+07/29/2015 16:24:48 :id: 13751
+07/29/2015 16:24:49 :msg: H1||||||||||||
+H2|1|1|3751|0|da Silva|0.56|172.35.207.4
+H3||WS: 1 / Conta: 3751 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.75(13.00%) E: 0.95(17.00%) IBPT
+I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+P|101|Dinheiro    |10.00|
+?T1||
+07/29/2015 16:24:49 :ParseAddItem -> I|25089|Arroz           |1|5.60|5.60|8.4000|0.00-|21069090
+07/29/2015 16:24:53 :1RSnfce201411141702107Servico em Operacao432015-07-29T16:25:46-03:001
+07/29/2015 16:24:54 :defineAcres: True
+07/29/2015 16:24:55 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-29T16:25:49-03:00</dhRecbto><infRec><nRec>431065055123280</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/29/2015 16:24:56 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201507231524</verAplic><nRec>431065055123280</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-29T16:25:48-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>1</tpAmb><verAplic>RSnfce201507231524</verAplic><chNFe>43150708186139002801650010000073321000073320</chNFe><dhRecbto>2015-07-29T16:25:48-03:00</dhRecbto><nProt>143150052442243</nProt><digVal>GxpG+fAZMCIo2ZTaajPdr95igEM=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+07/29/2015 16:24:56 :13751: impressora: 172.35.207.4
+07/29/2015 16:25:48 :TipoIntegracao -> NFCE
+07/29/2015 16:25:48 :ParseNFCE id: CANCEL
+07/29/2015 16:25:50 :id: CANCEL
+07/29/2015 16:25:50 :msg: 646
+07/29/2015 16:25:50 :1RSnfce201411141702107Servico em Operacao432015-07-29T16:26:43-03:001
+07/29/2015 16:25:51 :resposta SEFAZ: <retEnvEvento versao="1.00" xmlns="http://www.portalfiscal.inf.br/nfe"><idLote>01</idLote><tpAmb>1</tpAmb><verAplic>RSnfce201411191410</verAplic><cOrgao>43</cOrgao><cStat>128</cStat><xMotivo>Lote de Evento Processado</xMotivo><retEvento versao="1.00"><infEvento><tpAmb>1</tpAmb><verAplic>RSnfce201411191410</verAplic><cOrgao>43</cOrgao><cStat>135</cStat><xMotivo>Evento registrado e vinculado a NF-e</xMotivo><chNFe>43150708186139002801650010000073321000073320</chNFe><tpEvento>110111</tpEvento><nSeqEvento>1</nSeqEvento><dhRegEvento>2015-07-29T16:26:44-03:00</dhRegEvento><nProt>143150052442852</nProt></infEvento></retEvento></retEnvEvento>
+07/29/2015 16:25:52 :Arquivo Cancelamento Salvo em: C:\nfce\Retorno\canceladas\072920151625143150052442243.xml
+07/29/2015 16:27:41 :TipoIntegracao -> NFCE
+07/29/2015 16:27:41 :ParseNFCE id: 13752
+07/29/2015 16:27:43 :id: 13752
+07/29/2015 16:27:44 :msg: H1||||||||||||
+H2|1|1|3752|0|da Silva|0.65|172.35.207.4
+H3||WS: 1 / Conta: 3752 / Mesa: 0 / Emp.: da Silva \ Imp F: 0.00(0.00%) E: 0.00(0.00%) IBPT
+I|6011|White Berry Moch|1|6.50|6.50|8.4000|0.00-|UN 6.50 
+P|101|Dinheiro    |10.00|
+?T1||
+07/29/2015 16:27:44 :ParseAddItem -> I|6011|White Berry Moch|1|6.50|6.50|8.4000|0.00-|UN 6.50 
+07/29/2015 16:27:49 :1RSnfce201411141702107Servico em Operacao432015-07-29T16:28:41-03:001
+07/29/2015 16:27:54 :defineAcres: True
+07/29/2015 16:27:55 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201411131054</verAplic><cStat>225</cStat><xMotivo>Rejeicao: Falha no Schema XML do lote de NFe</xMotivo><cUF>43</cUF><dhRecbto>2015-07-29T16:28:47-03:00</dhRecbto></retEnviNFe>
+07/29/2015 16:27:55 :Nota sem recibo na SEFAZ: 1RSnfce201411131054225Rejeicao: Falha no Schema XML do lote de NFe432015-07-29T16:28:47-03:00
+07/29/2015 16:27:55 :   em EnviaSeFaz.EnviaNfceRS.envia() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRS.cs:linha 174
+07/29/2015 16:27:55 :   em EnviaSeFaz.EnviaNfceRS.envia() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRS.cs:linha 181
+   em EnviaSeFaz.EnviaNfceRS.enviaSefaz(XmlDocument _xmlNfce) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRS.cs:linha 110
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\ManagerSeFaz.cs:linha 47
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 171
+07/29/2015 16:27:56 :13752: System.Exception: 13752: Rejeiçao de xml:System.ApplicationException: Nota sem recibo na SEFAZ
+   em EnviaSeFaz.EnviaNfceRS.envia() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRS.cs:linha 181
+   em EnviaSeFaz.EnviaNfceRS.enviaSefaz(XmlDocument _xmlNfce) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\EnviaNfceRS.cs:linha 110
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\ManagerSeFaz.cs:linha 47
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 171
+   em invoiceServerApp.ProcessaNfce.Processa() na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 200
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ProcessaNfce.cs:linha 157
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+07/29/2015 16:28:15 :TipoIntegracao -> NFCE
+07/29/2015 16:28:15 :ParseNFCE id: INUTILIZACAO
+07/29/2015 16:28:17 :id: INUTILIZACAO
+07/29/2015 16:28:17 :msg: 647|7333
+07/29/2015 16:28:17 :1RSnfce201411141702107Servico em Operacao432015-07-29T16:29:10-03:001
+07/29/2015 16:28:18 :resposta SEFAZ: <retInutNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><infInut><tpAmb>1</tpAmb><verAplic>RSnfce201411131630</verAplic><cStat>102</cStat><xMotivo>Inutilizacao de numero homologado</xMotivo><cUF>43</cUF><ano>15</ano><CNPJ>08186139002801</CNPJ><mod>65</mod><serie>1</serie><nNFIni>7333</nNFIni><nNFFin>7333</nNFFin><dhRecbto>2015-07-29T16:29:11-03:00</dhRecbto><nProt>143150052444455</nProt></infInut></retInutNFe>
+07/30/2015 14:19:08 :iniciando
+07/30/2015 14:28:08 :TipoIntegracao -> NFCE
+07/30/2015 14:28:08 :ParseNFCE id: 996558
+07/30/2015 14:28:24 :id: 996558
+07/30/2015 14:28:25 :msg: H1||||||||||||
+H2|1|99|6558|3|Micros|0.00|172.35.207.245
+H3|Apto/Hosp:1157/Teste, Teste\|WS: 99 / Conta: 6558 / Mesa: 3 / Emp.: Micros \ Imp F: 1.27(25.00%) E: 0.95(19.00%) IBPT \ teste informa????o fiscal
+I|111001|Fanta Laranja   |1|5.00|5.00|FF|0.00-|22021000
+P|5|InqHot|5.00|
+?T1||
+07/30/2015 14:28:58 :996558: System.ApplicationException: #Nota sem Pagamento.#
+   em invoiceServerApp.validadorDanfe..ctor(DadosNfce _dtNfce) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\validadorDanfe.cs:linha 22
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 92
+07/30/2015 14:30:54 :TipoIntegracao -> NFCE
+07/30/2015 14:30:54 :ParseNFCE id: 996559
+07/30/2015 14:30:56 :id: 996559
+07/30/2015 14:31:18 :msg: H1||||||||||||
+H2|1|99|6559|4|Micros|0.00|172.35.207.245
+H3||WS: 99 / Conta: 6559 / Mesa: 4 / Emp.: Micros \ Imp F: 1.27(25.00%) E: 0.95(19.00%) IBPT \ teste informa????o fiscal
+I|111001|Fanta Laranja   |1|5.00|5.00|FF|0.00-|22021000
+P|101|InqHot|5.00|
+?T1||
+07/30/2015 14:31:18 :996559: System.ApplicationException: #Nota sem Pagamento.#
+   em invoiceServerApp.validadorDanfe..ctor(DadosNfce _dtNfce) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\validadorDanfe.cs:linha 22
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 92
+07/30/2015 14:31:45 :TipoIntegracao -> NFCE
+07/30/2015 14:31:45 :ParseNFCE id: 996560
+07/30/2015 14:31:48 :id: 996560
+07/30/2015 14:31:51 :msg: H1||||||||||||
+H2|1|99|6560|4|Micros|0.00|172.35.207.245
+H3||WS: 99 / Conta: 6560 / Mesa: 4 / Emp.: Micros \ Imp F: 1.27(25.00%) E: 0.95(19.00%) IBPT \ teste informa????o fiscal
+I|111001|Fanta Laranja   |1|5.00|5.00|FF|0.00-|22021000
+P|101|InqHot|5.00|
+?T1||
+07/30/2015 14:32:46 :996560: System.ApplicationException: #Nota sem Pagamento.#
+   em invoiceServerApp.validadorDanfe..ctor(DadosNfce _dtNfce) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\validadorDanfe.cs:linha 22
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\Nfe\ParseNFCE.cs:linha 92
+07/30/2015 14:34:07 :TipoIntegracao -> NFCE
+07/30/2015 14:34:07 :ParseNFCE id: 996561
+07/30/2015 14:34:13 :id: 996561
+07/30/2015 14:34:17 :msg: H1||||||||||||
+H2|1|99|6561|10|Micros|0.00|172.35.207.245
+H3||WS: 99 / Conta: 6561 / Mesa: 10 / Emp.: Micros \ Imp F: 1.27(25.00%) E: 0.95(19.00%) IBPT \ teste informacao fiscal
+I|111001|Fanta Laranja   |1|5.00|5.00|FF|0.00-|22021000
+P|101|InqHot|5.00|
+?T1||
+07/30/2015 14:34:22 :ParseAddItem -> I|111001|Fanta Laranja   |1|5.00|5.00|FF|0.00-|22021000
+07/30/2015 14:35:02 :1RSnfce201411141702107Servico em Operacao432015-07-30T14:35:51-03:001
+07/30/2015 14:35:27 :defineAcres: False
+07/30/2015 14:35:36 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-30T14:36:30-03:00</dhRecbto><infRec><nRec>431065055573222</nRec><tMed>1</tMed></infRec></retEnviNFe>
+07/30/2015 14:35:46 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201507231524</verAplic><nRec>431065055573222</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-30T14:36:29-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>1</tpAmb><verAplic>RSnfce201507231524</verAplic><chNFe>43150708186139002801650010000073341000073340</chNFe><dhRecbto>2015-07-30T14:36:29-03:00</dhRecbto><nProt>143150052794996</nProt><digVal>jzKk5aizjIUxSAL7SERd48MTw8M=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+07/30/2015 14:35:47 :996561: impressora: 172.35.207.245

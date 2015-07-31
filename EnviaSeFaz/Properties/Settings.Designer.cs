@@ -519,5 +519,210 @@ namespace EnviaSeFaz.Properties {
                 return ((string)(this["EnviaSeFaz_br_gov_rs_sefazvirtual_nfe_homologacao5_RecepcaoEvento"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.sefazrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacao_NfeAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacao_NfeAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.sefazrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2." +
+            "asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoStatuts_NfeStatusServico2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoStatuts_NfeStatusServico2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.sefazrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao" +
+            ".asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoRet_NfeRetAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoRet_NfeRetAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.sefazrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoRecepcao_RecepcaoEvento {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoRecepcao_RecepcaoEvento"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.sefazrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.as" +
+            "mx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoInutilizacao_NfeInutilizacao2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfcehomologacaoInutilizacao_NfeInutilizacao2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.sefazrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfceStatus_NfeStatusServico2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfceStatus_NfeStatusServico2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.sefazrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfceAut_NfeAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfceAut_NfeAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.sefazrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfceRet_NfeRetAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfceRet_NfeRetAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.sefazrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfceEvento_RecepcaoEvento {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfceEvento_RecepcaoEvento"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.sefazrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx")]
+        public string EnviaSeFaz_br_gov_rs_sefazrs_nfceInutilizacao_NfeInutilizacao2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_sefazrs_nfceInutilizacao_NfeInutilizacao2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asm" +
+            "x")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoStatus_NfeStatusServico2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoStatus_NfeStatusServico2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoAut_NfeAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoAut_NfeAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.as" +
+            "mx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoRet_NfeRetAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoRet_NfeRetAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoRec_RecepcaoEvento {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoRec_RecepcaoEvento"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoInut_NfeInutilizacao2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfcehomologacaoInut_NfeInutilizacao2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfceStatus_NfeStatusServico2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfceStatus_NfeStatusServico2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfceAuto_NfeAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfceAuto_NfeAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfceRet_NfeRetAutorizacao {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfceRet_NfeRetAutorizacao"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfceEvento_RecepcaoEvento {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfceEvento_RecepcaoEvento"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://nfce.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx")]
+        public string EnviaSeFaz_br_gov_rs_svrs_nfceInut_NfeInutilizacao2 {
+            get {
+                return ((string)(this["EnviaSeFaz_br_gov_rs_svrs_nfceInut_NfeInutilizacao2"]));
+            }
+        }
     }
 }

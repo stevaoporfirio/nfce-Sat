@@ -206,7 +206,7 @@ namespace invoiceServerApp
             try
             {
                 //
-                dadosSatImp = new ImpressaoSAT(_xmlImprensao, _xmlImprensaoCancel, config, tipo);
+                dadosSatImp = new ImpressaoSAT(_xmlImprensao, _xmlImprensaoCancel, config, tipo);                           
 
                 ImprimirEpsonNF.ImprimirNF(printer, dadosSatImp.DadosImpressao1, dadosSatImp.DadosImpressao2, dadosQR, dadosSatImp.DadosQrCodeCancelamento, dtSAT.TefNfce.StringTEF, true, true);
 
@@ -245,7 +245,9 @@ namespace invoiceServerApp
             {
                 throw new Exception("# Arquivo XML CFe Original não encontrado em: " + fileCancel+"#");
             }
-            
+
+            dadosQR = "";
+
             Impressao(xmlImpressao, null, TipoImpressao.VendaCompleto, _dtImprensao.portaImpressora);
             
             return "";
