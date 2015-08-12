@@ -46,3 +46,19 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Release\NFCE_Status_2.csproj.GenerateResource.Cache
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Release\NFCE_Status_2.exe
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Release\NFCE_Status_2.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Release\NFCE_Status_2.exe.config
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Release\NFCE_Status_2.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Release\NFCE_Status_2.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Release\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Release\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Release\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Release\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\NFCE_Status_2.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\invoiceServerApp.Consultar.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\invoiceServerApp.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\invoiceServerApp.FormStatus.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\invoiceServerApp.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\invoiceServerApp.Relatorio.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\NFCE_Status_2.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\NFCE_Status_2.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Release\NFCE_Status_2.pdb

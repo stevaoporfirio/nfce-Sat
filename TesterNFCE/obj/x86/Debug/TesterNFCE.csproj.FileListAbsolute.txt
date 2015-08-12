@@ -66,3 +66,20 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Test
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\TesterNFCE\obj\x86\Debug\TesterNFCE.csproj.GenerateResource.Cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\TesterNFCE\obj\x86\Debug\TesterNFCE.exe
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\TesterNFCE\obj\x86\Debug\TesterNFCE.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.exe.config
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerApp.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.pdb

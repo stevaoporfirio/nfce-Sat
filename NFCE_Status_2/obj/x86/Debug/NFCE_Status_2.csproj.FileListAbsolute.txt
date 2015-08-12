@@ -62,3 +62,19 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.exe
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe.config
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status_2.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Consultar.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.FormStatus.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Relatorio.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csprojResolveAssemblyReference.cache

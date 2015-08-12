@@ -52,3 +52,21 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\obj\x86\Release\SatServerApp.exe
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\obj\x86\Release\SatServerApp.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerApp\obj\x86\Release\SatServerApp.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\SatServerApp.exe.config
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Release\SatServerApp.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Release\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Release\SatServerApp.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\SatServerApp.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\SatServerApp.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Release\EnviaSeFaz.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Release\SatServerApp.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Release\invoiceServerApp.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Release\invoiceServerApp.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Release\SatServerApp.csproj.GenerateResource.Cache

@@ -28,3 +28,13 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Release\EnviaSeFaz.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Release\EnviaSeFaz.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\obj\Release\EnviaSeFaz.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Release\EnviaSeFaz.dll.config
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Release\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Release\EnviaSeFaz.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Release\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Release\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Release\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\obj\Release\EnviaSeFaz.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\obj\Release\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\obj\Release\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\obj\Release\EnviaSeFaz.XmlSerializers.dll

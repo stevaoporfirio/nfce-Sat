@@ -58,3 +58,18 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatS
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\SatServerApp.csproj.GenerateResource.Cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\SatServerApp.exe
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerApp\obj\x86\Debug\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\SatServerApp.exe.config
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\SatServerApp.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Debug\SatServerApp.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Debug\invoiceServerApp.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Debug\SatServerApp.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Debug\SatServerApp.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\obj\x86\Debug\SatServerApp.pdb

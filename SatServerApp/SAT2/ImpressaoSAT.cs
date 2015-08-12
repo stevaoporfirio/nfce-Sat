@@ -246,8 +246,20 @@ namespace invoiceServerApp
                         case "01":
                             p.descPgt = "Dinheiro";
                             break;
-                        case "99":
-                            p.descPgt = "Outros";
+                        case "03":
+                            p.descPgt = "Cartao de Credito";
+                            break;
+                        case "04":
+                            p.descPgt = "Cartao de Debito";
+                            break;
+                        case "05":
+                            p.descPgt = "Vale Refeicao";
+                            break;
+                        case "06":
+                            p.descPgt = "Vale Alimentacao";
+                            break;
+                        case "07":
+                            p.descPgt = "Vale Presente";
                             break;
                         default:
                             p.descPgt = "Outros";

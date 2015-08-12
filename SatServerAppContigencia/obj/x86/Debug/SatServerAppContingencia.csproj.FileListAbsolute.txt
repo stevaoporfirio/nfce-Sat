@@ -66,3 +66,20 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatS
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csproj.GenerateResource.Cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.exe
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.exe.config
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\SatServerApp.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Debug\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\invoiceServerApp.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.exe
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csprojResolveAssemblyReference.cache

@@ -240,7 +240,7 @@ namespace invoiceServerApp
 
                                     string strVOutroRateioTtl = vOutroRateioItem.ToString("F2");
 
-                                    vOutroRateioItem += Convert.ToDecimal(strVOutroRateioTtl);
+                                    vOutroRateioItem = Convert.ToDecimal(strVOutroRateioTtl);
 
                                     vOutroRateioTtl += vOutroRateioItem;
 

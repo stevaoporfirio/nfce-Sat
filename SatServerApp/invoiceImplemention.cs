@@ -8,18 +8,18 @@ using System.Text.RegularExpressions;
 
 namespace invoiceServerApp
 {
-    public class invoiceImplemention: NotificationChanged 
+    public class invoiceImplemention : NotificationChanged
     {
         private Utils.ConfigureXml config;
         Dictionary<string, ParseInterface> dictionary = new Dictionary<string, ParseInterface>();
         private Object thisLock = new Object();
 
-        public invoiceImplemention(Utils.ConfigureXml _config) 
+        public invoiceImplemention(Utils.ConfigureXml _config)
         {
             config = _config;
         }
 
-        public string NotificationChangedClient(string _id, string _receive)        
+        public string NotificationChangedClient(string _id, string _receive)
         {
             lock (thisLock)
             {
@@ -32,11 +32,11 @@ namespace invoiceServerApp
                         dictionary.Add(_id, new ParseNFCE(_id, config));
                         Utils.Logger.getInstance.error("ParseNFCE id: " + _id);
                     }
-                    else 
+                    else
                     {
                         dictionary.Add(_id, new ParseSatSend(_id, config));
                         Utils.Logger.getInstance.error("ParseSatSend id: " + _id);
-                        
+
                     }
                 }
             }
@@ -66,9 +66,9 @@ namespace invoiceServerApp
                 else if (_id.Equals("CANCEL"))
                     retorno = parse.messageCancel(msg) + "|X|";
                 else if (_id.Equals("REDANFE"))
-                    retorno = parse.ReImpressaoDanfe(msg);
+                    retorno = parse.ReImpressaoDanfe(msg) + "|X|";
                 else if (_id.Equals("INUTILIZACAO"))
-                    retorno = parse.messageInutilizacao(msg);
+                    retorno = parse.messageInutilizacao(msg) + "|X|";
                 else
                 {
                     retorno = parse.messageParse(msg) + "|X|";
@@ -89,12 +89,12 @@ namespace invoiceServerApp
                 
             }
             return retorno;
-            
-            
+
+
         }
         private string removeReturn(string _msg)
         {
-            string StrPat = @"((?<=#).*(?=#))"; 
+            string StrPat = @"((?<=#).*(?=#))";
             Regex pattern = new Regex(StrPat, RegexOptions.Compiled);
             Match m = pattern.Match(_msg);
             if (m.Success)
@@ -111,7 +111,7 @@ namespace invoiceServerApp
                     dictionary.Remove(_id);
                 }
             }
-                
+
         }
 
 

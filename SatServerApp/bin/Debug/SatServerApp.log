@@ -1255,3 +1255,66 @@ P|101|InqHot|5.00|
 07/30/2015 14:35:36 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201411131054</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-07-30T14:36:30-03:00</dhRecbto><infRec><nRec>431065055573222</nRec><tMed>1</tMed></infRec></retEnviNFe>
 07/30/2015 14:35:46 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201507231524</verAplic><nRec>431065055573222</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-07-30T14:36:29-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>1</tpAmb><verAplic>RSnfce201507231524</verAplic><chNFe>43150708186139002801650010000073341000073340</chNFe><dhRecbto>2015-07-30T14:36:29-03:00</dhRecbto><nProt>143150052794996</nProt><digVal>jzKk5aizjIUxSAL7SERd48MTw8M=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
 07/30/2015 14:35:47 :996561: impressora: 172.35.207.245
+08/06/2015 17:14:50 :iniciando
+08/06/2015 17:23:55 :iniciando
+08/06/2015 17:24:09 :TipoIntegracao -> DIMEP
+08/06/2015 17:24:09 :SatDimep
+08/06/2015 17:24:09 :ParseSatSend id: 64394
+08/06/2015 17:24:10 :id: 64394
+08/06/2015 17:24:12 :msg: H1|||||||||||
+H2|1|64|394|0|MICROS|0.00|172.35.207.4
+H3||Conta: 394 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+08/06/2015 17:24:12 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+08/06/2015 17:24:14 :MakeXML.AddItens
+08/06/2015 17:24:14 :MakeXML.AddItens -> Lista Itens: 1
+08/06/2015 17:24:14 :defineAcres: False
+08/06/2015 17:24:14 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+08/06/2015 17:24:35 :desbloqueio sat: 474572|17099|Erro desconhecido||
+08/06/2015 17:24:35 :64394: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 130448|06008|0000|SAT bloqueado por falta de comunicaÃ§Ã£o|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+08/06/2015 17:36:46 :iniciando
+08/06/2015 17:36:56 :TipoIntegracao -> DIMEP
+08/06/2015 17:36:56 :SatDimep
+08/06/2015 17:36:56 :ParseSatSend id: 64394
+08/06/2015 17:36:56 :id: 64394
+08/06/2015 17:36:56 :msg: H1|||||||||||
+H2|1|64|394|0|MICROS|0.00|172.35.207.4
+H3||Conta: 394 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+08/06/2015 17:36:56 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+08/06/2015 17:36:58 :MakeXML.AddItens
+08/06/2015 17:36:58 :MakeXML.AddItens -> Lista Itens: 1
+08/06/2015 17:36:58 :defineAcres: False
+08/06/2015 17:36:58 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+08/06/2015 17:37:09 :desbloqueio sat: 062533|17002|SAT bloqueado pelo contribuinte. Verifique configuraÃ§Ãµes na SEFAZ||
+08/06/2015 17:37:09 :64394: System.Exception: Erro em Processa SAT # Erro processando Venda SAT 431634|06010|1203|RejeiÃ§Ã£o: Emitente nÃ£o autorizado para uso do SAT.|| #
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 133
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+08/06/2015 17:38:33 :iniciando
+08/06/2015 17:38:57 :TipoIntegracao -> DIMEP
+08/06/2015 17:38:57 :SatDimep
+08/06/2015 17:38:57 :ParseSatSend id: 64394
+08/06/2015 17:38:57 :id: 64394
+08/06/2015 17:38:57 :msg: H1|||||||||||
+H2|1|64|394|0|MICROS|0.00|172.35.207.4
+H3||Conta: 394 / Mesa: 0 / Atendente: MICROS \
+I|1001|Hamburger|1|15|15|8.40|0|01012100
+P|1|Dinheiro|20.00
+?T1||
+08/06/2015 17:38:57 :ParseAddItem -> I|1001|Hamburger|1|15|15|8.40|0|01012100
+08/06/2015 17:38:58 :MakeXML.AddItens
+08/06/2015 17:38:58 :MakeXML.AddItens -> Lista Itens: 1
+08/06/2015 17:38:58 :defineAcres: False
+08/06/2015 17:38:58 :MakeXML.AddItens -> CST/ALIQ: 00 / 8.40
+08/06/2015 17:39:06 :desbloqueio sat: 312469|17002|SAT bloqueado pelo contribuinte. Verifique configuraÃ§Ãµes na SEFAZ||
+08/06/2015 17:40:03 :TipoIntegracao -> DIMEP
+08/06/2015 17:40:03 :SatDimep
+08/06/2015 17:40:05 :ParseSatSend id: REDANFE
+08/06/2015 17:40:05 :id: REDANFE
+08/06/2015 17:40:05 :msg: 172.35.207.4|35150861099008000141599000011890003239256701
