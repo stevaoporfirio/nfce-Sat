@@ -83,3 +83,20 @@ C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.exe
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.pdb
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csprojResolveAssemblyReference.cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.exe.config
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\SatServerAppContingencia.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\EnviaSeFaz.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\SatServerApp.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\SatServerAppDB.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\Utils.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\EnviaSeFaz.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\SatServerAppDB.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\Utils.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\bin\Debug\SatServerApp.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csprojResolveAssemblyReference.cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\invoiceServerApp.Form1.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.Properties.Resources.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.csproj.GenerateResource.Cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Debug\SatServerAppContingencia.pdb

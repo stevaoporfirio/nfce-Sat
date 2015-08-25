@@ -116,6 +116,7 @@ namespace invoiceServerApp
                 if (bytesRead > 0)
                 {
                     state.sb.Append(Encoding.ASCII.GetString(state.buffer, 0, bytesRead));
+                    handler.BeginReceive(state.buffer, 0, StateObject.buffersize, 0, new AsyncCallback(ReadCallback), state);
                     content = state.sb.ToString();
                     if (content.Contains("|END|"))
                     {

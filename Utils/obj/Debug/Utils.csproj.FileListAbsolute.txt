@@ -18,3 +18,7 @@ C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\Utils\bin\Debug\Utils.dll
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\Utils\bin\Debug\Utils.pdb
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\Utils\obj\Debug\Utils.dll
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\Utils\obj\Debug\Utils.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\bin\Debug\Utils.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\Utils\obj\Debug\Utils.pdb

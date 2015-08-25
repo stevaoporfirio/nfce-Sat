@@ -78,3 +78,19 @@ C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.exe
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.pdb
 C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csprojResolveAssemblyReference.cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe.config
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status_2.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\SatServerAppDB.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\Utils.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\SatServerAppDB.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\Utils.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csprojResolveAssemblyReference.cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Consultar.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Form1.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.FormStatus.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Relatorio.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.pdb

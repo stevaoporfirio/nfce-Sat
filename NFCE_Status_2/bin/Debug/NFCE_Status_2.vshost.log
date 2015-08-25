@@ -5,3 +5,5 @@
    em System.IO.StreamReader..ctor(String path)
    em invoiceServerApp.FormStatus.getCFGConfig(String _key) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\FormStatus.cs:linha 84
    em invoiceServerApp.FormStatus.sendNfce(String _msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\FormStatus.cs:linha 106
+08/14/2015 15:50:24 :   em System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   em invoiceServerApp.FormStatus.sendNfce(String _msg) na E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\FormStatus.cs:linha 106
