@@ -69,10 +69,13 @@ namespace Utils
 
             public bool Contingencia { get; set; }
 
-            public string sequenceNumberNfce { get; set; }
+            //public string sequenceNumberNfce { get; set; }
             public string Serie { get; set; }
             public string Id_banco { get; set; }
             public string NomeCertificadoDigital { get; set; }
+
+            public string CaminhoCertificadoDigital { get; set; }
+            public string SenhaCertificadoDigital { get; set; }
 
             public string NCM { get; set; }
             public string VersaoLayout{ get; set; }
@@ -257,12 +260,16 @@ namespace Utils
 
             public bool isServidor { get; set; }
             public string tipoIntegracao { get; set; }
+            public int TipoDB { get; set; } // 0 Micros | 1 Simphony
+            public string SimphonyDB { get; set; }
             public eImpressao impressao { get; set; }
             public string pathFiles { get; set; }
             public string IP { get; set; }
             public string Porta { get; set; }
             public string CNPJCredenciadoraCartao { get; set; }
             public NFCePgtList PgtList = new NFCePgtList();
+
+            
 
             public void setData()
             {

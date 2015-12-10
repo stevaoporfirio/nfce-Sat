@@ -30,14 +30,22 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Envi
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Debug\EnviaSeFaz.csprojResolveAssemblyReference.cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Debug\EnviaSeFaz.dll
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\EnviaSeFaz\obj\Debug\EnviaSeFaz.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll.config
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Debug\EnviaSeFaz.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Debug\Utils.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\bin\Debug\Utils.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\obj\Debug\EnviaSeFaz.csprojResolveAssemblyReference.cache
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\obj\Debug\EnviaSeFaz.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\EnviaSeFaz\obj\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll.config
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\obj\Debug\EnviaSeFaz.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\obj\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\obj\Debug\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\bin\Debug\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\bin\Debug\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\bin\Debug\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\obj\Debug\EnviaSeFaz.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\obj\Debug\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\obj\Debug\EnviaSeFaz.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll.config
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Debug\EnviaSeFaz.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\EnviaSeFaz\bin\Debug\EnviaSeFaz.pdb

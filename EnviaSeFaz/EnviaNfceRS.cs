@@ -87,7 +87,7 @@ namespace EnviaSeFaz
 
                 
                 }
-                Utils.Logger.getInstance.error(resp.InnerText);
+                //Utils.Logger.getInstance.error(resp.InnerText);
                 foreach (XmlElement a in resp)
                 {
                     if (a.Name.Equals("xMotivo"))
@@ -99,7 +99,7 @@ namespace EnviaSeFaz
             }
             catch (Exception ex)
             {
-                Utils.Logger.getInstance.error(ex);
+                //Utils.Logger.getInstance.error(ex);
                 throw new Exception("Problemas de comunicaçao com SEFAZ: " + ex.ToString());
             }
         }
@@ -164,14 +164,14 @@ namespace EnviaSeFaz
 
                 //Utils.Logger.getInstance.error(xmlNfce.InnerText);
 
-                Utils.Logger.getInstance.error(resp.OuterXml);
+                //Utils.Logger.getInstance.error(resp.OuterXml);
                 retRejeiçao = getElementXml(resp, "cStat");
                 retRejeiçaoMotivo = getElementXml(resp, "xMotivo");
                 Recibo = getElementXml(resp, "nRec");
                 if (Recibo == String.Empty)
                 {
-                    Utils.Logger.getInstance.error("Nota sem recibo na SEFAZ: " + resp.InnerText);
-                    throw new ApplicationException("Nota sem recibo na SEFAZ");
+                    //Utils.Logger.getInstance.error("Nota sem recibo na SEFAZ: " + resp.InnerText);
+                    throw new ApplicationException("Nota sem recibo na SEFAZ" + resp.InnerText);
                 }
             }
             catch (Exception e)
@@ -239,7 +239,7 @@ namespace EnviaSeFaz
                         n1 = ret.nfeRetAutorizacaoLote(xd);
                     }
 
-                    Utils.Logger.getInstance.error("resposta SEFAZ: " + n1.OuterXml);
+                    //Utils.Logger.getInstance.error("resposta SEFAZ: " + n1.OuterXml);
 
                     retNode = new XmlDocument();
                     retNode.LoadXml(n1.OuterXml);
@@ -320,11 +320,7 @@ namespace EnviaSeFaz
 
             XmlNode nr1 = retorno.GetElementsByTagName("retEvento")[0];
 
-
             xmlCancelamento = new Utils.XmlFinal().DanfeFinalCancel(retorno, _xmlNfce);
-
-           
-            
             
             string stat = getElementXml(nr1, "cStat");
             string motivo = getElementXml(nr1, "xMotivo");
@@ -396,12 +392,11 @@ namespace EnviaSeFaz
                 resp = inutilizacao.nfeInutilizacaoNF2(_xmlNfce);
             }
 
-            Utils.Logger.getInstance.error("resposta SEFAZ: " + resp.OuterXml);
+            //Utils.Logger.getInstance.error("resposta SEFAZ: " + resp.OuterXml);
             retorno = new XmlDocument();
             retorno.LoadXml(resp.OuterXml);
 
             XmlNode nr1 = retorno.GetElementsByTagName("retInutNFe")[0];
-
 
             xmlCancelamento = new Utils.XmlFinal().DanfeFinalInutilizacao(retorno, _xmlNfce);
 
@@ -411,9 +406,7 @@ namespace EnviaSeFaz
             if (stat != "102")
                 throw new ApplicationException(motivo);
             else
-                return true;
-            
+                return true;            
         }
-
     }
 }

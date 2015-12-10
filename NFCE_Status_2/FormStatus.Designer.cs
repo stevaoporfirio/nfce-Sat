@@ -46,6 +46,7 @@
             this.txtChaveAcesso = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -61,9 +62,10 @@
             // btnInutilizar
             // 
             this.btnInutilizar.Enabled = false;
-            this.btnInutilizar.Location = new System.Drawing.Point(208, 359);
+            this.btnInutilizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInutilizar.Location = new System.Drawing.Point(207, 355);
             this.btnInutilizar.Name = "btnInutilizar";
-            this.btnInutilizar.Size = new System.Drawing.Size(114, 23);
+            this.btnInutilizar.Size = new System.Drawing.Size(182, 55);
             this.btnInutilizar.TabIndex = 1;
             this.btnInutilizar.Text = "Inutilizar NFCE";
             this.btnInutilizar.UseVisualStyleBackColor = true;
@@ -72,9 +74,10 @@
             // btnCancelar
             // 
             this.btnCancelar.Enabled = false;
-            this.btnCancelar.Location = new System.Drawing.Point(331, 358);
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(401, 354);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(114, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(182, 56);
             this.btnCancelar.TabIndex = 2;
             this.btnCancelar.Text = "Cancelar NFCE";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -218,23 +221,37 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.txtNumRecibo);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.txtDtEmissao);
             this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.btnCancelar);
+            this.groupBox1.Controls.Add(this.btnInutilizar);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(599, 387);
+            this.groupBox1.Size = new System.Drawing.Size(599, 416);
             this.groupBox1.TabIndex = 36;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Historico NFCE";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(13, 354);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(182, 56);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "Imprimir";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 398);
+            this.ClientSize = new System.Drawing.Size(609, 432);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtStatusNFCe);
             this.Controls.Add(this.label5);
@@ -245,12 +262,11 @@
             this.Controls.Add(this.txtNumNFCe);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtChaveAcesso);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnInutilizar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormStatus";
             this.Text = "Histórico NFCE";
+            this.Load += new System.EventHandler(this.FormStatus_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -279,5 +295,6 @@
         private System.Windows.Forms.TextBox txtChaveAcesso;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

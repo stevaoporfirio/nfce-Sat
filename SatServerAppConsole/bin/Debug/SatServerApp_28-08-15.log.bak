@@ -1,0 +1,129 @@
+08/28/2015 09:47:29 :SatDimep
+08/28/2015 09:47:35 :172.35.207.130
+08/28/2015 09:49:39 :ParseSatSend id: 993088
+08/28/2015 09:49:39 :Imprimindo 993088 172.35.207.4
+08/28/2015 09:49:39 :Processa SAT Finalizado 993088 35150861099008000141599000011890017547491027
+08/28/2015 09:50:57 :SatDimep
+08/28/2015 09:51:03 :172.35.207.130
+08/28/2015 09:51:12 :ParseSatSend id: 993089
+08/28/2015 09:51:13 :Imprimindo 993089 172.35.207.4
+08/28/2015 09:51:13 :993089: System.Exception: Erro em Processa SAT Erro Imprimindo SAT Cfe Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 127
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+08/28/2015 09:51:27 :ParseSatSend id: 993089
+08/28/2015 09:51:28 :Imprimindo 993089 172.35.207.4
+08/28/2015 09:52:16 :993089: System.Exception: Erro em Processa SAT Erro Imprimindo SAT Cfe Referência de objeto não definida para uma instância de um objeto.
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 127
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+08/28/2015 09:52:22 :ParseSatSend id: 993089
+08/28/2015 09:52:23 :Imprimindo 993089 172.35.207.4
+08/28/2015 09:52:35 :Processa SAT Finalizado 993089 35150861099008000141599000011890017572978252
+08/28/2015 10:02:52 :ParseSatSend id: 993090
+08/28/2015 10:02:53 :Imprimindo 993090 172.35.207.3
+08/28/2015 10:02:53 :Processa SAT Finalizado 993090 35150861099008000141599000011890017582607680
+08/28/2015 10:03:56 :ParseSatSend id: 993091
+08/28/2015 10:03:57 :Imprimindo 993091 172.35.207.3
+08/28/2015 10:05:42 :SatDimep
+08/28/2015 10:05:48 :172.35.207.130
+08/28/2015 10:05:58 :ParseSatSend id: 993091
+08/28/2015 10:05:59 :Imprimindo 993091 172.35.207.3
+08/28/2015 10:06:21 :Processa SAT Finalizado 993091 35150861099008000141599000011890017605542458
+08/28/2015 10:06:39 :ParseSatSend id: 993092
+08/28/2015 10:06:40 :Imprimindo 993092 172.35.207.3
+08/28/2015 10:06:52 :Processa SAT Finalizado 993092 35150861099008000141599000011890017611820448
+08/28/2015 10:07:10 :ParseSatSend id: 1126
+08/28/2015 10:07:11 :Imprimindo 1126 172.35.207.4
+08/28/2015 10:07:42 :Processa SAT Finalizado 1126 35150861099008000141599000011890017621644910
+08/28/2015 10:07:50 :ParseSatSend id: 1127
+08/28/2015 10:07:51 :Imprimindo 1127 172.35.207.4
+08/28/2015 10:08:03 :   em Utils.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String[] cupom2, String qr, String qrC, String tef, Boolean cortar, Boolean gaveta)
+08/28/2015 10:08:03 :1127: System.Exception: Erro em Processa SAT Erro Imprimindo SAT Cfe Erro Imprimindo CF
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Utils.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String[] cupom2, String qr, String qrC, String tef, Boolean cortar, Boolean gaveta)
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 127
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+08/28/2015 10:08:24 :ParseSatSend id: 1127
+08/28/2015 10:08:24 :Imprimindo 1127 172.35.207.4
+08/28/2015 10:08:52 :   em Utils.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String[] cupom2, String qr, String qrC, String tef, Boolean cortar, Boolean gaveta)
+08/28/2015 10:08:52 :1127: System.Exception: Erro em Processa SAT Erro Imprimindo SAT Cfe Erro Imprimindo CF
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Utils.ImprimirEpsonNF.ImprimirNF(String portaImpressora, String[] cupom, String[] cupom2, String qr, String qrC, String tef, Boolean cortar, Boolean gaveta)
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 127
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+08/28/2015 10:09:11 :ParseSatSend id: 1127
+08/28/2015 10:09:12 :Imprimindo 1127 172.35.207.4
+08/28/2015 10:11:25 :Processa SAT Finalizado 1127 35150861099008000141599000011890017650820267
+08/28/2015 10:11:49 :ParseSatSend id: 993093
+08/28/2015 10:11:50 :Imprimindo 993093 172.35.207.3
+08/28/2015 10:11:54 :Processa SAT Finalizado 993093 35150861099008000141599000011890017663451850
+08/28/2015 10:11:54 :ParseSatSend id: 1128
+08/28/2015 10:11:55 :Imprimindo 1128 172.35.207.4
+08/28/2015 10:11:56 :Processa SAT Finalizado 1128 35150861099008000141599000011890017676253327
+08/28/2015 10:11:59 :ParseSatSend id: 1129
+08/28/2015 10:12:00 :Imprimindo 1129 172.35.207.4
+08/28/2015 10:12:01 :ParseSatSend id: 993094
+08/28/2015 10:12:02 :Imprimindo 993094 172.35.207.3
+08/28/2015 10:12:02 :Processa SAT Finalizado 1129 35150861099008000141599000011890017685690190
+08/28/2015 10:12:03 :Processa SAT Finalizado 993094 35150861099008000141599000011890017691168050
+08/28/2015 10:12:05 :ParseSatSend id: 1130
+08/28/2015 10:12:06 :Imprimindo 1130 172.35.207.4
+08/28/2015 10:12:08 :Processa SAT Finalizado 1130 35150861099008000141599000011890017700689916
+08/28/2015 10:12:09 :ParseSatSend id: 993095
+08/28/2015 10:12:10 :Imprimindo 993095 172.35.207.3
+08/28/2015 10:12:11 :ParseSatSend id: 1131
+08/28/2015 10:12:11 :Processa SAT Finalizado 993095 35150861099008000141599000011890017719914559
+08/28/2015 10:12:12 :Imprimindo 1131 172.35.207.4
+08/28/2015 10:12:14 :Processa SAT Finalizado 1131 35150861099008000141599000011890017728324939
+08/28/2015 10:12:18 :ParseSatSend id: 1132
+08/28/2015 10:12:19 :Imprimindo 1132 172.35.207.4
+08/28/2015 10:12:20 :ParseSatSend id: 993096
+08/28/2015 10:12:21 :Processa SAT Finalizado 1132 35150861099008000141599000011890017732728984
+08/28/2015 10:12:21 :Imprimindo 993096 172.35.207.3
+08/28/2015 10:12:23 :Processa SAT Finalizado 993096 35150861099008000141599000011890017748043455
+08/28/2015 10:12:25 :ParseSatSend id: 1133
+08/28/2015 10:12:26 :Imprimindo 1133 172.35.207.4
+08/28/2015 10:12:27 :Processa SAT Finalizado 1133 35150861099008000141599000011890017755350805
+08/28/2015 10:12:31 :ParseSatSend id: 1134
+08/28/2015 10:12:32 :Imprimindo 1134 172.35.207.4
+08/28/2015 10:12:33 :Processa SAT Finalizado 1134 35150861099008000141599000011890017763903150
+08/28/2015 10:23:22 :SatDimep
+08/28/2015 10:23:28 :172.35.207.130
+08/28/2015 10:23:39 :ParseSatSend id: 993097
+08/28/2015 10:23:40 :Imprimindo 993097 172.35.207.3
+08/28/2015 10:23:42 :Processa SAT Finalizado 993097 35150861099008000141599000011890017773636405
+08/28/2015 10:23:49 :ParseSatSend id: 1135
+08/28/2015 10:23:50 :Imprimindo 1135 172.35.207.4
+08/28/2015 10:23:51 :Processa SAT Finalizado 1135 35150861099008000141599000011890017781836574
+08/28/2015 10:24:01 :ParseSatSend id: 1136
+08/28/2015 10:24:02 :Imprimindo 1136 172.35.207.4
+08/28/2015 10:24:04 :Processa SAT Finalizado 1136 35150861099008000141599000011890017796655490
+08/28/2015 10:24:04 :ParseSatSend id: 993098
+08/28/2015 10:24:05 :Imprimindo 993098 172.35.207.3
+08/28/2015 10:24:07 :Processa SAT Finalizado 993098 35150861099008000141599000011890017806355302
+08/28/2015 10:24:07 :ParseSatSend id: 1137
+08/28/2015 10:24:08 :Imprimindo 1137 172.35.207.4
+08/28/2015 10:24:10 :Processa SAT Finalizado 1137 35150861099008000141599000011890017813962138
+08/28/2015 10:24:12 :ParseSatSend id: 993099
+08/28/2015 10:24:13 :ParseSatSend id: 1138
+08/28/2015 10:24:13 :Imprimindo 993099 172.35.207.3
+08/28/2015 10:24:14 :Imprimindo 1138 172.35.207.4
+08/28/2015 10:24:14 :Processa SAT Finalizado 993099 35150861099008000141599000011890017826535721
+08/28/2015 10:24:16 :Processa SAT Finalizado 1138 35150861099008000141599000011890017831678942
+08/28/2015 10:24:19 :ParseSatSend id: 1139
+08/28/2015 10:24:20 :Imprimindo 1139 172.35.207.4
+08/28/2015 10:24:20 :ParseSatSend id: 993100
+08/28/2015 10:24:21 :Imprimindo 993100 172.35.207.3
+08/28/2015 10:24:21 :Processa SAT Finalizado 1139 35150861099008000141599000011890017846215552
+08/28/2015 10:24:23 :Processa SAT Finalizado 993100 35150861099008000141599000011890017850067040
+08/28/2015 10:24:29 :ParseSatSend id: 993101
+08/28/2015 10:24:30 :Imprimindo 993101 172.35.207.3
+08/28/2015 10:24:31 :ParseSatSend id: 1140
+08/28/2015 10:24:32 :Processa SAT Finalizado 993101 35150861099008000141599000011890017860086411
+08/28/2015 10:24:32 :Imprimindo 1140 172.35.207.4
+08/28/2015 10:24:34 :Processa SAT Finalizado 1140 35150861099008000141599000011890017874787956
+08/28/2015 10:24:37 :ParseSatSend id: 1141
+08/28/2015 10:24:38 :Imprimindo 1141 172.35.207.4
+08/28/2015 10:24:38 :ParseSatSend id: 993102
+08/28/2015 10:24:39 :Imprimindo 993102 172.35.207.3
+08/28/2015 10:24:39 :Processa SAT Finalizado 1141 35150861099008000141599000011890017883790115
+08/28/2015 10:24:41 :Processa SAT Finalizado 993102 35150861099008000141599000011890017892008882

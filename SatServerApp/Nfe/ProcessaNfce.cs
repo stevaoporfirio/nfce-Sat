@@ -35,7 +35,8 @@ namespace invoiceServerApp
             InterfaceStatus = callStatus;
             config = _config;
             CreateDir();
-            GetCertificado();
+            //GetCertificado();
+            cert = Utils.GerenciaCertificado.Instance().GetCertificado();
 
             enviaSeFaz = new EnviaSeFaz.ManagerSeFaz(config, cert);
         }
@@ -49,27 +50,27 @@ namespace invoiceServerApp
 
                 id_db = xmlData.id_banco;
 
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoGerado, "XML de cancelamento gerado", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoGerado, "XML de cancelamento gerado", "");
 
                 XmlDocument arqNfce = xmlData.xmlDoc;
 
                 enviaSeFaz.verificaStatusSefaz();
 
                 if (enviaSeFaz.CancelamentoNfce(arqNfce))
-                    ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoEnviado, "NFCE Cancelamento", "");
+                    ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoEnviado, "NFCE Cancelamento", "");
 
 
 
             }
             catch (ApplicationException ex)
             {
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Cancelamento rejeitado", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Cancelamento rejeitado", "");
                 Utils.Logger.getInstance.error(ex);
                 return "NFCE Cancelamento rejeitado";
             }
             catch (Exception e)
             {
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Cancelamento rejeitado", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Cancelamento rejeitado", "");
                 Utils.Logger.getInstance.error(e);
                 return "NFCE Cancelamento rejeitado";
             }
@@ -92,26 +93,26 @@ namespace invoiceServerApp
 
                 id_db = xmlData.id_banco;
 
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlInutilizacaoGerado, "XML de Inutilizacao gerado", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlInutilizacaoGerado, "XML de Inutilizacao gerado", "");
 
                 XmlDocument arqNfce = xmlData.xmlDoc;
 
                 enviaSeFaz.verificaStatusSefaz();
 
                 if (enviaSeFaz.InutilizacaoNfce(arqNfce))
-                    ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlInutilizacaoEnviado, "NFCE Inutilizado gerado", "");
+                    ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlInutilizacaoEnviado, "NFCE Inutilizado gerado", "");
 
 
             }
             catch (ApplicationException ex)
             {
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Inutilizacao rejeitado", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Inutilizacao rejeitado", "");
                 Utils.Logger.getInstance.error(ex);
                 return "NFCE Inutilizado rejeitado";
             }
             catch (Exception e)
             {
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Inutilizacao rejeitado", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.xmlCancelamentoRejeicao, "NFCE Inutilizacao rejeitado", "");
                 Utils.Logger.getInstance.error(e);
                 return "NFCE Inutilizacao rejeitado";
             }
@@ -129,10 +130,12 @@ namespace invoiceServerApp
             mq = new MessageQueue(@".\Private$\NFCe_Contingencia", false);
             try
             {
+                //throw new Exception("Notas em Fila de Contingencia ");
+
                 if (mq.GetAllMessages().Count() > 0)
                 {
-                    Utils.Logger.getInstance.error(dtNFCE.IdAccount + ": Contingencia: fila count(" + mq.GetAllMessages().Count() + ")" + dtNFCE.IdAccount);
-                    throw new Exception("Contingencia");
+                    //Utils.Logger.getInstance.error(dtNFCE.IdAccount + ": Contingencia: fila count(" + mq.GetAllMessages().Count() + ")" + dtNFCE.IdAccount);
+                    throw new Exception("Notas em Fila de Contingencia ");
                 }
 
                 enviaSeFaz.verificaStatusSefaz();
@@ -142,17 +145,17 @@ namespace invoiceServerApp
             }
             catch (Exception ex)
             {
-                Utils.Logger.getInstance.error("Contingencia: " + dtNFCE.IdAccount);
-                Utils.Logger.getInstance.error(ex.ToString());
+                Utils.Logger.getInstance.error("Contingencia: " + dtNFCE.IdAccount + "" + ex.ToString());
+                //Utils.Logger.getInstance.error(ex.ToString());
                 config.configNFCe.Contingencia = true;
             }
             
             xmlData = new makeXml(dtNFCE, config, cert);
-            id_db = ManagerDB.Instance.SelectMaxNFCEidDB(config.configNFCe.Serie, xmlData.chaveAcesso);
+            id_db = ManagerDB.Instance().SelectMaxNFCEidDB(config.configNFCe.Serie, xmlData.chaveAcesso);
             
             string resposta = config.configNFCe.Contingencia ? "XML gerado em Contingencia" : "XML gerado";
 
-            ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.CupomGeradoXml, resposta, "");
+            ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.CupomGeradoXml, resposta, "");
             
             Processa();
         
@@ -169,15 +172,15 @@ namespace invoiceServerApp
                 if ((InterfaceStatus.GetStatusCupom() < (int)StatusCupom.CupomSeFazRetornoOk) && (!config.configNFCe.Contingencia))
                 {
                     enviaSeFaz.enviaSefaz(arqNfce);
-                    ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.CupomEnviadoSeFaz, "Enviado Sefaz", "");
-                    ManagerDB.Instance.UpdateReciboNFCe(id_db, enviaSeFaz.GetRecibo());
+                    ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.CupomEnviadoSeFaz, "Enviado Sefaz", "");
+                    ManagerDB.Instance().UpdateReciboNFCe(id_db, enviaSeFaz.GetRecibo());
                 }
 
                 if (!config.configNFCe.Contingencia)
                 {
                     consultaSefaz = enviaSeFaz.ConsultaOK();
-                    ManagerDB.Instance.UpdatenProtNFCe(id_db, enviaSeFaz.GetnProt());
-                    ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.CupomSeFazRetornoOk, "Consulta Sefaz Sucesso", "");
+                    ManagerDB.Instance().UpdatenProtNFCe(id_db, enviaSeFaz.GetnProt());
+                    ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.CupomSeFazRetornoOk, "Consulta Sefaz Sucesso", "");
                     sd = StatusDiretorio.Enviada;
                     arqNfce = enviaSeFaz.GetXmlOK();
                     arqNfce.Save(String.Format("{0}\\{1}.xml", config.configMaquina.pathFiles, xmlData.nomeXml));
@@ -186,7 +189,7 @@ namespace invoiceServerApp
                 Impressao();
 
                 if (!config.configNFCe.Contingencia) //Gravar depois da Impressao!
-                    ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.Aprovado, "Aprovado Uso da NFCe", "");
+                    ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.Aprovado, "Aprovado Uso da NFCe", "");
                 
             }
             catch (Exception e)
@@ -195,7 +198,7 @@ namespace invoiceServerApp
                 Utils.Logger.getInstance.error(e);
 
                 string rejeicao = (e.Message.Length > 500) ? e.Message.Substring(500) : e.Message;
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.CupomRejeitado, "NFCE Rejeitado", rejeicao);
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.CupomRejeitado, "NFCE Rejeitado", rejeicao);
 
                 throw new Exception(dtNFCE.IdAccount + ": Rejeiçao de xml:" + e.ToString());
             }
@@ -208,34 +211,70 @@ namespace invoiceServerApp
                  ChangedFile(xmlData.nomeXml, sd);                
             }
         }
-        private void GetCertificado()
-        {
-            X509Store store = new X509Store("My", StoreLocation.CurrentUser);
-            store.Open(OpenFlags.ReadOnly);
-            X509Certificate2Collection collection = (X509Certificate2Collection)store.Certificates;
-            X509Certificate2Collection listaCertificados = collection.Find(X509FindType.FindByKeyUsage, X509KeyUsageFlags.DigitalSignature, true);
+        //private void GetCertificado()
+        //{
+        //    try
+        //    {
 
-            store.Close();
-            if (listaCertificados.Count > 0)
-            {
-                foreach (var c in listaCertificados)
-                {
-                    string name = c.Subject;
+        //        string certPath = config.configNFCe.CaminhoCertificadoDigital;
 
-                    string[] names = name.Split(',');
-                    if (names[0].Substring(3).Equals(config.configNFCe.NomeCertificadoDigital))
-                    {
-                        cert = c;
-                        break;
-                    }
-                }
-            }
-            else
-                throw new Exception(dtNFCE.IdAccount + ": Nenhum certificado encontrado");
+        //        string certPass = "";
 
-            if(cert == null)
-                throw new Exception(dtNFCE.IdAccount + ": Certificado não encontrado:" + config.configNFCe.NomeCertificadoDigital);
-        }
+        //        if (config.configNFCe.SenhaCertificadoDigital.Substring(0,1).Equals("!"))
+        //            certPass = config.configNFCe.SenhaCertificadoDigital.Substring(1);
+        //        else
+        //        {
+        //            StringBuilder sBuilder = new StringBuilder();
+
+        //            string crip = config.configNFCe.SenhaCertificadoDigital;
+
+        //            Utils.Logger.getInstance.error(crip);
+
+        //            for (int i = 0; i < crip.Length; i++)
+        //            {
+        //                string s = String.Format("{0}{1}", crip[i], crip[i + 1]);
+        //                Utils.Logger.getInstance.error(s);
+        //                sBuilder.Append(Convert.ToChar(Convert.ToInt32(s)));
+        //                i++;
+        //            }
+        //            certPass = sBuilder.ToString();
+        //        }
+
+        //        X509Certificate2Collection collection = new X509Certificate2Collection();
+        //        collection.Import(certPath, certPass, X509KeyStorageFlags.PersistKeySet);
+
+
+        //        //X509Store store = new X509Store("My", StoreLocation.CurrentUser);
+        //        //store.Open(OpenFlags.ReadOnly);
+        //        //X509Certificate2Collection collection2 = (X509Certificate2Collection)store.Certificates;
+        //        X509Certificate2Collection listaCertificados = collection.Find(X509FindType.FindByKeyUsage, X509KeyUsageFlags.DigitalSignature, true);
+
+        //        //store.Close();
+        //        if (listaCertificados.Count > 0)
+        //        {
+        //            foreach (var c in listaCertificados)
+        //            {
+        //                string name = c.Subject;
+
+        //                //string[] names = name.Split(',');
+        //                //if (names[0].Substring(3).Equals(config.configNFCe.NomeCertificadoDigital))
+        //                {
+        //                    cert = c;
+        //                    break;
+        //                }
+        //            }
+        //        }
+        //        else
+        //            throw new Exception(dtNFCE.IdAccount + ": Nenhum certificado encontrado");
+
+        //        if (cert == null)
+        //            throw new Exception(dtNFCE.IdAccount + ": Certificado não encontrado:" + config.configNFCe.NomeCertificadoDigital);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception("Erro em GetCertificados\n" + ex.Message);
+        //    }
+        //}
 
         private void CreateDir()
         {
@@ -303,7 +342,7 @@ namespace invoiceServerApp
             }
             catch (Exception e)
             {
-                Utils.Logger.getInstance.error(e);
+                Utils.Logger.getInstance.error(e + "\t" + name + "\t" + sd.ToString());
             }
         
         }
@@ -312,20 +351,24 @@ namespace invoiceServerApp
         {
             try
             {
-                Utils.Logger.getInstance.error(dtNFCE.IdAccount + ": impressora: " + dtNFCE.PortaImpressora);
+                //Utils.Logger.getInstance.error(dtNFCE.IdAccount + ": impressora: " + dtNFCE.PortaImpressora);
 
                 cupom = new DadosNota(xmlData.xmlDocAss, config, enviaSeFaz.GetRecibo(), "Via Consumidor");
 
-                ImprimirEpsonNF.ImprimirNF(dtNFCE.PortaImpressora, cupom.DadosImpressao,null, cupom.QRCode,"", dtNFCE.TefNfce.StringTEF, true, true);
+                Utils.ImprimirEpsonNF print = new Utils.ImprimirEpsonNF(dtNFCE.PortaImpressora);
+                print.SetDados(dtNFCE.PortaImpressora, cupom.DadosImpressao, null, cupom.QRCode, "", dtNFCE.TefNfce.StringTEF, true, true);
+                print.ImprimirNF();
+
+                //Utils.ImprimirEpsonNF.Instance(dtNFCE.PortaImpressora).ImprimirNF(dtNFCE.PortaImpressora, cupom.DadosImpressao, null, cupom.QRCode, "", dtNFCE.TefNfce.StringTEF, true, true);
 
                 InterfaceStatus.NotificationChanged((int)StatusCupom.CupomImpresso);
 
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.CupomImpresso, "Cupom impresso", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.CupomImpresso, "Cupom impresso", "");
 
                 if (config.configNFCe.Contingencia)
                 {
-                    ImprimirEpsonNF.ImprimirNF(dtNFCE.PortaImpressora, cupom.DadosImpressao,null, cupom.QRCode,"", "", true, true);
-                    ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.CupomImpressoContingencia, "Cupom impresso em contingencia", "");
+                    //Utils.ImprimirEpsonNF.Instance(dtNFCE.PortaImpressora).ImprimirNF(dtNFCE.PortaImpressora, cupom.DadosImpressao, null, cupom.QRCode, "", "", true, true);
+                    ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.CupomImpressoContingencia, "Cupom impresso em contingencia", "");
                 }
 
             }
@@ -336,12 +379,11 @@ namespace invoiceServerApp
         
         }
 
-
         private void sendMSMQ(string msg)
         {
             try
             {
-                ManagerDB.Instance.InsertNfceStatus(id_db, (int)StatusCupom.CupomEnviadoFila, "Cupom Enviado para fila de contingencia", "");
+                ManagerDB.Instance().InsertNfceStatus(id_db, (int)StatusCupom.CupomEnviadoFila, "Cupom Enviado para fila de contingencia", "");
                 //gravando na fila
                 MessageQueueTransaction transaction = new MessageQueueTransaction();
                 transaction.Begin();
@@ -390,7 +432,7 @@ namespace invoiceServerApp
 
             cupom = new DadosNota(xml, config, "", "Via Consumidor");
 
-            ImprimirEpsonNF.ImprimirNF(_Ip, cupom.DadosImpressao,null, cupom.QRCode,"", "", true, true);
+            //Utils.ImprimirEpsonNF.Instance(_Ip).ImprimirNF(_Ip, cupom.DadosImpressao, null, cupom.QRCode, "", "", true, true);
 
             
             return "Impresso com sucesso";

@@ -97,8 +97,8 @@ namespace invoiceServerApp
                 }
                 else
                 {
-                    Utils.Logger.getInstance.error("Erro: " + retRejeiçao);
-                    Utils.Logger.getInstance.error("Error mensagem: " + retRejeiçaoMotivo);
+                    Utils.Logger.getInstance.error("Erro: " + retRejeiçao + " " + retRejeiçaoMotivo);
+                    //Utils.Logger.getInstance.error("Error mensagem: " + retRejeiçaoMotivo);
                 
                 }
             }

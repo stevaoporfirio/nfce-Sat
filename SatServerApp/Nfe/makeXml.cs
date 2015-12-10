@@ -14,6 +14,8 @@ namespace invoiceServerApp
 {
     class makeXml
     {
+        private string numeroNota;
+
         private DadosNfce dtNfce;
         private Utils.ConfigureXml config;
         private string cNF;
@@ -89,10 +91,11 @@ namespace invoiceServerApp
                 //cabeçalho
                 xmlWriter.WriteStartElement("enviNFe", "http://www.portalfiscal.inf.br/nfe");
                 xmlWriter.WriteAttributeString("versao", config.configNFCe.VersaoLayout);
-
                 xmlWriter.WriteElementString("idLote", "1");
                 xmlWriter.WriteElementString("indSinc", "0");
+                
                 xmlWriter.WriteStartElement("NFe", "http://www.portalfiscal.inf.br/nfe");
+                xmlWriter.WriteAttributeString("xmlns", "http://www.portalfiscal.inf.br/nfe");
                 xmlWriter.WriteStartElement("infNFe");
                 xmlWriter.WriteAttributeString("Id", "NFe" + chaveAcesso);
                 xmlWriter.WriteAttributeString("versao", config.configNFCe.VersaoLayout);
@@ -105,7 +108,7 @@ namespace invoiceServerApp
                 xmlWriter.WriteElementString("indPag", config.configNFCe.IndPag.Substring(0, 1));
                 xmlWriter.WriteElementString("mod", "65");
                 xmlWriter.WriteElementString("serie", config.configNFCe.Serie); //todo configuracao
-                xmlWriter.WriteElementString("nNF", config.configNFCe.sequenceNumberNfce);
+                xmlWriter.WriteElementString("nNF", numeroNota);
                 xmlWriter.WriteElementString("dhEmi", DateTime.Now.ToString("yyyy-MM-ddTHH:mm:sszzz"));
                 xmlWriter.WriteElementString("tpNF", "1");
                 xmlWriter.WriteElementString("idDest", "1");
@@ -425,7 +428,7 @@ namespace invoiceServerApp
 
                             ttlDesc += item.V_Desc;
 
-                            Utils.Logger.getInstance.error(String.Format("defineAcres: {0}", defineAcres));
+                            //Utils.Logger.getInstance.error(String.Format("defineAcres: {0}", defineAcres));
 
                             if(defineAcres)
                             {
@@ -647,21 +650,26 @@ namespace invoiceServerApp
 
         private void gerarSequenceNumberNfce()
         {
-            try
-            {                
+            try            
+            {
+                //string nfceSeq = ManagerDB.Instance().SelectMaxNFCE(Convert.ToInt32(config.configNFCe.Serie));
+
+                // config.configNFCe.sequenceNumberNfce = Convert.ToString(Convert.ToInt32(nfceSeq) + 1);
+
+                //numeroNota = Convert.ToString(Convert.ToInt32(nfceSeq) + 1);
+
+                //Utils.ReadConfigure rConfig = new Utils.ReadConfigure();
                 
-               string nfceSeq = ManagerDB.Instance.SelectMaxNFCE(Convert.ToInt32(config.configNFCe.Serie));
+                //rConfig.SaveXML(config);
 
-                config.configNFCe.sequenceNumberNfce = Convert.ToString(Convert.ToInt32(nfceSeq) + 1);
-
-               Utils.ReadConfigure rConfig = new Utils.ReadConfigure();
                 
-                rConfig.SaveXML(config);
 
-                chaveAcesso = GerarChaveDeAcesso(Convert.ToInt32(config.configNFCe.sequenceNumberNfce), DateTime.Now);
+                //ManagerDB.Instance().InsertNfceInitial(numeroNota, config.configNFCe.Serie, dtNfce.Chk_Num, dtNfce.WS_ID, chaveAcesso);
 
+                numeroNota  = ManagerDB.Instance().InsertNfceInitial(numeroNota, config.configNFCe.Serie, dtNfce.Chk_Num, dtNfce.WS_ID);
+                chaveAcesso = GerarChaveDeAcesso(Convert.ToInt32(numeroNota), DateTime.Now);
 
-                ManagerDB.Instance.InsertNfceInitial(config.configNFCe.sequenceNumberNfce, config.configNFCe.Serie, dtNfce.Chk_Num, dtNfce.WS_ID, chaveAcesso);
+                ManagerDB.Instance().UpdateChaveDeAcesso(numeroNota, config.configNFCe.Serie, chaveAcesso);
 
 
             }

@@ -1,0 +1,54 @@
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.exe.config
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerAppContingencia.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerApp.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.ProjectInstaller.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContingenciaService\bin\Debug\SatServerAppContingencia.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.exe.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerAppContingencia.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerApp.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerAppContingencia.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerApp.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\bin\Debug\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.ProjectInstaller.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.csproj.GenerateResource.Cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.exe.config
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerAppContingenciaService.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerAppContingencia.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\Utils.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\EnviaSeFaz.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerApp.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerAppDB.dll
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerAppContingencia.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\Utils.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\EnviaSeFaz.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerApp.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\bin\Debug\SatServerAppDB.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.csprojResolveAssemblyReference.cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.ProjectInstaller.resources
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.csproj.GenerateResource.Cache
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContingenciaService\obj\x86\Debug\SatServerAppContingenciaService.pdb

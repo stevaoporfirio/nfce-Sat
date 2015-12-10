@@ -1,0 +1,154 @@
+09/02/2015 16:37:35 :172.35.207.130
+09/02/2015 16:37:42 :ParseNFCE id: 1
+09/02/2015 16:37:43 :ParseNFCE id: 2
+09/02/2015 16:38:41 :ParseNFCE id: 1
+09/02/2015 16:38:42 :ParseNFCE id: 2
+09/02/2015 16:39:02 :ParseNFCE id: 1
+09/02/2015 16:39:03 :ParseNFCE id: 2
+09/02/2015 16:39:18 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:39:18 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:39:18 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\NFCE\Retorno\NFe33150915051092000378650090000015831000015838.xml'.
+Nome do arquivo: 'C:\NFCE\Retorno\NFe33150915051092000378650090000015831000015838.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.Move(String sourceFileName, String destFileName)
+   em invoiceServerApp.ProcessaNfce.ChangedFile(String name, StatusDiretorio sd) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 329	NFe33150915051092000378650090000015831000015838	Rejeitada
+09/02/2015 16:39:18 :2: System.Exception: 2: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015831000015838][nRec:65004718933]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:39:18 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:39:18 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:39:18 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\NFCE\Retorno\NFe33150915051092000378650090000015841000015843.xml'.
+Nome do arquivo: 'C:\NFCE\Retorno\NFe33150915051092000378650090000015841000015843.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.Move(String sourceFileName, String destFileName)
+   em invoiceServerApp.ProcessaNfce.ChangedFile(String name, StatusDiretorio sd) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 329	NFe33150915051092000378650090000015841000015843	Rejeitada
+09/02/2015 16:39:18 :1: System.Exception: 1: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015841000015843][nRec:65004718932]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:44:27 :172.35.207.130
+09/02/2015 16:44:44 :ParseNFCE id: 1
+09/02/2015 16:44:45 :ParseNFCE id: 2
+09/02/2015 16:45:27 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:45:27 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:45:27 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\NFCE\Retorno\NFe33150915051092000378650090000015871000015870.xml'.
+Nome do arquivo: 'C:\NFCE\Retorno\NFe33150915051092000378650090000015871000015870.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.Move(String sourceFileName, String destFileName)
+   em invoiceServerApp.ProcessaNfce.ChangedFile(String name, StatusDiretorio sd) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 329	NFe33150915051092000378650090000015871000015870	Rejeitada
+09/02/2015 16:45:27 :2: System.Exception: 2: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015871000015870][nRec:65004719055]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:45:27 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:45:27 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:45:27 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\NFCE\Retorno\NFe33150915051092000378650090000015891000015890.xml'.
+Nome do arquivo: 'C:\NFCE\Retorno\NFe33150915051092000378650090000015891000015890.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.Move(String sourceFileName, String destFileName)
+   em invoiceServerApp.ProcessaNfce.ChangedFile(String name, StatusDiretorio sd) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 329	NFe33150915051092000378650090000015891000015890	Rejeitada
+09/02/2015 16:45:27 :1: System.Exception: 1: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015891000015890][nRec:65004719056]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:47:47 :172.35.207.130
+09/02/2015 16:47:55 :ParseNFCE id: 1
+09/02/2015 16:47:56 :ParseNFCE id: 2
+09/02/2015 16:52:36 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:52:36 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:52:36 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:52:36 :1: System.Exception: 1: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015931000015931][nRec:65004719279]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:52:37 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:52:37 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:52:37 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:52:37 :2: System.Exception: 2: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015911000015910][nRec:65004719280]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:52:37 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 260
+09/02/2015 16:52:37 :   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+09/02/2015 16:52:37 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\NFCE\Retorno\NFe33150915051092000378650090000015911000015910.xml'.
+Nome do arquivo: 'C:\NFCE\Retorno\NFe33150915051092000378650090000015911000015910.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.Move(String sourceFileName, String destFileName)
+   em invoiceServerApp.ProcessaNfce.ChangedFile(String name, StatusDiretorio sd) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 329	NFe33150915051092000378650090000015911000015910	Rejeitada
+09/02/2015 16:52:37 :2: System.Exception: 2: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015911000015910][nRec:65004719280]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:52:37 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\NFCE\Retorno\NFe33150915051092000378650090000015931000015931.xml'.
+Nome do arquivo: 'C:\NFCE\Retorno\NFe33150915051092000378650090000015931000015931.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.Move(String sourceFileName, String destFileName)
+   em invoiceServerApp.ProcessaNfce.ChangedFile(String name, StatusDiretorio sd) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 329	NFe33150915051092000378650090000015931000015931	Rejeitada
+09/02/2015 16:52:37 :1: System.Exception: 1: Rejeiçao de xml:System.ApplicationException: Rejeicao: Duplicidade de NF-e [chNFe:33150915051092000378650090000015931000015931][nRec:65004719279]
+   em EnviaSeFaz.EnviaNfceRJ.ConsultarNfce() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 271
+   em EnviaSeFaz.EnviaNfceRJ.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRJ.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 51
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 179
+   em invoiceServerApp.ProcessaNfce.Processa() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 201
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ProcessaNfce.cs:linha 158
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/02/2015 16:58:21 :172.35.207.130
+09/02/2015 16:58:25 :ParseNFCE id: 0
+09/02/2015 16:58:25 :ParseNFCE id: 1
+09/02/2015 16:58:27 :ParseNFCE id: 3
+09/02/2015 16:58:29 :ParseNFCE id: 4
+09/02/2015 16:58:30 :ParseNFCE id: 6
+09/02/2015 16:58:31 :ParseNFCE id: 7

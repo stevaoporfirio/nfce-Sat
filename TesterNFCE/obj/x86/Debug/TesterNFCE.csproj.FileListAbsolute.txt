@@ -66,28 +66,45 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Test
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\TesterNFCE\obj\x86\Debug\TesterNFCE.csproj.GenerateResource.Cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\TesterNFCE\obj\x86\Debug\TesterNFCE.exe
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\TesterNFCE\obj\x86\Debug\TesterNFCE.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.exe.config
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\EnviaSeFaz.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerApp.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerAppDB.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\Utils.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\EnviaSeFaz.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerAppDB.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\Utils.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerApp.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.csprojResolveAssemblyReference.cache
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.Form1.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.Properties.Resources.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.csproj.GenerateResource.Cache
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.exe.config
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\TesterNFCE.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerApp.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\bin\Debug\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\TesterNFCE\obj\x86\Debug\TesterNFCE.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\TesterNFCE.exe.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\TesterNFCE.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\TesterNFCE.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\SatServerApp.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\bin\Debug\SatServerApp.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\obj\x86\Debug\TesterNFCE.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\obj\x86\Debug\TesterNFCE.Form1.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\obj\x86\Debug\TesterNFCE.Properties.Resources.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\obj\x86\Debug\TesterNFCE.csproj.GenerateResource.Cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\obj\x86\Debug\TesterNFCE.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\TesterNFCE\obj\x86\Debug\TesterNFCE.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\TesterNFCE.exe.config
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\TesterNFCE.exe
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\TesterNFCE.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\EnviaSeFaz.dll
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\SatServerApp.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\SatServerApp.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\SatServerAppDB.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\Utils.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\TesterNFCE\bin\Debug\EnviaSeFaz.pdb

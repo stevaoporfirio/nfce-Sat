@@ -56,7 +56,7 @@ namespace invoiceServerApp
                 }
                 ids = ids.Substring(0, ids.Length - 2);
 
-                DataTable dtStatus = ManagerDB.Instance.SelectStatusNotas(ids);
+                DataTable dtStatus = ManagerDB.Instance().SelectStatusNotas(ids);
 
                 foreach (DataRow row in dtStatus.Rows)
                 {

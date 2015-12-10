@@ -10,7 +10,11 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\bin\Release\SatServerAppDB.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\obj\Release\SatServerAppDB.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppDB\obj\Release\SatServerAppDB.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppDB\bin\Release\SatServerAppDB.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppDB\bin\Release\SatServerAppDB.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppDB\obj\Release\SatServerAppDB.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppDB\obj\Release\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppDB\bin\Release\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppDB\bin\Release\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppDB\obj\Release\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppDB\obj\Release\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppDB\bin\Release\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppDB\bin\Release\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppDB\obj\Release\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppDB\obj\Release\SatServerAppDB.pdb

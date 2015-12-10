@@ -67,8 +67,20 @@ namespace invoiceServerApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string msg = "CANCEL|" + id + "|END|";
-            MessageBox.Show(sendNfce(msg));
+            string ret = "";
+
+            if (Program.argDB == 1)
+            {
+                //string msg = "CANCEL|" + id + "|END|";
+                ret = "Cancelamento de SAT deverá ser realizado diretamente na operação.\n(Micros 3700 / Simphony)";
+            }
+            else
+            {
+                string msg = "CANCEL|" + id + "|END|";
+                ret = sendNfce(msg);
+            }
+            
+            MessageBox.Show(ret);
         }
 
         private void btnInutilizar_Click(object sender, EventArgs e)
@@ -121,7 +133,34 @@ namespace invoiceServerApp
             return ret;
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string chave = txtChaveAcesso.Text;
 
+            //string wsid = getCFGConfig("IP_SERVER");
+            string printer = getCFGConfig(txtWSID.Text);
+
+            string msg = "REDANFE|" + chave + "|" + printer + "|END|";
+            string result = sendNfce(msg);
+
+            string txt = "";
+
+            if (result.Equals("|X|"))
+                txt = "Documento enviado para Impressora";
+            else
+                txt = result;
+
+            MessageBox.Show(txt, "Impressao de Documento", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            DialogResult = DialogResult.OK;
+        }
+
+        private void FormStatus_Load(object sender, EventArgs e)
+        {
+            //button2.Enabled = false;
+            //getWSID();
+            //comboBox1.DataSource = new BindingSource(listImpressora, null);
+            //comboBox1.DisplayMember = "Key";
+            //comboBox1.ValueMember = "Value";
+        }
     }
 }

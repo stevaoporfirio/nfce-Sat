@@ -1,0 +1,12 @@
+09/21/2015 08:57:12 :System.Exception: Erro em GetCertificados
+O sistema não pode encontrar o arquivo especificado.
+
+   em Utils.GerenciaCertificado.SetCertificado(ConfigureXml _config) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\GerenciaCertificado.cs:linha 96
+   em invoiceServerApp.Datamanager..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Datamanager.cs:linha 40
+09/21/2015 08:59:49 :172.35.207.130
+09/21/2015 09:00:31 :ParseNFCE id: TEF
+09/21/2015 09:01:05 :ParseNFCE id: TEF
+09/21/2015 09:01:43 :ParseNFCE id: TEF
+09/21/2015 09:04:02 :ParseNFCE id: 993217
+09/21/2015 09:04:14 :Contingencia: 993217System.Exception: Notas em Fila de Contingencia 
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE)

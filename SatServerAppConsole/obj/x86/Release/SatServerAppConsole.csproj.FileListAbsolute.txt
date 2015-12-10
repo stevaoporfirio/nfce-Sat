@@ -1,0 +1,42 @@
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\obj\x86\Release\SatServerAppConsole.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppConsole.exe.config
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppConsole.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppConsole.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerApp.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppContingencia.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppContingencia.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerApp.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\EnviaSeFaz.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\obj\x86\Release\SatServerAppConsole.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\obj\x86\Release\SatServerAppConsole.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppContingenciaConsole.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\SatServerAppContingenciaConsole.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppConsole.exe.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\obj\x86\Release\SatServerAppConsole.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\obj\x86\Release\SatServerAppConsole.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppConsole.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppConsole.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerApp.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppContingencia.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppContingenciaConsole.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppContingencia.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppContingenciaConsole.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerApp.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerAppContingencia.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\SatServerApp.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\bin\Release\EnviaSeFaz.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppConsole\obj\x86\Release\SatServerAppConsole.csprojResolveAssemblyReference.cache

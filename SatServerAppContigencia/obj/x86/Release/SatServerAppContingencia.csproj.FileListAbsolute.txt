@@ -61,24 +61,43 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.exe
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.XmlSerializers.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.exe.config
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.XmlSerializers.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\EnviaSeFaz.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerApp.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppDB.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\Utils.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\EnviaSeFaz.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppDB.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\Utils.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerApp.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\EnviaSeFaz.XmlSerializers.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerApp.XmlSerializers.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.csprojResolveAssemblyReference.cache
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\invoiceServerApp.Form1.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.Properties.Resources.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.csproj.GenerateResource.Cache
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.dll.config
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\EnviaSeFaz.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerApp.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\EnviaSeFaz.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerApp.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\EnviaSeFaz.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\bin\Release\SatServerApp.XmlSerializers.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerAppContingencia.dll.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerAppContingencia.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerAppContingencia.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerAppContingencia.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\EnviaSeFaz.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerApp.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\EnviaSeFaz.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerApp.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\EnviaSeFaz.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\bin\Release\SatServerApp.XmlSerializers.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.Properties.Resources.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.csproj.GenerateResource.Cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerAppContigencia\obj\x86\Release\SatServerAppContingencia.XmlSerializers.dll

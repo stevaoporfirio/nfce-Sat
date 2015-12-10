@@ -68,24 +68,34 @@ namespace invoiceServerApp
         public void StartListening() 
         {
             byte[] bytes = new Byte[8192];
-            try
-            {
-                IPEndPoint myEndPoint = new IPEndPoint(IPAddress.Parse(getIpLocalMachine()), Convert.ToInt32(config.configMaquina.Porta));
-                socketListener = new Socket(myEndPoint.Address.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-                socketListener.Bind(myEndPoint);
-                socketListener.Listen((int)SocketOptionName.MaxConnections);
-                while (true)
+
+            int i = 0;
+
+            while (i <= 3)
+            {            
+                try
                 {
-                    allDone.Reset();
-                    socketListener.BeginAccept(new AsyncCallback(AcceptCallback), socketListener);
-                    allDone.WaitOne();
+                    IPEndPoint myEndPoint = new IPEndPoint(IPAddress.Parse(getIpLocalMachine()), Convert.ToInt32(config.configMaquina.Porta));
+                    socketListener = new Socket(myEndPoint.Address.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+
+                    Utils.Logger.getInstance.error(myEndPoint.Address.ToString());
+                
+                    socketListener.Bind(myEndPoint);
+                    socketListener.Listen((int)SocketOptionName.MaxConnections);
+                    while (true)
+                    {
+                        allDone.Reset();
+                        socketListener.BeginAccept(new AsyncCallback(AcceptCallback), socketListener);
+                        allDone.WaitOne();
+                    }
+                }
+                catch (Exception e)
+                {
+                    Utils.Logger.getInstance.error("Erro Abrindo Porta " + e + " Nova Tentativa em 30 Segundos");
+                    Thread.Sleep(30000);
+                    //throw new Exception(e.Message);
                 }
             }
-            catch (Exception e)
-            {
-                Utils.Logger.getInstance.error(e);
-                throw new Exception(e.ToString());
-            }        
         }
 
         public void AcceptCallback(IAsyncResult ar) 
@@ -116,7 +126,7 @@ namespace invoiceServerApp
                 if (bytesRead > 0)
                 {
                     state.sb.Append(Encoding.ASCII.GetString(state.buffer, 0, bytesRead));
-                    handler.BeginReceive(state.buffer, 0, StateObject.buffersize, 0, new AsyncCallback(ReadCallback), state);
+                    //handler.BeginReceive(state.buffer, 0, StateObject.buffersize, 0, new AsyncCallback(ReadCallback), state);
                     content = state.sb.ToString();
                     if (content.Contains("|END|"))
                     {

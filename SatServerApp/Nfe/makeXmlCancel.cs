@@ -36,7 +36,7 @@ namespace invoiceServerApp
                 System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("pt-BR");
 
 
-                DataTable dt = ManagerDB.Instance.selectDadosNfce(dtNfce.ID);
+                DataTable dt = ManagerDB.Instance().selectDadosNfce(dtNfce.ID);
 
                 StringWriter XmlString = new StringWriter();
 

@@ -5,63 +5,81 @@ using System.Text;
 
 namespace invoiceServerApp
 {
-    class gerenciadoSAT 
+    public class gerenciadoSAT 
     {
-        private Utils.ConfigureXml config;
+        private Object locker = new object();
+
         private interfaceSAT interfacesat;
-        public gerenciadoSAT(Utils.ConfigureXml _config)
-        {
-            try
-            {
 
-                config = _config;
+        private static readonly gerenciadoSAT instance = new gerenciadoSAT();
 
-                if (config.configMaquina.tipoIntegracao.Equals("DIMEP"))
-                {
-                    interfacesat = new SatDimep();
-                    Utils.Logger.getInstance.error(String.Format("SatDimep"));
-                }
-                else if (config.configMaquina.tipoIntegracao.Equals("SWEDA"))
-                {
-                    interfacesat = new SatSweda();
-                    Utils.Logger.getInstance.error(String.Format("SatSweda"));
-                }
-                else if (config.configMaquina.tipoIntegracao.Equals("BEMATECH"))
-                {
-                    interfacesat = new SatBematech();
-                    Utils.Logger.getInstance.error(String.Format("SatBematech"));
-                }
-            }
-            catch (Exception ex)
+        public static gerenciadoSAT Instance
+        {            
+            get
             {
-                throw new Exception("#Erro em GerenciadorSAT " + ex.Message + "#");
+                //Utils.Logger.getInstance.error("Instance SAT");
+
+                return instance;
             }
         }
+
+        public void SetConfSAT(Utils.ConfigureXml config)
+        {
+            //Utils.Logger.getInstance.error("SetConfig SAT");
+
+            if (config.configMaquina.tipoIntegracao.Equals("DIMEP"))
+            {
+                interfacesat = new SatDimep();
+                Utils.Logger.getInstance.error(String.Format("SatDimep"));
+            }
+            else if (config.configMaquina.tipoIntegracao.Equals("SWEDA"))
+            {
+                interfacesat = new SatSweda();
+                Utils.Logger.getInstance.error(String.Format("SatSweda"));
+            }
+            else if (config.configMaquina.tipoIntegracao.Equals("BEMATECH"))
+            {
+                interfacesat = new SatBematech();
+                Utils.Logger.getInstance.error(String.Format("SatBematech"));
+            }
+
+            if (interfacesat != null)
+                DesbloquearSATBase(config.configSAT.ChaveAtivacao);
+        }
+        
         public int generatorKey()
         {
+//            Utils.Logger.getInstance.error("GerenKey SAT");
+
             Random random = new Random(Guid.NewGuid().GetHashCode());
 
             return Convert.ToInt32(random.Next(1, 999999).ToString());
         }
-        public string DesbloquearSATBase(int _numeroSessao, string _codigoAtivacao)
+        public string DesbloquearSATBase( string _codigoAtivacao)
         {
-            string log = interfacesat.DesbloquearSATBase(_numeroSessao,_codigoAtivacao);
+            string log = interfacesat.DesbloquearSATBase(generatorKey(),_codigoAtivacao);
             Utils.LoggerSAT.getInstance.error(String.Format("DesbloquearSAT -> {0}", log));
+            //Utils.Logger.getInstance.error(String.Format("DesbloquearSAT -> {0}", log));
             return log;
         }
 
-        public string CancelarCFe(int _numeroSessao, string _codigoAtivacao, string _chave, string _dadosCancelamento)
+        public string CancelarCFe(string _codigoAtivacao, string _chave, string _dadosCancelamento)
         {
-            string log = interfacesat.CancelarCFe(_numeroSessao, _codigoAtivacao, _chave, _dadosCancelamento);
+            string log = interfacesat.CancelarCFe(generatorKey(), _codigoAtivacao, _chave, _dadosCancelamento);
             Utils.LoggerSAT.getInstance.error(String.Format("CancelarCFe -> {0}", log));
+            ///Utils.Logger.getInstance.error(String.Format("CancelarCFe -> {0}", log));
             return log;
         }
 
-        public string EnviarDadosVendaBase(int _numeroSessao, string _codigoDeAtivacao, string _dadosVenda)
-        {
-            string log = interfacesat.EnviarDadosVendaBase(_numeroSessao, _codigoDeAtivacao, _dadosVenda);
-            Utils.LoggerSAT.getInstance.error(String.Format("EnviarDadosVendaBase -> {0}", log));
-            return log;
+        public string EnviarDadosVendaBase(string _codigoDeAtivacao, string _dadosVenda)
+        {            
+            lock (locker)
+            {
+                string log = interfacesat.EnviarDadosVendaBase(generatorKey(), _codigoDeAtivacao, _dadosVenda);
+                Utils.LoggerSAT.getInstance.error(String.Format("EnviarDadosVendaBase -> {0}", log));
+                //Utils.Logger.getInstance.error(String.Format("EnviarDadosVendaBase -> {0}", log));
+                return log;            
+            }
         }
     }
 }

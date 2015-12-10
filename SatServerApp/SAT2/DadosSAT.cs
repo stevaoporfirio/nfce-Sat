@@ -55,6 +55,7 @@ namespace invoiceServerApp
         public string Desc { get; set; }
         public string Val { get; set; }
         public string tBand { get; set; }
+        public string cAut { get; set; }
     }
 
     class ItensSAT

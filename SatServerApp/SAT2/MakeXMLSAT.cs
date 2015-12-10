@@ -43,8 +43,6 @@ namespace invoiceServerApp
         {
             config = _config;
 
-
-
             processCancel(_cancelSAT);
         }
 
@@ -130,6 +128,16 @@ namespace invoiceServerApp
                                     tmp += (s.TrimEnd().TrimStart() + " ");
                                 }
 
+                                tmp += "\\";
+
+                                foreach (var p in dtSAT.pgtsList)
+                                {
+                                    if (!String.IsNullOrEmpty(p.cAut))
+                                    {
+                                        tmp += "NSU:" + p.cAut + "/";
+                                    }
+                                }
+
                                 xmlWriter.WriteElementString("infCpl", tmp.TrimStart().TrimEnd());
                                 xmlWriter.WriteEndElement();
                             }
@@ -150,7 +158,7 @@ namespace invoiceServerApp
         {
             try
             {
-                Utils.Logger.getInstance.error("MakeXML.AddItens");
+                //Utils.Logger.getInstance.error("MakeXML.AddItens");
 
                 bool defineAcres = false;
 
@@ -174,7 +182,7 @@ namespace invoiceServerApp
 
                 }
 
-                Utils.Logger.getInstance.error("MakeXML.AddItens -> Lista Itens: " + dtSAT.itensList.Count);
+                //Utils.Logger.getInstance.error("MakeXML.AddItens -> Lista Itens: " + dtSAT.itensList.Count);
 
                 vOutroRateioTtl = 0;
 
@@ -192,7 +200,7 @@ namespace invoiceServerApp
                     }
                     else if (item.Tipo_Aliquota.Contains("N"))
                     {
-                        cst = cst_icms[1].ToString();
+                        cst = cst_icms[2].ToString();
                         item.Valor_Aliquota = "0";
                     }
                     else if (item.Tipo_Aliquota.Contains("F"))
@@ -232,7 +240,7 @@ namespace invoiceServerApp
 
                                 ttlDesc += item.V_Desc;
 
-                                Utils.Logger.getInstance.error(String.Format("defineAcres: {0}", defineAcres));
+                                //Utils.Logger.getInstance.error(String.Format("defineAcres: {0}", defineAcres));
 
                                 if (defineAcres)
                                 {
@@ -244,15 +252,15 @@ namespace invoiceServerApp
 
                                     vOutroRateioTtl += vOutroRateioItem;
 
-                                    Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0}", vOutroRateioItem));
-                                    Utils.Logger.getInstance.error(String.Format("vOutroRateioTtl: {0} | Acresc: {1}", vOutroRateioTtl, Acresc));
+                                    //Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0}", vOutroRateioItem));
+                                    //Utils.Logger.getInstance.error(String.Format("vOutroRateioTtl: {0} | Acresc: {1}", vOutroRateioTtl, Acresc));
 
                                     if (vOutroRateioTtl > Acresc)
                                     {
                                         vOutroRateioItem = vOutroRateioItem - (vOutroRateioTtl - Acresc);
                                         vOutroRateioTtl = vOutroRateioTtl - (vOutroRateioTtl - Acresc);
 
-                                        Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
+                                        //Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
                                     }
 
                                     if ((Acresc > vOutroRateioTtl) && (dtSAT.itensList.Count == (countItem - 1))) //acresc > ttlRateio e está no último item
@@ -260,7 +268,7 @@ namespace invoiceServerApp
                                         vOutroRateioItem = vOutroRateioItem + (Acresc - vOutroRateioTtl);
                                         vOutroRateioTtl = vOutroRateioTtl + (Acresc - vOutroRateioTtl);
 
-                                        Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
+                                        //Utils.Logger.getInstance.error(String.Format("vOutroRateioItem: {0} | vOutroRateioTtl: {1}", vOutroRateioItem, vOutroRateioTtl));
                                     }
 
                                     if (vOutroRateioItem > 0)
@@ -269,7 +277,7 @@ namespace invoiceServerApp
                                                     
                                 xmlWriter.WriteEndElement();
 
-                                Utils.Logger.getInstance.error(String.Format("MakeXML.AddItens -> CST/ALIQ: {0} / {1}", item.CST, item.Valor_Aliquota));
+                                //Utils.Logger.getInstance.error(String.Format("MakeXML.AddItens -> CST/ALIQ: {0} / {1}", item.CST, item.Valor_Aliquota));
 
                                 xmlWriter.WriteStartElement("imposto");
                                 //xmlWriter.WriteElementString("vItem12741", "1.00"); //REVER

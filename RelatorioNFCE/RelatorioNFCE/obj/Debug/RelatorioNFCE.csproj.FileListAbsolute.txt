@@ -26,13 +26,20 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\Rela
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.csprojResolveAssemblyReference.cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.dll
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\SatServerAppDB.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\SatServerAppDB.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\bin\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\RelatorioNFCE\RelatorioNFCE\bin\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\RelatorioNFCE\RelatorioNFCE\bin\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\RelatorioNFCE\RelatorioNFCE\obj\Debug\RelatorioNFCE.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\RelatorioNFCE\RelatorioNFCE\bin\RelatorioNFCE.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\RelatorioNFCE\RelatorioNFCE\bin\SatServerAppDB.dll

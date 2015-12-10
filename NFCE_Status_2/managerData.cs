@@ -19,7 +19,7 @@ namespace invoiceServerApp
         {
             PageNumber = 1;
             AtualDate = _data;
-            DataTable dt = ManagerDB.Instance.SelectNotasStatus(PageNumber, _data);
+            DataTable dt = ManagerDB.Instance().SelectNotasStatus(PageNumber, _data);
             dados = new nfce_dados();
             dados.setDataTable(dt);
         }
@@ -41,7 +41,7 @@ namespace invoiceServerApp
             if (AtualDate == _data)
             {
                 pagechanged(1);
-                dt = ManagerDB.Instance.SelectNotasStatus(PageNumber, _data);
+                dt = ManagerDB.Instance().SelectNotasStatus(PageNumber, _data);
                 dados.setDataTable(dt);
                 return dt;
                 
@@ -59,7 +59,7 @@ namespace invoiceServerApp
             if (AtualDate == _data)
             {
                 pagechanged(0);
-                DataTable dt = ManagerDB.Instance.SelectNotasStatus(PageNumber, _data);
+                DataTable dt = ManagerDB.Instance().SelectNotasStatus(PageNumber, _data);
                 dados.setDataTable(dt);
                 return dt;
             }

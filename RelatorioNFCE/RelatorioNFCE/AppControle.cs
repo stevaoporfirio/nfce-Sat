@@ -274,9 +274,9 @@ namespace RelatorioNFCE
             //    , dataFinal.ToString("dd-MM-yyyy")
             //    );
 
-            //ds.Merge(ManagerDB.Instance. .SendSelectMultiResultQueries(tmpQ, "NFCE"));            
+            //ds.Merge(ManagerDB.Instance(). .SendSelectMultiResultQueries(tmpQ, "NFCE"));            
 
-            ds = invoiceServerApp.ManagerDB.Instance.SelectNFCE(dataInicial, dataFinal);
+            ds = invoiceServerApp.ManagerDB.Instance().SelectNFCE(dataInicial, dataFinal);
 
         }
 

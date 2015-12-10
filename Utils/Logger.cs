@@ -12,7 +12,7 @@ namespace Utils
     {
         private static readonly Logger instance = new Logger();
         private System.IO.StreamWriter file;
-        private string name = Path.GetFileNameWithoutExtension(Environment.GetCommandLineArgs()[0]);
+        private string name = AppDomain.CurrentDomain.BaseDirectory;
 
         private ReaderWriterLockSlim _readWriteLock = new ReaderWriterLockSlim();
             
@@ -31,6 +31,12 @@ namespace Utils
                 return instance;
             }
         }
+
+        public void SetFileName(string _name)
+        {
+            name = AppDomain.CurrentDomain.BaseDirectory + _name;            
+        }
+
         private void processLog(Object state)
         {
             _readWriteLock.EnterWriteLock();
@@ -45,17 +51,17 @@ namespace Utils
                 lock (_LockFile)
                 {
                     DateTime data = DateTime.Now;
-                    file = new System.IO.StreamWriter(name + ".log", true);
-                    if (file.BaseStream.Length > 1000000)
-                    {
-                        System.IO.File.Copy(name + ".log", name + "-" + data.ToString("ddMMyyyy HHmm") + ".log");
+                    file = new System.IO.StreamWriter(name + "_" + DateTime.Now.ToString("dd-MM-yy") +  ".log", true);
+                    //if (file.BaseStream.Length > 1000000)
+                    //{
+                    //    System.IO.File.Copy(name + ".log", name + "-" + data.ToString("ddMMyyyy HHmmss") + ".log");
 
-                        file.Flush();
-                        file.Close(); //fechando arquivo para deletar
+                    //    file.Flush();
+                    //    file.Close(); //fechando arquivo para deletar
 
-                        System.IO.File.Delete(name + ".log");
-                        file = new System.IO.StreamWriter(name + ".log", true);
-                    }
+                    //    System.IO.File.Delete(name + ".log");
+                    //    file = new System.IO.StreamWriter(name + ".log", true);
+                    //}
                     file.WriteLine(data.ToString(System.Globalization.CultureInfo.InvariantCulture) + " :" + msg);
                     file.Flush();
                     file.Close();
@@ -68,8 +74,6 @@ namespace Utils
         private void startConsumer()
         {
             System.Threading.ThreadPool.QueueUserWorkItem(new System.Threading.WaitCallback(processLog));
-            //Thread t = new Thread(new ThreadStart(processLog));
-            //t.Start();
         }
         public void error(string msg)
         {

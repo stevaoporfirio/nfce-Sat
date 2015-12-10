@@ -10,7 +10,7 @@ namespace Utils
     {
         private static readonly LoggerSAT instance = new LoggerSAT();
         private System.IO.StreamWriter file;
-        private string name = "LogSAT";
+        private string name = AppDomain.CurrentDomain.BaseDirectory;
             
         private Object _Lock = new Object();
         private Object _LockFile = new Object();
@@ -40,18 +40,18 @@ namespace Utils
                 }
                 lock (_LockFile)
                 {
-                    DateTime data = DateTime.Now;
-                    file = new System.IO.StreamWriter(name + ".log", true);
-                    if (file.BaseStream.Length > 1000000)
-                    {
-                        System.IO.File.Copy(name + ".log", name + "-" + data.ToString("ddMMyyyy HHmm") + ".log");
+                    DateTime data = DateTime.Now;                    
+                    file = new System.IO.StreamWriter(name + "SAT_" + DateTime.Now.ToString("dd-MM-yy") + ".log", true);
+                    //if (file.BaseStream.Length > 1000000)
+                    //{
+                    //    System.IO.File.Copy(name + "SAT.log", name + "SAT-" + data.ToString("ddMMyyyy HHmmss ffff") + "SAT.log");
 
-                        file.Flush();
-                        file.Close(); //fechando arquivo para deletar
+                    //    file.Flush();
+                    //    file.Close(); //fechando arquivo para deletar
 
-                        System.IO.File.Delete(name + ".log");
-                        file = new System.IO.StreamWriter(name + ".log", true);
-                    }
+                    //    System.IO.File.Delete(name + "SAT.log");
+                    //    file = new System.IO.StreamWriter(name + "SAT.log", true);
+                    //}
                     file.WriteLine(data.ToString(System.Globalization.CultureInfo.InvariantCulture) + " :" + msg);
                     file.Flush();
                     file.Close();

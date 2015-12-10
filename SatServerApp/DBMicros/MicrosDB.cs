@@ -33,7 +33,9 @@ namespace invoiceServerApp
 
             string connectionString = "Dsn=" + odbcName
                        + ";UID=" + odbcUser
-                       + ";PWD=" + odbcPass;
+                       + ";PWD=" + odbcPass;            
+
+            //Data Source=SIMPHONY-TRAIN;Initial Catalog=DataStore;Persist Security Info=True;User ID=microsdb;Password=microsdb
 
             //string sqlCommand = query;
 

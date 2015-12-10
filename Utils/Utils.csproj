@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="ConfigureSat.cs" />
     <Compile Include="ExceptionBussines.cs" />
+    <Compile Include="GerenciaCertificado.cs" />
+    <Compile Include="ImprimirEpsonNF.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="LoggerSAT.cs" />
     <Compile Include="MunicipiosBR.cs" />

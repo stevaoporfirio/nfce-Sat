@@ -196,6 +196,11 @@ namespace invoiceServerApp
             //p.Desc = dados[2];
             p.Val = dados[3];
 
+            if (dados.Length >= 5)
+                p.cAut = dados[4];
+            else
+                p.cAut = "";
+
             dtSAT.pgtsList.Add(p);
 
         }
@@ -250,7 +255,7 @@ namespace invoiceServerApp
         {
             try
             {
-                Utils.Logger.getInstance.error(String.Format("ParseAddItem -> {0}", line));
+                //Utils.Logger.getInstance.error(String.Format("ParseAddItem -> {0}", line));
 
                 string[] dados = line.Split('|');
 
@@ -308,7 +313,9 @@ namespace invoiceServerApp
                 string[] dados = _msg.Split('|');
                 string portaImpressora = dados[0];
                 string msgTEF = dados[1];
-                ImprimirEpsonNF.ImprimirTef(msgTEF, portaImpressora);
+
+                Utils.ImprimirEpsonNF print = new Utils.ImprimirEpsonNF(portaImpressora);
+                print.ImprimirTef(msgTEF, portaImpressora);
             }
             catch (Exception e)
             {
@@ -373,8 +380,8 @@ namespace invoiceServerApp
             {
                 string[] dados = msg.Split('|');
                 dtImprensao impressao = new dtImprensao();
-                impressao.chaveImpressao = dados[1];
-                impressao.portaImpressora = dados[0];
+                impressao.chaveImpressao = dados[0];
+                impressao.portaImpressora = dados[1];
                 ret = processaDados.ReImpressaoDanfe(impressao);
                 return ret;
 

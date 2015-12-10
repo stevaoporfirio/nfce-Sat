@@ -22,7 +22,7 @@ namespace invoiceServerApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //DataTable dt = ManagerDB.Instance.SelectNotasStatus(1, monthCalendar1.datasele;
+            //DataTable dt = ManagerDB.Instance().SelectNotasStatus(1, monthCalendar1.datasele;
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -32,7 +32,7 @@ namespace invoiceServerApp
             NFCEcanceladas = 0;
             NFCEinutilizadas = 0;
             NFCErejeitadas = 0;
-            DataTable dt = ManagerDB.Instance.RelatorioNFCE(dateTimePicker1.Value, dateTimePicker2.Value);
+            DataTable dt = ManagerDB.Instance().RelatorioNFCE(dateTimePicker1.Value, dateTimePicker2.Value);
             foreach (DataRow row in dt.Rows)
             {
                 string status = row["status"].ToString();

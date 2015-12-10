@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigureXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <configMaquina>
+    <PgtList>
+      <ListPgt>
+        <NFCePgt>
+          <codMicros>1</codMicros>
+          <descMicros>Dinheiro</descMicros>
+          <codNFCe>01</codNFCe>
+          <codBandNfce />
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>100</codMicros>
+          <descMicros>Visa</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>01</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>101</codMicros>
+          <descMicros>MasterCard</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>02</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>102</codMicros>
+          <descMicros>Amex</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>03</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>103</codMicros>
+          <descMicros>Dinners</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>105</codMicros>
+          <descMicros>EloCredito</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>130</codMicros>
+          <descMicros>V.Electron</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>131</codMicros>
+          <descMicros>Redeshop</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>132</codMicros>
+          <descMicros>Sodexo</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>149</codMicros>
+          <descMicros>VRSmart</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>150</codMicros>
+          <descMicros>Visa Vale</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>151</codMicros>
+          <descMicros>TR Cartao</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>153</codMicros>
+          <descMicros>Sapore</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>154</codMicros>
+          <descMicros>EloDebito</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>155</codMicros>
+          <descMicros>Planvale</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+        <NFCePgt>
+          <codMicros>156</codMicros>
+          <descMicros>Avista C</descMicros>
+          <codNFCe>99</codNFCe>
+          <codBandNfce>99</codBandNfce>
+        </NFCePgt>
+      </ListPgt>
+    </PgtList>
+    <isServidor>false</isServidor>
+    <tipoIntegracao>NFCE</tipoIntegracao>
+    <TipoDB>0</TipoDB>
+    <impressao>Servidor</impressao>
+    <pathFiles>C:\NFCE\RETORNO</pathFiles>
+    <IP />
+    <Porta>5001</Porta>
+    <CNPJCredenciadoraCartao>61099008000141</CNPJCredenciadoraCartao>
+    <NumeroPms>3</NumeroPms>
+    <PathOrigemCal>C:\NFCe</PathOrigemCal>
+    <PathDestinoCal>C:\MICROS\Res\CAL\Win32\Files\Micros\Res\Pos\Etc</PathDestinoCal>
+  </configMaquina>
+  <configEmitente>
+    <RazaoSocial>BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S/A</RazaoSocial>
+    <Fantasia>BK ITAIPU MULTICENTER</Fantasia>
+    <Cnpj>13574594049527</Cnpj>
+    <Telefone>1123970320</Telefone>
+    <Ie>86984539</Ie>
+    <Im />
+    <Email>itmrj@burgerking.com.br</Email>
+    <endereco>
+      <Logradouro>ESTRADA FRANCISCO DA CRUZ NUNES</Logradouro>
+      <Numero>6501</Numero>
+      <Complemento>LJ 108</Complemento>
+      <Bairro>ITAIPU</Bairro>
+      <Cep>24340000</Cep>
+      <Uf>RJ</Uf>
+      <Cidade>NITEROI</Cidade>
+      <Cod_cidade>3303302</Cod_cidade>
+      <Cod_estado>33</Cod_estado>
+    </endereco>
+  </configEmitente>
+  <configNFCe>
+    <NatOp>Venda</NatOp>
+    <TpImp>4</TpImp>
+    <TpEmis>1</TpEmis>
+    <TpAmb>1</TpAmb>
+    <IndPag>0</IndPag>
+    <Crt>3</Crt>
+    <tokenNfce>6B3902C0-88FC-4799-B13</tokenNfce>
+    <VersaoQrcode>100</VersaoQrcode>
+    <CSC>000002</CSC>
+    <UrlProducao>https://nfe.sefazvirtual.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx?</UrlProducao>
+    <UrlHomologacao>https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx?</UrlHomologacao>
+    <Contingencia>false</Contingencia>
+    <sequenceNumberNfce>30896</sequenceNumberNfce>
+    <Serie>1</Serie>
+    <Id_banco>Id_banco</Id_banco>
+    <NomeCertificadoDigital>BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S:13574594000196</NomeCertificadoDigital>
+    <CaminhoCertificadoDigital>E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\enviaBK\bin\Debug\cert.pfx</CaminhoCertificadoDigital>
+    <SenhaCertificadoDigital>66697363616C4032303135</SenhaCertificadoDigital>
+    <NCM>NCM</NCM>
+    <VersaoLayout>3.10</VersaoLayout>
+    <CFOP00>5102</CFOP00>
+    <CFOP60>5405</CFOP60>
+  </configNFCe>
+  <configSAT>
+    <IDE_signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</IDE_signAC>
+    <IDE_NumeroCaixa>001</IDE_NumeroCaixa>
+    <ChaveAtivacao>123456789</ChaveAtivacao>
+    <CFOP00>5102</CFOP00>
+    <CFOP60>5405</CFOP60>
+    <CNPJ_SoftwareHouse>16716114000172</CNPJ_SoftwareHouse>
+  </configSAT>
+</ConfigureXml>

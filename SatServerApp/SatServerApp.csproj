@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1C768BDC-83E2-48E8-A59C-90C1477421BC}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>invoiceServerApp</RootNamespace>
     <AssemblyName>SatServerApp</AssemblyName>
@@ -55,6 +55,9 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -75,13 +78,11 @@
   <ItemGroup>
     <Compile Include="Client\ClientSocket.cs" />
     <Compile Include="Client\ClientTransfer.cs" />
-    <Compile Include="DBMicros\MicrosDB.cs" />
     <Compile Include="Nfe\CallbackStatusInterface.cs" />
     <Compile Include="Nfe\DadosImpressao.cs" />
     <Compile Include="Nfe\DadosNfce.cs" />
     <Compile Include="Nfe\enviaNFCE.cs" />
     <Compile Include="Nfe\impressao.cs" />
-    <Compile Include="Nfe\ImprimirEpsonNF.cs" />
     <Compile Include="Nfe\InterfaceEnvio.cs" />
     <Compile Include="Nfe\makeXml.cs" />
     <Compile Include="Nfe\makeXmlCancel.cs" />
@@ -111,17 +112,10 @@
     <Compile Include="Sat\dllSat.cs" />
     <Compile Include="Sat\ParseSat.cs" />
     <Compile Include="Datamanager.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Sat\NotificationChanged.cs" />
     <Compile Include="invoiceImplemention.cs" />
     <Compile Include="Server\HandleTransferClient.cs" />
     <Compile Include="Server\NotificationDisconnect.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\ServerSocket.cs" />
     <Compile Include="Server\ServerTransfer.cs" />
@@ -201,9 +195,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -302,9 +293,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="impressao\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WebReferences Include="Web References\" />
   </ItemGroup>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Dtv_principal = new System.Windows.Forms.DataGridView();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btn_visualizar = new System.Windows.Forms.Button();
@@ -48,9 +49,18 @@
             this.Dtv_principal.AllowUserToAddRows = false;
             this.Dtv_principal.AllowUserToDeleteRows = false;
             this.Dtv_principal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dtv_principal.Location = new System.Drawing.Point(224, 4);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Dtv_principal.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Dtv_principal.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Dtv_principal.Location = new System.Drawing.Point(236, 0);
             this.Dtv_principal.Name = "Dtv_principal";
-            this.Dtv_principal.Size = new System.Drawing.Size(624, 465);
+            this.Dtv_principal.Size = new System.Drawing.Size(760, 471);
             this.Dtv_principal.TabIndex = 0;
             this.Dtv_principal.DataSourceChanged += new System.EventHandler(this.Dtv_principal_DataSourceChanged);
             this.Dtv_principal.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dtv_principal_CellDoubleClick);
@@ -153,7 +163,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(848, 471);
+            this.ClientSize = new System.Drawing.Size(996, 471);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.Dtv_principal);
             this.Controls.Add(this.groupBox1);
@@ -161,6 +171,7 @@
             this.Controls.Add(this.groupBox3);
             this.Name = "Form1";
             this.Text = "NFCE STATUS";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Dtv_principal)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

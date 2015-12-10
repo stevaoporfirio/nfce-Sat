@@ -16,8 +16,6 @@ namespace EnviaSeFaz
         public ManagerSeFaz(Utils.ConfigureXml _config, X509Certificate2 _cert)
         {
             config = _config;
-
-
     
             switch (config.configEmitente.endereco.Uf)
             { 
@@ -29,6 +27,9 @@ namespace EnviaSeFaz
                     break;
                 case "RS":
                     enviaSeFaz = new EnviaNfceRS();
+                    break;
+                case "PR":
+                    enviaSeFaz = new EnviaNfcePR();
                     break;
                 default:
                     enviaSeFaz = new EnviaNfceRJ();

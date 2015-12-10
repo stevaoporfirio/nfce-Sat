@@ -40,7 +40,7 @@ namespace invoiceServerApp
 
                 XmlTextWriter xmlw = new XmlTextWriter(XmlString);
 
-                DataTable dt = ManagerDB.Instance.selectDadosNfce(dtNfce.ID);
+                DataTable dt = ManagerDB.Instance().selectDadosNfce(dtNfce.ID);
                 foreach (DataRow row in dt.Rows)
                 {
                     id_banco = row["id"].ToString();

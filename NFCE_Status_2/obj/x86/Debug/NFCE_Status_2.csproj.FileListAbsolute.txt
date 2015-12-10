@@ -62,25 +62,41 @@ D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.exe
 D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 6\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe.config
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status_2.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\SatServerAppDB.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\Utils.dll
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\SatServerAppDB.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\bin\Debug\Utils.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Consultar.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Form1.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.FormStatus.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Relatorio.resources
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.exe
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.pdb
-C:\Users\cribeiro.SAOPAULO\Documents\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csprojResolveAssemblyReference.cache
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe.config
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status_2.exe
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status_2.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status.exe.config
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\bin\Debug\NFCE_Status.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\bin\Debug\SatServerAppDB.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\bin\Debug\Utils.dll
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\bin\Debug\SatServerAppDB.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\bin\Debug\Utils.pdb
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csprojResolveAssemblyReference.cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Consultar.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Form1.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.FormStatus.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Relatorio.resources
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status.exe
+C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\obj\x86\Debug\NFCE_Status.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\bin\Debug\NFCE_Status.exe.config
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\bin\Debug\NFCE_Status.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\bin\Debug\NFCE_Status.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\bin\Debug\SatServerAppDB.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\bin\Debug\Utils.dll
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\bin\Debug\SatServerAppDB.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\bin\Debug\Utils.pdb
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csprojResolveAssemblyReference.cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Consultar.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Form1.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.FormStatus.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Relatorio.resources
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\NFCE_Status.exe
+D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\NFCE_Status_2\obj\x86\Debug\NFCE_Status.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status.exe.config
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\NFCE_Status.pdb
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\SatServerAppDB.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\Utils.dll
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\bin\Debug\SatServerAppDB.pdb
@@ -92,5 +108,5 @@ E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Properties.Resources.resources
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\invoiceServerApp.Relatorio.resources
 E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.csproj.GenerateResource.Cache
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.exe
-E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status_2.pdb
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status.exe
+E:\dev\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 5\SAT 4\NFCE-SAT\NFCE_Status_2\obj\x86\Debug\NFCE_Status.pdb

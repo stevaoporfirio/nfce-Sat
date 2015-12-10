@@ -1,0 +1,126 @@
+09/01/2015 09:14:21 :SatDimep
+09/01/2015 09:14:29 :172.35.207.130
+09/01/2015 09:14:32 :ParseSatSend id: 993110
+09/01/2015 09:14:33 :Imprimindo 993110 172.35.207.3
+09/01/2015 09:14:33 :Fechar 0 | 172.35.207.3
+09/01/2015 09:14:35 :iniciaPorta 1 | 172.35.207.3
+09/01/2015 09:14:35 :print 1 | 172.35.207.3
+09/01/2015 09:14:35 :Processa SAT Finalizado 993110 35150961099008000141599000011890018228373983
+09/01/2015 09:15:30 :ParseSatSend id: 993111
+09/01/2015 09:15:31 :Imprimindo 993111 172.35.207.3
+09/01/2015 17:51:11 :SatDimep
+09/01/2015 17:51:21 :172.35.207.130
+09/01/2015 17:51:53 :ParseSatSend id: 993111
+09/01/2015 17:51:55 :Imprimindo 993111 172.35.207.3
+09/01/2015 17:53:20 :SatDimep
+09/01/2015 17:53:26 :172.35.207.130
+09/01/2015 17:53:36 :ParseSatSend id: 993111
+09/01/2015 17:53:38 :Imprimindo 993111 172.35.207.3
+09/01/2015 17:54:35 :Processa SAT Finalizado 993111 35150961099008000141599000011890018251481126
+09/01/2015 17:54:49 :<bc>DIMEP
+<bc>
+<nb>Endereço:AVENIDA MOFARREJ, No:840
+<nb><b>CNPJ:61099008000141     I.E.:111111111111     I.M.: 
+<bc>----------------------------------------------------
+<bc>Extrato No. 001825
+<bc>CUPOM FISCAL ELETRONICO - SAT 
+<bc>----------------------------------------------------
+<nn>CPF/CNPJ Consumidor:    Nao Identificado
+<bc>----------------------------------------------------
+<bc>Cod   |Desc                |Qtd|UN    |Vl.Uni|Vl.Ttl
+<bc>----------------------------------------------------
+<nc>1001   Arroz                1.0000 UN     10.00  10.00 
+
+09/01/2015 17:54:49 :
+<nn> Sub Total:                                       10,00
+<nn> Desconto:                                         0,00
+<nn> Acrescimo:                                        0.00
+<nn> Valor Total:                                     10,00
+<bc> Outros R$                                        10.00
+<bc> Troco R$                                          0.00
+<bc>------------------------------------------------
+<bc>Informacoes Adicionais
+<c>WS: 99 / Conta: 3111 / Mesa: 0 / Emp.: da Silva 
+<c> Imp F: 1.35(14.00%) E: 1.70(17.00%) IBPT 
+<c>
+<bc>------------------------------------------------
+<bc>SAT No. 900001189
+<nc>20150901 - 175513
+<nc>3515 0961 0990 0800 0141 5990 0001 1890 0182 5148 1126
+<code128>3515096109900800014159</code128><code128>9000011890018251481126</code128>
+
+09/01/2015 17:55:38 :SatDimep
+09/01/2015 17:55:44 :172.35.207.130
+09/01/2015 17:55:54 :ParseSatSend id: 993112
+09/01/2015 17:55:55 :Imprimindo 993112 172.35.207.3
+09/01/2015 17:55:57 :<bc>DIMEP
+<bc>
+<nb>Endereço:AVENIDA MOFARREJ, No:840
+<nb><b>CNPJ:61099008000141     I.E.:111111111111     I.M.: 
+<bc>----------------------------------------------------
+<bc>Extrato No. 001826
+<bc>CUPOM FISCAL ELETRONICO - SAT 
+<bc>----------------------------------------------------
+<nn>CPF/CNPJ Consumidor:    Nao Identificado
+<bc>----------------------------------------------------
+<bc>Cod   |Desc                |Qtd|UN    |Vl.Uni|Vl.Ttl
+<bc>----------------------------------------------------
+<nc>1001   Arroz                1.0000 UN     10.00  10.00 
+
+09/01/2015 17:55:57 :
+<nn> Sub Total:                                       10,00
+<nn> Desconto:                                         0,00
+<nn> Acrescimo:                                        0.00
+<nn> Valor Total:                                     10,00
+<bc> Outros R$                                        10.00
+<bc> Troco R$                                          0.00
+<bc>------------------------------------------------
+<bc>Informacoes Adicionais
+<c>WS: 99 / Conta: 3112 / Mesa: 0 / Emp.: da Silva 
+<c> Imp F: 1.35(14.00%) E: 1.70(17.00%) IBPT 
+<c>
+<bc>------------------------------------------------
+<bc>SAT No. 900001189
+<nc>20150901 - 175731
+<nc>3515 0961 0990 0800 0141 5990 0001 1890 0182 6909 4884
+<code128>3515096109900800014159</code128><code128>9000011890018269094884</code128>
+
+09/01/2015 17:55:57 :<qr>35150961099008000141599000011890018269094884|20150901175731|10.00|61099008000141|fMU7BAo2Zlx0L9JcjpZgZfPrC4f2tgN+nCH7esA563l2fQdDs/o9pr//xclH88XYhW6c90MZMOsz4vz0AXqF1OMEf7T8YrHubA/eZ3RHQsExClBNhKe4V9gmT1o6TwjMV6hADVp0P51LIFdba1BJo+heooNV8LuCnkiM9QfQMNEOq10LpxD3eesazcBLRSNhJwHG/DxkDc08qfjFG4rlKTiEmZTNEXTMW6kuD+JeC6ecBQNcTBvCTzD3u79dZi4czf4XM9gbIzk2H8ojlyCrd+gqZKmBifG+yGvZErSDRy+VTJ1dHetZ0l6g2rDDZkYUSLCw16lopxEjPLSLFHin0Q==
+09/01/2015 18:00:49 :SatDimep
+09/01/2015 18:00:55 :172.35.207.130
+09/01/2015 18:00:58 :ParseSatSend id: 993112
+09/01/2015 18:00:59 :Imprimindo 993112 172.35.207.3
+09/01/2015 18:01:36 :<bc>DIMEP
+<bc>
+<nb>Endereço:AVENIDA MOFARREJ, No:840
+<nb><b>CNPJ:61099008000141     I.E.:111111111111     I.M.: 
+<bc>----------------------------------------------------
+<bc>Extrato No. 001827
+<bc>CUPOM FISCAL ELETRONICO - SAT 
+<bc>----------------------------------------------------
+<nn>CPF/CNPJ Consumidor:    Nao Identificado
+<bc>----------------------------------------------------
+<bc>Cod   |Desc                |Qtd|UN    |Vl.Uni|Vl.Ttl
+<bc>----------------------------------------------------
+<nc>1001   Arroz                1.0000 UN     10.00  10.00 
+
+09/01/2015 18:01:36 :
+<nn> Sub Total:                                       10,00
+<nn> Desconto:                                         0,00
+<nn> Acrescimo:                                        0.00
+<nn> Valor Total:                                     10,00
+<bc> Outros R$                                        10.00
+<bc> Troco R$                                          0.00
+<bc>------------------------------------------------
+<bc>Informacoes Adicionais
+<c>WS: 99 / Conta: 3112 / Mesa: 0 / Emp.: da Silva 
+<c> Imp F: 1.35(14.00%) E: 1.70(17.00%) IBPT 
+<c>
+<bc>------------------------------------------------
+<bc>SAT No. 900001189
+<nc>20150901 - 180235
+<nc>3515 0961 0990 0800 0141 5990 0001 1890 0182 7923 9095
+<code128>3515096109900800014159</code128><code128>9000011890018279239095</code128>
+
+09/01/2015 18:01:36 :<qr>35150961099008000141599000011890018279239095|20150901180235|10.00|61099008000141|E0F7/fCkTXBMGZeumDn8iBe/ZiF4qz0q584oLLz7GmHDimR1xoob6J+JnRnuNT1J4tK6J3UG49Gu9dKCcgF51vbM4uWFKrOg9TLwHYGRiDrauykYXCccIS1/HomtsFTISbw9k2fYPeOdWEEO90tlicz1llOL4r8wHUkgU/0/qQC1DNgllSK4ELrBTlvXI4No8FBFW1La/f+tQik83EHOzpNXZD5E5OGV+9uccYTTZo722aj+X2VNUkYE4HtYBIIocfaBNspqHYTbWP4MKAPS4390G/1NXnOD+FesLsD6zsqv+EFWn+wOBaW4Pgqe9nZPhjzcuirXojYUwZQYTpeioQ==
+09/01/2015 18:01:36 :Processa SAT Finalizado 993112 35150961099008000141599000011890018279239095

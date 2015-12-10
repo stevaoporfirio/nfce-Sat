@@ -9,7 +9,7 @@ using System.IO;
 
 namespace invoiceServerApp
 {
-    public class MicrosDB
+    public class MicrosDB : SatServerAppDBMaster
     {
         private string odbcName;
         private string odbcUser;
@@ -39,22 +39,15 @@ namespace invoiceServerApp
 
             odbcMicros = new OdbcConnection(connectionString);
             odbcMicros.Open();
+            
         }
 
-        public void SendInsertQueries(string q)
+        public override void SendInsertQueries(string q)
         {
             try
             {
-                //using (StreamWriter sr = new StreamWriter("q.txt",true))
-                //{
-                //    sr.WriteLine(q);
-                //    sr.Flush();
-                //    sr.Close();
-                //}
-
                 OdbcCommand com = new OdbcCommand(q, odbcMicros);
                 int i = com.ExecuteNonQuery();
-                //int nada = i;   
 
             }catch (Exception ex)
             {
@@ -62,7 +55,7 @@ namespace invoiceServerApp
             }
         }
 
-        public DataTable SendSelectMultiResultQueries(string q, string table)
+        public override DataTable SendSelectMultiResultQueries(string q, string table)
         {
             try
             {
@@ -83,9 +76,9 @@ namespace invoiceServerApp
             {
                 throw ex;
             }
-        } 
+        }
 
-        public string SendSelectOneResultQueries(string q, bool erroOnNull)
+        public override string SendSelectOneResultQueries(string q, bool erroOnNull)
         {
             try
             {                
@@ -107,6 +100,13 @@ namespace invoiceServerApp
             {
                 throw ex;
             }
+        }
+
+        public override DataTable SelectNotasStatus(int _num, DateTime _data)
+        {            
+            string query = String.Format("select TOP 50 START AT {0} d.*,  (select isnull(MAX(nfce_status),0) from nfce_status where id_dados = d.id) status from custom.nfce_dados d where convert(char(20),data,'105') = '{1}' ORDER BY id desc", _num, _data.ToString("dd-MM-yyyy"));
+
+            return SendSelectMultiResultQueries(query, "dados");
         }
     }
 }

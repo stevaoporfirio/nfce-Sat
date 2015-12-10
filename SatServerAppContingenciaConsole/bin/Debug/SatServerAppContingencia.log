@@ -1,0 +1,40 @@
+08/21/2015 14:56:06 :nota: NFe43150813574594035658650010000073359000073354
+08/21/2015 14:56:10 :   em System.Collections.CollectionBase.OnValidate(Object value)
+   em System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   em System.Security.Cryptography.X509Certificates.X509CertificateCollection.Add(X509Certificate value)
+   em EnviaSeFaz.EnviaNfceRS.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRS.cs:linha 80
+08/21/2015 14:56:10 :System.Exception: Problemas de comunicaçao com SEFAZ: System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: value
+   em System.Collections.CollectionBase.OnValidate(Object value)
+   em System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   em System.Security.Cryptography.X509Certificates.X509CertificateCollection.Add(X509Certificate value)
+   em EnviaSeFaz.EnviaNfceRS.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRS.cs:linha 80
+   em EnviaSeFaz.EnviaNfceRS.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRS.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 43
+   em invoiceServerApp.managers.DoWork(Object o) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\managers.cs:linha 212
+08/21/2015 14:58:38 :nota: NFe43150813574594035658650010000073359000073354
+08/21/2015 14:58:39 :   em System.Collections.CollectionBase.OnValidate(Object value)
+   em System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   em System.Security.Cryptography.X509Certificates.X509CertificateCollection.Add(X509Certificate value)
+   em EnviaSeFaz.EnviaNfceRS.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRS.cs:linha 80
+08/21/2015 14:58:39 :System.Exception: Problemas de comunicaçao com SEFAZ: System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: value
+   em System.Collections.CollectionBase.OnValidate(Object value)
+   em System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   em System.Security.Cryptography.X509Certificates.X509CertificateCollection.Add(X509Certificate value)
+   em EnviaSeFaz.EnviaNfceRS.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRS.cs:linha 80
+   em EnviaSeFaz.EnviaNfceRS.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRS.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\ManagerSeFaz.cs:linha 43
+   em invoiceServerApp.managers.DoWork(Object o) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppContigencia\managers.cs:linha 212
+08/21/2015 14:59:29 :nota: NFe43150813574594035658650010000073359000073354
+08/21/2015 14:59:29 :   em System.Collections.CollectionBase.OnValidate(Object value)
+   em System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   em System.Security.Cryptography.X509Certificates.X509CertificateCollection.Add(X509Certificate value)
+   em EnviaSeFaz.EnviaNfceRS.verificaStatusSefaz() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\EnviaSeFaz\EnviaNfceRS.cs:linha 80
+08/21/2015 15:00:55 :nota: NFe43150813574594035658650010000073359000073354
+08/21/2015 15:00:59 :1RSnfce201411141702107Servico em Operacao432015-08-21T15:02:17-03:001
+08/21/2015 15:01:00 :<retEnviNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201508141712</verAplic><cStat>103</cStat><xMotivo>Lote recebido com sucesso</xMotivo><cUF>43</cUF><dhRecbto>2015-08-21T15:02:17-03:00</dhRecbto><infRec><nRec>431065066724380</nRec><tMed>1</tMed></infRec></retEnviNFe>
+08/21/2015 15:01:00 :consulta recibo: 431065066724380
+08/21/2015 15:01:00 :resposta SEFAZ: <retConsReciNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>RSnfce201507310945</verAplic><nRec>431065066724380</nRec><cStat>104</cStat><xMotivo>Lote processado</xMotivo><cUF>43</cUF><dhRecbto>2015-08-21T15:02:17-03:00</dhRecbto><protNFe versao="3.10"><infProt><tpAmb>1</tpAmb><verAplic>RSnfce201507310945</verAplic><chNFe>43150813574594035658650010000073359000073354</chNFe><dhRecbto>2015-08-21T15:02:17-03:00</dhRecbto><nProt>143150062516424</nProt><digVal>NT2va69qv/AdODMk2rWXFqzfIxc=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></retConsReciNFe>
+08/21/2015 15:04:48 :Inicializando Motor de Contingencia
+08/21/2015 15:41:05 :Inicializando Motor de Contingencia

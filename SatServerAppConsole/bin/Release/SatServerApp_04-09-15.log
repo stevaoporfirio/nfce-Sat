@@ -1,0 +1,36 @@
+09/04/2015 09:53:47 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'.
+Nome do arquivo: 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 67
+09/04/2015 09:53:48 :System.Exception: System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'.
+Nome do arquivo: 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 67
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 107
+   em invoiceServerApp.Datamanager..ctor() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Datamanager.cs:linha 33
+09/04/2015 09:55:05 :System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'.
+Nome do arquivo: 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 67
+09/04/2015 09:55:05 :System.Exception: System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'.
+Nome do arquivo: 'C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerAppConsole\bin\Release\AppConfig.xml'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   em System.IO.StreamReader..ctor(String path)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 67
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 107
+   em invoiceServerApp.Datamanager..ctor() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Datamanager.cs:linha 33

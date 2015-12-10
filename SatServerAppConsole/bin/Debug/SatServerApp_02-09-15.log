@@ -1,0 +1,148 @@
+09/02/2015 17:00:23 :ParseNFCE id: 0
+09/02/2015 17:00:24 :ParseNFCE id: 1
+09/02/2015 17:00:26 :ParseNFCE id: 3
+09/02/2015 17:00:27 :ParseNFCE id: 4
+09/02/2015 17:00:29 :ParseNFCE id: 6
+09/02/2015 17:00:30 :ParseNFCE id: 7
+09/02/2015 17:02:45 :ParseNFCE id: 0
+09/02/2015 17:02:46 :ParseNFCE id: 1
+09/02/2015 17:02:48 :ParseNFCE id: 3
+09/02/2015 17:02:49 :ParseNFCE id: 4
+09/02/2015 17:02:51 :ParseNFCE id: 6
+09/02/2015 17:02:52 :ParseNFCE id: 7
+09/02/2015 17:02:54 :ParseNFCE id: 9
+09/02/2015 17:02:55 :ParseNFCE id: 10
+09/02/2015 17:02:57 :ParseNFCE id: 12
+09/02/2015 17:02:58 :ParseNFCE id: 13
+09/02/2015 17:08:27 :SatDimep
+09/02/2015 17:08:33 :172.35.207.130
+09/02/2015 17:08:39 :ParseSatSend id: 0
+09/02/2015 17:08:40 :ParseSatSend id: 1
+09/02/2015 17:08:40 :Imprimindo 991 172.35.207.4
+09/02/2015 17:08:41 :Processa SAT Finalizado 991 35150961099008000141599000011890022140208330
+09/02/2015 17:08:41 :Imprimindo 992 172.35.207.3
+09/02/2015 17:08:41 :Processa SAT Finalizado 992 35150961099008000141599000011890022150326140
+09/02/2015 17:08:42 :ParseSatSend id: 3
+09/02/2015 17:08:43 :Imprimindo 991 172.35.207.4
+09/02/2015 17:08:43 :Processa SAT Finalizado 991 35150961099008000141599000011890022166733920
+09/02/2015 17:08:43 :ParseSatSend id: 4
+09/02/2015 17:08:44 :Imprimindo 992 172.35.207.3
+09/02/2015 17:08:44 :Processa SAT Finalizado 992 35150961099008000141599000011890022174120576
+09/02/2015 17:08:45 :ParseSatSend id: 6
+09/02/2015 17:08:46 :Imprimindo 991 172.35.207.4
+09/02/2015 17:08:46 :Processa SAT Finalizado 991 35150961099008000141599000011890022186163631
+09/02/2015 17:08:46 :ParseSatSend id: 7
+09/02/2015 17:08:47 :Imprimindo 992 172.35.207.3
+09/02/2015 17:08:47 :Processa SAT Finalizado 992 35150961099008000141599000011890022195653212
+09/02/2015 17:09:40 :ParseSatSend id: 0
+09/02/2015 17:09:41 :Imprimindo 991 172.35.207.4
+09/02/2015 17:10:27 :Processa SAT Finalizado 991 35150961099008000141599000011890022204764743
+09/02/2015 17:10:27 :ParseSatSend id: 1
+09/02/2015 17:10:27 :ParseSatSend id: 3
+09/02/2015 17:10:28 :ParseSatSend id: 4
+09/02/2015 17:10:28 :Imprimindo 992 172.35.207.3
+09/02/2015 17:10:40 :Processa SAT Finalizado 992 35150961099008000141599000011890022217699309
+09/02/2015 17:10:40 :ParseSatSend id: 6
+09/02/2015 17:10:40 :Imprimindo 991 172.35.207.4
+09/02/2015 17:10:51 :Imprimindo 992 172.35.207.3
+09/02/2015 17:10:54 :Processa SAT Finalizado 991 35150961099008000141599000011890022221983130
+09/02/2015 17:10:54 :ParseSatSend id: 7
+09/02/2015 17:10:56 :Processa SAT Finalizado 992 35150961099008000141599000011890022230947825
+09/02/2015 17:10:56 :Imprimindo 991 172.35.207.4
+09/02/2015 17:10:58 :Imprimindo 992 172.35.207.3
+09/02/2015 17:10:58 :Processa SAT Finalizado 991 35150961099008000141599000011890022241548110
+09/02/2015 17:11:00 :Processa SAT Finalizado 992 35150961099008000141599000011890022254089640
+09/02/2015 17:12:22 :SatDimep
+09/02/2015 17:12:29 :172.35.207.130
+09/02/2015 17:12:32 :ParseSatSend id: 0
+09/02/2015 17:12:33 :Imprimindo 991 172.35.207.4
+09/02/2015 17:12:39 :ParseSatSend id: 1
+09/02/2015 17:12:41 :Processa SAT Finalizado 991 35150961099008000141599000011890022260730964
+09/02/2015 17:12:41 :Imprimindo 992 172.35.207.3
+09/02/2015 17:12:47 :Processa SAT Finalizado 992 35150961099008000141599000011890022272429598
+09/02/2015 17:13:02 :ParseSatSend id: 0
+09/02/2015 17:13:03 :Imprimindo 991 172.35.207.4
+09/02/2015 17:13:11 :ParseSatSend id: 1
+09/02/2015 17:13:30 :Processa SAT Finalizado 991 35150961099008000141599000011890022286739829
+09/02/2015 17:13:30 :Imprimindo 992 172.35.207.3
+09/02/2015 17:17:32 :SatDimep
+09/02/2015 17:17:38 :172.35.207.130
+09/02/2015 17:17:41 :ParseSatSend id: 0
+09/02/2015 17:17:42 :Imprimindo 991 172.35.207.4
+09/02/2015 17:19:14 :ParseSatSend id: 1
+09/02/2015 17:22:43 :Processa SAT Finalizado 991 35150961099008000141599000011890022308778813
+09/02/2015 17:22:43 :Imprimindo 992 172.35.207.3
+09/02/2015 17:23:13 :Processa SAT Finalizado 992 35150961099008000141599000011890022316646424
+09/02/2015 17:24:46 :SatDimep
+09/02/2015 17:24:52 :172.35.207.130
+09/02/2015 17:24:52 :ParseSatSend id: 1
+09/02/2015 17:24:52 :ParseSatSend id: 0
+09/02/2015 17:24:53 :Imprimindo 992 172.35.207.3
+09/02/2015 17:25:14 :Imprimindo 991 172.35.207.4
+09/02/2015 17:25:44 :   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+09/02/2015 17:25:44 :   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+09/02/2015 17:25:44 :   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+   em Utils.ImprimirEpsonNF.ImprimirNF()
+09/02/2015 17:25:44 :   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+   em Utils.ImprimirEpsonNF.ImprimirNF()
+09/02/2015 17:25:44 :0: System.Exception: Erro em Processa SAT Erro Imprimindo SAT Cfe Erro Imprimindo CF - Preparando Dados
+System.Exception: Erro Imprimindo CF - Enviando Impressora
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+   em Utils.ImprimirEpsonNF.ImprimirNF()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 127
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+09/02/2015 17:25:44 :1: System.Exception: Erro em Processa SAT Erro Imprimindo SAT Cfe Erro Imprimindo CF - Preparando Dados
+System.Exception: Erro Imprimindo CF - Enviando Impressora
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+   em Utils.ImprimirEpsonNF.ImprimirNF()
+   em invoiceServerApp.ProcessaSAT.ProcessaCupom(DadosSAT _dtSAT) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\SAT2\ProcessaSAT.cs:linha 127
+   em invoiceServerApp.ParseSatSend.SpliData(String msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Sat\ParseSatSend.cs:linha 122
+09/02/2015 17:26:18 :SatDimep
+09/02/2015 17:26:24 :172.35.207.130
+09/02/2015 17:26:24 :ParseSatSend id: 0
+09/02/2015 17:26:25 :Imprimindo 991 172.35.207.4
+09/02/2015 17:26:28 :ParseSatSend id: 1
+09/02/2015 17:26:30 :Processa SAT Finalizado 991 35150961099008000141599000011890022349488453
+09/02/2015 17:26:30 :Imprimindo 992 172.35.207.3
+09/02/2015 17:26:36 :Processa SAT Finalizado 992 35150961099008000141599000011890022352897148
+09/02/2015 17:26:55 :ParseSatSend id: 0
+09/02/2015 17:26:56 :Imprimindo 991 172.35.207.4
+09/02/2015 17:27:23 :Processa SAT Finalizado 991 35150961099008000141599000011890022369024533
+09/02/2015 17:27:23 :ParseSatSend id: 1
+09/02/2015 17:27:24 :Imprimindo 992 172.35.207.3
+09/02/2015 17:28:04 :SatDimep
+09/02/2015 17:28:10 :172.35.207.130
+09/02/2015 17:28:11 :ParseSatSend id: 6
+09/02/2015 17:28:12 :Imprimindo 991 172.35.207.4
+09/02/2015 17:28:29 :Imprimindo 991 172.35.207.4
+09/02/2015 17:32:29 :   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha)
+09/02/2015 17:33:18 :SatDimep
+09/02/2015 17:33:24 :172.35.207.130
+09/02/2015 17:33:30 :ParseSatSend id: 0
+09/02/2015 17:33:31 :Imprimindo 991 172.35.207.4
+09/02/2015 17:33:36 :ParseSatSend id: 3
+09/02/2015 17:33:37 :ParseSatSend id: 6
+09/02/2015 17:34:52 :Imprimindo 991 172.35.207.4
+09/02/2015 17:35:17 :Imprimindo 991 172.35.207.4
+09/02/2015 17:35:19 :   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\ImprimirEpsonNF.cs:linha 147
+09/02/2015 17:35:21 :   em Utils.ImprimirEpsonNF.Print(IPEndPoint remoteEP, String[] linha) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\ImprimirEpsonNF.cs:linha 333
+   em Utils.ImprimirEpsonNF.ImprimirNF() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\ImprimirEpsonNF.cs:linha 130
+09/02/2015 17:36:17 :SatDimep
+09/02/2015 17:36:24 :172.35.207.130
+09/02/2015 17:36:28 :ParseSatSend id: 0
+09/02/2015 17:36:29 :Imprimindo 991 172.35.207.4
+09/02/2015 17:36:47 :ParseSatSend id: 3
+09/02/2015 17:36:47 :ParseSatSend id: 6
+09/02/2015 17:36:51 :Processa SAT Finalizado 991 35150961099008000141599000011890022430887486
+09/02/2015 17:36:51 :Imprimindo 991 172.35.207.4
+09/02/2015 17:37:21 :Processa SAT Finalizado 991 35150961099008000141599000011890022449990924
+09/02/2015 17:37:21 :Imprimindo 991 172.35.207.4
+09/02/2015 17:38:20 :Processa SAT Finalizado 991 35150961099008000141599000011890022450329969

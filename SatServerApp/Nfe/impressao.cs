@@ -188,64 +188,295 @@ namespace invoiceServerApp
             return gerarString.ToString();
         }
 
+        //private void DefineDadosImpressao()
+        //{
+        //    StringBuilder sb = new StringBuilder();
+
+        //    List<String> Linhas = new List<string>();
+
+
+        //    //sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+        //    sb.AppendLine(String.Format("<c><b><ce>{0}</ce></c></b>", dadosEmit.nomeFantasia));
+        //    sb.AppendLine(String.Format("<c><b>CNPJ:{0}</c></b>", dadosEmit.CNPJ));
+        //    sb.AppendLine(String.Format("<c><b>I.E.:{0}</c></b>", dadosEmit.IE));
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    sb.AppendLine(String.Format("<c><ce>{0}, {1} - {2} - {3}</ce></ce>"
+        //        , dadosEmit.logradouro
+        //        , dadosEmit.numero
+        //        , dadosEmit.bairro
+        //        , dadosEmit.cidade
+        //        ));
+
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+        //    sb.AppendLine(String.Format("<c><ce>Danfe NFC-e - Documento Auxiliar da</ce><c>"));
+        //    sb.AppendLine(String.Format("<ce>Nota Fiscal Eletronica para Consumidor Final</ce>"));
+        //    sb.AppendLine(String.Format("<ce>Nao permite aproveitamento de</ce>"));
+        //    sb.AppendLine(String.Format("<ce>credito de ICMS</ce>"));
+
+        //    if(conf.configNFCe.Contingencia)
+        //        sb.AppendLine(String.Format("<ce>Emitida em Contingencia</ce>"));
+
+        //    sb.AppendLine(String.Format("<ce>{0}",dadosNFce.via));
+
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+        //    sb.AppendLine(String.Format("<c>NFCe: {0}        Serie: {1}</c>"
+        //        , dadosNFce.numNFCe
+        //        , dadosNFce.serieNFCe
+        //        ));
+        //    sb.AppendLine(String.Format("<c>Emissao:{0}</c>"
+        //        , dadosNFce.emissNFCe
+        //        ));
+
+        //    string tmpURL = "";
+
+        //    if(conf.configNFCe.TpAmb.Equals("1"))
+        //        tmpURL = conf.configNFCe.UrlProducao;
+        //    else
+        //        tmpURL = conf.configNFCe.UrlHomologacao;
+
+
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+        //    sb.AppendLine(String.Format("<c><ce>Consulte Pela Chave de Acesso em:</ce></c>"));
+        //    sb.AppendLine(String.Format("<c><ce>{0}</ce></b>"
+        //        , tmpURL
+        //        ));
+
+        //    string tmpChave = dadosNFce.chaveNFCe.Substring(3);
+
+        //    string Chave = String.Format("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}"
+        //        ,tmpChave.Substring(0,4)
+        //        , tmpChave.Substring(4, 4)
+        //        , tmpChave.Substring(8, 4)
+        //        , tmpChave.Substring(12, 4)
+        //        , tmpChave.Substring(16, 4)
+        //        , tmpChave.Substring(20, 4)
+        //        , tmpChave.Substring(24, 4)
+        //        , tmpChave.Substring(28, 4)
+        //        , tmpChave.Substring(32, 4)
+        //        , tmpChave.Substring(36, 4)
+        //        , tmpChave.Substring(40, 4)
+                
+        //        );
+
+        //    sb.AppendLine(String.Format("<c><b><ce>Chave de Acesso</ce></c></b>"));
+        //    sb.AppendLine(String.Format("<c><b><ce>{0}</ce></c></b>"
+        //        , dadosNFce.chaveNFCe.Substring(3)
+        //        ));
+
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    if (!String.IsNullOrEmpty(dadosCli.cpf_cnpj_destinatario))
+        //    {
+        //        sb.AppendLine(String.Format("<c><b><ce>Consumidor</ce></c></b>"));
+        //        sb.AppendLine(String.Format("<c><b>CPF/CNPJ:{0}</c></b>"
+        //            , dadosCli.cpf_cnpj_destinatario
+        //            ));
+        //    }
+        //    else
+        //    {
+        //        sb.AppendLine(String.Format("<c><b><ce>Consumidor Nao Identificado</ce></c></b>"));
+        //    }
+
+        //    Linhas.Add(sb.ToString());
+
+        //    sb = new StringBuilder();
+            
+        //    sb.AppendLine(String.Format("<c><b><ce>{0,-6} {1,-20} {2,-3} {3,-6} {4,-6} {5,-6}</ce></c></b>"
+        //        , "Cod", "Desc", "Qtd", "UN", "Vl.Uni", "Vl.Ttl"
+        //        ));
+
+        //    decimal vt = 0;
+        //    decimal desc = 0;
+        //    int contaItens = 0;
+        //    foreach (ItensNota i in itens)
+        //    {
+        //        contaItens++;
+
+        //        vt += Convert.ToDecimal(i.valorTotal, ci);
+        //        desc += Convert.ToDecimal(i.valorDesconto, ci);
+
+        //        string tmpDesc;
+        //        if (i.descricao.Length > 20)
+        //            tmpDesc = i.descricao.Substring(0, 20);
+        //        else
+        //            tmpDesc = i.descricao;
+
+        //        sb.AppendLine(String.Format("<c><b><ce>{0,-6} {1,-20} {2,-3} {3,-6} {4,-6} {5,-6}</ce></c></b>"
+        //            , i.codigo
+        //            , tmpDesc
+        //            , i.quantidade
+        //            , i.unidade
+        //            , i.valorUnidade
+        //            , i.valorTotal
+        //            ));
+
+        //        if (contaItens == 20)
+        //        {
+        //            Linhas.Add(sb.ToString());
+        //            sb = new StringBuilder();
+        //            contaItens = 0;
+        //        }
+        //    }
+
+        //    Linhas.Add(sb.ToString());
+        //    sb = new StringBuilder();
+
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+        //        , "Sub Total:"
+        //        , vt.ToString("F2")
+        //        ));
+
+        //    //sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+        //        , "Desconto:"
+        //        , desc.ToString("F2")
+        //        ));
+
+        //    sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+        //        , "Acrescimo:"
+        //        , dadosNFce.acresc
+        //        ));
+
+        //    //sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    //
+        //    decimal tmpAcresc = Convert.ToDecimal(dadosNFce.acresc, ci);
+
+        //    sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+        //        , "Valor Total:"
+        //        , (vt - desc + tmpAcresc).ToString("F2")
+        //        ));
+
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+        //    sb.AppendLine(String.Format("<c><b><ce>Forma de Pagamento</ce></b></c>"));
+
+        //    foreach (PgtNota p in pgts)
+        //    {
+        //        switch (p.codPgt)
+        //        {
+        //            case "01":
+        //                p.descPgt = "Dinheiro";
+        //                break;
+        //            case "03":
+        //                p.descPgt = "Cartao Credito";
+        //                break;
+        //            case "04":
+        //                p.descPgt = "Cartao Debito";
+        //                break;
+
+        //            case "10":
+        //                p.descPgt = "Vale Alim";
+        //                break;
+        //            case "11":
+        //                p.descPgt = "Vale Refeic";
+        //                break;
+        //            case "99":
+        //                p.descPgt = "Outros";
+        //                break;
+        //        }
+        //        //switch (p.codPgt)
+        //        //{
+        //        //    case "01":
+        //        //        p.descPgt = "Dinheiro";
+        //        //        break;
+        //        //    case "99":
+        //        //        p.descPgt = "Outros";
+        //        //        break;
+        //        //    default :
+        //        //        p.descPgt = "Outros";
+        //        //        break;
+
+        //        //}
+
+        //        sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+        //            , p.descPgt
+        //            , p.valorPgt
+        //            ));
+        //    }
+
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    sb.AppendLine(String.Format("<c><b>Informacoes Adicionais</c></b>"));
+
+        //    if (dadosNFce.infCpl.Length > 0)
+        //    {
+        //        String[] tmp = dadosNFce.infCpl.Split('\\');
+        //        foreach(string s in tmp)
+        //            sb.AppendLine(String.Format("<c><b>{0}</c></b>", s));
+        //    }
+        //    sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    sb.AppendLine(String.Format("<c><b><ce>{0}</ce></c></b>", dadosNFce.reciboNFCe));
+
+        //    //sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+
+        //    sb.AppendLine(String.Format("<c><b><ce>Consulta via Leitor de QR Code"));
+
+        //    Linhas.Add(sb.ToString());
+
+        //    DadosImpressao = Linhas.ToArray();
+        //}
+
         private void DefineDadosImpressao()
         {
-            StringBuilder sb = new StringBuilder();
+            //StringBuilder sb = new StringBuilder();
 
             List<String> Linhas = new List<string>();
 
+            Linhas.Add(String.Format("<bc>{0}", dadosEmit.nomeFantasia));
+            Linhas.Add(String.Format("<nb>CNPJ:{0}", dadosEmit.CNPJ));
+            Linhas.Add(String.Format("<nb>I.E.:{0}", dadosEmit.IE));
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
-            sb.AppendLine(String.Format("<c><b><ce>{0}</ce></c></b>", dadosEmit.nomeFantasia));
-            sb.AppendLine(String.Format("<c><b>CNPJ:{0}</c></b>", dadosEmit.CNPJ));
-            sb.AppendLine(String.Format("<c><b>I.E.:{0}</c></b>", dadosEmit.IE));
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
-
-            sb.AppendLine(String.Format("<c><ce>{0}, {1} - {2} - {3}</ce></ce>"
+            Linhas.Add(String.Format("<nc>{0}, {1} - {2} - {3}"
                 , dadosEmit.logradouro
                 , dadosEmit.numero
                 , dadosEmit.bairro
                 , dadosEmit.cidade
                 ));
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
-            sb.AppendLine(String.Format("<c><ce>Danfe NFC-e - Documento Auxiliar da</ce><c>"));
-            sb.AppendLine(String.Format("<ce>Nota Fiscal Eletronica para Consumidor Final</ce>"));
-            sb.AppendLine(String.Format("<ce>Nao permite aproveitamento de</ce>"));
-            sb.AppendLine(String.Format("<ce>credito de ICMS</ce>"));
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
+            Linhas.Add(String.Format("<nc>Danfe NFC-e - Documento Auxiliar da<c>"));
+            Linhas.Add(String.Format("<nc>Nota Fiscal Eletronica para Consumidor Final"));
+            Linhas.Add(String.Format("<nc>Nao permite aproveitamento de"));
+            Linhas.Add(String.Format("<nc>credito de ICMS"));
 
-            if(conf.configNFCe.Contingencia)
-                sb.AppendLine(String.Format("<ce>Emitida em Contingencia</ce>"));
+            if (conf.configNFCe.Contingencia)
+                Linhas.Add(String.Format("<nc>Emitida em Contingencia"));
 
-            sb.AppendLine(String.Format("<ce>{0}",dadosNFce.via));
+            Linhas.Add(String.Format("<nc>{0}", dadosNFce.via));
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
-            sb.AppendLine(String.Format("<c>NFCe: {0}        Serie: {1}</c>"
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
+            Linhas.Add(String.Format("<nc>NFCe: {0}        Serie: {1}"
                 , dadosNFce.numNFCe
                 , dadosNFce.serieNFCe
                 ));
-            sb.AppendLine(String.Format("<c>Emissao:{0}</c>"
+            Linhas.Add(String.Format("<nc>Emissao:{0}"
                 , dadosNFce.emissNFCe
                 ));
 
             string tmpURL = "";
 
-            if(conf.configNFCe.TpAmb.Equals("1"))
+            if (conf.configNFCe.TpAmb.Equals("1"))
                 tmpURL = conf.configNFCe.UrlProducao;
             else
                 tmpURL = conf.configNFCe.UrlHomologacao;
 
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
-            sb.AppendLine(String.Format("<c><ce>Consulte Pela Chave de Acesso em:</ce></c>"));
-            sb.AppendLine(String.Format("<c><ce>{0}</ce></b>"
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
+            Linhas.Add(String.Format("<nc>Consulte Pela Chave de Acesso em:"));
+            Linhas.Add(String.Format("<nc>{0}"
                 , tmpURL
                 ));
 
             string tmpChave = dadosNFce.chaveNFCe.Substring(3);
 
             string Chave = String.Format("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}"
-                ,tmpChave.Substring(0,4)
+                , tmpChave.Substring(0, 4)
                 , tmpChave.Substring(4, 4)
                 , tmpChave.Substring(8, 4)
                 , tmpChave.Substring(12, 4)
@@ -256,33 +487,33 @@ namespace invoiceServerApp
                 , tmpChave.Substring(32, 4)
                 , tmpChave.Substring(36, 4)
                 , tmpChave.Substring(40, 4)
-                
+
                 );
 
-            sb.AppendLine(String.Format("<c><b><ce>Chave de Acesso</ce></c></b>"));
-            sb.AppendLine(String.Format("<c><b><ce>{0}</ce></c></b>"
+            Linhas.Add(String.Format("<bc>Chave de Acesso"));
+            Linhas.Add(String.Format("<bc>{0}"
                 , dadosNFce.chaveNFCe.Substring(3)
                 ));
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
 
             if (!String.IsNullOrEmpty(dadosCli.cpf_cnpj_destinatario))
             {
-                sb.AppendLine(String.Format("<c><b><ce>Consumidor</ce></c></b>"));
-                sb.AppendLine(String.Format("<c><b>CPF/CNPJ:{0}</c></b>"
+                Linhas.Add(String.Format("<bc>Consumidor"));
+                Linhas.Add(String.Format("<nb>CPF/CNPJ:{0}"
                     , dadosCli.cpf_cnpj_destinatario
                     ));
             }
             else
             {
-                sb.AppendLine(String.Format("<c><b><ce>Consumidor Nao Identificado</ce></c></b>"));
+                Linhas.Add(String.Format("<bc>Consumidor Nao Identificado"));
             }
 
-            Linhas.Add(sb.ToString());
+            //Linhas.Add(sb.ToString());
 
-            sb = new StringBuilder();
-            
-            sb.AppendLine(String.Format("<c><b><ce>{0,-6} {1,-20} {2,-3} {3,-6} {4,-6} {5,-6}</ce></c></b>"
+            //sb = new StringBuilder();
+
+            Linhas.Add(String.Format("<bc>{0,-6} {1,-20} {2,-3} {3,-6} {4,-6} {5,-6}"
                 , "Cod", "Desc", "Qtd", "UN", "Vl.Uni", "Vl.Ttl"
                 ));
 
@@ -302,7 +533,7 @@ namespace invoiceServerApp
                 else
                     tmpDesc = i.descricao;
 
-                sb.AppendLine(String.Format("<c><b><ce>{0,-6} {1,-20} {2,-3} {3,-6} {4,-6} {5,-6}</ce></c></b>"
+                Linhas.Add(String.Format("<bc>{0,-6} {1,-20} {2,-3} {3,-6} {4,-6} {5,-6}"
                     , i.codigo
                     , tmpDesc
                     , i.quantidade
@@ -311,48 +542,48 @@ namespace invoiceServerApp
                     , i.valorTotal
                     ));
 
-                if (contaItens == 20)
-                {
-                    Linhas.Add(sb.ToString());
-                    sb = new StringBuilder();
-                    contaItens = 0;
-                }
+                //if (contaItens == 20)
+                //{
+                //    Linhas.Add(sb.ToString());
+                //    sb = new StringBuilder();
+                //    contaItens = 0;
+                //}
             }
 
-            Linhas.Add(sb.ToString());
-            sb = new StringBuilder();
+            //Linhas.Add(sb.ToString());
+            //sb = new StringBuilder();
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
 
-            sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+            Linhas.Add(String.Format("<nb>{0,-20}{1,24}"
                 , "Sub Total:"
                 , vt.ToString("F2")
                 ));
 
-            //sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+            //sb.AppendLine(String.Format("<bc>------------------------------------------------"));
 
-            sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+            Linhas.Add(String.Format("<nb>{0,-20}{1,24}"
                 , "Desconto:"
                 , desc.ToString("F2")
                 ));
 
-            sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+            Linhas.Add(String.Format("<nb>{0,-20}{1,24}"
                 , "Acrescimo:"
                 , dadosNFce.acresc
                 ));
 
-            //sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+            //sb.AppendLine(String.Format("<bc>------------------------------------------------"));
 
             //
             decimal tmpAcresc = Convert.ToDecimal(dadosNFce.acresc, ci);
 
-            sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+            Linhas.Add(String.Format("<nb>{0,-20}{1,24}"
                 , "Valor Total:"
                 , (vt - desc + tmpAcresc).ToString("F2")
                 ));
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
-            sb.AppendLine(String.Format("<c><b><ce>Forma de Pagamento</ce></b></c>"));
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
+            Linhas.Add(String.Format("<bc>Forma de Pagamento"));
 
             foreach (PgtNota p in pgts)
             {
@@ -392,31 +623,31 @@ namespace invoiceServerApp
 
                 //}
 
-                sb.AppendLine(String.Format("<c><b>{0,-20}{1,24}</c></b>"
+                Linhas.Add(String.Format("<nb>{0,-20}{1,24}"
                     , p.descPgt
                     , p.valorPgt
                     ));
             }
 
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
 
-            sb.AppendLine(String.Format("<c><b>Informacoes Adicionais</c></b>"));
+            Linhas.Add(String.Format("<nb>Informacoes Adicionais"));
 
             if (dadosNFce.infCpl.Length > 0)
             {
                 String[] tmp = dadosNFce.infCpl.Split('\\');
-                foreach(string s in tmp)
-                    sb.AppendLine(String.Format("<c><b>{0}</c></b>", s));
+                foreach (string s in tmp)
+                    Linhas.Add(String.Format("<nb>{0}", s));
             }
-            sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+            Linhas.Add(String.Format("<bc>------------------------------------------------"));
 
-            sb.AppendLine(String.Format("<c><b><ce>{0}</ce></c></b>", dadosNFce.reciboNFCe));
+            Linhas.Add(String.Format("<bc>{0}", dadosNFce.reciboNFCe));
 
-            //sb.AppendLine(String.Format("<c><b><ce>------------------------------------------------</ce></c></b>"));
+            //sb.AppendLine(String.Format("<bc>------------------------------------------------"));
 
-            sb.AppendLine(String.Format("<c><b><ce>Consulta via Leitor de QR Code"));
+            Linhas.Add(String.Format("<bc>Consulta via Leitor de QR Code"));
 
-            Linhas.Add(sb.ToString());
+            //Linhas.Add(sb.ToString());
 
             DadosImpressao = Linhas.ToArray();
         }

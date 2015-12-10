@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="EnviaNfceAM.cs" />
     <Compile Include="EnviaNfceMT.cs" />
+    <Compile Include="EnviaNFCePR.cs" />
     <Compile Include="EnviaNfceRJ.cs" />
     <Compile Include="EnviaNfceRS.cs" />
     <Compile Include="InterfaceEnvio.cs" />
@@ -412,6 +413,56 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
+    <Compile Include="Web References\ParanaAutorizacaoHomolog\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaAutorizacao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaInutilizacaoHomolog\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaInutilizacao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaRecepEventoHomolog\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaRecepEvento\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaRetAutorizacaoHomolog\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaRetAutorizacao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaStatusServicoHomolog\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ParanaStatusServico\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -518,6 +569,61 @@
       </CachedDynamicPropName>
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>EnviaSeFaz_br_gov_am_sefaz_homnfce2_NfeStatusServico2</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeAutorizacao3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaAutorizacaoHomolog\</RelPath>
+      <UpdateFromURL>https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeAutorizacao3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaAutorizacaoHomolog_NfeAutorizacao3</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeInutilizacao3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaInutilizacaoHomolog\</RelPath>
+      <UpdateFromURL>https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeInutilizacao3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaInutilizacaoHomolog_NfeInutilizacao3</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeRecepcaoEvento%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaRecepEventoHomolog\</RelPath>
+      <UpdateFromURL>https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeRecepcaoEvento%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaRecepEventoHomolog_RecepcaoEvento</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeRetAutorizacao3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaRetAutorizacaoHomolog\</RelPath>
+      <UpdateFromURL>https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeRetAutorizacao3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaRetAutorizacaoHomolog_NfeRetAutorizacao3</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeStatusServico3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaStatusServicoHomolog\</RelPath>
+      <UpdateFromURL>https://homologacao.nfce.fazenda.pr.gov.br/nfce/NFeStatusServico3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaStatusServicoHomolog_NfeStatusServico3</CachedSettingsPropName>
     </WebReferenceUrl>
     <WebReferenceUrl Include="https://homologacao.nfe.sefaz.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx%3fop=nfeAutorizacaoLote">
       <UrlBehavior>Dynamic</UrlBehavior>
@@ -1036,6 +1142,61 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>EnviaSeFaz_br_gov_rs_svrs_nfceEvento_RecepcaoEvento</CachedSettingsPropName>
     </WebReferenceUrl>
+    <WebReferenceUrl Include="https://nfce.fazenda.pr.gov.br/nfce/NFeAutorizacao3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaAutorizacao\</RelPath>
+      <UpdateFromURL>https://nfce.fazenda.pr.gov.br/nfce/NFeAutorizacao3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaAutorizacao_NfeAutorizacao3</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://nfce.fazenda.pr.gov.br/nfce/NFeInutilizacao3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaInutilizacao\</RelPath>
+      <UpdateFromURL>https://nfce.fazenda.pr.gov.br/nfce/NFeInutilizacao3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaInutilizacao_NfeInutilizacao3</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://nfce.fazenda.pr.gov.br/nfce/NFeRecepcaoEvento%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaRecepEvento\</RelPath>
+      <UpdateFromURL>https://nfce.fazenda.pr.gov.br/nfce/NFeRecepcaoEvento%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaRecepEvento_RecepcaoEvento</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://nfce.fazenda.pr.gov.br/nfce/NFeRetAutorizacao3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaRetAutorizacao\</RelPath>
+      <UpdateFromURL>https://nfce.fazenda.pr.gov.br/nfce/NFeRetAutorizacao3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaRetAutorizacao_NfeRetAutorizacao3</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://nfce.fazenda.pr.gov.br/nfce/NFeStatusServico3%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ParanaStatusServico\</RelPath>
+      <UpdateFromURL>https://nfce.fazenda.pr.gov.br/nfce/NFeStatusServico3%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EnviaSeFaz_ParanaStatusServico_NfeStatusServico3</CachedSettingsPropName>
+    </WebReferenceUrl>
     <WebReferenceUrl Include="https://nfe.sefaz.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx%3fop=nfeAutorizacaoLote">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\br.gov.rs.sefaz.nfe1\</RelPath>
@@ -1537,6 +1698,56 @@
     </None>
     <None Include="Web References\br.gov.rs.svrs.nfceStatus\NfeStatusServico2.wsdl" />
     <None Include="Web References\br.gov.rs.svrs.nfceStatus\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaAutorizacaoHomolog\NFeAutorizacao3.wsdl" />
+    <None Include="Web References\ParanaAutorizacaoHomolog\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaAutorizacao\NFeAutorizacao3.wsdl" />
+    <None Include="Web References\ParanaAutorizacao\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaInutilizacaoHomolog\NFeInutilizacao3.wsdl" />
+    <None Include="Web References\ParanaInutilizacaoHomolog\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaInutilizacao\NFeInutilizacao3.wsdl" />
+    <None Include="Web References\ParanaInutilizacao\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaRecepEventoHomolog\NFeRecepcaoEvento.wsdl" />
+    <None Include="Web References\ParanaRecepEventoHomolog\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaRecepEvento\NFeRecepcaoEvento.wsdl" />
+    <None Include="Web References\ParanaRecepEvento\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaRetAutorizacaoHomolog\NFeRetAutorizacao3.wsdl" />
+    <None Include="Web References\ParanaRetAutorizacaoHomolog\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaRetAutorizacao\NFeRetAutorizacao3.wsdl" />
+    <None Include="Web References\ParanaRetAutorizacao\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaStatusServicoHomolog\NFeStatusServico3.wsdl" />
+    <None Include="Web References\ParanaStatusServicoHomolog\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ParanaStatusServico\NFeStatusServico3.wsdl" />
+    <None Include="Web References\ParanaStatusServico\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

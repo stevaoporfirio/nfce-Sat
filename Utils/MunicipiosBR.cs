@@ -7,16 +7,25 @@ namespace Utils
 {
     public class Cep2IBGE
     {
-        private Brasil brasil;
+        private static Brasil brasil = new Brasil();
+        private static Cep2IBGE instance;
 
-        public Cep2IBGE()
+        private Cep2IBGE()
         {
             brasil = new Brasil();
 
             LoadXMLMunicipios();
         }
 
-        private void LoadXMLMunicipios()
+        public static Cep2IBGE Instance()
+        {
+            if (instance == null)
+                instance = new Cep2IBGE();
+
+            return instance;
+        }
+
+        private static void LoadXMLMunicipios()
         {
             System.Xml.Serialization.XmlSerializer reader = new System.Xml.Serialization.XmlSerializer(typeof(Brasil));
             System.IO.StreamReader file = new System.IO.StreamReader(@"MunicipioBR.xml");

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{773C083A-CAB8-478A-A17B-70683F434FBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SatServerAppService</RootNamespace>
+    <AssemblyName>SatServerAppService</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceNFCeSAT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ServiceNFCeSAT.Designer.cs">
+      <DependentUpon>ServiceNFCeSAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EnviaSeFaz\EnviaSeFaz.csproj">
+      <Project>{81AE0B67-3BCA-4C41-B187-3010638BBDF1}</Project>
+      <Name>EnviaSeFaz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NFCE_Status_2\NFCE_Status_2.csproj">
+      <Project>{12F31E56-72EC-4255-A88D-92873CED5A0D}</Project>
+      <Name>NFCE_Status_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SatServerAppConsole\SatServerAppConsole.csproj">
+      <Project>{7AE20EBC-9231-4E56-8620-2635D820A434}</Project>
+      <Name>SatServerAppConsole</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SatServerAppContigencia\SatServerAppContingencia.csproj">
+      <Project>{C55196CF-49AA-462D-B618-C17FF6B998BE}</Project>
+      <Name>SatServerAppContingencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SatServerAppContingenciaConsole\SatServerAppContingenciaConsole.csproj">
+      <Project>{25B80082-E90E-40BC-AF95-1244167C1734}</Project>
+      <Name>SatServerAppContingenciaConsole</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SatServerAppContingenciaService\SatServerAppContingenciaService.csproj">
+      <Project>{FAA8F468-E939-4FC2-AB83-1D4BBEF3F3F5}</Project>
+      <Name>SatServerAppContingenciaService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SatServerAppDB\SatServerAppDB.csproj">
+      <Project>{D9244264-A938-42F1-B365-7FB19EB20388}</Project>
+      <Name>SatServerAppDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SatServerApp\SatServerApp.csproj">
+      <Project>{1C768BDC-83E2-48E8-A59C-90C1477421BC}</Project>
+      <Name>SatServerApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TesterNFCE\TesterNFCE.csproj">
+      <Project>{7C0CBC80-10E6-44E4-846D-9247AC5CCFC9}</Project>
+      <Name>TesterNFCE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{A11EEA8A-2D42-4145-BA37-B18CF91ACD44}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

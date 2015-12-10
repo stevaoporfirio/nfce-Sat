@@ -1,0 +1,31 @@
+09/04/2015 09:55:43 :SatDimep
+09/04/2015 09:55:52 :172.35.207.130
+09/04/2015 09:56:14 :ParseSatSend id: 993206
+09/04/2015 09:56:15 :Imprimindo 993206 172.35.207.4
+09/04/2015 09:56:15 :Processa SAT Finalizado 993206 35150961099008000141599000011890030897685581
+09/04/2015 09:56:50 :ParseSatSend id: CANCEL
+09/04/2015 10:01:08 :System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 78
+09/04/2015 10:01:08 :System.Exception: System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 78
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 107
+   em invoiceServerApp.Datamanager..ctor() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Datamanager.cs:linha 33
+09/04/2015 10:03:13 :System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 78
+09/04/2015 10:03:13 :System.Exception: System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 78
+   em Utils.ReadConfigure.GetConfig() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\Utils\XmlConfigure.cs:linha 107
+   em invoiceServerApp.Datamanager..ctor() na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\SatServerApp\Datamanager.cs:linha 33
+09/04/2015 10:08:42 :SatDimep
+09/04/2015 10:08:48 :172.35.207.130
+09/04/2015 10:08:53 :ParseSatSend id: 993207
+09/04/2015 10:08:54 :Imprimindo 993207 172.35.207.4
+09/04/2015 10:08:54 :Processa SAT Finalizado 993207 35150961099008000141599000011890030917075880

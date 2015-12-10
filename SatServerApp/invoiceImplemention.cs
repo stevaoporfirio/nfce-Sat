@@ -25,7 +25,8 @@ namespace invoiceServerApp
             {
                 if (!dictionary.ContainsKey(_id))
                 {
-                    Utils.Logger.getInstance.error(String.Format("TipoIntegracao -> {0}", config.configMaquina.tipoIntegracao));
+                    //Utils.Logger.getInstance.error(String.Format("Bilhete:\n{0}\n",_receive));
+                    //Utils.Logger.getInstance.error(String.Format("TipoIntegracao -> {0}", config.configMaquina.tipoIntegracao));
 
                     if (config.configMaquina.tipoIntegracao.Equals("NFCE"))
                     {
@@ -46,8 +47,8 @@ namespace invoiceServerApp
 
         public string ParseBuy(string _id, string msg)
         {
-            Utils.Logger.getInstance.error("id: " + _id);
-            Utils.Logger.getInstance.error("msg: " + msg);
+            //Utils.Logger.getInstance.error("id: " + _id);
+            //Utils.Logger.getInstance.error("msg: " + msg);
             string retorno = "";
             try
             {

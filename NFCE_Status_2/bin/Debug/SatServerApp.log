@@ -1,0 +1,2 @@
+08/11/2015 11:07:01 :   em System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   em invoiceServerApp.Consultar.sendNfce(String _msg) na C:\Users\cribeiro.SAOPAULO\Desktop\nfce-Sat-master\NFCE_Status_2\Consultar.cs:linha 88

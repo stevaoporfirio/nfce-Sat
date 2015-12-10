@@ -15,6 +15,8 @@ namespace invoiceServerApp
         public Form1()
         {
             InitializeComponent();
+
+            ManagerDB.Instance().SetDBMicros(Program.argDB);
         }
 
         private void btn_visualizar_Click(object sender, EventArgs e)
@@ -22,6 +24,21 @@ namespace invoiceServerApp
             manager.consultaDados(dateTimePicker1.Value);
             DataTable dt = manager.getDataTable(0,dateTimePicker1.Value);
             Dtv_principal.DataSource = dt;
+
+            Dtv_principal.Columns[0].Width = 75;
+            Dtv_principal.Columns[1].Width = 100;
+            Dtv_principal.Columns[2].Width = 50;
+            Dtv_principal.Columns[3].Width = 100;
+            Dtv_principal.Columns[4].Width = 50;
+
+            Dtv_principal.Columns[5].Visible = false;
+            Dtv_principal.Columns[6].Visible = false;
+
+            Dtv_principal.Columns[7].Width = 175;
+
+            Dtv_principal.Columns[8].Visible = false;
+
+            //Dtv_principal.Columns[0].Width = 100;
         }
 
         private void Dtv_principal_DataSourceChanged(object sender, EventArgs e)
@@ -116,6 +133,11 @@ namespace invoiceServerApp
         {
             Relatorio a = new Relatorio();
             a.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

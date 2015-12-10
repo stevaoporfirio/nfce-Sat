@@ -1,0 +1,154 @@
+09/24/2015 15:42:46 :System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\XmlConfigure.cs:linha 81
+09/24/2015 15:42:46 :System.Exception: System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\XmlConfigure.cs:linha 81
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\XmlConfigure.cs:linha 111
+   em invoiceServerApp.Datamanager..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Datamanager.cs:linha 34
+09/24/2015 15:43:18 :System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\XmlConfigure.cs:linha 81
+09/24/2015 15:43:18 :System.Exception: System.FormatException: Nenhum dígito reconhecível foi encontrado.
+   em System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   em System.Convert.ToByte(String value, Int32 fromBase)
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\XmlConfigure.cs:linha 81
+   em Utils.ReadConfigure.GetConfig() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\XmlConfigure.cs:linha 111
+   em invoiceServerApp.Datamanager..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Datamanager.cs:linha 34
+09/24/2015 15:46:58 :System.Exception: Erro em GetCertificados
+O sistema não pode encontrar o arquivo especificado.
+
+   em Utils.GerenciaCertificado.SetCertificado(ConfigureXml _config) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\GerenciaCertificado.cs:linha 96
+   em invoiceServerApp.Datamanager..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Datamanager.cs:linha 40
+09/24/2015 15:50:56 :System.Exception: Erro em GetCertificados
+O sistema não pode encontrar o arquivo especificado.
+
+   em Utils.GerenciaCertificado.SetCertificado(ConfigureXml _config) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\Utils\GerenciaCertificado.cs:linha 96
+   em invoiceServerApp.Datamanager..ctor() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Datamanager.cs:linha 40
+09/24/2015 15:53:02 :172.35.207.130
+09/24/2015 15:53:37 :ParseNFCE id: 993225
+09/24/2015 16:08:16 :   em EnviaSeFaz.EnviaNfcePR.ConsultarNfce()
+09/24/2015 16:08:16 :   em EnviaSeFaz.EnviaNfcePR.ConsultarNfce()
+   em EnviaSeFaz.EnviaNfcePR.ConsultaOK()
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK()
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 181
+09/24/2015 16:08:16 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Falha no schema XML org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 6; cvc-elt.1: Cannot find the declaration of element 'NFe'.
+   em EnviaSeFaz.EnviaNfcePR.ConsultarNfce()
+   em EnviaSeFaz.EnviaNfcePR.ConsultaOK()
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK()
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 181
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 203
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 160
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/24/2015 16:27:23 :172.35.207.130
+09/24/2015 16:27:35 :ParseNFCE id: 993225
+09/24/2015 16:27:57 :172.35.207.130
+09/24/2015 16:47:06 :ParseNFCE id: 993225
+09/24/2015 17:02:29 :172.35.207.130
+09/24/2015 17:03:27 :ParseNFCE id: 993225
+09/24/2015 17:04:19 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 165
+09/24/2015 17:04:19 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+09/24/2015 17:04:19 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Nota sem recibo na SEFAZ2PR-v3_1_2243XML Mal Formado412015-09-24T17:06:16-03:00
+   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 203
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 160
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/24/2015 17:06:22 :ParseNFCE id: 993225
+09/24/2015 17:08:31 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 165
+09/24/2015 17:08:31 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+09/24/2015 17:08:31 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Nota sem recibo na SEFAZ2PR-v3_1_2243XML Mal Formado412015-09-24T17:10:29-03:00
+   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 203
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 160
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/24/2015 17:08:46 :ParseNFCE id: 993225
+09/24/2015 17:09:37 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 165
+09/24/2015 17:09:37 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+09/24/2015 17:09:37 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Nota sem recibo na SEFAZ2PR-v3_1_2243XML Mal Formado412015-09-24T17:11:35-03:00
+   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 203
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 160
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/24/2015 17:10:12 :ParseNFCE id: 993225
+09/24/2015 17:18:40 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 165
+09/24/2015 17:18:40 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa()
+09/24/2015 17:18:40 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Nota sem recibo na SEFAZ2PR-v3_1_2243XML Mal Formado412015-09-24T17:13:12-03:00
+   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa()
+   em invoiceServerApp.ProcessaNfce.Processa()
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE)
+   em invoiceServerApp.ParseNFCE.SpliData(String msg)
+09/24/2015 17:18:50 :ParseNFCE id: 993225
+09/24/2015 17:22:15 :   em EnviaSeFaz.EnviaNfcePR.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 256
+09/24/2015 17:22:15 :   em EnviaSeFaz.EnviaNfcePR.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 267
+   em EnviaSeFaz.EnviaNfcePR.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 52
+   em invoiceServerApp.ProcessaNfce.Processa()
+09/24/2015 17:22:15 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Codigo Municipio do Fato Gerador: difere da UF do emitente UF Emitente: PR, Codigo Municipio: 3304557
+   em EnviaSeFaz.EnviaNfcePR.ConsultarNfce() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 267
+   em EnviaSeFaz.EnviaNfcePR.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 108
+   em EnviaSeFaz.ManagerSeFaz.ConsultaOK() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 52
+   em invoiceServerApp.ProcessaNfce.Processa()
+   em invoiceServerApp.ProcessaNfce.Processa()
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE)
+   em invoiceServerApp.ParseNFCE.SpliData(String msg)
+09/24/2015 17:23:24 :172.35.207.130
+09/24/2015 17:23:34 :ParseNFCE id: 993225
+09/24/2015 17:24:17 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 165
+09/24/2015 17:24:17 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+09/24/2015 17:24:17 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Nota sem recibo na SEFAZ2PR-v3_1_2225Falha no Schema XML do lote de NFe. org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 440; cvc-pattern-valid: Value '410690' is not facet-valid with respect to pattern '[0-9]{7}' for type 'TCodMunIBGE'.412015-09-24T17:26:15-03:00
+   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 203
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 160
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/24/2015 17:24:40 :ParseNFCE id: 993225
+09/24/2015 17:25:12 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 165
+09/24/2015 17:25:12 :   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+09/24/2015 17:25:12 :993225: System.Exception: 993225: Rejeiçao de xml:System.ApplicationException: Nota sem recibo na SEFAZ2PR-v3_1_2225Falha no Schema XML do lote de NFe. org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 440; cvc-pattern-valid: Value '410690' is not facet-valid with respect to pattern '[0-9]{7}' for type 'TCodMunIBGE'.412015-09-24T17:27:10-03:00
+   em EnviaSeFaz.EnviaNfcePR.envia() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 172
+   em EnviaSeFaz.EnviaNfcePR.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\EnviaNFCePR.cs:linha 103
+   em EnviaSeFaz.ManagerSeFaz.enviaSefaz(XmlDocument _xmlNfce) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\EnviaSeFaz\ManagerSeFaz.cs:linha 48
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 174
+   em invoiceServerApp.ProcessaNfce.Processa() na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 203
+   em invoiceServerApp.ProcessaNfce.ProcessaCupom(DadosNfce _dtNFCE) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ProcessaNfce.cs:linha 160
+   em invoiceServerApp.ParseNFCE.SpliData(String msg) na D:\DEV\VSS_RO\MICROS BRAZIL\FI\IFCFiscal.Micros\RES\SAT-Cf-e 3700\SRC\SAT 7\SatServerApp\Nfe\ParseNFCE.cs:linha 94
+09/24/2015 17:25:29 :ParseNFCE id: 993225
+09/24/2015 17:27:35 :172.35.207.130
+09/24/2015 17:27:49 :ParseNFCE id: 993225
+09/24/2015 17:30:08 :172.35.207.130
+09/24/2015 17:30:47 :ParseNFCE id: 993226

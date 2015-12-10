@@ -205,7 +205,7 @@ namespace invoiceServerApp
                     dtNfce.Municipio_dest = dados[9];
                     dtNfce.Uf_dest = dados[10];
 
-                    dtNfce.CodMunicipio_dest = Program.cep2IBGE.FindIBGE(dados[8]);
+                    dtNfce.CodMunicipio_dest = Utils.Cep2IBGE.Instance().FindIBGE(dados[8]);
 
                     dtNfce.Pais_dest = "";
                     dtNfce.CodPais_dest = "1058"; 
@@ -229,7 +229,7 @@ namespace invoiceServerApp
         {
             try
             {
-                Utils.Logger.getInstance.error(String.Format("ParseAddItem -> {0}",line));
+                //Utils.Logger.getInstance.error(String.Format("ParseAddItem -> {0}",line));
 
                 string[] dados = line.Split('|');
 
@@ -288,7 +288,9 @@ namespace invoiceServerApp
                 string[] dados = _msg.Split('|');
                 string portaImpressora = dados[0];
                 string msgTEF = dados[1];
-                ImprimirEpsonNF.ImprimirTef(msgTEF, portaImpressora);
+
+                Utils.ImprimirEpsonNF print = new Utils.ImprimirEpsonNF(portaImpressora);
+                print.ImprimirTef(msgTEF, portaImpressora);
             }
             catch (Exception e)
             {

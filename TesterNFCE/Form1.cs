@@ -158,23 +158,23 @@ namespace TesterNFCE
                     return;
                 }
 
-                Id_db = ManagerDB.Instance.SelectMaxNFCEidDB(config.configNFCe.Serie, nomeXml.Substring(3));
+                Id_db = ManagerDB.Instance().SelectMaxNFCEidDB(config.configNFCe.Serie, nomeXml.Substring(3));
 
                 enviaSeFaz.enviaSefaz(xml);
 
-                ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.CupomEnviadoContigencia, "Enviado Sefaz Contingencia", "");
-                ManagerDB.Instance.UpdateReciboNFCe(Id_db, enviaSeFaz.GetRecibo());
+                ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.CupomEnviadoContigencia, "Enviado Sefaz Contingencia", "");
+                ManagerDB.Instance().UpdateReciboNFCe(Id_db, enviaSeFaz.GetRecibo());
 
                 if (ConsultaEnviado())
                 {
 
                     ChangedFile(nomeXml, false);
-                    ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.AprovadoContingencia, "Aprovado Uso da NFCe (Cont)", "");
+                    ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.AprovadoContingencia, "Aprovado Uso da NFCe (Cont)", "");
                 }
                 else
                 {
                     ChangedFile(nomeXml, true);
-                    ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.CupomRejeitadoContigencia, "Rejeitado em contingencia ", enviaSeFaz.GetStatus());
+                    ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.CupomRejeitadoContigencia, "Rejeitado em contingencia ", enviaSeFaz.GetStatus());
                 }
                 transaction.Commit();        
 
@@ -195,26 +195,26 @@ namespace TesterNFCE
         {
             try
             {
-                string recibo = ManagerDB.Instance.SelectNumeroRecibo(Id_db);
+                string recibo = ManagerDB.Instance().SelectNumeroRecibo(Id_db);
                 Utils.Logger.getInstance.error("consulta recibo: " + recibo);
                 if (recibo == "")
                     return false;
 
                 if (enviaSeFaz.ConsultaContingencia(recibo))
                 {
-                    ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.CupomConsultadoContigencia, "Consulta Sefaz em contingencia ", "");
+                    ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.CupomConsultadoContigencia, "Consulta Sefaz em contingencia ", "");
                     return true;
                 }
                 else
                 {
-                    ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.CupomConsultadoContigencia, "Ainda não enviado SEFAZ ", enviaSeFaz.GetStatus());
+                    ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.CupomConsultadoContigencia, "Ainda não enviado SEFAZ ", enviaSeFaz.GetStatus());
                     return false;
                 }
 
             }
             catch (Exception e)
             {
-                ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.CupomConsultadoContigencia, "Rejeitado Sefaz em contingencia ", e.Message);
+                ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.CupomConsultadoContigencia, "Rejeitado Sefaz em contingencia ", e.Message);
                 Utils.Logger.getInstance.error("Consulta Enviado: " + e.ToString());
                 return false;
             }
@@ -294,23 +294,23 @@ namespace TesterNFCE
             try
             {
 
-                Id_db = ManagerDB.Instance.SelectMaxNFCEidDB(config.configNFCe.Serie, nomeXml.Substring(3));
+                Id_db = ManagerDB.Instance().SelectMaxNFCEidDB(config.configNFCe.Serie, nomeXml.Substring(3));
 
                 enviaSeFaz.enviaSefaz(xml);
 
-                ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.CupomEnviadoContigencia, "Enviado Sefaz Contingencia", "");
-                ManagerDB.Instance.UpdateReciboNFCe(Id_db, enviaSeFaz.GetRecibo());
+                ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.CupomEnviadoContigencia, "Enviado Sefaz Contingencia", "");
+                ManagerDB.Instance().UpdateReciboNFCe(Id_db, enviaSeFaz.GetRecibo());
 
                 if (ConsultaEnviado())
                 {
 
                     ChangedFile(nomeXml, false);
-                    ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.AprovadoContingencia, "Aprovado Uso da NFCe (Cont)", "");
+                    ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.AprovadoContingencia, "Aprovado Uso da NFCe (Cont)", "");
                 }
                 else
                 {
                     ChangedFile(nomeXml, true);
-                    ManagerDB.Instance.InsertNfceStatus(Id_db, (int)StatusCupom.CupomRejeitadoContigencia, "Rejeitado em contingencia ", enviaSeFaz.GetStatus());
+                    ManagerDB.Instance().InsertNfceStatus(Id_db, (int)StatusCupom.CupomRejeitadoContigencia, "Rejeitado em contingencia ", enviaSeFaz.GetStatus());
                 }
                
 

@@ -38,14 +38,14 @@ namespace invoiceServerApp
         }
         private void ConsultaConta(int _number)
         {
-            DataTable dt_conta = ManagerDB.Instance.SelectNotaConta(_number);
+            DataTable dt_conta = ManagerDB.Instance().SelectNotaConta(_number);
             if (dt_conta.Rows.Count != 0)
             {
                 foreach (DataRow row in dt_conta.Rows)
                 {
                     string id = row["id"].ToString();
                     chave = row["chave"].ToString();
-                    dataGridView1.DataSource = ManagerDB.Instance.SelectStatusNotas(id);
+                    dataGridView1.DataSource = ManagerDB.Instance().SelectStatusNotas(id);
                     button2.Enabled = true;
                     return;
                 }
@@ -56,14 +56,14 @@ namespace invoiceServerApp
         }
         private void ConsultaChave(string _chave)
         {
-            DataTable dt_chave = ManagerDB.Instance.SelectNotaChave(_chave);
+            DataTable dt_chave = ManagerDB.Instance().SelectNotaChave(_chave);
             if (dt_chave.Rows.Count != 0)
             {
                 foreach (DataRow row in dt_chave.Rows)
                 {
                     string id = row["id"].ToString();
                     chave = row["chave"].ToString();
-                    dataGridView1.DataSource = ManagerDB.Instance.SelectStatusNotas(id);
+                    dataGridView1.DataSource = ManagerDB.Instance().SelectStatusNotas(id);
                     button2.Enabled = true;
                     return;
                 }
@@ -77,7 +77,16 @@ namespace invoiceServerApp
         {
             string wsid = getCFGConfig("IP_SERVER");
             string msg = "REDANFE|" + chave + "|"+ comboBox1.SelectedValue +"|END|";
-            MessageBox.Show(sendNfce(msg));
+            string result = sendNfce(msg) ;
+            
+            string txt = "";
+
+            if (result.Equals("|X|"))
+                txt = "Documento enviado para Impressora";
+            else
+                txt = result;
+                
+            MessageBox.Show(txt,"Impressao de Documento", MessageBoxButtons.OK,MessageBoxIcon.Information);
             DialogResult = DialogResult.OK;
         }
         private string sendNfce(string _msg)
